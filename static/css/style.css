@@ -1,0 +1,500 @@
+/* Modern Academic Theme - Evan Chen Inspired High Contrast */
+:root {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --link-color: #58a6ff;
+    --link-hover-color: #79c0ff;
+    --border-color: #444;
+
+    /* Layout */
+    --sidebar-width: 260px;
+    --max-content-width: 900px;
+
+    /* Fonts */
+    --font-heading: 'Inter', system-ui, sans-serif;
+    --font-serif: "Charter", "Bitstream Charter", serif;
+    --font-mono: "Fira Code", monospace;
+}
+
+body {
+    font-family: var(--font-serif);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Main Grid Layout */
+.site-wrapper {
+    display: grid;
+    grid-template-columns: 1fr var(--sidebar-width);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+@media (max-width: 900px) {
+    .site-wrapper {
+        grid-template-columns: 1fr;
+        /* Stack on mobile */
+    }
+}
+
+/* Sidebar Styling */
+.sidebar-column {
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
+}
+
+.box-contrast-purple {
+    background: rgba(40, 20, 60, 0.4);
+    border: 2px solid #da77f2;
+    /* Purple border */
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.sidebar-header h3 {
+    margin-top: 0;
+    color: #e599f7;
+    border-bottom: 1px dashed #da77f2;
+    padding-bottom: 0.5rem;
+}
+
+.sidebar-nav ul,
+.quick-links {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    margin-bottom: 0.8rem;
+}
+
+.sidebar-nav a {
+    font-family: var(--font-heading);
+    font-weight: 500;
+    color: #cc5de8;
+    display: block;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a.active {
+    background: rgba(218, 119, 242, 0.2);
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Nested Menu Styles */
+.menu-group {
+    margin-bottom: 0.8rem;
+}
+
+.menu-header {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: #e599f7;
+    /* Keep the purple header color */
+    display: block;
+    padding: 0.4rem 0.8rem;
+    margin-bottom: 0.2rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.menu-header:hover {
+    color: #fff;
+    background: rgba(218, 119, 242, 0.1);
+    border-radius: 6px;
+}
+
+.submenu {
+    list-style: none !important;
+    padding-left: 1.2rem !important;
+    /* Indent sub-items */
+}
+
+.submenu li {
+    margin-bottom: 0.4rem !important;
+}
+
+.submenu a {
+    font-size: 0.9em;
+    padding: 0.2rem 0.6rem;
+    opacity: 0.9;
+}
+
+/* Main Content Column */
+.main-content-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Box Mixins */
+[class^="box-contrast-"] {
+    border-radius: 12px;
+    border: 2px solid;
+    padding: 1.5rem;
+    /* Glassy background */
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* 1. Red Banner */
+.box-contrast-red {
+    border-color: #ff6b6b;
+    background: linear-gradient(135deg, rgba(200, 50, 50, 0.15), transparent);
+    text-align: center;
+}
+
+.hero-title {
+    font-family: var(--font-heading);
+    color: #ff8787;
+    font-size: 2.8rem;
+    margin: 0.5rem 0;
+    font-weight: 800;
+}
+
+.hero-subtitle {
+    color: #ffa8a8;
+    font-family: var(--font-mono);
+    font-size: 1.1rem;
+}
+
+/* 2. Gold Strip */
+.box-contrast-gold {
+    border-color: #fcc419;
+    background: rgba(250, 180, 0, 0.05);
+    padding: 1rem;
+}
+
+.gallery-strip {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scrollbar-width: thin;
+}
+
+.gallery-item {
+    min-width: 160px;
+    height: 120px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #fab005;
+    flex-shrink: 0;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 3. Cyan Box (Bio) */
+.box-contrast-cyan {
+    border-color: #3bc9db;
+    background: rgba(20, 100, 100, 0.1);
+}
+
+.profile-header h2 {
+    color: #66d9e8;
+    margin-top: 0;
+    border-bottom: 1px solid #22b8cf;
+    padding-bottom: 0.5rem;
+}
+
+.profile-content-wrapper {
+    /* Clearing floats is old school, let's use flow-root or flex if needed, but float is requested */
+    display: flow-root;
+    padding: 0 1rem;
+    /* Added margin/padding for text */
+}
+
+.profile-image-container {
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.profile-img-main {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #3bc9db;
+}
+
+/* 4. Blue Box (Posts) */
+.box-contrast-blue {
+    border-color: #339af0;
+    background: rgba(30, 60, 120, 0.1);
+}
+
+.recent-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-list li {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.date-badge {
+    font-family: var(--font-mono);
+    color: #a5d8ff;
+    font-size: 0.85rem;
+    min-width: 90px;
+}
+
+/* General Typography */
+h1,
+h2,
+h3 {
+    color: #f8f9fa;
+}
+
+p {
+    margin-bottom: 1.2rem;
+}
+
+code {
+    font-family: var(--font-mono);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+}
+
+blockquote {
+    border-left: 4px solid var(--link-color);
+    padding-left: 1rem;
+    color: #adb5bd;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* --- Blog UI Overhaul --- */
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #f8f9fa;
+    border-bottom: 2px solid var(--link-color);
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.page-intro {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+    margin-bottom: 3rem;
+    max-width: 700px;
+}
+
+.blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    /* Robust gap */
+    row-gap: 3rem;
+    /* Normal gap */
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* CRITICAL: Prevent stretching to full row height */
+    margin-bottom: 4rem;
+}
+
+.blog-grid>article {
+    /* Compact size: Basis 240px, Max 280px */
+    flex: 1 1 240px;
+    max-width: 280px;
+}
+
+/* Glassy Card Style */
+.blog-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    /* height: auto;  Let content determine height */
+    position: relative;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    /* Ensure no internal content spills out */
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-color: var(--link-color);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.card-tags {
+    color: var(--link-color);
+    background: rgba(88, 166, 255, 0.1);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    margin: 0 0 1rem 0;
+    line-height: 1.3;
+}
+
+/* Make the whole card clickable via the title link, or just title */
+.card-title a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.card-title a:hover {
+    color: var(--link-color);
+}
+
+.card-summary {
+    font-size: 0.95rem;
+    color: #adb5bd;
+    flex-grow: 1;
+    /* Pushes Read More to bottom */
+    margin-bottom: 1.5rem;
+}
+
+.read-more {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--link-color);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    align-self: flex-start;
+}
+
+.read-more:hover {
+    color: var(--link-hover-color);
+    text-decoration: none;
+}
+
+/* --- Handouts UI --- */
+.handout-section {
+    margin-bottom: 3rem;
+}
+
+.handout-topic {
+    font-size: 1.8rem;
+    color: #ffd43b;
+    /* Gold/Yellow for topic headers */
+    border-bottom: 1px dashed #666;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.handout-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+.handout-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    align-items: flex-start;
+    transition: all 0.2s ease;
+    text-decoration: none !important;
+    /* Override default link underline */
+    border-color: #339af0;
+    /* Blue border by default for academic feel */
+    background: linear-gradient(135deg, rgba(51, 154, 240, 0.05), transparent);
+}
+
+.handout-card:hover {
+    transform: translateY(-3px);
+    border-color: #74c0fc;
+    background: rgba(51, 154, 240, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.handout-icon {
+    background: rgba(255, 60, 60, 0.1);
+    color: #ff6b6b;
+    padding: 0.8rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.handout-info {
+    flex: 1;
+}
+
+.handout-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    line-height: 1.3;
+}
+
+.handout-desc {
+    font-size: 0.9rem;
+    color: #adb5bd;
+    margin-bottom: 1rem;
+    font-family: var(--font-sans);
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    color: #fff;
+    background: #1c7ed6;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background 0.2s;
+}
+
+.handout-card:hover .download-btn {
+    background: #1864ab;
+}

@@ -1,0 +1,195 @@
+menu:
+  main:
+    - identifier: "mathematics"
+      name: "Mathematics"
+      url: "/mathematics/"
+      weight: 10
+    - identifier: "mathematics-beginners-guide-to-advanced-mathematics"
+      name: "Beginners Guide to Advanced Mathematics"
+      url: "/mathematics/beginners-guide-to-advanced-mathematics/"
+      parent: "mathematics"
+      weight: 1
+    - identifier: "mathematics-prerequisites-for-mathematical-research"
+      name: "Prerequisites for Mathematical Research"
+      url: "/mathematics/prerequisites-for-mathematical-research/"
+      parent: "mathematics"
+      weight: 2
+    - identifier: "mathematics-olympiad-problem-solving-resources"
+      name: "Olympiad Problem-Solving & Resources"
+      url: "/mathematics/olympiad-problem-solving-resources/"
+      parent: "mathematics"
+      weight: 3
+    - identifier: "mathematics-my-math-projects"
+      name: "My Math Projects"
+      url: "/mathematics/my-math-projects/"
+      parent: "mathematics"
+      weight: 4
+    - identifier: "mathematics-reading-notes-papers"
+      name: "Reading Notes & Papers"
+      url: "/mathematics/reading-notes-papers/"
+      parent: "mathematics"
+      weight: 5
+    - identifier: "theoretical-physics"
+      name: "Theoretical Physics"
+      url: "/theoretical-physics/"
+      weight: 11
+    - identifier: "theoretical-physics-starting-with-theoretical-physics"
+      name: "Starting with Theoretical Physics"
+      url: "/theoretical-physics/starting-with-theoretical-physics/"
+      parent: "theoretical-physics"
+      weight: 1
+    - identifier: "theoretical-physics-math-prerequisites-for-qft-gr"
+      name: "Math Prerequisites for QFT & GR"
+      url: "/theoretical-physics/math-prerequisites-for-qft-gr/"
+      parent: "theoretical-physics"
+      weight: 2
+    - identifier: "theoretical-physics-my-research-publications"
+      name: "My Research & Publications"
+      url: "/theoretical-physics/my-research-publications/"
+      parent: "theoretical-physics"
+      weight: 3
+    - identifier: "theoretical-physics-open-problems-i’m-exploring"
+      name: "Open Problems I’m Exploring"
+      url: "/theoretical-physics/open-problems-i’m-exploring/"
+      parent: "theoretical-physics"
+      weight: 4
+    - identifier: "theoretical-physics-lecture-notes-summaries"
+      name: "Lecture Notes & Summaries"
+      url: "/theoretical-physics/lecture-notes-summaries/"
+      parent: "theoretical-physics"
+      weight: 5
+    - identifier: "astronomy"
+      name: "Astronomy"
+      url: "/astronomy/"
+      weight: 12
+    - identifier: "astronomy-astronomy-for-beginners"
+      name: "Astronomy for Beginners"
+      url: "/astronomy/astronomy-for-beginners/"
+      parent: "astronomy"
+      weight: 1
+    - identifier: "astronomy-telescopes-observation-guides"
+      name: "Telescopes & Observation Guides"
+      url: "/astronomy/telescopes-observation-guides/"
+      parent: "astronomy"
+      weight: 2
+    - identifier: "astronomy-cosmology-astrophysics-notes"
+      name: "Cosmology & Astrophysics Notes"
+      url: "/astronomy/cosmology-astrophysics-notes/"
+      parent: "astronomy"
+      weight: 3
+    - identifier: "astronomy-my-astronomy-projects"
+      name: "My Astronomy Projects"
+      url: "/astronomy/my-astronomy-projects/"
+      parent: "astronomy"
+      weight: 4
+    - identifier: "astronomy-inspiring-papers-books"
+      name: "Inspiring Papers & Books"
+      url: "/astronomy/inspiring-papers-books/"
+      parent: "astronomy"
+      weight: 5
+    - identifier: "quantitative-finance"
+      name: "Quantitative Finance"
+      url: "/quantitative-finance/"
+      weight: 13
+    - identifier: "quantitative-finance-introduction-to-quantitative-finance"
+      name: "Introduction to Quantitative Finance"
+      url: "/quantitative-finance/introduction-to-quantitative-finance/"
+      parent: "quantitative-finance"
+      weight: 1
+    - identifier: "quantitative-finance-math-coding-prerequisites"
+      name: "Math & Coding Prerequisites"
+      url: "/quantitative-finance/math-coding-prerequisites/"
+      parent: "quantitative-finance"
+      weight: 2
+    - identifier: "quantitative-finance-my-trading-projects"
+      name: "My Trading Projects"
+      url: "/quantitative-finance/my-trading-projects/"
+      parent: "quantitative-finance"
+      weight: 3
+    - identifier: "quantitative-finance-research-in-market-microstructure"
+      name: "Research in Market Microstructure"
+      url: "/quantitative-finance/research-in-market-microstructure/"
+      parent: "quantitative-finance"
+      weight: 4
+    - identifier: "quantitative-finance-resources-backtesting-tutorials"
+      name: "Resources & Backtesting Tutorials"
+      url: "/quantitative-finance/resources-backtesting-tutorials/"
+      parent: "quantitative-finance"
+      weight: 5
+    - identifier: "philosophy"
+      name: "Philosophy"
+      url: "/philosophy/"
+      weight: 14
+    - identifier: "philosophy-schools-of-thought"
+      name: "Schools of Thought"
+      url: "/philosophy/schools-of-thought/"
+      parent: "philosophy"
+      weight: 1
+    - identifier: "philosophy-personal-philosophy-notes"
+      name: "Personal Philosophy Notes"
+      url: "/philosophy/personal-philosophy-notes/"
+      parent: "philosophy"
+      weight: 2
+    - identifier: "philosophy-great-thinkers-essays"
+      name: "Great Thinkers & Essays"
+      url: "/philosophy/great-thinkers-essays/"
+      parent: "philosophy"
+      weight: 3
+    - identifier: "philosophy-philosophy-for-stem-students"
+      name: "Philosophy for STEM Students"
+      url: "/philosophy/philosophy-for-stem-students/"
+      parent: "philosophy"
+      weight: 4
+    - identifier: "history"
+      name: "History"
+      url: "/history/"
+      weight: 15
+    - identifier: "history-history-of-mathematics-physics"
+      name: "History of Mathematics & Physics"
+      url: "/history/history-of-mathematics-physics/"
+      parent: "history"
+      weight: 1
+    - identifier: "history-financial-history-market-evolution"
+      name: "Financial History & Market Evolution"
+      url: "/history/financial-history-market-evolution/"
+      parent: "history"
+      weight: 2
+    - identifier: "history-biographies-key-figures"
+      name: "Biographies & Key Figures"
+      url: "/history/biographies-key-figures/"
+      parent: "history"
+      weight: 3
+    - identifier: "history-book-reviews-summaries"
+      name: "Book Reviews & Summaries"
+      url: "/history/book-reviews-summaries/"
+      parent: "history"
+      weight: 4
+    - identifier: "history-lessons-from-history"
+      name: "Lessons from History"
+      url: "/history/lessons-from-history/"
+      parent: "history"
+      weight: 5
+    - identifier: "art-music"
+      name: "Art & Music"
+      url: "/art-music/"
+      weight: 16
+    - identifier: "art-music-music-i-create-listen-to"
+      name: "Music I Create & Listen To"
+      url: "/art-music/music-i-create-listen-to/"
+      parent: "art-music"
+      weight: 1
+    - identifier: "art-music-inspiration-from-art-science"
+      name: "Inspiration from Art & Science"
+      url: "/art-music/inspiration-from-art-science/"
+      parent: "art-music"
+      weight: 2
+    - identifier: "art-music-creative-process-tools"
+      name: "Creative Process & Tools"
+      url: "/art-music/creative-process-tools/"
+      parent: "art-music"
+      weight: 3
+    - identifier: "art-music-recommendations-reviews"
+      name: "Recommendations & Reviews"
+      url: "/art-music/recommendations-reviews/"
+      parent: "art-music"
+      weight: 4

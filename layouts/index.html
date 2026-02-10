@@ -1,0 +1,53 @@
+{{ define "main" }}
+<!-- 1. Title Banner (Red Box) -->
+<div class="hero-banner box-contrast-red">
+    <h1 class="hero-title">{{ .Site.Title }}</h1>
+    <div class="hero-subtitle">Researcher in Physics & AI | Quantitative Developer | Entrepreneur | Aspiring
+        Quant</div>
+</div>
+
+<!-- 2. Image Gallery Strip (Gold Box) -->
+{{ if .Params.featuredImages }}
+<div class="gallery-strip box-contrast-gold">
+    {{ range .Params.featuredImages }}
+    <!-- Check if it is the profile image (hacky check for placeholder) -->
+    <div class="gallery-item">
+        <img src="{{ . }}" alt="Featured">
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+
+<!-- 3. Main Content (Cyan Box) -->
+<div class="content-box box-contrast-cyan">
+    <div class="profile-header">
+        <h2>About Me</h2>
+    </div>
+
+    <div class="profile-content-wrapper">
+        {{ if .Params.profileImage }}
+        <!-- Profile Image Wrapper - Floated Right -->
+        <div class="profile-image-container">
+            <img src="{{ .Params.profileImage }}" alt="{{ .Site.Params.author }}" class="profile-img-main">
+        </div>
+        {{ end }}
+
+        <div class="bio-text">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+
+<!-- 4. Recent Posts (Beneath Bio) -->
+<div class="content-box box-contrast-blue">
+    <h3>Recent Updates</h3>
+    <ul class="recent-list">
+        {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+        <li>
+            <span class="date-badge">{{ .Date.Format "2006-01-02" }}</span>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

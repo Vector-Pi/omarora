@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olympiad Problems on Om Arora</title>
+    <link>http://localhost:1313/problems/</link>
+    <description>Recent content in Olympiad Problems on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/problems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IMO 2025 Problem 1</title>
+      <link>http://localhost:1313/problems/imo-2025-problem-1/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/problems/imo-2025-problem-1/</guid>
+      <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;Let $ a, b, c $ be real numbers&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;We proceed by AM-GM&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>USAMO 2024 Problem 3</title>
+      <link>http://localhost:1313/problems/usamo-2024-problem-3/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/problems/usamo-2024-problem-3/</guid>
+      <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;Find all integers $n$ such that&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;Consider modulo $p$&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

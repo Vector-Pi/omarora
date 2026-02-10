@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astronomy on Om Arora</title>
+    <link>http://localhost:1313/astronomy/</link>
+    <description>Recent content in Astronomy on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/astronomy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Astronomy for Starters</title>
+      <link>http://localhost:1313/astronomy/starters/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/astronomy/starters/</guid>
+      <description>&lt;h1 id=&#34;getting-started-with-astronomy&#34;&gt;Getting Started with Astronomy&lt;/h1&gt;&#xA;&lt;p&gt;Where to begin? Get a pair of binoculars!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exomoons</title>
+      <link>http://localhost:1313/astronomy/exomoons/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/astronomy/exomoons/</guid>
+      <description>&lt;h1 id=&#34;hunting-for-exomoons&#34;&gt;Hunting for Exomoons&lt;/h1&gt;&#xA;&lt;p&gt;Why are they so hard to find?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Basics</title>
+      <link>http://localhost:1313/astronomy/basics/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/astronomy/basics/</guid>
+      <description>&lt;h1 id=&#34;astronomical-coordinate-systems&#34;&gt;Astronomical Coordinate Systems&lt;/h1&gt;&#xA;&lt;p&gt;Understanding RA and Dec&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

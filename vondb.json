@@ -1,0 +1,25 @@
+[
+    {
+        "id": "IMO-2025-P1",
+        "title": "IMO 2025 Problem 1",
+        "source": "IMO 2025",
+        "tags": [
+            "Algebra",
+            "Inequalities"
+        ],
+        "statement": "Let $a, b, c$ be real numbers...",
+        "solution": "We proceed by AM-GM...",
+        "date": "2025-07-15"
+    },
+    {
+        "id": "USAMO-2024-P3",
+        "title": "USAMO 2024 Problem 3",
+        "source": "USAMO 2024",
+        "tags": [
+            "Number Theory"
+        ],
+        "statement": "Find all integers $n$ such that...",
+        "solution": "Consider modulo $p$...",
+        "date": "2024-04-20"
+    }
+]

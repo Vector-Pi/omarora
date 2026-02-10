@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on Om Arora</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in About Me on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Astronomy for Starters</title>
+      <link>http://localhost:1313/astronomy/starters/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/astronomy/starters/</guid>
+      <description>&lt;h1 id=&#34;getting-started-with-astronomy&#34;&gt;Getting Started with Astronomy&lt;/h1&gt;&#xA;&lt;p&gt;Where to begin? Get a pair of binoculars!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exomoons</title>
+      <link>http://localhost:1313/astronomy/exomoons/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/astronomy/exomoons/</guid>
+      <description>&lt;h1 id=&#34;hunting-for-exomoons&#34;&gt;Hunting for Exomoons&lt;/h1&gt;&#xA;&lt;p&gt;Why are they so hard to find?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math Rendering Test</title>
+      <link>http://localhost:1313/blog/math-test/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/math-test/</guid>
+      <description>Verifying LaTeX capability with Katex.</description>
+    </item>
+    <item>
+      <title>The Basics</title>
+      <link>http://localhost:1313/astronomy/basics/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/astronomy/basics/</guid>
+      <description>&lt;h1 id=&#34;astronomical-coordinate-systems&#34;&gt;Astronomical Coordinate Systems&lt;/h1&gt;&#xA;&lt;p&gt;Understanding RA and Dec&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What I&#39;m Doing Now</title>
+      <link>http://localhost:1313/now/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/now/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Focusing on what matters.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;current-projects&#34;&gt;Current Projects&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;AI for Math Olympiads (AIMO3)&lt;/strong&gt;: Working in a team to develop an open-source AI system for solving IMO-level problems and generating verifiable proofs.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Quantative Finance&lt;/strong&gt;: Building and backtesting algorithmic trading models under NDA, focusing on high-frequency data and performance optimization.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theoretical Physics&lt;/strong&gt;: Pursuing a multi-phase research program aimed at rigorously formulating a Yang–Mills theory coupled with a Stueckelberg scalar field, with the goal of proving the existence of a mass gap and quark confinement—one of the Clay Institute’s Millennium Problems.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Topological Methods in Finance&lt;/strong&gt;: Applying persistent homology to market microstructure data for regime detection and pattern recognition.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;learning&#34;&gt;Learning&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Stochastic Calculus &amp;amp; Derivatives Pricing&lt;/li&gt;&#xA;&lt;li&gt;Advanced Topological Data Analysis&lt;/li&gt;&#xA;&lt;li&gt;Research Writing &amp;amp; Academic Communication&lt;/li&gt;&#xA;&lt;li&gt;High-Performance Computing for ML&lt;/li&gt;&#xA;&lt;li&gt;Preparing for JEE 2027&lt;/li&gt;&#xA;&lt;li&gt;Solving problems for OTIS 25&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;recent-checkpoints&#34;&gt;Recent Checkpoints&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Attended BeCon 26 at IIT Delhi&lt;/li&gt;&#xA;&lt;li&gt;Selected for Dr. Evan Chen’s OTIS 25 advanced Olympiad training program (2025)&lt;/li&gt;&#xA;&lt;li&gt;Published two papers in IJRES on extensions to Yang–Mills theory and quantum geometric entanglement.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;current-focus-areas&#34;&gt;Current Focus Areas&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Strengthening my mathematical foundation for quantitative research (measure theory, stochastic processes).&lt;/li&gt;&#xA;&lt;li&gt;Building a public portfolio of quant finance projects (where permissible).&lt;/li&gt;&#xA;&lt;li&gt;Engaging with academic mentors for guidance on research direction.&lt;/li&gt;&#xA;&lt;li&gt;Preparing for JEE 2027, AP coursework, and Mathematics Olympiads while balancing research projects.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration&lt;/h3&gt;&#xA;&lt;p&gt;I’m always open to discussing research, quantitative finance, or interdisciplinary projects. If you’re working on something adjacent to AI reasoning, mathematical physics, or algorithmic strategy, feel free to reach out.&#xA;&lt;em&gt;Last updated: February 2026&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Beauty of Yang-Mills Theory</title>
+      <link>http://localhost:1313/blog/yang-mills/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/yang-mills/</guid>
+      <description>A brief exploration of the geometric foundations of Yang-Mills theory and why it matters.</description>
+    </item>
+    <item>
+      <title>IMO 2025 Problem 1</title>
+      <link>http://localhost:1313/problems/imo-2025-problem-1/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/problems/imo-2025-problem-1/</guid>
+      <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;Let $ a, b, c $ be real numbers&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;We proceed by AM-GM&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>USAMO 2024 Problem 3</title>
+      <link>http://localhost:1313/problems/usamo-2024-problem-3/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/problems/usamo-2024-problem-3/</guid>
+      <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;Find all integers $n$ such that&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;Consider modulo $p$&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

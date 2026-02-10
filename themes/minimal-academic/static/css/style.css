@@ -1,0 +1,132 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #222;
+    --link-color: #0044cc;
+    --accent-color: #444;
+    --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-body: 'Georgia', 'Times New Roman', serif;
+    --spacing: 1.5rem;
+    --max-width: 800px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #1a1a1a;
+        --text-color: #ddd;
+        --link-color: #66b3ff;
+        --accent-color: #bbb;
+    }
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header */
+.site-header {
+    border-bottom: 1px solid var(--accent-color);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.site-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.site-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--font-heading);
+    font-size: 1rem;
+}
+
+.site-nav a.active, .site-nav a:hover {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+/* Main Content */
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Posts List */
+.post-item {
+    margin-bottom: 1.5rem;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    display: block;
+    margin-bottom: 0.2rem;
+    font-family: var(--font-heading);
+}
+
+.post-title {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+/* Research & Problems */
+.project-card, .problem-card {
+    border: 1px solid var(--accent-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.tags {
+    font-size: 0.8rem;
+    color: var(--accent-color);
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    text-align: center;
+    border-top: 1px solid var(--accent-color);
+    padding-top: 1rem;
+}
