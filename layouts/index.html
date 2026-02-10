@@ -12,7 +12,7 @@
     {{ range .Params.featuredImages }}
     <!-- Check if it is the profile image (hacky check for placeholder) -->
     <div class="gallery-item">
-        <img src="{{ . }}" alt="Featured">
+        <img src="{{ . | relURL }}" alt="Featured">
     </div>
     {{ end }}
 </div>
@@ -28,7 +28,7 @@
         {{ if .Params.profileImage }}
         <!-- Profile Image Wrapper - Floated Right -->
         <div class="profile-image-container">
-            <img src="{{ .Params.profileImage }}" alt="{{ .Site.Params.author }}" class="profile-img-main">
+            <img src="{{ .Params.profileImage | relURL }}" alt="{{ .Site.Params.author }}" class="profile-img-main">
         </div>
         {{ end }}
 
