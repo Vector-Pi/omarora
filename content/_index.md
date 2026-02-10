@@ -9,7 +9,7 @@ featuredImages:
   - "images/34.jpeg"
 ---
 
-<img src="/images/profile.jpg" alt="Om Arora" style="float: right; margin-left: 20px; margin-bottom: 20px; width: 200px; border-radius: 60%; border: 3px solid #3bc9db;">
+<img src="images/profile.jpg" alt="Om Arora" style="float: right; margin-left: 20px; margin-bottom: 20px; width: 200px; border-radius: 60%; border: 3px solid #3bc9db;">
 
 
 Hello! I'm **Om Arora**, a researcher and developer based in Delhi, India. 
