@@ -1,0 +1,28 @@
+---
+title: "IITBMO 2026 Experience"
+date: 2026-02-09
+tags: ["Experience", "IITBMO", "Mathematics", "Olympiad", "Exam"]
+summary: "My experience at IITBMO 2026, IIT Bombay."
+---
+There is a kind of quiet that you can only find in academic spaces on a Sunday morning. It is not really empty it is just waiting for something to happen. This weekend I was walking across the IIT Bombay campus and I could feel this quiet all around me. My mind was already thinking about math problems, the vectors and inequalities. I was at IIT Bombay, for the IIT Bombay Mathematics Olympiad. I was walking to Lecture Hall Complex. This building has corridors that seem to be filled with the thoughts of many people who have studied there. The IIT Bombay Mathematics Olympiad was being held at LHC 3. I was excited to be a part of it.
+
+
+My exam took place on the second floor. As I walked up the stairs I saw lecture halls that still had chalk on the boards from the classes on Friday. The room where the Olympiad was being held was really big. You could hear the quiet sound of paper moving and the hum of the lights in the ceiling. However before they let us into the Olympiad hall they made all of us wait in a room, on the ground floor.
+
+That room was where the day really started. It was full of people from cities. The air felt weird because everyone was nervous and friendly at the time. We did not talk about schools or grades. We talked about problems. There were no introductions we all spoke the same language, the language of problems. In that moment, we weren’t competitors; we were co-conspirators in a silent conversation with the same muse.
+
+Then the hall. The question paper felt heavy when it landed on my desk. I flipped through the pages. Saw what I had to do. There were differential equations that needed clever substitutions, geometry problems that required insight and probability puzzles that were wrapped in simple stories. This was a paper. The kind of paper that challenges you in a way not because it is hard to understand but because it is clear. Each question was like a door and I had to find the right key to open it. For three hours my whole world was the space, between my pen and the OMR sheet. This was a universe where logic and intuition were the things that mattered. The OMR sheet was all I could think about.
+
+I was walking out. I felt a little mixed up in my head but at the same time I felt pretty good about things. The first thing that really caught my attention was the **Jane Street** goodies being distributed. I got a T-shirt and some other stuff from them. It felt like it meant something.
+
+**Jane Street** is one of the companies that uses numbers and math to make decisions. They are really good at it. It was cool to see them at an event like this, where people, like me who like to solve math problems were competing. They were giving out **Jane Street** T-shirts and swag. It felt like they were saying that what we do is important. There was a connection between what I was thinking about in the morning and the big world out there. This connection was, like a thread that linked my morning thoughts to the universe that we can see and experience.
+
+I had some time to kill before the results were out so I decided to take a walk. The IIT Bombay campus looked really beautiful in the late morning sun it was like a different world, with so much green and concrete all around. I did not know where I was going I just kept walking past the hostels and the labs and the IIT Bombay campus was so big that it made our small exam seem not important anymore. The IIT Bombay campus had a way of putting things into perspective.
+
+We met again in the LHC for a talk by **Dr. S.G. Dani** about **Pondering with Pythagoras**. This could have been a talk about history but it was really interesting. **Dr. S.G. Dani** did not just talk about the theorem he told us the story behind it. He connected it to the Vedic **śulba sūtras** and old geometries from cultures. **Dr. S.G. Dani** talked about the theorem as an idea that people have thought about for a long time not just as a fact. He said it shows how people want to understand the world, around them and find patterns in space. **Pondering with Pythagoras** was really cool because **Dr. S.G. Dani** made it seem like the theorem is still important today. I was sitting there. My mind was still pretty relaxed from the exam. His words had an impact on me than they normally would. They were not things he was telling me they were a reminder of the long and beautiful tradition of education that we were a part of, even if it was in a small way the tradition of learning and passing on knowledge that so many people had been a part of, for so long the education tradition.
+
+Then, the results.
+
+They started calling out the names from the bottom of the list. When they got to the place in the senior section and they said my name, It was like a burst of joy in my chest. I walked up to get the **silver medal**, the certificate and the money. 
+
+The real weight I carried home on the train was not the metal medal. It was the memory of the silence we all shared in the exam hall. I also remembered the noise we made before the exam, in that room. I thought about Dr. Dani's lecture. How nicely he explained things. The best part was feeling happy that my mind could learn much. The medal showed that I did well. The whole day showed me that it is good to keep trying to learn new things. The medal was a proof of my result but the day was a reminder that trying to learn is what really matters. And that, ultimately, felt like the greater victory.
