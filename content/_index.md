@@ -4,9 +4,12 @@ date: 2026-02-06
 featuredImages:
   - "images/12.jpeg"
   - "images/2.jpeg"
-  - "images/5.jpeg"
+  - "images/7.jpeg"
+  
+  - "images/770.jpeg"
+ 
   - "images/3.jpeg"
-  - "images/34.jpeg"
+  
 ---
 
 <img src="images/profile.jpg" alt="Om Arora" style="float: right; margin-left: 20px; margin-bottom: 20px; width: 200px; border-radius: 60%; border: 3px solid #3bc9db;">
