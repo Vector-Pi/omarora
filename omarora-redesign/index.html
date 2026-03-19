@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<!-- ── Home Header ─────────────────────────────────────── -->
+<div class="home-header">
+  <h1 class="home-name">{{ .Site.Title }}</h1>
+  <p class="home-descriptor">Delhi &ensp;·&ensp; Researcher &ensp;·&ensp; Builder</p>
+</div>
+
+<!-- ── Profile Block ───────────────────────────────────── -->
+<div class="profile-block">
+  {{ if .Params.profileImage }}
+  <div class="profile-photo-wrap">
+    <img src="{{ .Params.profileImage | relURL }}"
+         alt="{{ .Site.Params.author }}"
+         class="profile-photo"
+         width="128" height="128"
+         loading="eager">
+  </div>
+  {{ end }}
+
+  <div class="profile-bio bio-text">
+    {{ .Content }}
+  </div>
+</div>
+
+<!-- ── Recent Updates ──────────────────────────────────── -->
+<div class="recent-section">
+  <p class="section-label">Recent writing</p>
+  <ul class="recent-list">
+    {{ range first 6 (where .Site.RegularPages "Section" "blog") }}
+    <li>
+      <span class="date-badge">{{ .Date.Format "2006-01-02" }}</span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+{{ end }}

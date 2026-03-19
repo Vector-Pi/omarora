@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantitative Finance on Om Arora</title>
+    <link>http://localhost:62070/omarora/quantitative-finance/</link>
+    <description>Recent content in Quantitative Finance on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/quantitative-finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Quantitative Finance</title>
+      <link>http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/</guid>
+      <description>&lt;p&gt;I came to quantitative finance the way a physicist might: through the mathematics. The connection became obvious once I understood what the subject actually is. Quantitative finance is, at its core, the application of probability theory, stochastic calculus, and partial differential equations to the problem of pricing financial instruments and managing the risks they generate. The Black-Scholes equation is a parabolic PDE. The risk-neutral pricing measure is a Girsanov transformation. The Feynman-Kac theorem connects stochastic differential equations to PDEs in exactly the way the path integral connects quantum mechanics to classical mechanics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math &amp; Coding Prerequisites</title>
+      <link>http://localhost:62070/omarora/quantitative-finance/math-coding-prerequisites/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/quantitative-finance/math-coding-prerequisites/</guid>
+      <description>&lt;p&gt;This page is the practical companion to the &lt;a href=&#34;http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/&#34;&gt;introduction to quantitative finance&lt;/a&gt;. That page describes the landscape of the subject. This page answers the question: what do you actually need to know before you can engage seriously with it?&lt;/p&gt;&#xA;&lt;p&gt;The answer depends on what part of quantitative finance you are targeting. Derivatives pricing requires a specific subset of mathematics — measure theory, stochastic calculus, PDEs — that overlaps heavily with mathematical physics. Systematic trading requires a different subset — statistics, time series, machine learning, optimisation — that overlaps with data science. Both require programming. I will cover both, and be explicit about which subject belongs where.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Trading Projects</title>
+      <link>http://localhost:62070/omarora/quantitative-finance/my-trading-projects/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/quantitative-finance/my-trading-projects/</guid>
+      <description>&lt;p&gt;I want to be direct about the structure of this page before anything else.&lt;/p&gt;&#xA;&lt;p&gt;Some of what I have built and am building in quantitative trading is proprietary — either because it involves strategies that would lose their edge if described publicly, or because it is connected to commercial work where disclosure is not appropriate. I will not describe those projects in technical detail, and I will not pretend to describe them when I am not.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research in Market Microstructure</title>
+      <link>http://localhost:62070/omarora/quantitative-finance/research-in-market-microstructure/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/quantitative-finance/research-in-market-microstructure/</guid>
+      <description>&lt;p&gt;This page describes my active research in quantitative finance. It is more detailed than the &lt;a href=&#34;http://localhost:62070/omarora/quantitative-finance/trading-projects/&#34;&gt;trading projects page&lt;/a&gt; because this is research rather than deployed strategy — the ideas are at a stage where describing them publicly is appropriate, and where engaging with the literature and with potential collaborators is valuable.&lt;/p&gt;&#xA;&lt;p&gt;The work sits at the intersection of topological data analysis, network theory, and systematic equity research. The central question is whether the geometric and topological structure of equity correlation networks contains information about future stock returns that is not captured by conventional factors. The short answer, based on what I have found so far, appears to be yes — though the extent to which this translates into an exploitable trading signal after costs is the question still being investigated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resources &amp; Backtesting Tutorials</title>
+      <link>http://localhost:62070/omarora/quantitative-finance/resources-backtesting-tutorials/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/quantitative-finance/resources-backtesting-tutorials/</guid>
+      <description>&lt;p&gt;Backtesting is the scientific method of systematic trading. You have a hypothesis — that some feature of historical market data predicts future returns. Backtesting is the experiment that tests the hypothesis. Like any scientific experiment, it can be done well or poorly. Most retail backtests are done poorly, and the errors are systematic and predictable. This page is about doing it properly.&lt;/p&gt;&#xA;&lt;p&gt;The page is organised as follows: the methodology (what a rigorous backtest actually requires), the errors (what almost everyone gets wrong), the frameworks (what tools exist and what each is good for), the data sources, and a set of additional resources. There is a final section on a unified backtesting framework I am currently developing — a project aimed at closing the gap between the state of available open-source tools and the requirements of serious institutional-grade research.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

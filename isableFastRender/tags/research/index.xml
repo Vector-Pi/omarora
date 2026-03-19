@@ -2,18 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Om Arora</title>
-    <link>http://localhost:1313/tags/research/</link>
+    <link>http://localhost:62070/omarora/tags/research/</link>
     <description>Recent content in Research on Om Arora</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/tags/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Beauty of Yang-Mills Theory</title>
-      <link>http://localhost:1313/blog/yang-mills/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/yang-mills/</guid>
-      <description>A brief exploration of the geometric foundations of Yang-Mills theory and why it matters.</description>
+      <title>What the Yang–Mills Mass Gap Problem Actually Asks</title>
+      <link>http://localhost:62070/omarora/blog/whatismassgapproblem/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whatismassgapproblem/</guid>
+      <description>An explanation of what the Yang-Mills mass gap problem actually asks.</description>
+    </item>
+    <item>
+      <title>Why I Am Interested in the Yang–Mills Mass Gap Problem</title>
+      <link>http://localhost:62070/omarora/blog/whyyangmills/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whyyangmills/</guid>
+      <description>A reflection on why I am interested in the Yang-Mills mass gap problem.</description>
+    </item>
+    <item>
+      <title>Why Research Needs Builder Thinking</title>
+      <link>http://localhost:62070/omarora/blog/researchneedsbuilderthinking/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/researchneedsbuilderthinking/</guid>
+      <description>A reflection on why meaningful research requires the mindset of a builder, written as advice to my younger self.</description>
+    </item>
+    <item>
+      <title>What Talking to Startup Founders Changed About How I Think About Research</title>
+      <link>http://localhost:62070/omarora/blog/whattalkingtoechangedmyresearch/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whattalkingtoechangedmyresearch/</guid>
+      <description>How exposure to startup founders reshaped my approach to scientific research, risk, and execution.</description>
+    </item>
+    <item>
+      <title>Differences Between Olympiad Math and Research Math</title>
+      <link>http://localhost:62070/omarora/blog/diffinresearchandolympiadmath/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/diffinresearchandolympiadmath/</guid>
+      <description>A reflection on the differences between olympiad math and research math, and what each prepares you for.</description>
+    </item>
+    <item>
+      <title>Why I’m Writing This Blog</title>
+      <link>http://localhost:62070/omarora/blog/whyiamwriting/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whyiamwriting/</guid>
+      <description>What this blog is for, who it’s meant to help, and what I plan to write here.</description>
     </item>
   </channel>
 </rss>

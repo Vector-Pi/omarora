@@ -1,6 +1,6 @@
 ---
 title: "BeCon 2026 — Notes from a Weekend That Stayed With Me"
-date: 2026-02-09
+date: 2026-02-11
 tags: ["Experience", "BeCon", "Entrepreneurship", "IITD", "Innovation", "Learning"]
 summary: "Reflections written two weeks after attending BeCon 2026 at IIT Delhi."
 ---
@@ -10,7 +10,8 @@ summary: "Reflections written two weeks after attending BeCon 2026 at IIT Delhi.
 
 ### **Arriving at IIT Delhi**
 <div style="text-align: center;" >
-<img src="../../images/becon_1.jpeg" alt="becon_entry" style="width: 50%; height: 50%;"/>
+<img src="../../images/becon_1.jpeg" alt="becon_entry" style=" margin-left: auto;
+  margin-right: auto; width: 50%; height: 370px; border-radius: 8px;"/>
 </div>
 
 It has been a little over a week since I attended BeCon at the [Indian Institute of Technology Delhi](https://home.iitd.ac.in/) on 31 January and 1 February 2026, and I find that the experience has stayed with me longer than I expected.
@@ -29,7 +30,8 @@ I met a team building **Iron-Air batteries**—the kind of tech that could chang
 
 ### **Listening to Builders, Not Just Speakers**
 <div style="text-align: center;">
-<img src="../../images/becon_2.jpg" alt="becon_sessions" style="width: 55%; height: 55%;"/>
+<img src="../../images/becon_2.jpg" alt="becon_sessions" style=" margin-left: auto;
+  margin-right: auto; width: 55%; height: 370px; border-radius: 8px;"/>
 </div>
 
  
@@ -45,7 +47,8 @@ It all wrapped up with the **Grand Moonshot pitches**. The most memorable was **
 
 ### **Perspectives Beyond Startups**
 <div style="text-align: center;">
-<img src="../../images/becon_3.jpg" alt="becon_stage" style="width: 55%; height: 55%;"/>
+<img src="../../images/becon_3.jpg" alt="becon_stage" style="margin-left: auto;
+  margin-right: auto; width: 55%; height: 370px; border-radius: 8px;"/>
 </div>
 
 Some talks stood out because they widened the scope of discussion.
@@ -58,7 +61,8 @@ Air Chief Marshal RKS Bhadauria (Retd.) spoke with a clarity that was almost jar
 
 ### **What Stayed With Me Afterwards**
 <div style="text-align: center;">
-<img src="../../images/becon_4.jpg" alt="becon_campus" style="width: 55%; height: 55%;"/>
+<img src="../../images/becon_4.jpg" alt="becon_campus" style="margin-left: auto;
+  margin-right: auto; width: 55%; height: 370px; border-radius: 8px;"/>
 </div>
 
 Looking back now, what stayed with me most was not any single talk, but the environment itself.

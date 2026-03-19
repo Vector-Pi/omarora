@@ -1,67 +1,354 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About Me on Om Arora</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in About Me on Om Arora</description>
+    <title>Om Arora</title>
+    <link>http://localhost:62070/omarora/</link>
+    <description>Recent content on Om Arora</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Now</title>
+      <link>http://localhost:62070/omarora/now/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/now/</guid>
+      <description>&lt;p&gt;*Updated March 2026. *&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Theoretical Physics — Yang–Mills &amp;amp; Mass Generation&lt;/strong&gt;&#xA;A continuation of two prior papers: the 2023 confinement model and the subsequent Stueckelberg extension. The current work develops the BRST-quantised action further — tightening the one-loop renormalisation, refining the non-polynomial vertex structure, and working toward a cleaner first-principles treatment of the mass gap. The preprint of &lt;em&gt;A Gauge-Invariant Stueckelberg Extension of Yang–Mills Theory&lt;/em&gt; has been released; the work continues from there.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What the Yang–Mills Mass Gap Problem Actually Asks</title>
+      <link>http://localhost:62070/omarora/blog/whatismassgapproblem/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whatismassgapproblem/</guid>
+      <description>An explanation of what the Yang-Mills mass gap problem actually asks.</description>
+    </item>
+    <item>
+      <title>Why I Am Interested in the Yang–Mills Mass Gap Problem</title>
+      <link>http://localhost:62070/omarora/blog/whyyangmills/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whyyangmills/</guid>
+      <description>A reflection on why I am interested in the Yang-Mills mass gap problem.</description>
+    </item>
+    <item>
+      <title>Why Research Needs Builder Thinking</title>
+      <link>http://localhost:62070/omarora/blog/researchneedsbuilderthinking/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/researchneedsbuilderthinking/</guid>
+      <description>A reflection on why meaningful research requires the mindset of a builder, written as advice to my younger self.</description>
+    </item>
+    <item>
+      <title>What Talking to Startup Founders Changed About How I Think About Research</title>
+      <link>http://localhost:62070/omarora/blog/whattalkingtoechangedmyresearch/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whattalkingtoechangedmyresearch/</guid>
+      <description>How exposure to startup founders reshaped my approach to scientific research, risk, and execution.</description>
+    </item>
+    <item>
+      <title>My First Hackathon — Where Ideas Turned Into Reality</title>
+      <link>http://localhost:62070/omarora/blog/myfirsthackathon/</link>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/myfirsthackathon/</guid>
+      <description>Reflections from my first hackathon experience and how it changed how I think about building things.</description>
+    </item>
+    <item>
+      <title>Differences Between Olympiad Math and Research Math</title>
+      <link>http://localhost:62070/omarora/blog/diffinresearchandolympiadmath/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/diffinresearchandolympiadmath/</guid>
+      <description>A reflection on the differences between olympiad math and research math, and what each prepares you for.</description>
+    </item>
+    <item>
+      <title>BeCon 2026 — Notes from a Weekend That Stayed With Me</title>
+      <link>http://localhost:62070/omarora/blog/becon26experience/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/becon26experience/</guid>
+      <description>Reflections written two weeks after attending BeCon 2026 at IIT Delhi.</description>
+    </item>
+    <item>
+      <title>IITBMO 2026 — A Day of Quiet, Problems, and Perspective</title>
+      <link>http://localhost:62070/omarora/blog/iitbmo26experience/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/iitbmo26experience/</guid>
+      <description>Reflections from participating in the IIT Bombay Mathematics Olympiad 2026.</description>
+    </item>
+    <item>
+      <title>Why I’m Writing This Blog</title>
+      <link>http://localhost:62070/omarora/blog/whyiamwriting/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whyiamwriting/</guid>
+      <description>What this blog is for, who it’s meant to help, and what I plan to write here.</description>
+    </item>
+    <item>
+      <title>Astronomy for Beginners</title>
+      <link>http://localhost:62070/omarora/astronomy/astronomy-for-beginners/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/astronomy-for-beginners/</guid>
+      <description>&lt;p&gt;In March 2020, the schools shut and I had nothing to do. I was in grade 6 and the world had become my home and a screen. I found myself, like many people that year, spending hours on YouTube following one recommendation to the next. At some point I ended up watching a video about black holes — not a particularly good video, as I recall, more spectacle than substance — and then another, and then a documentary about the Voyager probes, and then Carl Sagan&amp;rsquo;s &lt;em&gt;Cosmos&lt;/em&gt;, which I did not fully understand but could not stop watching. By the time the lockdown lifted I was staying up past midnight trying to learn what a parsec was.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Astronomy for Starters</title>
-      <link>http://localhost:1313/astronomy/starters/</link>
+      <link>http://localhost:62070/omarora/astronomy/starters/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/astronomy/starters/</guid>
+      <guid>http://localhost:62070/omarora/astronomy/starters/</guid>
       <description>&lt;h1 id=&#34;getting-started-with-astronomy&#34;&gt;Getting Started with Astronomy&lt;/h1&gt;&#xA;&lt;p&gt;Where to begin? Get a pair of binoculars!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Exomoons</title>
-      <link>http://localhost:1313/astronomy/exomoons/</link>
+      <title>Beginners Guide to Advanced Mathematics</title>
+      <link>http://localhost:62070/omarora/mathematics/beginners-guide-to-advanced-mathematics/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/astronomy/exomoons/</guid>
+      <guid>http://localhost:62070/omarora/mathematics/beginners-guide-to-advanced-mathematics/</guid>
+      <description>&lt;p&gt;There is a version of this guide that begins with an apology — &lt;em&gt;&amp;ldquo;I am not a professional mathematician&amp;rdquo;&lt;/em&gt;, or &lt;em&gt;&amp;ldquo;this is just my personal opinion.&amp;rdquo;&lt;/em&gt; That version is not useful. So I will skip it.&lt;/p&gt;&#xA;&lt;p&gt;What follows is a map. It is the map I wish someone had handed me when I started. It will not replace any of the books it points to. It will not make you a mathematician. What it will do is tell you what the landscape looks like before you set foot in it, which is worth something.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Biographies &amp; Key Figures</title>
+      <link>http://localhost:62070/omarora/history/biographies-key-figures/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/history/biographies-key-figures/</guid>
+      <description>&lt;h1 id=&#34;biographies--key-figures&#34;&gt;Biographies &amp;amp; Key Figures&lt;/h1&gt;&#xA;&lt;p&gt;Content for Biographies &amp;amp; Key Figures goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Book Reviews &amp; Summaries</title>
+      <link>http://localhost:62070/omarora/history/book-reviews-summaries/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/history/book-reviews-summaries/</guid>
+      <description>&lt;h1 id=&#34;book-reviews--summaries&#34;&gt;Book Reviews &amp;amp; Summaries&lt;/h1&gt;&#xA;&lt;p&gt;Content for Book Reviews &amp;amp; Summaries goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cosmology &amp; Astrophysics Notes</title>
+      <link>http://localhost:62070/omarora/astronomy/cosmology-astrophysics-notes/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/cosmology-astrophysics-notes/</guid>
+      <description>&lt;p&gt;These are notes in the genuine sense — a working document, not a polished account. They are organised by topic and represent a synthesis of what I have read, worked through, and thought about across several years of studying cosmology alongside the theoretical physics. Where I have personal views or where there is genuine scientific controversy, I say so.&lt;/p&gt;&#xA;&lt;p&gt;The connection between this page and my research is not accidental. The QGET framework — the approach to emergent spacetime from entanglement correlations described in my &lt;a href=&#34;http://localhost:62070/omarora/theoretical-physics/my-research-publications/&#34;&gt;research page&lt;/a&gt; — makes predictions about the early universe that should, eventually, be testable against CMB data. Understanding the observational cosmology side of that is part of the work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creative Process &amp; Tools</title>
+      <link>http://localhost:62070/omarora/art-music/creative-process-tools/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/art-music/creative-process-tools/</guid>
+      <description>&lt;h1 id=&#34;creative-process--tools&#34;&gt;Creative Process &amp;amp; Tools&lt;/h1&gt;&#xA;&lt;p&gt;Content for Creative Process &amp;amp; Tools goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exomoons</title>
+      <link>http://localhost:62070/omarora/astronomy/exomoons/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/exomoons/</guid>
       <description>&lt;h1 id=&#34;hunting-for-exomoons&#34;&gt;Hunting for Exomoons&lt;/h1&gt;&#xA;&lt;p&gt;Why are they so hard to find?&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Math Rendering Test</title>
-      <link>http://localhost:1313/blog/math-test/</link>
+      <title>Financial History &amp; Market Evolution</title>
+      <link>http://localhost:62070/omarora/history/financial-history-market-evolution/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/math-test/</guid>
+      <guid>http://localhost:62070/omarora/history/financial-history-market-evolution/</guid>
+      <description>&lt;p&gt;There is a standard way to write financial history: a sequence of manias and panics, each illustrating the irrationality of crowds. The tulip bubble, the South Sea Company, 1929, 1987, LTCM, 2008. The lesson is always the same — people get carried away, leverage accumulates, the crash comes — and the reader closes the book knowing that history repeats itself without knowing anything about why it repeats or what the structure of the repetition is.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Great Thinkers &amp; Essays</title>
+      <link>http://localhost:62070/omarora/philosophy/great-thinkers-essays/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/philosophy/great-thinkers-essays/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://localhost:62070/omarora/philosophy/schools-of-thought-in-philosophy/&#34;&gt;schools of thought page&lt;/a&gt; covers the philosophical traditions systematically. This page is different. It is a personal account of specific thinkers and specific texts — the ones I have actually read, thought about, argued with, and returned to. The organisation is not by period or school but by what kind of intellectual contribution each thinker made. That is a more honest organising principle than chronology, which makes every thinker equally distant and equally obligatory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>History of Mathematics &amp; Physics</title>
+      <link>http://localhost:62070/omarora/history/history-of-mathematics-physics/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/history/history-of-mathematics-physics/</guid>
+      <description>&lt;p&gt;History of science, done badly, is a list of names and dates. Newton invented calculus in 1666; Einstein published special relativity in 1905; the Standard Model was completed in 1973. These statements are all true and almost entirely uninformative. They tell you what happened without telling you &lt;em&gt;why it happened&lt;/em&gt; — what problem the invention was solving, why existing tools were insufficient, why the solution took the form it did.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inspiration from Art &amp; Science</title>
+      <link>http://localhost:62070/omarora/art-music/inspiration-from-art-science/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/art-music/inspiration-from-art-science/</guid>
+      <description>&lt;p&gt;There is a passage in Feynman&amp;rsquo;s &lt;em&gt;The Character of Physical Law&lt;/em&gt; where he describes watching a flower and thinking: I can appreciate the beauty of the flower, and I also know that the pigments that produce the colour are absorbing photons at specific wavelengths determined by their molecular orbital structure, and I also know that the structure of the flower reflects evolutionary pressures that shaped it over millions of years — and all of this knowledge does not diminish the beauty. It adds to it. The flower is more beautiful, not less, for being understood.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inspiring Papers &amp; Books</title>
+      <link>http://localhost:62070/omarora/astronomy/inspiring-papers-books/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/inspiring-papers-books/</guid>
+      <description>&lt;p&gt;A reading list is a catalogue. This page is something different — it is an account of papers and books that actually changed how I think, or that I found so extraordinary that I kept returning to them long after I first read them. Some are foundational texts that every physicist knows. Some are things I stumbled onto at the right moment. All of them are things I can point to and say: this affected what I do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Quantitative Finance</title>
+      <link>http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/</guid>
+      <description>&lt;p&gt;I came to quantitative finance the way a physicist might: through the mathematics. The connection became obvious once I understood what the subject actually is. Quantitative finance is, at its core, the application of probability theory, stochastic calculus, and partial differential equations to the problem of pricing financial instruments and managing the risks they generate. The Black-Scholes equation is a parabolic PDE. The risk-neutral pricing measure is a Girsanov transformation. The Feynman-Kac theorem connects stochastic differential equations to PDEs in exactly the way the path integral connects quantum mechanics to classical mechanics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes &amp; Summaries</title>
+      <link>http://localhost:62070/omarora/theoretical-physics/lecture-notes-summaries/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/theoretical-physics/lecture-notes-summaries/</guid>
+      <description>&lt;p&gt;This page is a log of the lecture notes I have worked through, organised by subject. Every set of notes here is something I have actually read, not a list of things I intend to read. I have included personal notes on what each course does well, where it requires supplementing, and how it connects to my own research.&lt;/p&gt;&#xA;&lt;p&gt;The emphasis is on freely available material. With very few exceptions, everything below is free online. The theoretical physics community has been extraordinarily generous in this regard: the Cambridge Mathematical Tripos notes, the Harvard recordings, the Perimeter Institute lectures — collectively they constitute a complete graduate curriculum available to anyone with an internet connection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lessons from History</title>
+      <link>http://localhost:62070/omarora/history/lessons-from-history/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/history/lessons-from-history/</guid>
+      <description>&lt;p&gt;This page depends on the three history pages that precede it. The &lt;a href=&#34;http://localhost:62070/omarora/history/history-of-mathematics-and-physics/&#34;&gt;history of mathematics and physics&lt;/a&gt;, the &lt;a href=&#34;http://localhost:62070/omarora/quantitative-finance/financial-history-and-market-evolution/&#34;&gt;financial history page&lt;/a&gt;, and the &lt;a href=&#34;http://localhost:62070/omarora/philosophy/schools-of-thought-in-philosophy/&#34;&gt;schools of philosophy page&lt;/a&gt; each traces a specific domain in detail. This page asks: when you look across all three, what patterns are consistent enough, and important enough, to be worth naming?&lt;/p&gt;&#xA;&lt;p&gt;The standard version of this exercise produces aphorisms. &amp;ldquo;Those who do not learn from history are doomed to repeat it.&amp;rdquo; &amp;ldquo;Great minds think alike.&amp;rdquo; &amp;ldquo;Genius is one percent inspiration, ninety-nine percent perspiration.&amp;rdquo; These are not lessons — they are the verbal gestures that signal the appearance of having thought about something without actually doing so.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math &amp; Coding Prerequisites</title>
+      <link>http://localhost:62070/omarora/quantitative-finance/math-coding-prerequisites/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/quantitative-finance/math-coding-prerequisites/</guid>
+      <description>&lt;p&gt;This page is the practical companion to the &lt;a href=&#34;http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/&#34;&gt;introduction to quantitative finance&lt;/a&gt;. That page describes the landscape of the subject. This page answers the question: what do you actually need to know before you can engage seriously with it?&lt;/p&gt;&#xA;&lt;p&gt;The answer depends on what part of quantitative finance you are targeting. Derivatives pricing requires a specific subset of mathematics — measure theory, stochastic calculus, PDEs — that overlaps heavily with mathematical physics. Systematic trading requires a different subset — statistics, time series, machine learning, optimisation — that overlaps with data science. Both require programming. I will cover both, and be explicit about which subject belongs where.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math Prerequisites for QFT &amp; GR</title>
+      <link>http://localhost:62070/omarora/theoretical-physics/math-prerequisites-for-qft-gr/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/theoretical-physics/math-prerequisites-for-qft-gr/</guid>
+      <description>&lt;p&gt;There is a version of this guide that lists twenty subjects, provides no ordering, and leaves you with no idea where to start. This is not that version.&lt;/p&gt;&#xA;&lt;p&gt;What follows is the complete mathematical infrastructure for serious work in quantum field theory and general relativity — every subject, in the order you should encounter it, with honest assessments of why each one is needed and which resources are actually worth your time. The guide is structured in tiers: foundations that everyone needs before anything else; intermediate mathematics that comes alongside the physics; and advanced mathematics that becomes necessary as you approach gauge theory, BRST quantisation, and differential geometric GR.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math Rendering Test</title>
+      <link>http://localhost:62070/omarora/blog/math-test/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/math-test/</guid>
       <description>Verifying LaTeX capability with Katex.</description>
     </item>
     <item>
-      <title>The Basics</title>
-      <link>http://localhost:1313/astronomy/basics/</link>
+      <title>Music I Create &amp; Listen To</title>
+      <link>http://localhost:62070/omarora/art-music/music-i-create-listen-to/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/astronomy/basics/</guid>
+      <guid>http://localhost:62070/omarora/art-music/music-i-create-listen-to/</guid>
+      <description>&lt;p&gt;Music is the one thing on this site that has nothing to do with research, strategy, or output. It is purely for itself. I want to write about it in that spirit — not as a topic to cover comprehensively but as something personal, the way you would describe a part of your life that matters to you but does not need to justify itself by being useful.&lt;/p&gt;&#xA;&lt;p&gt;I mostly listen to classical music and what is now called neo-classical. I also make music, slowly, in Logic Pro and FL Studio — a project that is still unfinished and may remain unfinished for a while, which is fine. This page is about what I listen to, what I find in it, and what the project is.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Astronomy Projects</title>
+      <link>http://localhost:62070/omarora/astronomy/my-astronomy-projects/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/my-astronomy-projects/</guid>
+      <description>&lt;p&gt;I want to give an honest account of this, including the parts where I did not know what I was doing.&lt;/p&gt;&#xA;&lt;p&gt;Astronomy was the first thing I pursued seriously and independently. Before the physics, before the mathematics, before any research — there was just the sky and a curiosity about it that felt slightly unreasonable in its intensity. Grade 6, lockdown, Delhi. I have written about how that started in the &lt;a href=&#34;http://localhost:62070/omarora/astronomy/astronomy-for-beginners/&#34;&gt;beginners guide&lt;/a&gt;. This page is about what I actually did with it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Math Projects</title>
+      <link>http://localhost:62070/omarora/mathematics/my-math-projects/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/mathematics/my-math-projects/</guid>
+      <description>&lt;h1 id=&#34;my-math-projects&#34;&gt;My Math Projects&lt;/h1&gt;&#xA;&lt;p&gt;Content for My Math Projects goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Research &amp; Publications</title>
+      <link>http://localhost:62070/omarora/theoretical-physics/my-research-publications/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/theoretical-physics/my-research-publications/</guid>
+      <description>&lt;p&gt;I want to write about this honestly, which means starting from the beginning rather than presenting a cleaned-up retrospective in which everything was planned and every step was deliberate.&lt;/p&gt;&#xA;&lt;p&gt;It was not. The research grew out of a genuine obsession with a problem that I found too important to ignore, pursued with the tools I had at the time, which were not the tools I would have chosen if I were designing the project from scratch. They grew as the project grew. That is how it actually happened.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Trading Projects</title>
+      <link>http://localhost:62070/omarora/quantitative-finance/my-trading-projects/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/quantitative-finance/my-trading-projects/</guid>
+      <description>&lt;p&gt;I want to be direct about the structure of this page before anything else.&lt;/p&gt;&#xA;&lt;p&gt;Some of what I have built and am building in quantitative trading is proprietary — either because it involves strategies that would lose their edge if described publicly, or because it is connected to commercial work where disclosure is not appropriate. I will not describe those projects in technical detail, and I will not pretend to describe them when I am not.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Olympiad Problem-Solving &amp; Resources</title>
+      <link>http://localhost:62070/omarora/mathematics/olympiad-problem-solving-resources/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/mathematics/olympiad-problem-solving-resources/</guid>
+      <description>&lt;p&gt;Olympiad mathematics is a particular discipline. It is not the same as school mathematics, and it is not the same as research mathematics. It sits between them — more creative than the former, more constrained than the latter. The problems are finite and solvable, but they require genuine ingenuity, not computation.&lt;/p&gt;&#xA;&lt;p&gt;This page is a structured guide to the resources I have found most useful. It covers all four major olympiad areas — algebra, number theory, geometry, and combinatorics — along with general problem-solving, online platforms, structured programmes, and communities. I have tried to be honest about what each resource is good for and what it is not.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Problems I’m Exploring</title>
+      <link>http://localhost:62070/omarora/theoretical-physics/open-problems-im-exploring/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/theoretical-physics/open-problems-im-exploring/</guid>
+      <description>&lt;p&gt;This page is different from most &amp;ldquo;open problems&amp;rdquo; pages. I am not listing problems I find interesting from a distance. These are problems I am in the middle of — problems that are directly connected to my published and ongoing work, that I think about most days, and that I do not currently know how to solve.&lt;/p&gt;&#xA;&lt;p&gt;The problems are organised into two clusters, corresponding to the two lines of research I described in the &lt;a href=&#34;http://localhost:62070/omarora/theoretical-physics/my-research-publications/&#34;&gt;publications page&lt;/a&gt;: the Yang–Mills mass gap programme and the QGET framework for emergent spacetime. Within each cluster I have listed both the specific technical tasks I am currently working on and the broader open problems in the field that they connect to.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Personal Philosophy Notes</title>
+      <link>http://localhost:62070/omarora/philosophy/personal-philosophy-notes/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/philosophy/personal-philosophy-notes/</guid>
+      <description>&lt;h1 id=&#34;personal-philosophy-notes&#34;&gt;Personal Philosophy Notes&lt;/h1&gt;&#xA;&lt;p&gt;Content for Personal Philosophy Notes goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Philosophy for STEM Students</title>
+      <link>http://localhost:62070/omarora/philosophy/philosophy-for-stem-students/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/philosophy/philosophy-for-stem-students/</guid>
+      <description>&lt;p&gt;I want to start with something honest: I did not come to philosophy through a course, and I would not have come to it at all through the courses I encountered. The philosophy available to physics and mathematics students at most institutions is a history-of-ideas survey — you learn that Descartes said X and Hume said Y, you write an essay about whether they agreed, and you leave knowing more about the history of philosophy and no more about how to think. That is not what I mean when I say philosophy matters for scientists and mathematicians.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prerequisites for Mathematical Research</title>
+      <link>http://localhost:62070/omarora/mathematics/prerequisites-for-mathematical-research/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/mathematics/prerequisites-for-mathematical-research/</guid>
+      <description>&lt;p&gt;There are many guides to mathematical research. Most of them are written by people who have forgotten what it felt like to not know how to do it.&lt;/p&gt;&#xA;&lt;p&gt;This is not that guide.&lt;/p&gt;&#xA;&lt;p&gt;What follows is honest. It is about what research actually looks like from the inside — the confusion, the wrong turns, the months where nothing moves. It covers both applied and pure mathematics, because they are genuinely different activities. And it does not pretend that there is a recipe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reading Notes &amp; Papers</title>
+      <link>http://localhost:62070/omarora/mathematics/reading-notes-papers/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/mathematics/reading-notes-papers/</guid>
+      <description>&lt;p&gt;This page is a working log. It is not a curated list of the greatest papers in mathematics — that would be a different project, and a longer one. It is a record of what I have actually read, what I found important, what confused me, and what I intend to return to.&lt;/p&gt;&#xA;&lt;p&gt;The papers are organised by area. Within each area I have tried to distinguish between foundational papers worth reading for background, significant papers from the last decade, and very recent results from the last year or two that I went through recently. Where I have notes or reactions they are included. Where a paper is beyond what I can currently assess technically, I say so.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recommendations &amp; Reviews</title>
+      <link>http://localhost:62070/omarora/art-music/recommendations-reviews/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/art-music/recommendations-reviews/</guid>
+      <description>&lt;p&gt;This page is a record of specific works — music, books, films, recordings — that I find genuinely worth recommending. Not a comprehensive survey. Not a list assembled for completeness. These are things I have returned to, thought about, and can speak to honestly.&lt;/p&gt;&#xA;&lt;p&gt;The organisation is by medium. Within each section, I have tried to say not just that something is good but why — what specifically it does, what it asks of you, and what you get back if you give it attention. Recommendations without reasons are not very useful.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research in Market Microstructure</title>
+      <link>http://localhost:62070/omarora/quantitative-finance/research-in-market-microstructure/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/quantitative-finance/research-in-market-microstructure/</guid>
+      <description>&lt;p&gt;This page describes my active research in quantitative finance. It is more detailed than the &lt;a href=&#34;http://localhost:62070/omarora/quantitative-finance/trading-projects/&#34;&gt;trading projects page&lt;/a&gt; because this is research rather than deployed strategy — the ideas are at a stage where describing them publicly is appropriate, and where engaging with the literature and with potential collaborators is valuable.&lt;/p&gt;&#xA;&lt;p&gt;The work sits at the intersection of topological data analysis, network theory, and systematic equity research. The central question is whether the geometric and topological structure of equity correlation networks contains information about future stock returns that is not captured by conventional factors. The short answer, based on what I have found so far, appears to be yes — though the extent to which this translates into an exploitable trading signal after costs is the question still being investigated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resources &amp; Backtesting Tutorials</title>
+      <link>http://localhost:62070/omarora/quantitative-finance/resources-backtesting-tutorials/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/quantitative-finance/resources-backtesting-tutorials/</guid>
+      <description>&lt;p&gt;Backtesting is the scientific method of systematic trading. You have a hypothesis — that some feature of historical market data predicts future returns. Backtesting is the experiment that tests the hypothesis. Like any scientific experiment, it can be done well or poorly. Most retail backtests are done poorly, and the errors are systematic and predictable. This page is about doing it properly.&lt;/p&gt;&#xA;&lt;p&gt;The page is organised as follows: the methodology (what a rigorous backtest actually requires), the errors (what almost everyone gets wrong), the frameworks (what tools exist and what each is good for), the data sources, and a set of additional resources. There is a final section on a unified backtesting framework I am currently developing — a project aimed at closing the gap between the state of available open-source tools and the requirements of serious institutional-grade research.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Schools of Thought</title>
+      <link>http://localhost:62070/omarora/philosophy/schools-of-thought/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/philosophy/schools-of-thought/</guid>
+      <description>&lt;p&gt;This page is a survey, not an advocacy. Every philosophical school described here has produced serious thinkers working on genuine problems, and every one of them faces genuine objections. The goal is to present each school&amp;rsquo;s strongest version of its central claims, identify the problems it is responding to, and note where the objections bite hardest — without pretending that any one school has settled the questions it addresses.&lt;/p&gt;&#xA;&lt;p&gt;The organisation is roughly chronological within the Western tradition, with sections at the end on Eastern philosophy and contemporary analytic philosophy. The divisions between schools are never as clean as a survey makes them appear — philosophers read and argue with each other across apparent boundaries — but the groupings are useful as first approximations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Starting with Theoretical Physics</title>
+      <link>http://localhost:62070/omarora/theoretical-physics/starting-with-theoretical-physics/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/theoretical-physics/starting-with-theoretical-physics/</guid>
+      <description>&lt;p&gt;I started learning theoretical physics in seventh grade. Not the pop-science version — not &lt;em&gt;A Brief History of Time&lt;/em&gt; and YouTube videos about black holes, though those came first and are not nothing — but the actual subject, with equations. I did not know what I was doing at the time, and I made many of the mistakes that most people make. I read things before I had the mathematics for them. I spent months on topics that were less essential than I thought. I also stumbled onto resources that genuinely changed what I understood.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Telescopes &amp; Observation Guides</title>
+      <link>http://localhost:62070/omarora/astronomy/telescopes-observation-guides/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/telescopes-observation-guides/</guid>
+      <description>&lt;h1 id=&#34;telescopes--observation-guides&#34;&gt;Telescopes &amp;amp; Observation Guides&lt;/h1&gt;&#xA;&lt;p&gt;Content for Telescopes &amp;amp; Observation Guides goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Basics</title>
+      <link>http://localhost:62070/omarora/astronomy/basics/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/basics/</guid>
       <description>&lt;h1 id=&#34;astronomical-coordinate-systems&#34;&gt;Astronomical Coordinate Systems&lt;/h1&gt;&#xA;&lt;p&gt;Understanding RA and Dec&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>What I&#39;m Doing Now</title>
-      <link>http://localhost:1313/now/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/now/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Focusing on what matters.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;current-projects&#34;&gt;Current Projects&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;AI for Math Olympiads (AIMO3)&lt;/strong&gt;: Working in a team to develop an open-source AI system for solving IMO-level problems and generating verifiable proofs.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Quantative Finance&lt;/strong&gt;: Building and backtesting algorithmic trading models under NDA, focusing on high-frequency data and performance optimization.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theoretical Physics&lt;/strong&gt;: Pursuing a multi-phase research program aimed at rigorously formulating a Yang–Mills theory coupled with a Stueckelberg scalar field, with the goal of proving the existence of a mass gap and quark confinement—one of the Clay Institute’s Millennium Problems.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Topological Methods in Finance&lt;/strong&gt;: Applying persistent homology to market microstructure data for regime detection and pattern recognition.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;learning&#34;&gt;Learning&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Stochastic Calculus &amp;amp; Derivatives Pricing&lt;/li&gt;&#xA;&lt;li&gt;Advanced Topological Data Analysis&lt;/li&gt;&#xA;&lt;li&gt;Research Writing &amp;amp; Academic Communication&lt;/li&gt;&#xA;&lt;li&gt;High-Performance Computing for ML&lt;/li&gt;&#xA;&lt;li&gt;Preparing for JEE 2027&lt;/li&gt;&#xA;&lt;li&gt;Solving problems for OTIS 25&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;recent-checkpoints&#34;&gt;Recent Checkpoints&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Attended BeCon 26 at IIT Delhi&lt;/li&gt;&#xA;&lt;li&gt;Selected for Dr. Evan Chen’s OTIS 25 advanced Olympiad training program (2025)&lt;/li&gt;&#xA;&lt;li&gt;Published two papers in IJRES on extensions to Yang–Mills theory and quantum geometric entanglement.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;current-focus-areas&#34;&gt;Current Focus Areas&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Strengthening my mathematical foundation for quantitative research (measure theory, stochastic processes).&lt;/li&gt;&#xA;&lt;li&gt;Building a public portfolio of quant finance projects (where permissible).&lt;/li&gt;&#xA;&lt;li&gt;Engaging with academic mentors for guidance on research direction.&lt;/li&gt;&#xA;&lt;li&gt;Preparing for JEE 2027, AP coursework, and Mathematics Olympiads while balancing research projects.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration&lt;/h3&gt;&#xA;&lt;p&gt;I’m always open to discussing research, quantitative finance, or interdisciplinary projects. If you’re working on something adjacent to AI reasoning, mathematical physics, or algorithmic strategy, feel free to reach out.&#xA;&lt;em&gt;Last updated: February 2026&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Beauty of Yang-Mills Theory</title>
-      <link>http://localhost:1313/blog/yang-mills/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/yang-mills/</guid>
-      <description>A brief exploration of the geometric foundations of Yang-Mills theory and why it matters.</description>
-    </item>
-    <item>
       <title>IMO 2025 Problem 1</title>
-      <link>http://localhost:1313/problems/imo-2025-problem-1/</link>
+      <link>http://localhost:62070/omarora/problems/imo-2025-problem-1/</link>
       <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/problems/imo-2025-problem-1/</guid>
+      <guid>http://localhost:62070/omarora/problems/imo-2025-problem-1/</guid>
       <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;Let $ a, b, c $ be real numbers&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;We proceed by AM-GM&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>USAMO 2024 Problem 3</title>
-      <link>http://localhost:1313/problems/usamo-2024-problem-3/</link>
+      <link>http://localhost:62070/omarora/problems/usamo-2024-problem-3/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/problems/usamo-2024-problem-3/</guid>
+      <guid>http://localhost:62070/omarora/problems/usamo-2024-problem-3/</guid>
       <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;Find all integers $n$ such that&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;Consider modulo $p$&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

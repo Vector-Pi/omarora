@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Physics on Om Arora</title>
-    <link>http://localhost:1313/tags/physics/</link>
+    <link>http://localhost:62070/omarora/tags/physics/</link>
     <description>Recent content in Physics on Om Arora</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/tags/physics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Beauty of Yang-Mills Theory</title>
-      <link>http://localhost:1313/blog/yang-mills/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/yang-mills/</guid>
-      <description>A brief exploration of the geometric foundations of Yang-Mills theory and why it matters.</description>
+      <title>What the Yang–Mills Mass Gap Problem Actually Asks</title>
+      <link>http://localhost:62070/omarora/blog/whatismassgapproblem/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whatismassgapproblem/</guid>
+      <description>An explanation of what the Yang-Mills mass gap problem actually asks.</description>
+    </item>
+    <item>
+      <title>Why I Am Interested in the Yang–Mills Mass Gap Problem</title>
+      <link>http://localhost:62070/omarora/blog/whyyangmills/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whyyangmills/</guid>
+      <description>A reflection on why I am interested in the Yang-Mills mass gap problem.</description>
     </item>
   </channel>
 </rss>

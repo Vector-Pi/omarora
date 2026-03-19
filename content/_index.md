@@ -1,37 +1,68 @@
 ---
-title: "About Me"
+title: "Om Arora"
 date: 2026-02-06
-featuredImages:
-  - "images/12.jpeg"
-  - "images/2.jpeg"
-  - "images/7.jpeg"
-  
-  - "images/770.jpeg"
- 
-  - "images/3.jpeg"
-  
+profileImage: "images/profile.jpg"
+description: "Personal website of Om Arora — Mathematics, Physics, Quantitative Finance."
 ---
 
-<img src="images/profile.jpg" alt="Om Arora" style="float: right; margin-left: 20px; margin-bottom: 20px; width: 200px; border-radius: 60%; border: 3px solid #3bc9db;">
+I work at the intersection of theoretical physics, mathematics, and quantitative finance. I am currently in high school.
 
+The common thread is structure — the kind that underlies gauge fields, limit order books, and formal proof alike. Fields change. That patience does not.
 
-Hello! I'm **Om Arora**, a researcher and developer based in Delhi, India. 
+Outside the work: Dostoevsky and Tolstoy, Bach and Shostakovich, the history of empires, and the quiet satisfaction of a proof that closes cleanly.
 
-I am interested in **theoretical physics, mathematics, AI, and quantitative finance**, with a deep interest in **astronomy, philosophy, history, and algorithm design**. My work bridges foundational research—like extensions to Yang–Mills theory and quantum gravity—with applied systems in machine learning, IoT, and algorithmic trading.
+---
 
-Currently, I’m contributing to AI for Mathematical Olympiads, developing models that solve IMO-level proofs, while also building quantitative strategies under NDA. I enjoy turning abstract principles into functional tools—whether through sensor-based health devices, persistent homology in finance, or spacetime emergence models.
+## Work
 
-I’m driven by a long-term vision: to weave rigorous research, quantitative insight, and entrepreneurial execution into ventures that solve complex, real-world challenges.
+**Gauge-Invariant Mass Generation**
+An extension of Yang–Mills theory via a group-valued Stueckelberg field. Full BRST quantisation, one-loop renormalisation in the MS̄ scheme, and a first-principles approach to the mass gap. Asymptotic freedom is preserved throughout.
+
+**Defence Protocol Translation Middleware**
+MIL-STD-1553B and STANAG 4586 do not speak to each other. Neither do the Tejas Mk.1A and the Rustom-2. I am building the translation layer — open, software-defined, and protocol-agnostic. The architecture reduces N×(N−1) point-to-point complexity to 2N. No dependency on Western proprietary hardware.
+
+**AI for Mathematical Olympiads**
+The goal is not pattern recognition. It is formal proof — verified, symbolic reasoning at IMO level. That distinction matters considerably.
+
+**Quantitative Research**
+Stochastic calculus applied to limit order book dynamics. Persistent homology as a lens on market microstructure. The constraint I hold: strategies must be mathematically rigorous before they are profitable.
+
+---
+
+## Publications
+
+**"A Gauge-Invariant Stueckelberg Extension of Yang–Mills Theory" ([here](https://doi.org/10.5281/zenodo.19057338))**
+Complete BRST-quantised action · Full Feynman rules including non-polynomial vertices · One-loop beta function · Asymptotic freedom preserved
+
+**"A Software-Defined Protocol Translation Architecture for Multi-Domain Defence Asset Integration" ([here](https://doi.org/10.5281/zenodo.tobeupdated))**
+Five-component middleware architecture · Six-dimensional protocol gap analysis · Python implementation · Per-field audit logging
+
+**"Quantum Geometric Entanglement: A Unified Model for Emergence of Spacetime in Quantum Gravity" ([here](https://www.researchgate.net/publication/399859360_Quantum_Geometric_Entanglement_A_Unified_Model_for_Emergence_of_Spacetime_in_Quantum_Gravity?_sg%5B0%5D=aV7hA32uRz0xoRL0DjahRz5nbtFpKol1DuhnrvXmzb3uixYd-qElB9sMpxYFIUVmwO5GEYMxc3JJjXQlccsoEtYCzv3qQdCMlTHhSUHc.Bq8vNzxd_tu2KKk_AEsaIyZMNSxuUG0eboOpnMPbuCSWR4xeXBcQoP-Irf1k9Fsspc2iL9doqQFynG5429HJ8g&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19))**
+
+QGET framework · Entanglement correlations as geometric structure · Testable predictions for spacetime entanglement
+
+**"Yang-Mills Theory with A Scalar Field: A unified Model for Confinement and Mass Gap" ([here](https://www.researchgate.net/publication/399829838_Yang-Mills_Theory_with_a_Scalar_Field_A_Unified_Model_for_Confinement_and_Mass_Gap))**
+
+Stueckelberg mechanism applied to Yang–Mills · Confinement force derived from flux tube formation · Mass gap from first principles
+
+---
+
+## Interests
+
+Theoretical Physics &ensp;·&ensp; Quantitative Finance &ensp;·&ensp; Formal Mathematics &ensp;·&ensp; Gauge Theory &ensp;·&ensp; Quantum Gravity &ensp;·&ensp; TDA
+
+Philosophy &ensp;·&ensp; Classical Music &ensp;·&ensp; Astronomy &ensp;·&ensp; History &ensp;·&ensp; Literature &ensp;·&ensp; Art
+
+---
+
 ## Education
-* **High School** (2025-Present)
-* **Adarsh Public School** (2018-2025)
-* **St. Peter's Public School** (2014-2018)
 
-## Research Interests
-* Theoretical Physics (Yang-Mills Theory, Mass Gap Problem, Quantum gravity, Emergent spacetime from quantum information, Geometric and topological approaches to field theory)
-* Quantitative Finance (Market microstructure and limit order book dynamics, Stochastic calculus and derivatives pricing models,Algorithmic strategy development and backtesting)
-* Mathematics and Computation (AI for formal reasoning and proof generation, Topological data analysis (persistent homology) for pattern recognition, Graph theory and combinatorics in structured problem-solving)
-* ML & Applied AI (Deep learning for anomaly detection and time-series analysis, Sensor fusion and real-time IoT data analytics, Reinforcement learning for control systems)
-* Interdisciplinary (Quantum-inspired classical algorithms, Philosophical foundations of mathematics and physics, Historical evolution of scientific and financial models, Entrepreneurial translation of deep-tech research)
+High School &ensp;·&ensp; *2025–Present* &ensp; &ensp;
+Adarsh Public School &ensp;·&ensp; *2018–2025* &ensp; &ensp;
+St. Peter's Public School &ensp;·&ensp; *2014–2018*
 
-[Download my CV (PDF)](/files/cv.pdf)
+---
+
+*Some ventures take years to become legible. I am comfortable with that.*
+
+[Curriculum Vitae](/files/cv.pdf)

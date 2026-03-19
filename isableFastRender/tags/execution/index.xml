@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Execution on Om Arora</title>
+    <link>http://localhost:62070/omarora/tags/execution/</link>
+    <description>Recent content in Execution on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/tags/execution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Research Needs Builder Thinking</title>
+      <link>http://localhost:62070/omarora/blog/researchneedsbuilderthinking/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/researchneedsbuilderthinking/</guid>
+      <description>A reflection on why meaningful research requires the mindset of a builder, written as advice to my younger self.</description>
+    </item>
+    <item>
+      <title>What Talking to Startup Founders Changed About How I Think About Research</title>
+      <link>http://localhost:62070/omarora/blog/whattalkingtoechangedmyresearch/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whattalkingtoechangedmyresearch/</guid>
+      <description>How exposure to startup founders reshaped my approach to scientific research, risk, and execution.</description>
+    </item>
+  </channel>
+</rss>

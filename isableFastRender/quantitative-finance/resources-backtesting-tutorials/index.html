@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/omarora/livereload.js?mindelay=10&amp;v=2&amp;port=62070&amp;path=omarora/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources &amp; Backtesting Tutorials · Om Arora</title>
+  <meta name="description" content="Personal website of Om Arora - Mathematics, Physics, AI Research.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="http://localhost:62070/omarora/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body,{delimiters:[
+      {left:'$$',right:'$$',display:true},
+      {left:'$',right:'$',display:false},
+      {left:'\\(',right:'\\)',display:false},
+      {left:'\\[',right:'\\]',display:true}
+    ]});">
+  </script>
+</head>
+
+<body>
+
+<button class="mobile-nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="site-wrapper">
+
+  <aside class="sidebar-column" id="sidebar">
+
+    <div class="sidebar-identity">
+      <a href="http://localhost:62070/" class="sidebar-site-name">Om Arora</a>
+      <span class="sidebar-tagline">researcher · builder · thinker</span>
+    </div>
+
+    <nav class="sidebar-nav" aria-label="Main navigation">
+      <ul>
+        
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/"
+                 >
+                Home
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/now/"
+                 >
+                Now
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/blog/"
+                 >
+                Blog
+              </a>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/mathematics/" class="menu-header">Mathematics</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/beginners-guide-to-advanced-mathematics/"
+                       >
+                      Beginners Guide to Advanced Mathematics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/prerequisites-for-mathematical-research/"
+                       >
+                      Prerequisites for Mathematical Research
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/olympiad-problem-solving-resources/"
+                       >
+                      Olympiad Problem-Solving &amp; Resources
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/reading-notes-papers/"
+                       >
+                      Reading Notes &amp; Papers
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/theoretical-physics/" class="menu-header">Theoretical Physics</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/starting-with-theoretical-physics/"
+                       >
+                      Starting with Theoretical Physics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/math-prerequisites-for-qft-gr/"
+                       >
+                      Math Prerequisites for QFT &amp; GR
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/my-research-publications/"
+                       >
+                      My Research &amp; Publications
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/open-problems-im-exploring/"
+                       >
+                      Open Problems I’m Exploring
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/lecture-notes-summaries/"
+                       >
+                      Lecture Notes &amp; Summaries
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/astronomy/" class="menu-header">Astronomy</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/astronomy-for-beginners/"
+                       >
+                      Astronomy for Beginners
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/cosmology-astrophysics-notes/"
+                       >
+                      Cosmology &amp; Astrophysics Notes
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/my-astronomy-projects/"
+                       >
+                      My Astronomy Projects
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/inspiring-papers-books/"
+                       >
+                      Inspiring Papers &amp; Books
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/quantitative-finance/" class="menu-header">Quantitative Finance</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/"
+                       >
+                      Introduction to Quantitative Finance
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/math-coding-prerequisites/"
+                       >
+                      Math &amp; Coding Prerequisites
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/my-trading-projects/"
+                       >
+                      My Trading Projects
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/research-in-market-microstructure/"
+                       >
+                      Research in Market Microstructure
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/resources-backtesting-tutorials/"
+                       >
+                      Resources &amp; Backtesting Tutorials
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/philosophy/" class="menu-header">Philosophy</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/schools-of-thought/"
+                       >
+                      Schools of Thought
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/great-thinkers-essays/"
+                       >
+                      Great Thinkers &amp; Essays
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/philosophy-for-stem-students/"
+                       >
+                      Philosophy for STEM Students
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/history/" class="menu-header">History</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/history-of-mathematics-physics/"
+                       >
+                      History of Mathematics &amp; Physics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/financial-history-market-evolution/"
+                       >
+                      Financial History &amp; Market Evolution
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/lessons-from-history/"
+                       >
+                      Lessons from History
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/art-music/" class="menu-header">Art &amp; Music</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/music-i-create-listen-to/"
+                       >
+                      Music I Create &amp; Listen To
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/inspiration-from-art-science/"
+                       >
+                      Inspiration from Art &amp; Science
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/creative-process-tools/"
+                       >
+                      Creative Process &amp; Tools
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/recommendations-reviews/"
+                       >
+                      Recommendations &amp; Reviews
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+
+    <div class="sidebar-block">
+      <h3>Documents</h3>
+      <ul class="quick-links">
+        <li><a href="http://localhost:62070/omarora/files/cv.pdf">Curriculum Vitae</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-footer">
+      <p>© 2026 Om Arora</p>
+    </div>
+
+  </aside>
+
+  <main class="main-content-column" id="mainContent">
+    
+<article class="post">
+  <header>
+    <h1>Resources &amp; Backtesting Tutorials</h1>
+    <p class="post-meta">
+      6 February 2026
+      
+    </p>
+  </header>
+  <div class="post-content"><p>Backtesting is the scientific method of systematic trading. You have a hypothesis — that some feature of historical market data predicts future returns. Backtesting is the experiment that tests the hypothesis. Like any scientific experiment, it can be done well or poorly. Most retail backtests are done poorly, and the errors are systematic and predictable. This page is about doing it properly.</p>
+<p>The page is organised as follows: the methodology (what a rigorous backtest actually requires), the errors (what almost everyone gets wrong), the frameworks (what tools exist and what each is good for), the data sources, and a set of additional resources. There is a final section on a unified backtesting framework I am currently developing — a project aimed at closing the gap between the state of available open-source tools and the requirements of serious institutional-grade research.</p>
+<hr>
+<h2 id="part-i--backtesting-methodology">Part I — Backtesting Methodology</h2>
+<h3 id="what-a-backtest-is-and-is-not">What a Backtest Is and Is Not</h3>
+<p>A backtest is a simulation of how a trading strategy would have performed on historical data. It is not evidence that the strategy will perform in the future. The distinction matters more than it might seem.</p>
+<p>The primary purpose of a backtest is <strong>falsification</strong>, not validation. A strategy that fails its backtest should be rejected. A strategy that passes its backtest has not been proven — it has survived the test. Whether it survives out-of-sample testing, whether it survives transaction costs, and whether the historical performance is a genuine signal or an artefact of data mining are separate questions that the backtest itself cannot answer.</p>
+<h3 id="the-correct-workflow">The Correct Workflow</h3>
+<p><strong>Step 1: Form the hypothesis before looking at the data.</strong> The moment you start constructing a strategy by looking at charts and finding patterns, you have already contaminated the experiment. Every strategy should begin with an economic or statistical prior — a reason to believe the signal should work that is independent of the historical data you are about to test on. This reason should be written down before the backtest begins.</p>
+<p><strong>Step 2: Define the strategy completely before running it.</strong> Every parameter, every threshold, every rule should be specified in advance. The backtest should not be iteratively modified based on its results. If you find yourself adjusting parameters to improve the backtest, you are overfitting.</p>
+<p><strong>Step 3: Use point-in-time data.</strong> The data available at each historical date should be what was actually available on that date, not what is available now. Accounting restatements, index rebalancings, and corporate actions change historical data retroactively. Using restated data when the original data was different is a form of look-ahead bias.</p>
+<p><strong>Step 4: Include transaction costs.</strong> Every backtest that does not include realistic transaction costs is meaningless for practical purposes. The cost model should include the bid-ask spread, the exchange fee, and an estimate of market impact (the price movement caused by your own trading). Market impact scales approximately with the square root of the order size relative to average daily volume.</p>
+<p><strong>Step 5: Walk-forward validation.</strong> Split the data into an in-sample period for model development and an out-of-sample period for validation. Never adjust the strategy based on the out-of-sample results — once you look at the out-of-sample results and make a change, that period is no longer out-of-sample.</p>
+<p><strong>Step 6: Report honestly.</strong> The full distribution of outcomes matters, not just the headline Sharpe ratio. Include the maximum drawdown, the Calmar ratio, the Sortino ratio, and the performance in each subperiod. A strategy that has a Sharpe ratio of 1.5 over 10 years but had a 40% drawdown in 2022 is a different strategy from one with the same Sharpe ratio and a 10% maximum drawdown.</p>
+<hr>
+<h2 id="part-ii--the-seven-deadly-errors">Part II — The Seven Deadly Errors</h2>
+<p>These are the mistakes that appear in almost every retail backtest, in roughly decreasing order of severity.</p>
+<h3 id="1-look-ahead-bias">1. Look-Ahead Bias</h3>
+<p>Using information in the backtest that would not have been available at the time of the trade. The most common forms:</p>
+<ul>
+<li>Using the closing price to generate a signal and also filling the trade at the closing price of the <em>same</em> bar (the signal was generated after the close, but the trade happened at the close)</li>
+<li>Using end-of-day fundamental data that was reported after market close as if it were available before open</li>
+<li>Using a moving average that includes the current bar&rsquo;s data as a signal for the current bar</li>
+</ul>
+<p><strong>The fix:</strong> every signal must be generated using data available before the trade is executed, and there must be an explicit delay between signal generation and execution.</p>
+<h3 id="2-survivorship-bias">2. Survivorship Bias</h3>
+<p>Testing on a universe of stocks that contains only the survivors — companies that still exist at the end of the backtest period. The S&amp;P 500 constituents today are not the same as the S&amp;P 500 constituents in 2010. Testing on the current constituents going back to 2010 overstates returns because you are only trading stocks that survived the period.</p>
+<p><strong>The fix:</strong> use a point-in-time constituent database that records which stocks were in the index on each historical date. Free workarounds include using broad market ETFs or the Russell 3000 universe with delisting returns.</p>
+<h3 id="3-overfitting-and-data-mining-bias">3. Overfitting and Data Mining Bias</h3>
+<p>Optimising strategy parameters on the historical data and reporting the in-sample performance as if it were a genuine prediction. If you test 100 parameter combinations and report the best one, the best combination will look better than the true predictive power of the strategy — even if the strategy has no predictive power at all.</p>
+<p><strong>The fix:</strong> strict walk-forward validation with a fixed out-of-sample period. Correct for multiple testing using the Bonferroni correction or the Benjamini-Hochberg procedure. Report all parameter combinations tested, not just the best one.</p>
+<p><strong>The number to care about.</strong> Bailey et al. (2014) introduced the concept of the minimum backtest length needed to distinguish a genuine Sharpe ratio from data mining, as a function of the number of trials tested. For 100 parameter combinations, you need approximately 8 years of daily data before the best result&rsquo;s t-statistic is meaningful. For 1,000 combinations, you need 20+ years.</p>
+<h3 id="4-ignoring-transaction-costs">4. Ignoring Transaction Costs</h3>
+<p>A strategy that generates 3 bps of expected daily alpha but turns over the entire portfolio every day at a cost of 5 bps per round-trip is not profitable. This calculation is straightforward, but many backtests either ignore costs entirely or use unrealistically low cost assumptions.</p>
+<p><strong>Typical cost structure for institutional equity trading:</strong></p>
+<ul>
+<li>Bid-ask spread: 1–5 bps for large-cap US equities, 5–20 bps for small-cap</li>
+<li>Exchange fee: 0.1–0.3 bps</li>
+<li>Market impact: approximately $0.1% \times \sqrt{\text{order size} / \text{ADV}}$ (Kyle&rsquo;s square-root law)</li>
+<li>Total round-trip for large-cap: 5–15 bps at low impact, 20–50 bps at moderate impact</li>
+</ul>
+<p><strong>The fix:</strong> include explicit cost assumptions. Run the backtest across a range of cost assumptions (5, 10, 20 bps) and check at what cost level the strategy becomes unprofitable. If the answer is &ldquo;10 bps,&rdquo; the strategy is marginal.</p>
+<h3 id="5-not-accounting-for-liquidity">5. Not Accounting for Liquidity</h3>
+<p>A strategy that trades micro-cap stocks generating extraordinary backtested returns often cannot be implemented at any meaningful scale — the stocks do not have enough volume to absorb the position sizes required. A backtest that does not include a liquidity filter (minimum average daily volume, minimum market cap) will overstate capacity.</p>
+<p><strong>The fix:</strong> restrict the universe to stocks with sufficient liquidity at the intended strategy scale. A common rule: size the position so that the daily trading is less than 5% of average daily volume.</p>
+<h3 id="6-regime-non-stationarity">6. Regime Non-Stationarity</h3>
+<p>A strategy that worked well from 2010 to 2020 in a low-rate, low-volatility regime may not work in a high-rate, high-volatility regime. Many systematic strategies have implicit factor exposures that look like alpha in some regimes and are exposed in others.</p>
+<p><strong>The fix:</strong> test the strategy in subperiods with distinct market regimes: the 2011-2015 low-volatility period, the 2018 correction, the 2020 COVID crash, the 2022 rate-hiking cycle. A strategy that fails in one or more distinct subperiods is a regime-dependent strategy, not a robust one.</p>
+<h3 id="7-conflating-gross-and-net-returns">7. Conflating Gross and Net Returns</h3>
+<p>Reporting strategy gross returns (before fees, before costs) as if they were net returns. A fund with 20% gross returns and 2-and-20 fee structure returns 12-14% net to investors — still good, but not the 20% that might be cited.</p>
+<hr>
+<h2 id="part-iii--the-performance-metrics-that-matter">Part III — The Performance Metrics That Matter</h2>
+<h3 id="the-sharpe-ratio">The Sharpe Ratio</h3>
+<p>$$SR = \frac{\mathbb{E}[R_p - R_f]}{\sigma_p}$$</p>
+<p>The standard measure of risk-adjusted return. Annualised by multiplying by $\sqrt{252}$ (for daily returns). Interpretation: a Sharpe ratio above 1.0 is considered acceptable; above 1.5, good; above 2.0, exceptional and suspicious (worth checking for errors).</p>
+<p><strong>The Sharpe ratio is insufficient on its own.</strong> Two strategies with the same Sharpe ratio can have very different profiles: one might have a maximum drawdown of 5%, another 40%. The Sharpe ratio does not distinguish between them.</p>
+<h3 id="the-sortino-ratio">The Sortino Ratio</h3>
+<p>Like the Sharpe ratio but uses only downside volatility in the denominator. Appropriate when the return distribution is asymmetric (more relevant for trend-following strategies that cut losses).</p>
+<h3 id="the-calmar-ratio">The Calmar Ratio</h3>
+<p>$$\text{Calmar} = \frac{\text{Annualised Return}}{\text{Maximum Drawdown}}$$</p>
+<p>Arguably more relevant than the Sharpe ratio for practitioners, because maximum drawdown is the real experience of holding the strategy through its worst period.</p>
+<h3 id="information-coefficient-ic">Information Coefficient (IC)</h3>
+<p>For cross-sectional strategies (factor models), the IC is the rank correlation between the predicted signal and the subsequent return. An IC of 0.05 is considered good for daily predictions; 0.03 is typical for established factors.</p>
+<h3 id="the-fundamental-law-of-active-management">The Fundamental Law of Active Management</h3>
+<p>Grinold and Kahn (1994): $IR \approx IC \times \sqrt{BR}$</p>
+<p>where $IR$ is the information ratio (Sharpe ratio of active returns), $IC$ is the information coefficient, and $BR$ is the breadth (number of independent bets per year). A low IC can be offset by high breadth — which is why diversified systematic strategies can achieve meaningful IRs with weak individual signals.</p>
+<h3 id="maximum-drawdown-and-time-to-recovery">Maximum Drawdown and Time to Recovery</h3>
+<p>The maximum drawdown is the maximum peak-to-trough decline in portfolio value. The time to recovery is how long it takes to reach a new high after the trough. A strategy with a 30% maximum drawdown and a 3-year recovery time is practically unmanageable for most investors.</p>
+<hr>
+<h2 id="part-iv--the-backtesting-framework-landscape">Part IV — The Backtesting Framework Landscape</h2>
+<p>The Python ecosystem for backtesting has bifurcated into two clear paradigms: <strong>vectorised</strong> (ultra-fast, batch processing, ideal for signal research) and <strong>event-driven</strong> (realistic, sequential, closer to production). The choice between them is a genuine trade-off, not a matter of one being universally better.</p>
+<h3 id="the-vectorised-paradigm">The Vectorised Paradigm</h3>
+<p>Vectorised backtesting processes the entire historical dataset as matrix operations rather than simulating time step by step. The speed advantage is significant: a vectorised backtest that takes 10 seconds would take 10 minutes in event-driven mode.</p>
+<p>The trade-off is realism. Vectorised engines typically assume:</p>
+<ul>
+<li>You can fill at the bar&rsquo;s close price regardless of order size</li>
+<li>All positions are rebalanced simultaneously</li>
+<li>There is no order book, no partial fills, no latency</li>
+</ul>
+<p>For signal research and parameter sweeps — where you want to test thousands of parameter combinations quickly — vectorised is the right choice. For final validation and production deployment, you want event-driven.</p>
+<p><strong>VectorBT / VectorBT PRO</strong> (<a href="https://vectorbt.pro">vectorbt.pro</a>)
+The best vectorised backtesting library available as of 2026. Built on NumPy, pandas, and Numba JIT compilation. Designed for parameter grid searches: you can test 10,000 combinations of lookback windows and thresholds in minutes rather than hours. The PRO version adds portfolio simulation, more realistic execution semantics, and a full research infrastructure. For signal research on large universes, this is the current state of the art. The open-source version is free; PRO requires a licence.</p>
+<p><strong>backtesting.py</strong> (<a href="https://kernc.github.io/backtesting.py">kernc.github.io/backtesting.py</a>)
+Lightweight, well-documented, beginner-friendly. For quick prototyping. Automatically calculates performance metrics and generates interactive plots. Not suitable for large-scale research or production-grade work, but the fastest path from idea to initial result.</p>
+<h3 id="the-event-driven-paradigm">The Event-Driven Paradigm</h3>
+<p>Event-driven backtesting processes data sequentially, bar by bar or tick by tick, simulating how the strategy would have behaved in real time. Each event (new bar, filled order, stop triggered) generates a response from the strategy. This is more computationally expensive but more realistic.</p>
+<p><strong>Backtrader</strong> (<a href="https://www.backtrader.com">backtrader.com</a>)
+The most widely used event-driven framework. Mature, well-documented, supports multiple data feeds and live trading through Interactive Brokers, OANDA, and Alpaca. The learning curve is steeper than backtesting.py but the flexibility is much greater. Actively maintained by the community (the original developer stepped back, but the project continues). Good choice for strategies that need realistic order management — stops, limits, brackets, OCO.</p>
+<p><strong>NautilusTrader</strong> (<a href="https://nautilustrader.io">nautilustrader.io</a>)
+The current best option for production-first workflows. Written in Rust with Python bindings, so performance approaches compiled code while keeping the Python research interface. Specifically designed to bridge the research-to-production gap: the same strategy code that runs in the backtest runs in live trading with minimal modification. Supports full limit order book simulation, realistic latency, and multiple asset classes. Steep learning curve but the right choice if you are building something intended for deployment.</p>
+<p><strong>QuantConnect / LEAN</strong> (<a href="https://www.quantconnect.com">quantconnect.com</a>)
+A cloud-based platform built on the open-source LEAN engine. The most complete end-to-end solution: data, backtesting, optimisation, paper trading, and live deployment in one environment. The research environment is Jupyter-based. The disadvantage is ecosystem dependency — you are building inside QuantConnect&rsquo;s infrastructure, which limits portability. The managed data (equities, futures, options, crypto, forex) is genuinely good and includes survivorship-bias-free equity data going back decades.</p>
+<p><strong>Zipline-Reloaded</strong> (<a href="https://github.com/stefan-jansen/zipline-reloaded">github.com/stefan-jansen/zipline-reloaded</a>)
+The maintained fork of Quantopian&rsquo;s Zipline library. The Pipeline API is uniquely expressive for cross-sectional equity factor research — it allows you to define universe selection, factor computation, and portfolio construction in a clean, composable way. Best choice for factor model research that needs the Pipeline architecture. Not ideal for anything other than daily equity strategies.</p>
+<p><strong>pysystemtrade</strong> (<a href="https://github.com/robcarver17/pysystemtrade">github.com/robcarver17/pysystemtrade</a>)
+Rob Carver&rsquo;s framework, developed alongside his book <em>Systematic Trading</em>. Specifically designed for systematic futures trading with a clear, principled approach to position sizing (instrument weights, forecast scaling, volatility targeting). The most complete open-source framework for systematic futures. The documentation is excellent.</p>
+<h3 id="comparison-summary">Comparison Summary</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Framework</th>
+          <th>Paradigm</th>
+          <th>Speed</th>
+          <th>Realism</th>
+          <th>Best For</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>VectorBT PRO</td>
+          <td>Vectorised</td>
+          <td>★★★★★</td>
+          <td>★★★</td>
+          <td>Parameter sweeps, signal research</td>
+      </tr>
+      <tr>
+          <td>backtesting.py</td>
+          <td>Vectorised</td>
+          <td>★★★★</td>
+          <td>★★</td>
+          <td>Quick prototyping</td>
+      </tr>
+      <tr>
+          <td>Backtrader</td>
+          <td>Event-driven</td>
+          <td>★★★</td>
+          <td>★★★★</td>
+          <td>Multi-asset, live trading</td>
+      </tr>
+      <tr>
+          <td>NautilusTrader</td>
+          <td>Event-driven</td>
+          <td>★★★★</td>
+          <td>★★★★★</td>
+          <td>Production deployment</td>
+      </tr>
+      <tr>
+          <td>QuantConnect</td>
+          <td>Event-driven</td>
+          <td>★★★</td>
+          <td>★★★★</td>
+          <td>End-to-end platform</td>
+      </tr>
+      <tr>
+          <td>Zipline-Reloaded</td>
+          <td>Event-driven</td>
+          <td>★★</td>
+          <td>★★★</td>
+          <td>Equity factor research</td>
+      </tr>
+      <tr>
+          <td>pysystemtrade</td>
+          <td>Event-driven</td>
+          <td>★★★</td>
+          <td>★★★★</td>
+          <td>Systematic futures</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="part-v--data-sources">Part V — Data Sources</h2>
+<p><strong>Free and accessible:</strong></p>
+<p><em>Yahoo Finance</em> (via <code>yfinance</code>) — daily OHLCV for global equities, ETFs, indices, and FX. Survivorship-biased; does not include delisted stocks. Adequate for initial research on strategies with multi-week holding periods. Do not use for strategies that depend on the composition of specific indices.</p>
+<p><em>FRED</em> (Federal Reserve Economic Data, <a href="https://fred.stlouisfed.org">fred.stlouisfed.org</a>) — macroeconomic time series including interest rates, inflation, employment, and economic activity. Essential for macroeconomic systematic strategies.</p>
+<p><em>Nasdaq Data Link</em> (formerly Quandl, <a href="https://data.nasdaq.com">data.nasdaq.com</a>) — various free and premium datasets. The free Sharadar Core US Equities dataset is particularly useful — it includes point-in-time fundamental data (earnings, book value, cash flows) without survivorship bias.</p>
+<p><em>SEC EDGAR</em> (<a href="https://www.sec.gov/edgar">sec.gov/edgar</a>) — all public company filings. The EDGAR full-text search API allows programmatic access. Source for 10-K and 10-Q data for fundamental strategies.</p>
+<p><strong>Institutional quality (paid or academic access):</strong></p>
+<p><em>CRSP</em> (Center for Research in Security Prices) — the gold standard for US equity data. Includes all historical returns with delisting adjustments, survivorship-bias-free constituent histories, and dividend/split adjustments. Accessible through most universities.</p>
+<p><em>Compustat</em> — fundamental accounting data. Used alongside CRSP for academic factor research.</p>
+<p><em>Bloomberg Terminal</em> — the industry standard for market professionals. Comprehensive data across all asset classes. Very expensive; available at most financial institutions.</p>
+<p><em>Refinitiv (LSEG Data &amp; Analytics)</em> — comparable to Bloomberg; used in many institutional research environments.</p>
+<p><em>Interactive Brokers Historical Data API</em> — if you have an IB account, the API provides historical data for equities, futures, options, and FX at moderate resolution. The best free institutional-quality data source for those with an account.</p>
+<hr>
+<h2 id="part-vi--a-unified-framework-work-in-progress">Part VI — A Unified Framework: Work in Progress</h2>
+<p>The current state of the open-source backtesting ecosystem has a gap that becomes visible once you have worked with several of the available tools. The vectorised frameworks (VectorBT, backtesting.py) are fast but not realistic enough for final strategy validation. The event-driven frameworks (Backtrader, NautilusTrader) are realistic but either difficult to use or require significant infrastructure to set up. The end-to-end platforms (QuantConnect) are convenient but create ecosystem dependency. None of them has a clean, integrated solution for the full research pipeline: signal research → rigorous statistical validation → realistic backtesting → live deployment.</p>
+<p>I am currently developing a unified backtesting framework — <strong>QuantCore</strong> — that attempts to address this gap with a dual-engine architecture. The framework is designed from the ground up around the principle that research integrity and computational efficiency are not in conflict; they require different components of the same system.</p>
+<p><strong>The dual-engine architecture.</strong> A vectorised engine for signal research and parameter optimisation — the stage where you need to run tens of thousands of parameter combinations quickly without caring about tick-level realism. And an event-driven engine for final validation and production staging — where every order is simulated with realistic fills, market impact, and latency.</p>
+<p><strong>The key design principles:</strong></p>
+<p><em>Zero look-ahead bias by construction.</em> The data pipeline enforces strict temporal ordering. Signal generation has no access to data after the signal time. This is not a feature to be carefully configured — it is the default, with explicit opt-in required for any relaxation.</p>
+<p><em>Realistic transaction cost modelling.</em> Not a flat bps assumption but a proper market impact model: exchange fees, bid-ask spread simulation, and the square-root impact model calibrated to typical daily volume profiles.</p>
+<p><em>Statistical validation as a first-class component.</em> Walk-forward validation, combinatorial purged cross-validation (López de Prado), and multiple testing correction are built into the framework — not bolted on as external scripts.</p>
+<p><em>Research-to-production continuity.</em> The same strategy object that runs in the backtest runs in paper trading and live trading. Switching from historical data to a live data feed changes one line of configuration, not the strategy code.</p>
+<p>The framework is in active development. When it is ready for public release, it will be published as open-source under the MIT licence. If you are interested in contributing or following the development, it will be available at <a href="https://github.com/Vector-Pi/quantcore">github.com/Vector-Pi/quantcore</a> (not yet public — will be updated when the first stable version is ready).</p>
+<p>The detailed technical specification of the architecture — the order management system, the market microstructure simulation, the risk framework, and the statistical validation pipeline — is documented internally and will be released alongside the code.</p>
+<hr>
+<h2 id="part-vii--learning-resources">Part VII — Learning Resources</h2>
+<h3 id="books">Books</h3>
+<p><em>Quantitative Trading</em> — Ernest Chan
+The most practical introduction to systematic trading research. Honest about the pitfalls of backtesting, clear on the Kelly criterion and position sizing, and specific enough to implement. The second edition (2021) updates the examples for current data sources.</p>
+<p><em>Advances in Financial Machine Learning</em> — Marcos López de Prado
+The essential reference for anyone doing systematic research seriously. The chapters on combinatorial purged cross-validation, feature engineering for financial signals, and the deflated Sharpe ratio are the most important treatments of statistical methodology in systematic trading I have found.</p>
+<p><em>Systematic Trading</em> — Robert Carver
+Principled, honest, and practical. Carver&rsquo;s framework for systematic futures trading — combining forecasts, scaling positions by volatility, and weighting instruments — is the most coherent presentation of a complete systematic methodology I have read. The companion pysystemtrade library implements it.</p>
+<p><em>Evidence-Based Technical Analysis</em> — David Aronson
+A thorough treatment of statistical methodology for testing technical analysis claims. The chapters on hypothesis testing, the bootstrap, and the test of data-snooping are directly applicable to systematic strategy research.</p>
+<p><em>The Man from the Future: The Visionary Life of John von Neumann</em> — Ananyo Bhattacharya
+Not a quantitative finance book. But understanding the history of Monte Carlo methods — invented at Los Alamos by von Neumann, Ulam, and Fermi to simulate neutron diffusion — gives the technique a different kind of clarity. Monte Carlo simulation in finance is the direct descendant of that work.</p>
+<h3 id="online-resources">Online Resources</h3>
+<p><strong>QuantStart</strong> — <a href="https://www.quantstart.com">quantstart.com</a>
+Michael Halls-Moore&rsquo;s articles on systematic trading and backtesting methodology. The series on building an event-driven backtester from scratch in Python is the best tutorial on the subject I have found.</p>
+<p><strong>Quantopian Lectures</strong> (archived)
+The Quantopian educational materials, now archived but still accessible. The lectures on factor analysis, risk management, and the correct interpretation of backtesting results are high quality.</p>
+<p><strong>Quant Stackexchange</strong> — <a href="https://quant.stackexchange.com">quant.stackexchange.com</a>
+The professional Q&amp;A forum for quantitative finance. High signal-to-noise ratio. Useful for specific technical questions on model implementation and data handling.</p>
+<p><strong>Lopez de Prado&rsquo;s papers on arXiv</strong> — <a href="https://arxiv.org/search/?query=lopez+de+prado&amp;searchtype=author">arxiv.org/search/?query=lopez+de+prado</a>
+His papers on the deflated Sharpe ratio, combinatorial purged cross-validation, and the false strategy theorem are essential reading. The false strategy theorem alone should be assigned to every person who has ever reported a backtested Sharpe ratio.</p>
+<p><strong>Ernie Chan&rsquo;s blog</strong> — <a href="http://epchan.blogspot.com">epchan.blogspot.com</a>
+Practical, honest, and frequently updated. The posts on mean reversion, cointegration, and the practicalities of live systematic trading are worth reading.</p>
+<hr>
+<h2 id="a-note-on-intellectual-honesty-in-backtesting">A Note on Intellectual Honesty in Backtesting</h2>
+<p>The temptation in systematic research is to iterate on the backtest until it looks good and then report the result. This is the wrong way to do it, and the errors it produces are not small. A 10-year backtest optimised over 1,000 parameter combinations has an expected best Sharpe ratio of around 2.5 even if every tested strategy has zero true predictive power, purely from data mining.</p>
+<p>The correct question to ask of any backtest is not &ldquo;does this look good?&rdquo; but &ldquo;what is the minimum true Sharpe ratio consistent with this result, after accounting for all the tests I ran to get here?&rdquo; If the answer is below 0.5, the strategy should probably not be traded.</p>
+<p>This is not pessimism about systematic trading. Genuine predictive signals exist, and genuine systematic strategies have been built and sustained over decades. The point is that finding them requires the same rigour as finding any other genuine empirical result — which means being as hard on your own work as you would be on anyone else&rsquo;s.</p>
+<hr>
+<p><em>Last updated March 2026. The QuantCore framework section will be updated when the first stable version is publicly available.</em></p>
+</div>
+</article>
+
+  </main>
+
+</div>
+
+<script>
+(function () {
+  var toggle  = document.getElementById('navToggle');
+  var sidebar = document.getElementById('sidebar');
+  var overlay = document.getElementById('sidebarOverlay');
+
+  toggle.addEventListener('click', function () {
+    var isOpen = sidebar.classList.toggle('open');
+    overlay.classList.toggle('visible', isOpen);
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  overlay.addEventListener('click', function () {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('visible');
+    toggle.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      sidebar.classList.remove('open');
+      overlay.classList.remove('visible');
+      document.body.style.overflow = '';
+    }
+  });
+
+  document.querySelectorAll('.menu-group').forEach(function (group) {
+    var header = group.querySelector('.menu-header');
+    if (!header) return;
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var wasOpen = group.classList.contains('open');
+      document.querySelectorAll('.menu-group').forEach(function (g) { g.classList.remove('open'); });
+      if (!wasOpen) group.classList.add('open');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

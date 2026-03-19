@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>History on Om Arora</title>
+    <link>http://localhost:62070/omarora/history/</link>
+    <description>Recent content in History on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biographies &amp; Key Figures</title>
+      <link>http://localhost:62070/omarora/history/biographies-key-figures/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/history/biographies-key-figures/</guid>
+      <description>&lt;h1 id=&#34;biographies--key-figures&#34;&gt;Biographies &amp;amp; Key Figures&lt;/h1&gt;&#xA;&lt;p&gt;Content for Biographies &amp;amp; Key Figures goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Book Reviews &amp; Summaries</title>
+      <link>http://localhost:62070/omarora/history/book-reviews-summaries/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/history/book-reviews-summaries/</guid>
+      <description>&lt;h1 id=&#34;book-reviews--summaries&#34;&gt;Book Reviews &amp;amp; Summaries&lt;/h1&gt;&#xA;&lt;p&gt;Content for Book Reviews &amp;amp; Summaries goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Financial History &amp; Market Evolution</title>
+      <link>http://localhost:62070/omarora/history/financial-history-market-evolution/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/history/financial-history-market-evolution/</guid>
+      <description>&lt;p&gt;There is a standard way to write financial history: a sequence of manias and panics, each illustrating the irrationality of crowds. The tulip bubble, the South Sea Company, 1929, 1987, LTCM, 2008. The lesson is always the same — people get carried away, leverage accumulates, the crash comes — and the reader closes the book knowing that history repeats itself without knowing anything about why it repeats or what the structure of the repetition is.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>History of Mathematics &amp; Physics</title>
+      <link>http://localhost:62070/omarora/history/history-of-mathematics-physics/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/history/history-of-mathematics-physics/</guid>
+      <description>&lt;p&gt;History of science, done badly, is a list of names and dates. Newton invented calculus in 1666; Einstein published special relativity in 1905; the Standard Model was completed in 1973. These statements are all true and almost entirely uninformative. They tell you what happened without telling you &lt;em&gt;why it happened&lt;/em&gt; — what problem the invention was solving, why existing tools were insufficient, why the solution took the form it did.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lessons from History</title>
+      <link>http://localhost:62070/omarora/history/lessons-from-history/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/history/lessons-from-history/</guid>
+      <description>&lt;h1 id=&#34;lessons-from-history&#34;&gt;Lessons from History&lt;/h1&gt;&#xA;&lt;p&gt;Content for Lessons from History goes here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

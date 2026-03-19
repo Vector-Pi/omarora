@@ -2,31 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Astronomy on Om Arora</title>
-    <link>http://localhost:1313/astronomy/</link>
+    <link>http://localhost:62070/omarora/astronomy/</link>
     <description>Recent content in Astronomy on Om Arora</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/astronomy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62070/omarora/astronomy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Astronomy for Beginners</title>
+      <link>http://localhost:62070/omarora/astronomy/astronomy-for-beginners/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/astronomy-for-beginners/</guid>
+      <description>&lt;p&gt;In March 2020, the schools shut and I had nothing to do. I was in grade 6 and the world had become my home and a screen. I found myself, like many people that year, spending hours on YouTube following one recommendation to the next. At some point I ended up watching a video about black holes — not a particularly good video, as I recall, more spectacle than substance — and then another, and then a documentary about the Voyager probes, and then Carl Sagan&amp;rsquo;s &lt;em&gt;Cosmos&lt;/em&gt;, which I did not fully understand but could not stop watching. By the time the lockdown lifted I was staying up past midnight trying to learn what a parsec was.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Astronomy for Starters</title>
-      <link>http://localhost:1313/astronomy/starters/</link>
+      <link>http://localhost:62070/omarora/astronomy/starters/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/astronomy/starters/</guid>
+      <guid>http://localhost:62070/omarora/astronomy/starters/</guid>
       <description>&lt;h1 id=&#34;getting-started-with-astronomy&#34;&gt;Getting Started with Astronomy&lt;/h1&gt;&#xA;&lt;p&gt;Where to begin? Get a pair of binoculars!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Exomoons</title>
-      <link>http://localhost:1313/astronomy/exomoons/</link>
+      <title>Cosmology &amp; Astrophysics Notes</title>
+      <link>http://localhost:62070/omarora/astronomy/cosmology-astrophysics-notes/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/astronomy/exomoons/</guid>
+      <guid>http://localhost:62070/omarora/astronomy/cosmology-astrophysics-notes/</guid>
+      <description>&lt;p&gt;These are notes in the genuine sense — a working document, not a polished account. They are organised by topic and represent a synthesis of what I have read, worked through, and thought about across several years of studying cosmology alongside the theoretical physics. Where I have personal views or where there is genuine scientific controversy, I say so.&lt;/p&gt;&#xA;&lt;p&gt;The connection between this page and my research is not accidental. The QGET framework — the approach to emergent spacetime from entanglement correlations described in my &lt;a href=&#34;http://localhost:62070/omarora/theoretical-physics/my-research-publications/&#34;&gt;research page&lt;/a&gt; — makes predictions about the early universe that should, eventually, be testable against CMB data. Understanding the observational cosmology side of that is part of the work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exomoons</title>
+      <link>http://localhost:62070/omarora/astronomy/exomoons/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/exomoons/</guid>
       <description>&lt;h1 id=&#34;hunting-for-exomoons&#34;&gt;Hunting for Exomoons&lt;/h1&gt;&#xA;&lt;p&gt;Why are they so hard to find?&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Basics</title>
-      <link>http://localhost:1313/astronomy/basics/</link>
+      <title>Inspiring Papers &amp; Books</title>
+      <link>http://localhost:62070/omarora/astronomy/inspiring-papers-books/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/astronomy/basics/</guid>
+      <guid>http://localhost:62070/omarora/astronomy/inspiring-papers-books/</guid>
+      <description>&lt;p&gt;A reading list is a catalogue. This page is something different — it is an account of papers and books that actually changed how I think, or that I found so extraordinary that I kept returning to them long after I first read them. Some are foundational texts that every physicist knows. Some are things I stumbled onto at the right moment. All of them are things I can point to and say: this affected what I do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Astronomy Projects</title>
+      <link>http://localhost:62070/omarora/astronomy/my-astronomy-projects/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/my-astronomy-projects/</guid>
+      <description>&lt;p&gt;I want to give an honest account of this, including the parts where I did not know what I was doing.&lt;/p&gt;&#xA;&lt;p&gt;Astronomy was the first thing I pursued seriously and independently. Before the physics, before the mathematics, before any research — there was just the sky and a curiosity about it that felt slightly unreasonable in its intensity. Grade 6, lockdown, Delhi. I have written about how that started in the &lt;a href=&#34;http://localhost:62070/omarora/astronomy/astronomy-for-beginners/&#34;&gt;beginners guide&lt;/a&gt;. This page is about what I actually did with it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Telescopes &amp; Observation Guides</title>
+      <link>http://localhost:62070/omarora/astronomy/telescopes-observation-guides/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/telescopes-observation-guides/</guid>
+      <description>&lt;h1 id=&#34;telescopes--observation-guides&#34;&gt;Telescopes &amp;amp; Observation Guides&lt;/h1&gt;&#xA;&lt;p&gt;Content for Telescopes &amp;amp; Observation Guides goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Basics</title>
+      <link>http://localhost:62070/omarora/astronomy/basics/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/astronomy/basics/</guid>
       <description>&lt;h1 id=&#34;astronomical-coordinate-systems&#34;&gt;Astronomical Coordinate Systems&lt;/h1&gt;&#xA;&lt;p&gt;Understanding RA and Dec&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

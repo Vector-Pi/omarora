@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/omarora/livereload.js?mindelay=10&amp;v=2&amp;port=62070&amp;path=omarora/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Prerequisites for QFT &amp; GR · Om Arora</title>
+  <meta name="description" content="Personal website of Om Arora - Mathematics, Physics, AI Research.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="http://localhost:62070/omarora/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body,{delimiters:[
+      {left:'$$',right:'$$',display:true},
+      {left:'$',right:'$',display:false},
+      {left:'\\(',right:'\\)',display:false},
+      {left:'\\[',right:'\\]',display:true}
+    ]});">
+  </script>
+</head>
+
+<body>
+
+<button class="mobile-nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="site-wrapper">
+
+  <aside class="sidebar-column" id="sidebar">
+
+    <div class="sidebar-identity">
+      <a href="http://localhost:62070/" class="sidebar-site-name">Om Arora</a>
+      <span class="sidebar-tagline">researcher · builder · thinker</span>
+    </div>
+
+    <nav class="sidebar-nav" aria-label="Main navigation">
+      <ul>
+        
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/"
+                 >
+                Home
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/now/"
+                 >
+                Now
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/blog/"
+                 >
+                Blog
+              </a>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/mathematics/" class="menu-header">Mathematics</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/beginners-guide-to-advanced-mathematics/"
+                       >
+                      Beginners Guide to Advanced Mathematics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/prerequisites-for-mathematical-research/"
+                       >
+                      Prerequisites for Mathematical Research
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/olympiad-problem-solving-resources/"
+                       >
+                      Olympiad Problem-Solving &amp; Resources
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/reading-notes-papers/"
+                       >
+                      Reading Notes &amp; Papers
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/theoretical-physics/" class="menu-header">Theoretical Physics</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/starting-with-theoretical-physics/"
+                       >
+                      Starting with Theoretical Physics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/math-prerequisites-for-qft-gr/"
+                       >
+                      Math Prerequisites for QFT &amp; GR
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/my-research-publications/"
+                       >
+                      My Research &amp; Publications
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/open-problems-im-exploring/"
+                       >
+                      Open Problems I’m Exploring
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/lecture-notes-summaries/"
+                       >
+                      Lecture Notes &amp; Summaries
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/astronomy/" class="menu-header">Astronomy</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/astronomy-for-beginners/"
+                       >
+                      Astronomy for Beginners
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/cosmology-astrophysics-notes/"
+                       >
+                      Cosmology &amp; Astrophysics Notes
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/my-astronomy-projects/"
+                       >
+                      My Astronomy Projects
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/inspiring-papers-books/"
+                       >
+                      Inspiring Papers &amp; Books
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/quantitative-finance/" class="menu-header">Quantitative Finance</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/"
+                       >
+                      Introduction to Quantitative Finance
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/math-coding-prerequisites/"
+                       >
+                      Math &amp; Coding Prerequisites
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/my-trading-projects/"
+                       >
+                      My Trading Projects
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/research-in-market-microstructure/"
+                       >
+                      Research in Market Microstructure
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/resources-backtesting-tutorials/"
+                       >
+                      Resources &amp; Backtesting Tutorials
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/philosophy/" class="menu-header">Philosophy</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/schools-of-thought/"
+                       >
+                      Schools of Thought
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/great-thinkers-essays/"
+                       >
+                      Great Thinkers &amp; Essays
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/philosophy-for-stem-students/"
+                       >
+                      Philosophy for STEM Students
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/history/" class="menu-header">History</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/history-of-mathematics-physics/"
+                       >
+                      History of Mathematics &amp; Physics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/financial-history-market-evolution/"
+                       >
+                      Financial History &amp; Market Evolution
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/lessons-from-history/"
+                       >
+                      Lessons from History
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/art-music/" class="menu-header">Art &amp; Music</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/music-i-create-listen-to/"
+                       >
+                      Music I Create &amp; Listen To
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/inspiration-from-art-science/"
+                       >
+                      Inspiration from Art &amp; Science
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/creative-process-tools/"
+                       >
+                      Creative Process &amp; Tools
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/recommendations-reviews/"
+                       >
+                      Recommendations &amp; Reviews
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+
+    <div class="sidebar-block">
+      <h3>Documents</h3>
+      <ul class="quick-links">
+        <li><a href="http://localhost:62070/omarora/files/cv.pdf">Curriculum Vitae</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-footer">
+      <p>© 2026 Om Arora</p>
+    </div>
+
+  </aside>
+
+  <main class="main-content-column" id="mainContent">
+    
+<article class="post">
+  <header>
+    <h1>Math Prerequisites for QFT &amp; GR</h1>
+    <p class="post-meta">
+      6 February 2026
+      
+    </p>
+  </header>
+  <div class="post-content"><p>There is a version of this guide that lists twenty subjects, provides no ordering, and leaves you with no idea where to start. This is not that version.</p>
+<p>What follows is the complete mathematical infrastructure for serious work in quantum field theory and general relativity — every subject, in the order you should encounter it, with honest assessments of why each one is needed and which resources are actually worth your time. The guide is structured in tiers: foundations that everyone needs before anything else; intermediate mathematics that comes alongside the physics; and advanced mathematics that becomes necessary as you approach gauge theory, BRST quantisation, and differential geometric GR.</p>
+<p>I have worked through most of this material. Where I have not, I say so. The resources I recommend are ones I have either used directly or have examined carefully.</p>
+<hr>
+<h2 id="how-to-use-this-guide">How to Use This Guide</h2>
+<p>The mathematics and physics develop together. You do not need to complete all of calculus before beginning mechanics, or all of differential geometry before beginning GR. What you do need is to never be more than a little ahead of the mathematics when you open a physics text.</p>
+<p>The guide is divided into six tiers:</p>
+<ul>
+<li><strong>Tier 0</strong> — Before everything: proof-writing and basic set theory</li>
+<li><strong>Tier 1</strong> — Calculus and linear algebra</li>
+<li><strong>Tier 2</strong> — Intermediate analysis, ODEs, PDEs</li>
+<li><strong>Tier 3</strong> — Complex analysis, Fourier analysis, group theory</li>
+<li><strong>Tier 4</strong> — Differential geometry, topology, Lie groups and Lie algebras</li>
+<li><strong>Tier 5</strong> — Advanced: functional analysis, fibre bundles, algebraic topology, index theory</li>
+</ul>
+<p>Each tier is a prerequisite for the next. The physics you can do expands substantially at each tier.</p>
+<hr>
+<h2 id="tier-0--proof-writing-and-logic">Tier 0 — Proof-Writing and Logic</h2>
+<h3 id="why-it-matters">Why it matters</h3>
+<p>Everything in this guide involves reading and writing proofs. Doing physics at this level without being able to follow a mathematical argument is like trying to read a text in a language you do not know. You will get an impression. You will not understand it.</p>
+<p>This tier is not glamorous and most people skip it. Skipping it is a mistake that costs months later.</p>
+<h3 id="what-you-need">What you need</h3>
+<ul>
+<li>Propositional and predicate logic: what a valid argument is</li>
+<li>Set theory: sets, functions, relations, cardinality</li>
+<li>Proof techniques: direct proof, proof by contradiction, proof by induction, contrapositive</li>
+<li>The language of mathematics: quantifiers, definitions, theorems, lemmas, corollaries</li>
+</ul>
+<h3 id="resources">Resources</h3>
+<p><strong>Book of Proof</strong> — Richard Hammack
+Free at <a href="https://www.people.vcu.edu/~rhammack/BookOfProof/">bookofproof.com</a>. The most accessible introduction to proof-writing. Read Parts I and II before anything else on this page.</p>
+<p><strong>How to Prove It</strong> — Daniel Velleman
+More thorough than Hammack, structured around logic and set theory from the ground up. The chapter on mathematical induction is excellent. If you have time, do this alongside Hammack rather than instead of it.</p>
+<p><strong>How to Solve It</strong> — George Pólya
+Not a proof-writing book in the technical sense — more a philosophy of mathematical problem-solving. Read it once at the start. It changes how you approach every problem you encounter subsequently.</p>
+<hr>
+<h2 id="tier-1--calculus-and-linear-algebra">Tier 1 — Calculus and Linear Algebra</h2>
+<p>These two subjects are the substrate of everything else. Weak calculus or weak linear algebra creates problems at every subsequent stage. Do not move past this tier until you are genuinely fluent.</p>
+<h3 id="1a-calculus">1A. Calculus</h3>
+<h4 id="what-you-need-1">What you need</h4>
+<p><strong>Single-variable calculus:</strong> limits, derivatives, the fundamental theorem of calculus, integration techniques, Taylor series, sequences and series. Convergence matters — a physicist who does not understand what it means for a series to converge will make errors throughout their career.</p>
+<p><strong>Multivariable calculus:</strong> partial derivatives, the gradient, directional derivatives, multiple integrals, change of variables (Jacobians). The chain rule in higher dimensions. Lagrange multipliers.</p>
+<p><strong>Vector calculus:</strong> the gradient, divergence, and curl as objects with geometric meaning — not just formulas. The integral theorems — Green&rsquo;s theorem, Stokes&rsquo; theorem, the divergence theorem. These theorems appear in electrodynamics, in the action principle, and in differential geometry.</p>
+<h4 id="resources-1">Resources</h4>
+<p><strong>Calculus</strong> — Michael Spivak
+The rigorous treatment. Spivak proves everything carefully and forces you to understand why calculus works, not just how to use it. Slow and demanding; worth it. This is the calculus that mathematicians actually use.</p>
+<p><strong>Calculus</strong> — James Stewart
+The standard university calculus textbook. Less demanding than Spivak, more comprehensive in its coverage of techniques. Use it for computational fluency if Spivak is too slow. The multivariable chapters are reliable.</p>
+<p><strong>Calculus on Manifolds</strong> — Michael Spivak
+The short, rigorous treatment of multivariable calculus that leads directly into differential geometry. 140 pages. Dense but essential. Read this after basic multivariable calculus and before differential geometry.</p>
+<p><strong>Vector Calculus, Linear Algebra, and Differential Forms</strong> — Hubbard and Hubbard
+A unified treatment that does all three subjects together, emphasising the geometric meaning of each operation. The treatment of differential forms as the natural objects for integration is excellent and unusual at this level.</p>
+<p><strong>David Tong&rsquo;s Vector Calculus lecture notes</strong> — <a href="http://www.damtp.cam.ac.uk/user/tong/teaching.html">damtp.cam.ac.uk/user/tong/teaching.html</a>
+Free. Cambridge Part IA level. Covers gradient, divergence, curl, and the integral theorems with physical applications throughout. An ideal supplement to any calculus textbook.</p>
+<hr>
+<h3 id="1b-linear-algebra">1B. Linear Algebra</h3>
+<h4 id="what-you-need-2">What you need</h4>
+<p>The critical distinction: do not learn linear algebra as matrix manipulation. Learning linear algebra as matrix manipulation is learning a dialect of the subject, not the subject itself. You need the abstract framework — vector spaces, linear maps, eigenvalues — because this is what quantum mechanics and QFT are built on. Matrices are representations of linear maps, not the primary objects.</p>
+<p><strong>Core topics:</strong></p>
+<ul>
+<li>Abstract vector spaces and subspaces</li>
+<li>Linear maps and their matrices</li>
+<li>Bases, dimension, change of basis</li>
+<li>Eigenvalues and eigenvectors, diagonalisation</li>
+<li>Inner product spaces, orthonormal bases, the Gram–Schmidt process</li>
+<li>Self-adjoint (Hermitian) and unitary operators</li>
+<li>The spectral theorem</li>
+<li>Tensor products of vector spaces</li>
+<li>Dual spaces and covectors</li>
+</ul>
+<h4 id="resources-2">Resources</h4>
+<p><strong>Linear Algebra Done Right</strong> — Sheldon Axler
+The right book. Axler banishes determinants until the final chapter and builds the entire theory from linear maps. This is the approach that transfers to quantum mechanics and QFT. The treatment of self-adjoint operators and the spectral theorem is exactly what you need for quantum mechanics.</p>
+<p><strong>Linear Algebra</strong> — Friedberg, Insel, Spence
+More comprehensive than Axler, with determinants treated throughout. Reliable as a second read or reference. The problems are well-chosen.</p>
+<p><strong>Linear Algebra and Its Applications</strong> — Gilbert Strang
+Strang&rsquo;s MIT OpenCourseWare lectures are free and outstanding for building computational intuition. Watch them if the abstract approach in Axler is moving too slowly. But after Strang, read Axler — the abstract framework is what you actually need.</p>
+<p><strong>Introduction to Linear Algebra</strong> — Strang (companion textbook to the OCW course)
+The most used linear algebra textbook in the world. Reliable for computational fluency. Not the final word on the subject.</p>
+<p><strong>A note on tensor products:</strong> most linear algebra courses do not cover tensor products seriously. They are central to QFT and to differential geometry. The treatment in Axler&rsquo;s later chapters is a starting point; a more thorough treatment is in the Hubbard–Hubbard book above and in Nakahara (Tier 4).</p>
+<hr>
+<h2 id="tier-2--intermediate-analysis-odes-pdes">Tier 2 — Intermediate Analysis, ODEs, PDEs</h2>
+<h3 id="2a-real-analysis">2A. Real Analysis</h3>
+<h4 id="why-it-matters-1">Why it matters</h4>
+<p>Real analysis is why calculus works. The formal theory of limits, the precise definitions of continuity and differentiability, the theory of integration — these underlie everything. In physics, you use results from real analysis constantly without necessarily formalising them. But when things go wrong (divergent integrals, distributions, the rigorous path integral), you need the theory underneath.</p>
+<h4 id="what-you-need-3">What you need</h4>
+<ul>
+<li>The real number system: completeness, supremum, infimum</li>
+<li>Sequences and their convergence: the Cauchy criterion, subsequences, the Bolzano–Weierstrass theorem</li>
+<li>Continuous functions: uniform continuity, intermediate value theorem, extreme value theorem</li>
+<li>Differentiation: mean value theorem, Taylor&rsquo;s theorem with remainder</li>
+<li>Integration: Riemann integral, improper integrals, the fundamental theorem</li>
+<li>Sequences and series of functions: pointwise and uniform convergence</li>
+<li>The Lebesgue integral (at least the definitions and the key theorems: monotone convergence, dominated convergence)</li>
+</ul>
+<h4 id="resources-3">Resources</h4>
+<p><strong>Understanding Analysis</strong> — Stephen Abbott
+The humane entry point. Abbott explains motivation before formalism and gives you time to assimilate each idea. The chapter on uniform convergence and the chapter on the Cantor set are particularly good. Read this first.</p>
+<p><strong>Principles of Mathematical Analysis</strong> — Walter Rudin (Baby Rudin)
+Terse, elegant, demanding, correct. Every proof is exactly right. Work through it slowly — this is the standard that physicists doing serious mathematics are held to. Use Abbott to understand what Rudin is doing and why.</p>
+<p><strong>Real Mathematical Analysis</strong> — Charles Pugh
+Between Abbott and Rudin in style, with better visual intuition. An excellent second read.</p>
+<hr>
+<h3 id="2b-ordinary-differential-equations">2B. Ordinary Differential Equations</h3>
+<h4 id="why-it-matters-2">Why it matters</h4>
+<p>Every equation of motion in classical mechanics is an ODE. The Schrödinger equation for time-independent problems reduces to ODEs. The geodesic equation in GR is an ODE system. Knowing ODEs is knowing the basic language of dynamics.</p>
+<h4 id="what-you-need-4">What you need</h4>
+<ul>
+<li>First-order ODEs: separation of variables, integrating factors, exact equations</li>
+<li>Second-order linear ODEs with constant coefficients</li>
+<li>The method of Frobenius (power series solutions): essential for special functions</li>
+<li>Systems of ODEs and phase plane analysis</li>
+<li>Existence and uniqueness (Picard&rsquo;s theorem)</li>
+<li>Special functions: Legendre polynomials, Bessel functions, spherical harmonics — these arise constantly in physics</li>
+</ul>
+<h4 id="resources-4">Resources</h4>
+<p><strong>Ordinary Differential Equations</strong> — V.I. Arnold
+The geometric approach to ODEs, emphasising phase flows and the qualitative behaviour of solutions. More abstract than most physics ODE courses but more illuminating. Arnold&rsquo;s writing is exceptional. Read this alongside a more computational treatment.</p>
+<p><strong>Ordinary Differential Equations</strong> — Tenenbaum and Pollard
+Comprehensive, systematic, and practical. Good for building technique before Arnold.</p>
+<p><strong>Mathematical Methods for Physics and Engineering</strong> — Riley, Hobson, Bence
+The encyclopaedic reference for mathematical methods in physics. Covers ODEs, PDEs, complex analysis, linear algebra, group theory, Fourier analysis, and more. Not the deepest treatment of any individual subject but reliable and comprehensive. Use it as a reference alongside more focused texts.</p>
+<hr>
+<h3 id="2c-partial-differential-equations">2C. Partial Differential Equations</h3>
+<h4 id="why-it-matters-3">Why it matters</h4>
+<p>The fundamental equations of physics are PDEs: Maxwell&rsquo;s equations, the Schrödinger equation, the Klein–Gordon equation, the Dirac equation, the Einstein field equations. Understanding PDEs at a meaningful level — not just knowing techniques but understanding what the solutions mean and why they behave as they do — is essential.</p>
+<h4 id="what-you-need-5">What you need</h4>
+<ul>
+<li>Classification: elliptic, parabolic, hyperbolic</li>
+<li>The wave equation: d&rsquo;Alembert&rsquo;s solution, solutions on bounded domains</li>
+<li>The heat equation: separation of variables, the diffusion kernel</li>
+<li>Laplace&rsquo;s equation: separation of variables, harmonic functions, boundary value problems</li>
+<li>The method of characteristics</li>
+<li>Green&rsquo;s functions: the fundamental solution, the free-space Green&rsquo;s function, physical interpretation</li>
+<li>Sturm–Liouville theory: eigenfunction expansions, completeness</li>
+<li>The Fourier transform as a PDE tool</li>
+</ul>
+<h4 id="resources-5">Resources</h4>
+<p><strong>Introduction to Partial Differential Equations</strong> — Walter Strauss
+Clear, concise, and focused on the main examples. Good for a first systematic treatment.</p>
+<p><strong>Partial Differential Equations</strong> — Lawrence Evans
+The rigorous graduate treatment. Demanding but the standard reference. The treatment of Sobolev spaces and weak solutions is the foundation for mathematical QFT.</p>
+<p><strong>Partial Differential Equations in Physics</strong> — Arnold Sommerfeld (Lectures on Theoretical Physics, Vol. 6)
+An older text but still excellent for physical intuition. Sommerfeld connects PDEs directly to physics throughout.</p>
+<p><strong>David Tong&rsquo;s lecture notes on various topics</strong> cover PDEs implicitly throughout the electrodynamics and field theory notes.</p>
+<hr>
+<h2 id="tier-3--complex-analysis-fourier-analysis-group-theory">Tier 3 — Complex Analysis, Fourier Analysis, Group Theory</h2>
+<h3 id="3a-complex-analysis">3A. Complex Analysis</h3>
+<h4 id="why-it-matters-4">Why it matters</h4>
+<p>Complex analysis is indispensable for QFT. Propagators in quantum field theory are distributions with poles in the complex plane; evaluating them requires contour integration. The $i\varepsilon$ prescription for the Feynman propagator is a statement about which side of the poles in the complex energy plane the contour passes. The analytic structure of scattering amplitudes is encoded in branch cuts and Riemann sheets. Dispersion relations use the Cauchy integral theorem. None of this makes sense without complex analysis.</p>
+<h4 id="what-you-need-6">What you need</h4>
+<ul>
+<li>Holomorphic functions and the Cauchy–Riemann equations</li>
+<li>Contour integration: the Cauchy integral theorem and Cauchy integral formula</li>
+<li>Laurent series and poles</li>
+<li>The residue theorem and its applications</li>
+<li>Analytic continuation</li>
+<li>Branch cuts and multi-valued functions (logarithm, square root)</li>
+<li>The argument principle and Rouché&rsquo;s theorem</li>
+<li>Conformal mappings</li>
+</ul>
+<h4 id="resources-6">Resources</h4>
+<p><strong>Visual Complex Analysis</strong> — Tristan Needham
+The geometric approach. Needham shows you what complex analysis looks like before writing down any formulas. The treatment of Möbius transformations, conformal maps, and the argument principle through visual intuition is unique. Read this first — it builds the geometric picture that makes the formalism natural.</p>
+<p><strong>Complex Analysis</strong> — Elias Stein and Rami Shakarchi
+The best conventional treatment. Part of the Princeton Lectures in Analysis. Rigorous, clear, and full of connections to other areas. The chapters on the Fourier transform and the Gamma function are particularly relevant to physics.</p>
+<p><strong>Complex Variables and Applications</strong> — Churchill and Brown
+The standard physics-oriented complex analysis textbook. Less demanding than Stein–Shakarchi but covers the contour integration and residue theorem material that physics needs. Use it for computational practice.</p>
+<p><strong>Complex Analysis</strong> — Lars Ahlfors
+The classic graduate reference. More demanding than either of the above. Worth knowing; not the first book.</p>
+<hr>
+<h3 id="3b-fourier-analysis">3B. Fourier Analysis</h3>
+<h4 id="why-it-matters-5">Why it matters</h4>
+<p>Fourier analysis is the mathematical foundation of the momentum representation in quantum mechanics, of field theory in momentum space, of the Feynman propagator, of signal processing and the Green&rsquo;s function method for PDEs. The relationship between position and momentum in quantum mechanics is the Fourier transform. You cannot understand QFT without understanding Fourier analysis.</p>
+<h4 id="what-you-need-7">What you need</h4>
+<ul>
+<li>Fourier series: convergence, Parseval&rsquo;s theorem, completeness</li>
+<li>The Fourier transform and inverse transform</li>
+<li>Properties: linearity, shift, convolution theorem, Plancherel&rsquo;s theorem</li>
+<li>Distributions (generalised functions): the Dirac delta, principal value, step function</li>
+<li>The Schwartz space and tempered distributions</li>
+<li>The Fourier transform of distributions</li>
+<li>Applications to PDEs and to quantum mechanics</li>
+</ul>
+<h4 id="resources-7">Resources</h4>
+<p><strong>Fourier Analysis: An Introduction</strong> — Stein and Shakarchi (Princeton Lectures in Analysis, Vol. 1)
+The rigorous treatment of Fourier series and the Fourier transform, with applications throughout. The chapters on distributions are the best starting point for the generalised function theory you need for QFT.</p>
+<p><strong>The Fourier Transform and Its Applications</strong> — Bracewell
+The engineer&rsquo;s approach, but with excellent physical intuition. Good for building the operational understanding before the rigorous theory.</p>
+<p><strong>Distributions and Their Applications in Physics</strong> — Friedlander
+The precise mathematical treatment of distributions. Essential reading before you encounter the Feynman propagator.</p>
+<p><strong>Mathematical Methods for Physicists</strong> — Arfken and Weber
+Covers Fourier analysis alongside every other mathematical method used in physics. Less rigorous than dedicated treatments but comprehensive and physically motivated. A reliable reference throughout the physics curriculum.</p>
+<hr>
+<h3 id="3c-group-theory-and-representation-theory">3C. Group Theory and Representation Theory</h3>
+<h4 id="why-it-matters-6">Why it matters</h4>
+<p>Symmetry is the central organising principle of theoretical physics. Every conservation law is a symmetry by Noether&rsquo;s theorem. The elementary particles of the Standard Model are classified by representations of the Poincaré group and the gauge group $SU(3) \times SU(2) \times U(1)$. The structure of QFT is largely determined by what representations of the symmetry group the fields transform under. You cannot understand the Standard Model, gauge theory, or general relativity without group theory.</p>
+<h4 id="what-you-need-8">What you need</h4>
+<p><strong>Finite group theory:</strong></p>
+<ul>
+<li>Groups, subgroups, normal subgroups, quotient groups</li>
+<li>Homomorphisms, isomorphisms, the isomorphism theorems</li>
+<li>Group actions, orbits, stabilisers</li>
+<li>Permutation groups, Cayley&rsquo;s theorem</li>
+</ul>
+<p><strong>Representation theory:</strong></p>
+<ul>
+<li>Linear representations of finite groups</li>
+<li>Characters and character tables</li>
+<li>Irreducible representations and their classification</li>
+<li>Schur&rsquo;s lemma</li>
+<li>Tensor products of representations</li>
+</ul>
+<p><strong>Lie groups and Lie algebras</strong> (see Tier 4 for more depth):</p>
+<ul>
+<li>The definition of a Lie group</li>
+<li>The Lie algebra as the tangent space at the identity</li>
+<li>The exponential map</li>
+<li>$SU(2)$, $SO(3)$, and their relationship (the covering map)</li>
+<li>$SU(N)$, $U(1)$, the groups of the Standard Model</li>
+</ul>
+<h4 id="resources-8">Resources</h4>
+<p><strong>Algebra</strong> — Michael Artin
+The undergraduate algebra text that treats group theory, linear algebra, and their interaction. The chapters on group representations and Lie groups are excellent and unusually accessible. This is the starting point.</p>
+<p><strong>Group Theory in Physics</strong> — Wu-Ki Tung
+The standard reference for group theory as used in physics. Covers finite groups, continuous groups, Lie algebras, and the representations relevant to particle physics and quantum mechanics.</p>
+<p><strong>Lie Algebras in Particle Physics</strong> — Howard Georgi
+The physicist&rsquo;s treatment of Lie algebras and their representations, written explicitly for particle physics applications. Clear, direct, and focused on what matters for the Standard Model.</p>
+<p><strong>Groups, Representations and Physics</strong> — H.F. Jones
+More accessible than Georgi, with worked examples throughout. A good first exposure before Tung or Georgi.</p>
+<p><strong>Symmetries, Lie Algebras and Representations</strong> — Jürgen Fuchs and Christoph Schweigert
+The more mathematical treatment. Complete and rigorous.</p>
+<p><strong>Symmetries and Group Theory in Particle Physics</strong> — Giovanni Costa and Gianluigi Fogli
+Modern treatment with applications to the Standard Model throughout. Good for understanding how group theory connects to actual particle physics.</p>
+<hr>
+<h2 id="tier-4--differential-geometry-topology-lie-groups">Tier 4 — Differential Geometry, Topology, Lie Groups</h2>
+<p>This is where GR and gauge theory live. Everything before this tier is preparation; everything in this tier is the language in which the most important physics is written.</p>
+<hr>
+<h3 id="4a-topology">4A. Topology</h3>
+<h4 id="why-it-matters-7">Why it matters</h4>
+<p>Topology is the study of properties that are preserved under continuous deformation. For physics, it matters because: the configuration space of a physical system is a topological space; global properties of gauge field configurations (instantons, monopoles, the Aharonov–Bohm effect) are topological; the classification of particles by statistics involves the topology of the configuration space; and differential geometry is built on a topological foundation.</p>
+<h4 id="what-you-need-9">What you need</h4>
+<p><strong>Point-set topology:</strong></p>
+<ul>
+<li>Topological spaces, open and closed sets</li>
+<li>Continuity, homeomorphisms</li>
+<li>Compactness and connectedness</li>
+<li>Product and quotient topologies</li>
+<li>Metric spaces</li>
+</ul>
+<p><strong>Algebraic topology:</strong></p>
+<ul>
+<li>The fundamental group and homotopy</li>
+<li>Higher homotopy groups $\pi_n$</li>
+<li>Homology groups</li>
+<li>De Rham cohomology (treated in the differential geometry section)</li>
+<li>Fibre bundles (classified by homotopy)</li>
+</ul>
+<h4 id="resources-9">Resources</h4>
+<p><strong>Topology</strong> — James Munkres
+The standard undergraduate topology text. Part I (point-set topology) is thorough and clear. Part II (algebraic topology: the fundamental group and covering spaces) is excellent. The most reliable starting point.</p>
+<p><strong>Topology Without Tears</strong> — Sidney Morris
+Free online. More accessible than Munkres for a complete beginner.</p>
+<p><strong>Algebraic Topology</strong> — Allen Hatcher
+Free at <a href="https://pi.math.cornell.edu/~hatcher/AT/ATpage.html">pi.math.cornell.edu/~hatcher</a>. The standard graduate reference for algebraic topology: the fundamental group, van Kampen&rsquo;s theorem, covering spaces, singular homology, cohomology, the cup product. Essential for understanding the topological aspects of gauge theory.</p>
+<hr>
+<h3 id="4b-differential-geometry">4B. Differential Geometry</h3>
+<h4 id="why-it-matters-8">Why it matters</h4>
+<p>Differential geometry is the mathematics of GR. The spacetime manifold is a pseudo-Riemannian manifold. The Einstein field equations are a statement about the Ricci curvature of this manifold. The geodesic equation is a statement about the Levi-Civita connection. None of these can be formulated, let alone solved, without differential geometry.</p>
+<p>For gauge theory: gauge fields are connections on principal fibre bundles. The field strength tensor is the curvature of the connection. The structure group is the gauge group. Gauge transformations are changes of local trivialisation of the bundle. This is the full mathematical picture, and it requires differential geometry.</p>
+<h4 id="what-you-need-10">What you need</h4>
+<p><strong>Smooth manifolds:</strong></p>
+<ul>
+<li>Manifolds, charts, atlases, smooth maps</li>
+<li>Tangent spaces and tangent vectors</li>
+<li>Tangent and cotangent bundles</li>
+<li>Vector fields, 1-forms, tensor fields</li>
+<li>The Lie bracket of vector fields</li>
+<li>Flows and the Lie derivative</li>
+</ul>
+<p><strong>Differential forms:</strong></p>
+<ul>
+<li>$p$-forms and the exterior algebra</li>
+<li>The exterior derivative $d$</li>
+<li>Closed and exact forms</li>
+<li>Integration of differential forms on manifolds</li>
+<li>Stokes&rsquo; theorem in the language of forms (which unifies Green&rsquo;s, Gauss&rsquo;, and Stokes&rsquo; classical theorems)</li>
+<li>De Rham cohomology</li>
+</ul>
+<p><strong>Riemannian geometry:</strong></p>
+<ul>
+<li>Riemannian metrics and pseudo-Riemannian metrics (Lorentzian signature for GR)</li>
+<li>Connections and covariant derivatives</li>
+<li>The Levi-Civita connection</li>
+<li>Geodesics and the geodesic equation</li>
+<li>Curvature: the Riemann curvature tensor, Ricci tensor, Ricci scalar</li>
+<li>The Bianchi identities</li>
+<li>Parallel transport and holonomy</li>
+</ul>
+<p><strong>Fibre bundles:</strong></p>
+<ul>
+<li>Principal $G$-bundles</li>
+<li>Associated vector bundles</li>
+<li>Connections on principal bundles</li>
+<li>Curvature of a connection</li>
+<li>Gauge transformations as bundle automorphisms</li>
+<li>The Yang–Mills field as the curvature of a connection</li>
+</ul>
+<h4 id="resources-10">Resources</h4>
+<p><strong>Introduction to Smooth Manifolds</strong> — John Lee
+The best modern textbook on smooth manifolds. Clear, thorough, and mathematically rigorous. The treatment of differential forms, the exterior derivative, and Stokes&rsquo; theorem is the best available. The transition from manifolds to Riemannian geometry is handled carefully. This is the primary reference for the manifold and differential form material.</p>
+<p><strong>Riemannian Manifolds: An Introduction to Curvature</strong> — John Lee
+The sequel to the above. Covers the Levi-Civita connection, geodesics, and curvature in detail. More rigorous than any physics GR textbook.</p>
+<p><strong>Differential Geometry of Curves and Surfaces</strong> — Carmo
+A gentler entry through surfaces in $\mathbb{R}^3$ before the full abstract theory. Good for building geometric intuition before Lee. The intrinsic geometry of surfaces (the first and second fundamental forms, Gaussian curvature) sets up the right mental pictures.</p>
+<p><strong>Geometry, Topology and Physics</strong> — Nakahara
+The bridge between mathematics and physics. Covers homology, homotopy, manifolds, differential forms, Riemannian geometry, complex manifolds, fibre bundles, connections, characteristic classes, and index theorems — all with physical applications. Each chapter ends with applications to physics. Wald&rsquo;s GR makes more sense after Nakahara; so does Peskin and Schroeder on gauge theory.</p>
+<p>It is not the most rigorous treatment — Lee is more rigorous — and it is not always the most readable. But it is the most complete bridge from mathematical physics to differential geometry and topology. Essential.</p>
+<p><strong>The Geometry of Physics</strong> — Theodore Frankel
+Covers similar material to Nakahara but with more emphasis on the geometric picture and more physical motivation. Wordier than Nakahara; some find it more readable. The treatment of fibre bundles and their applications to electromagnetism and Yang–Mills theory is particularly good.</p>
+<p><strong>Gauge Fields, Knots and Gravity</strong> — John Baez and Javier Muniain
+The most readable treatment of the connection between gauge theory and geometry. Covers differential forms, Hodge theory, electromagnetism as a $U(1)$ gauge theory, Yang–Mills theory, and an introduction to gravity. The exposition is excellent and the conceptual clarity is high. A good companion to Nakahara.</p>
+<p><strong>Differential Forms and Connections</strong> — R.W.R. Darling
+A focused treatment of differential forms and connections, written for physicists and applied mathematicians. More concise than Lee and more rigorous than Nakahara.</p>
+<hr>
+<h3 id="4c-lie-groups-and-lie-algebras-advanced">4C. Lie Groups and Lie Algebras (Advanced)</h3>
+<p>The finite group theory in Tier 3 gets you to the definitions of the gauge groups. The Lie group theory in this tier gets you to their geometry — the exponential map, the adjoint representation, root systems, the classification of simple Lie algebras.</p>
+<h4 id="resources-11">Resources</h4>
+<p><strong>Lie Groups, Lie Algebras, and Representations</strong> — Brian Hall
+The best starting point for the full theory. Clear, rigorous, and accessible to someone with linear algebra and real analysis. The treatment of the relationship between Lie groups and Lie algebras via the exponential map is excellent.</p>
+<p><strong>Representation Theory: A First Course</strong> — Fulton and Harris
+The comprehensive treatment of Lie group representations, including the classification of complex semisimple Lie algebras, root systems, and Dynkin diagrams. The standard graduate reference.</p>
+<p><strong>Geometry of Lie Groups</strong> — Rosenfeld
+More geometric in flavour. For the differential-geometric perspective on Lie groups.</p>
+<hr>
+<h2 id="tier-5--advanced-functional-analysis-characteristic-classes-index-theory">Tier 5 — Advanced: Functional Analysis, Characteristic Classes, Index Theory</h2>
+<p>This tier is necessary for rigorous QFT, for advanced gauge theory, and for understanding the relationship between physics and modern mathematics (the Atiyah–Singer index theorem, anomalies in gauge theories, topological field theory).</p>
+<hr>
+<h3 id="5a-functional-analysis">5A. Functional Analysis</h3>
+<h4 id="why-it-matters-9">Why it matters</h4>
+<p>The rigorous foundation of quantum mechanics is functional analysis: the Hilbert space of states, the operators representing observables (which are unbounded and require careful treatment), the spectral theorem for self-adjoint operators, and the theory of distributions. In QFT, functional analysis underlies the path integral (as an integral over a function space), the renormalisation group (as a flow on a space of theories), and axiomatic QFT.</p>
+<h4 id="what-you-need-11">What you need</h4>
+<ul>
+<li>Banach spaces and Hilbert spaces</li>
+<li>Bounded and unbounded operators</li>
+<li>The spectral theorem for self-adjoint operators</li>
+<li>Compact operators</li>
+<li>The Riesz representation theorem</li>
+<li>Sobolev spaces (function spaces that carry derivative information)</li>
+<li>Tempered distributions and their Fourier transforms</li>
+</ul>
+<h4 id="resources-12">Resources</h4>
+<p><strong>Functional Analysis</strong> — Walter Rudin (Real and Complex Analysis or Functional Analysis)
+The standard rigorous treatment. Demanding. Covers the spectral theorem and the theory of distributions.</p>
+<p><strong>Quantum Theory for Mathematicians</strong> — Brian Hall
+The treatment of quantum mechanics from the perspective of functional analysis. Hall proves the spectral theorem carefully and connects it to the physics throughout. Essential if you want a rigorous foundation for quantum mechanics.</p>
+<p><strong>Methods of Modern Mathematical Physics</strong> — Reed and Simon (four volumes)
+The encyclopaedic reference for functional analysis as applied to quantum mechanics and QFT. Volumes I (Functional Analysis) and II (Fourier Analysis, Self-Adjointness) are the core. Essential for anyone working on rigorous QFT.</p>
+<hr>
+<h3 id="5b-characteristic-classes">5B. Characteristic Classes</h3>
+<h4 id="why-it-matters-10">Why it matters</h4>
+<p>Characteristic classes are topological invariants of fibre bundles. They classify bundles and encode information about the global topology of gauge field configurations. The Chern classes are the characteristic classes of complex vector bundles; the Pontryagin classes of real bundles. The first Chern class of a $U(1)$ bundle encodes the magnetic monopole charge. The second Chern class of a $SU(2)$ bundle is the instanton number. Anomalies in gauge theories are detected by characteristic classes (the descent formalism and the Atiyah–Singer index theorem).</p>
+<h4 id="resources-13">Resources</h4>
+<p><strong>Characteristic Classes</strong> — Milnor and Stasheff
+The mathematical reference. Rigorous and complete.</p>
+<p><strong>Geometry, Topology and Physics</strong> — Nakahara
+Covers characteristic classes with physical applications in Chapters 11–12. A more accessible starting point than Milnor–Stasheff.</p>
+<p><strong>Anomalies in Quantum Field Theory</strong> — Bertlmann
+A complete treatment of anomalies in gauge theories from the perspective of differential geometry and characteristic classes.</p>
+<hr>
+<h3 id="5c-index-theory">5C. Index Theory</h3>
+<h4 id="why-it-matters-11">Why it matters</h4>
+<p>The Atiyah–Singer index theorem relates the analytical index of an elliptic differential operator to topological invariants of the underlying manifold. This connects functional analysis, differential geometry, and topology in one of the deepest results of 20th-century mathematics. In physics, it underlies: the chiral anomaly (the index of the Dirac operator gives the number of zero modes); the Witten index in supersymmetric quantum mechanics; and the mathematical theory of topological field theories.</p>
+<h4 id="resources-14">Resources</h4>
+<p><strong>The Index of Elliptic Operators I–V</strong> — Atiyah and Singer
+The original papers. Available in Atiyah&rsquo;s collected works.</p>
+<p><strong>The Atiyah–Singer Index Theorem</strong> — Patrick Shanahan
+An accessible introduction to the theorem and its proof, aimed at mathematicians.</p>
+<p><strong>Heat Kernels and Dirac Operators</strong> — Berline, Getzler, Vergne
+The modern approach to the index theorem via the heat kernel and supersymmetric quantum mechanics.</p>
+<hr>
+<h2 id="special-topic-spinors-and-clifford-algebras">Special Topic: Spinors and Clifford Algebras</h2>
+<p>Spinors appear throughout theoretical physics — in the Dirac equation, in supersymmetry, in string theory. They are not vector fields or tensor fields; they are sections of the spinor bundle, which requires the frame bundle and the spin structure of the manifold.</p>
+<h4 id="resources-15">Resources</h4>
+<p><strong>Spinors and Spacetime</strong> — Penrose and Rindler (two volumes)
+The complete mathematical treatment of spinors in the context of general relativity and conformal geometry. Dense but definitive.</p>
+<p><strong>Geometry, Spinors and Applications</strong> — Donal Husemoller
+A more accessible treatment of the relationship between Clifford algebras, spinors, and geometry.</p>
+<p><strong>Quantum Theory, Groups and Representations</strong> — Peter Woit
+Covers the representation theory relevant to quantum mechanics and QFT, including the Dirac equation and spinors, from a rigorous mathematical perspective. Free online at <a href="https://www.math.columbia.edu/~woit/QM/quantum.pdf">math.columbia.edu/~woit/QM/quantum.pdf</a>.</p>
+<hr>
+<h2 id="the-physicists-mathematics-references">The Physicist&rsquo;s Mathematics References</h2>
+<h3 id="books-that-cover-multiple-topics">Books that cover multiple topics</h3>
+<p><strong>Mathematical Methods for Physicists</strong> — Arfken, Weber, Harris
+The standard omnibus reference. Covers linear algebra, complex analysis, special functions, PDEs, group theory, and more in a single volume. Less rigorous than any dedicated text on each subject, but comprehensive and reliable. Every working physicist has a copy.</p>
+<p><strong>Mathematics for Physics</strong> — Stone and Goldbart
+A more mathematically careful version of Arfken. Covers differential geometry and topology as well as the standard analytical tools. Free online. A better book than Arfken for someone who wants to understand rather than just use.</p>
+<p><strong>Mathematical Physics</strong> — Robert Geroch
+A rigorous treatment of the mathematical structures that appear in theoretical physics — topology, groups, Hilbert spaces, distributions — from a mathematical physicist&rsquo;s perspective. Written with extraordinary clarity.</p>
+<p><strong>A Course in Modern Mathematical Physics</strong> — Peter Szekeres
+Groups, Hilbert spaces, differential geometry, Lie groups, and fibre bundles — all in one volume, at graduate level. A very good book that does not get enough attention.</p>
+<p><strong>Mathematical Methods of Classical Mechanics</strong> — V.I. Arnold
+The geometric approach to classical mechanics: symplectic geometry, Hamiltonian flows, Arnold–Liouville integrability. Essential for understanding the mathematical structure of classical mechanics and its quantisation.</p>
+<hr>
+<h2 id="the-honest-summary">The Honest Summary</h2>
+<p>For QFT at Peskin–Schroeder level, you need through Tier 3: calculus, linear algebra, ODEs, PDEs, complex analysis, Fourier analysis, and basic group theory.</p>
+<p>For gauge theory at Tong&rsquo;s level, you need Tier 4: differential geometry, fibre bundles, connections, Lie groups.</p>
+<p>For GR at Wald&rsquo;s level, you need Tiers 3 and 4 done properly: all the analysis, and all the differential geometry.</p>
+<p>For BRST quantisation and the mass gap problem (my own area), you need Tiers 3, 4, and parts of 5: Lie algebras, differential geometry, fibre bundles, and some functional analysis.</p>
+<p>For the rigorous mathematical foundations of QFT — constructive QFT, axiomatic approaches, the mathematical theory of the path integral — you need everything through Tier 5, and then some.</p>
+<p>The good news is that you do not need to complete each tier before starting the physics. In practice you learn mathematics and physics in parallel, returning to the mathematics when the physics demands it. The sequencing matters — you cannot understand the geodesic equation without connections, and you cannot understand connections without fibre bundles, and you cannot understand fibre bundles without manifolds — but the overall enterprise is a spiral, not a ladder.</p>
+<p>One thing I have found consistently: the mathematics makes the physics more beautiful, not more complicated. Once you understand that a gauge field is a connection on a principal bundle, and that the field strength is the curvature of that connection, the entire structure of gauge theory becomes transparent. The mathematical language is not obscuring the physics — it is revealing what the physics actually is.</p>
+<hr>
+<p><em>Last updated March 2026.</em></p>
+</div>
+</article>
+
+  </main>
+
+</div>
+
+<script>
+(function () {
+  var toggle  = document.getElementById('navToggle');
+  var sidebar = document.getElementById('sidebar');
+  var overlay = document.getElementById('sidebarOverlay');
+
+  toggle.addEventListener('click', function () {
+    var isOpen = sidebar.classList.toggle('open');
+    overlay.classList.toggle('visible', isOpen);
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  overlay.addEventListener('click', function () {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('visible');
+    toggle.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      sidebar.classList.remove('open');
+      overlay.classList.remove('visible');
+      document.body.style.overflow = '';
+    }
+  });
+
+  document.querySelectorAll('.menu-group').forEach(function (group) {
+    var header = group.querySelector('.menu-header');
+    if (!header) return;
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var wasOpen = group.classList.contains('open');
+      document.querySelectorAll('.menu-group').forEach(function (g) { g.classList.remove('open'); });
+      if (!wasOpen) group.classList.add('open');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

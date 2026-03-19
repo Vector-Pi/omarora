@@ -2,71 +2,281 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:62070/omarora/now/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/mass-gap/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/millennium-prize-problems/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/physics/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/research/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/whatismassgapproblem/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/yang-mills/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/whyyangmills/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/execution/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/learning/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/mindset/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/philosophy/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/researchneedsbuilderthinking/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/deep-tech/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/entrepreneurship/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/whattalkingtoechangedmyresearch/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/experience/</loc>
+    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/hackathon/</loc>
+    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/myfirsthackathon/</loc>
+    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/programming/</loc>
+    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/technology/</loc>
+    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/diffinresearchandolympiadmath/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/mathematics/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/olympiad-math/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/becon/</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/becon26experience/</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/iitd/</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/innovation/</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/iitb/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/iitbmo/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/iitbmo26experience/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/olympiad/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/blog/</loc>
+    <lastmod>2026-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/meta/</loc>
+    <lastmod>2026-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/personal/</loc>
+    <lastmod>2026-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/whyiamwriting/</loc>
+    <lastmod>2026-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/art-music/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/astronomy/</loc>
+    <loc>http://localhost:62070/omarora/astronomy/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/astronomy/starters/</loc>
+    <loc>http://localhost:62070/omarora/astronomy/astronomy-for-beginners/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://localhost:62070/omarora/astronomy/starters/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/astronomy/exomoons/</loc>
+    <loc>http://localhost:62070/omarora/mathematics/beginners-guide-to-advanced-mathematics/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/handouts/</loc>
+    <loc>http://localhost:62070/omarora/history/biographies-key-figures/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/math/</loc>
+    <loc>http://localhost:62070/omarora/history/book-reviews-summaries/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/math-test/</loc>
+    <loc>http://localhost:62070/omarora/astronomy/cosmology-astrophysics-notes/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/meta/</loc>
+    <loc>http://localhost:62070/omarora/art-music/creative-process-tools/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:62070/omarora/astronomy/exomoons/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/astronomy/basics/</loc>
+    <loc>http://localhost:62070/omarora/history/financial-history-market-evolution/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/now/</loc>
+    <loc>http://localhost:62070/omarora/philosophy/great-thinkers-essays/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/physics/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:62070/omarora/handouts/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/research/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:62070/omarora/history/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/yang-mills/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:62070/omarora/history/history-of-mathematics-physics/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/algebra/</loc>
+    <loc>http://localhost:62070/omarora/art-music/inspiration-from-art-science/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/astronomy/inspiring-papers-books/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/theoretical-physics/lecture-notes-summaries/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/history/lessons-from-history/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/math/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/quantitative-finance/math-coding-prerequisites/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/theoretical-physics/math-prerequisites-for-qft-gr/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/blog/math-test/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/mathematics/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/art-music/music-i-create-listen-to/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/astronomy/my-astronomy-projects/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/mathematics/my-math-projects/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/theoretical-physics/my-research-publications/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/quantitative-finance/my-trading-projects/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/mathematics/olympiad-problem-solving-resources/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/theoretical-physics/open-problems-im-exploring/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/philosophy/personal-philosophy-notes/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/philosophy/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/philosophy/philosophy-for-stem-students/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/mathematics/prerequisites-for-mathematical-research/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/quantitative-finance/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/mathematics/reading-notes-papers/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/art-music/recommendations-reviews/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/quantitative-finance/research-in-market-microstructure/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/quantitative-finance/resources-backtesting-tutorials/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/philosophy/schools-of-thought/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/theoretical-physics/starting-with-theoretical-physics/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/astronomy/telescopes-observation-guides/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/astronomy/basics/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/theoretical-physics/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62070/omarora/tags/algebra/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/problems/imo-2025-problem-1/</loc>
+    <loc>http://localhost:62070/omarora/problems/imo-2025-problem-1/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/inequalities/</loc>
+    <loc>http://localhost:62070/omarora/tags/inequalities/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/problems/</loc>
+    <loc>http://localhost:62070/omarora/problems/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/number-theory/</loc>
+    <loc>http://localhost:62070/omarora/tags/number-theory/</loc>
     <lastmod>2024-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/problems/usamo-2024-problem-3/</loc>
+    <loc>http://localhost:62070/omarora/problems/usamo-2024-problem-3/</loc>
     <lastmod>2024-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:62070/omarora/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/research/</loc>
+    <loc>http://localhost:62070/omarora/research/</loc>
   </url>
 </urlset>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Art &amp; Music on Om Arora</title>
+    <link>http://localhost:62070/omarora/art-music/</link>
+    <description>Recent content in Art &amp; Music on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/art-music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creative Process &amp; Tools</title>
+      <link>http://localhost:62070/omarora/art-music/creative-process-tools/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/art-music/creative-process-tools/</guid>
+      <description>&lt;h1 id=&#34;creative-process--tools&#34;&gt;Creative Process &amp;amp; Tools&lt;/h1&gt;&#xA;&lt;p&gt;Content for Creative Process &amp;amp; Tools goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inspiration from Art &amp; Science</title>
+      <link>http://localhost:62070/omarora/art-music/inspiration-from-art-science/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/art-music/inspiration-from-art-science/</guid>
+      <description>&lt;h1 id=&#34;inspiration-from-art--science&#34;&gt;Inspiration from Art &amp;amp; Science&lt;/h1&gt;&#xA;&lt;p&gt;Content for Inspiration from Art &amp;amp; Science goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Music I Create &amp; Listen To</title>
+      <link>http://localhost:62070/omarora/art-music/music-i-create-listen-to/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/art-music/music-i-create-listen-to/</guid>
+      <description>&lt;h1 id=&#34;music-i-create--listen-to&#34;&gt;Music I Create &amp;amp; Listen To&lt;/h1&gt;&#xA;&lt;p&gt;Content for Music I Create &amp;amp; Listen To goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recommendations &amp; Reviews</title>
+      <link>http://localhost:62070/omarora/art-music/recommendations-reviews/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/art-music/recommendations-reviews/</guid>
+      <description>&lt;h1 id=&#34;recommendations--reviews&#34;&gt;Recommendations &amp;amp; Reviews&lt;/h1&gt;&#xA;&lt;p&gt;Content for Recommendations &amp;amp; Reviews goes here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

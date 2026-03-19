@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theoretical Physics on Om Arora</title>
+    <link>http://localhost:62070/omarora/theoretical-physics/</link>
+    <description>Recent content in Theoretical Physics on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/theoretical-physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture Notes &amp; Summaries</title>
+      <link>http://localhost:62070/omarora/theoretical-physics/lecture-notes-summaries/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/theoretical-physics/lecture-notes-summaries/</guid>
+      <description>&lt;p&gt;This page is a log of the lecture notes I have worked through, organised by subject. Every set of notes here is something I have actually read, not a list of things I intend to read. I have included personal notes on what each course does well, where it requires supplementing, and how it connects to my own research.&lt;/p&gt;&#xA;&lt;p&gt;The emphasis is on freely available material. With very few exceptions, everything below is free online. The theoretical physics community has been extraordinarily generous in this regard: the Cambridge Mathematical Tripos notes, the Harvard recordings, the Perimeter Institute lectures — collectively they constitute a complete graduate curriculum available to anyone with an internet connection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math Prerequisites for QFT &amp; GR</title>
+      <link>http://localhost:62070/omarora/theoretical-physics/math-prerequisites-for-qft-gr/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/theoretical-physics/math-prerequisites-for-qft-gr/</guid>
+      <description>&lt;p&gt;There is a version of this guide that lists twenty subjects, provides no ordering, and leaves you with no idea where to start. This is not that version.&lt;/p&gt;&#xA;&lt;p&gt;What follows is the complete mathematical infrastructure for serious work in quantum field theory and general relativity — every subject, in the order you should encounter it, with honest assessments of why each one is needed and which resources are actually worth your time. The guide is structured in tiers: foundations that everyone needs before anything else; intermediate mathematics that comes alongside the physics; and advanced mathematics that becomes necessary as you approach gauge theory, BRST quantisation, and differential geometric GR.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Research &amp; Publications</title>
+      <link>http://localhost:62070/omarora/theoretical-physics/my-research-publications/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/theoretical-physics/my-research-publications/</guid>
+      <description>&lt;p&gt;I want to write about this honestly, which means starting from the beginning rather than presenting a cleaned-up retrospective in which everything was planned and every step was deliberate.&lt;/p&gt;&#xA;&lt;p&gt;It was not. The research grew out of a genuine obsession with a problem that I found too important to ignore, pursued with the tools I had at the time, which were not the tools I would have chosen if I were designing the project from scratch. They grew as the project grew. That is how it actually happened.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Problems I’m Exploring</title>
+      <link>http://localhost:62070/omarora/theoretical-physics/open-problems-im-exploring/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/theoretical-physics/open-problems-im-exploring/</guid>
+      <description>&lt;p&gt;This page is different from most &amp;ldquo;open problems&amp;rdquo; pages. I am not listing problems I find interesting from a distance. These are problems I am in the middle of — problems that are directly connected to my published and ongoing work, that I think about most days, and that I do not currently know how to solve.&lt;/p&gt;&#xA;&lt;p&gt;The problems are organised into two clusters, corresponding to the two lines of research I described in the &lt;a href=&#34;http://localhost:62070/omarora/theoretical-physics/my-research-publications/&#34;&gt;publications page&lt;/a&gt;: the Yang–Mills mass gap programme and the QGET framework for emergent spacetime. Within each cluster I have listed both the specific technical tasks I am currently working on and the broader open problems in the field that they connect to.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Starting with Theoretical Physics</title>
+      <link>http://localhost:62070/omarora/theoretical-physics/starting-with-theoretical-physics/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/theoretical-physics/starting-with-theoretical-physics/</guid>
+      <description>&lt;p&gt;I started learning theoretical physics in seventh grade. Not the pop-science version — not &lt;em&gt;A Brief History of Time&lt;/em&gt; and YouTube videos about black holes, though those came first and are not nothing — but the actual subject, with equations. I did not know what I was doing at the time, and I made many of the mistakes that most people make. I read things before I had the mathematics for them. I spent months on topics that were less essential than I thought. I also stumbled onto resources that genuinely changed what I understood.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

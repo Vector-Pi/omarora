@@ -21,10 +21,6 @@ menu:
       name: "Blog"
       url: "/blog/"
       weight: 3
-    - identifier: "handouts"
-      name: "Handouts"
-      url: "/handouts/"
-      weight: 4
     - identifier: "mathematics"
       name: "Mathematics"
       url: "/mathematics/"
@@ -44,11 +40,6 @@ menu:
       url: "/mathematics/olympiad-problem-solving-resources/"
       parent: "mathematics"
       weight: 3
-    - identifier: "mathematics-my-math-projects"
-      name: "My Math Projects"
-      url: "/mathematics/my-math-projects/"
-      parent: "mathematics"
-      weight: 4
     - identifier: "mathematics-reading-notes-papers"
       name: "Reading Notes & Papers"
       url: "/mathematics/reading-notes-papers/"
@@ -92,11 +83,6 @@ menu:
       url: "/astronomy/astronomy-for-beginners/"
       parent: "astronomy"
       weight: 1
-    - identifier: "astronomy-telescopes-observation-guides"
-      name: "Telescopes & Observation Guides"
-      url: "/astronomy/telescopes-observation-guides/"
-      parent: "astronomy"
-      weight: 2
     - identifier: "astronomy-cosmology-astrophysics-notes"
       name: "Cosmology & Astrophysics Notes"
       url: "/astronomy/cosmology-astrophysics-notes/"
@@ -150,11 +136,7 @@ menu:
       url: "/philosophy/schools-of-thought/"
       parent: "philosophy"
       weight: 1
-    - identifier: "philosophy-personal-philosophy-notes"
-      name: "Personal Philosophy Notes"
-      url: "/philosophy/personal-philosophy-notes/"
-      parent: "philosophy"
-      weight: 2
+
     - identifier: "philosophy-great-thinkers-essays"
       name: "Great Thinkers & Essays"
       url: "/philosophy/great-thinkers-essays/"
@@ -179,16 +161,8 @@ menu:
       url: "/history/financial-history-market-evolution/"
       parent: "history"
       weight: 2
-    - identifier: "history-biographies-key-figures"
-      name: "Biographies & Key Figures"
-      url: "/history/biographies-key-figures/"
-      parent: "history"
-      weight: 3
-    - identifier: "history-book-reviews-summaries"
-      name: "Book Reviews & Summaries"
-      url: "/history/book-reviews-summaries/"
-      parent: "history"
-      weight: 4
+
+
     - identifier: "history-lessons-from-history"
       name: "Lessons from History"
       url: "/history/lessons-from-history/"

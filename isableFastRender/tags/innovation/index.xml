@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Innovation on Om Arora</title>
+    <link>http://localhost:62070/omarora/tags/innovation/</link>
+    <description>Recent content in Innovation on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/tags/innovation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BeCon 2026 — Notes from a Weekend That Stayed With Me</title>
+      <link>http://localhost:62070/omarora/blog/becon26experience/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/becon26experience/</guid>
+      <description>Reflections written two weeks after attending BeCon 2026 at IIT Delhi.</description>
+    </item>
+  </channel>
+</rss>
