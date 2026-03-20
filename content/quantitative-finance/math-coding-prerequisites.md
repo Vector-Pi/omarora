@@ -263,7 +263,7 @@ Practical implementation of systematic trading strategies in Python. Backtesting
 
 ### C++
 
-**C++ is the language of production quantitative finance.** The performance-critical systems — pricing engines, risk systems, execution infrastructure, market data processing — are written in C++. If you are targeting a derivatives pricing role at an investment bank or a quantitative trading role at a high-frequency firm, you need C++ at a level sufficient to implement numerical algorithms efficiently.
+**C++ is the language of production quantitative finance.** The performance-critical systems — pricing engines, risk systems, execution infrastructure, market data processing — are written in C++. If you are targeting a derivatives price modelling or quantitative trading, you need C++ at a level sufficient to implement numerical algorithms efficiently.
 
 **What you need to know for finance:**
 
@@ -297,7 +297,7 @@ The follow-up. Object-oriented design of financial software. Strategy patterns, 
 
 ### SQL
 
-**SQL is unavoidable in practice.** All financial data lives in databases — market data, trade data, position data, reference data. Every quant who does empirical work queries databases. You need to be able to write non-trivial SQL: joins (inner, left, outer), aggregations (`GROUP BY`), window functions (`ROW_NUMBER`, `LAG`, `LEAD`), and CTEs.
+**SQL is unavoidable in practice.** All financial data lives in databases — market data, trade data, position data, reference data. You need to be able to write non-trivial SQL: joins (inner, left, outer), aggregations (`GROUP BY`), window functions (`ROW_NUMBER`, `LAG`, `LEAD`), and CTEs.
 
 ---
 
@@ -309,7 +309,7 @@ These are the tools that appear specifically in quantitative finance, not in gen
 
 **Value at Risk (VaR):** the $\alpha$-quantile of the loss distribution over a given horizon. $\text{VaR}_\alpha = -\inf\{l : \mathbb{P}(L > l) \leq 1 - \alpha\}$. The standard risk measure in banking regulation (Basel III), but has the significant deficiency that it is not sub-additive and ignores tail structure beyond the quantile.
 
-**Expected Shortfall (ES / CVaR):** $\text{ES}_\alpha = \mathbb{E}[L | L > \text{VaR}_\alpha]$. The expected loss conditional on exceeding VaR. Sub-additive, coherent (in the sense of Artzner-Delbaen-Eber-Heath), and a better measure of tail risk. Mandated by Basel III.5.
+**Expected Shortfall (ES / CVaR):** $ES_\alpha = \mathbb{E}[L | L > \text{VaR}_\alpha]$. The expected loss conditional on exceeding VaR. Sub-additive, coherent (in the sense of Artzner-Delbaen-Eber-Heath), and a better measure of tail risk. Mandated by Basel III.5.
 
 **Coherent Risk Measures:** a risk measure $\rho$ is coherent if it satisfies: monotonicity, sub-additivity, positive homogeneity, and translation invariance. The axiomatic framework (Artzner et al. 1999) is the theoretical foundation of risk measurement.
 

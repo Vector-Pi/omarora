@@ -13,93 +13,10 @@ A note on what I mean by "recommend": I mean that I think the work repays seriou
 
 ---
 
-## Music
-
-### Recordings Worth Owning
-
-These are specific recordings of specific works, not just the works themselves. The recording matters. The same piece conducted or performed by different people can be a different experience in ways that are not subtle.
-
----
-
-**Glenn Gould — The Goldberg Variations (1981 recording)**
-
-The 1981 recording is the one. Gould made two recordings of the Goldbergs — the first in 1955, which was his debut album and became famous partly because of its technical brilliance and partly because of the audible hum of his voice singing along with the piano — and the last in 1981, a year before his death. The two recordings are almost incomparably different. The 1955 is fast, precise, almost athletic. The 1981 is slow, interior, and sounds like a man reviewing his life.
-
-The work itself: thirty variations on a ground bass, written by Bach in 1741. The aria that opens the piece returns at the end, note for note, but sounds entirely different because of what has happened between. You carry the variations into your hearing of it. I do not know another piece of music that uses this device more effectively.
-
-If you have not heard it: start with the aria alone. Then the complete work. The 1981 recording runs to about eighty minutes. It rewards undivided attention.
-
-The 1955 recording is also worth hearing, as a contrasting document. But if you own one, own the 1981.
-
----
-
-**Shostakovich — String Quartets Nos. 8 and 15, Fitzwilliam Quartet (Decca, 1977)**
-
-The Fitzwilliam recordings of the Shostakovich quartets are the reference point. The eighth quartet (C minor, Op. 110) I have written about on the [music page](/art-music/music-i-create-listen-to/) — it is autobiographical, densely allusive to his own earlier work, and opens with a slow fugue that is one of the most concentrated pieces of music I know. The fifteenth quartet (E-flat minor, Op. 144), his last, is six slow movements played without a pause between them, each marked *Elegy*, *Serenade*, *Intermezzo*, *Nocturne*, *Funeral March*, *Epilogue*. It is music written in full awareness of mortality, and it sounds like it in the best possible sense: clear, unhurried, with nothing left to prove.
-
-The Fitzwilliam recordings have the right quality: clean, close, without excessive reverb. You hear the instruments clearly. There are more recent recordings — the Emerson, the Kronos, the Brodsky — and some of them are technically very good. But the Fitzwilliam has the quality of directness that these pieces require.
-
----
-
-**Arvo Pärt — Tabula Rasa, ECM Records (1984)**
-
-The album that introduced Pärt's *tintinnabuli* style to a wide audience and is still the best introduction to it. Three works: *Fratres* (for violin and piano), *Cantus in memoriam Benjamin Britten* (for string orchestra and bell), and *Tabula Rasa* (for two solo violins, prepared piano, and string orchestra). All three were written in the late 1970s after Pärt spent several years in silence, having decided that his earlier compositional approach had reached a dead end.
-
-*Cantus* is the most immediately accessible. It is a single descending melodic line in A minor, repeated and extended — each repetition a longer version of the previous — against a single sustained bell note. It is eight minutes long and it does not do anything unexpected, and the effect is not monotony but a kind of accumulated weight. The *tintinnabuli* idea is simple: one voice moves in a melodic line, another arpeggiates the tonic triad. The restraint is extreme. The music works entirely through consistency rather than contrast.
-
-*Tabula Rasa* is the harder piece — the first movement (*Ludus*, play) is more rhythmically active, and the contrast with the second movement (*Silentium*, silence) is stark. The ending of *Silentium* is an extraordinarily slow dissolution — the texture thins and slows until there is almost nothing left.
-
-If you find after listening that you want more: *Spiegel im Spiegel* (mirror in the mirror), for piano and violin, and *Für Alina*, for solo piano. Both are on other albums. Both are essential.
-
----
-
-**Beethoven — Late String Quartets, Budapest String Quartet (Sony, 1952–53)**
-
-The Budapest recordings from the early 1950s are monophonic and old enough that the sound quality is obviously dated. I recommend them anyway, for a specific reason: they have a directness that many later, technically superior recordings do not. The late quartets — Op. 127, 130, 131, 132, 135, and the *Grosse Fuge* Op. 133 — are music that rewards a certain austerity of approach, and the Budapest bring that.
-
-The essential piece is Op. 131 in C# minor, in seven connected movements without a pause. It begins with a slow fugue and ends in a finale that is rhythmically violent, and the seven movements are arranged not as a conventional sonata structure but as something more like a spiritual journey, the sequence of which Beethoven himself described in enigmatic terms. He was completely deaf when he wrote it. The music sounds as if he could hear something the rest of us cannot.
-
-If the Budapest sound quality is prohibitive, the Busch Quartet's 1936 recordings of Op. 131 and Op. 132 are also worth finding. Alternatively, the Alban Berg Quartet's 1983 EMI recordings are the best modern option — technically flawless and with the right emotional temperature.
-
----
-
-**Jóhann Jóhannsson — Orphée (Deutsche Grammophon, 2016)**
-
-Jóhannsson's final studio album before his death in 2018. I have written at length about his work [elsewhere on this site](/art-music/music-i-create-listen-to/), but *Orphée* deserves a specific entry here because it is the album I consider his most fully realised.
-
-The concept is the Orpheus myth — the musician who descends to the underworld and loses his love by turning back to look — treated not as a narrative but as a sonic environment. The album does not tell the story; it creates the atmosphere of a particular kind of grief, the specific weight of something irreversible. *Flight from the City* is the best single entry point: a piano line of minimal materials, an electronic texture so subtle you are not initially certain it is there, and a quality of patience that the piece never abandons.
-
-The album was recorded with the BBC Philharmonic and has a clarity and warmth that his earlier work sometimes lacks. It is also his most accessible: the electronic elements are more restrained than in *IBM 1401, A User's Manual* (2006), the melodic lines more prominent than in the film scores. If you have not heard Jóhannsson, this is where I would start.
-
----
-
-**Bach — Cello Suites, Pablo Casals (EMI, recorded 1936–39)**
-
-The Casals recordings are monophonic, made in the late 1930s, and audibly imperfect. They are also irreplaceable. Casals was responsible, largely, for returning the cello suites to the concert repertoire — they had been considered technical studies rather than concert pieces, and he changed that by practising them daily for twelve years before he played them publicly.
-
-The six suites are for solo cello, without accompaniment. They cover the full range of the instrument's possibilities and the full range of Bach's formal ambition: each suite has the same basic structure (Prelude, Allemande, Courante, Sarabande, two Minuets or Bourées or Gavottes, and Gigue) and each is a different emotional world. The first suite in G major is the most familiar and in some ways the most perfect introduction. The sixth suite in D major, written for a five-string instrument that Casals did not have and played on a standard cello transposed, is the most ambitious.
-
-Later recordings — Rostropovich, Ma, Maisky — have better sound and greater technical polish. But the Casals is the recording I return to. There is something in the phrasing, the sense of weight on particular notes, that I have not found reproduced elsewhere.
-
----
-
-### Albums Recommended as Whole Objects
-
-Some albums are not best described track by track. They are experiences that require sequential listening.
-
-**Ólafur Arnalds — *some kind of peace* (Mercury KX, 2020).** His most technically sophisticated album. The Stratus system — two self-playing pianos responding algorithmically to his live performance — makes each version of each track slightly different. The record was written during a difficult personal period, and the emotional directness is not in spite of the technical complexity but through it. *Near Light* and *Undone* are the essential tracks, but the album works as a sequence.
-
-**Nils Frahm — *Spaces* (Erased Tapes, 2013).** A live recording, but one that does not feel like a document of a concert — it feels like a document of a practice. The range is extraordinary: from close solo piano to full electronic arrangements with bass synthesiser and organ. The version of *Says* here is the best version of that piece I have heard. *All Melody* (2018) is also worth owning, but *Spaces* is the more immediate entry.
-
-**Max Richter — *Sleep* (Deutsche Grammophon, 2015).** Eight hours long, intended to be listened to while sleeping. I have heard the complete work twice in full, and the experience is genuinely different from hearing the edited version (*From Sleep*, one hour). The length is the point — the slow evolution of the material over eight hours creates a relationship to the music that listening to a one-hour distillation does not. I am aware this is an impractical recommendation. It is genuine.
-
-**A Winged Victory for the Sullen — *Atomos* (Erased Tapes, 2014).** Commissioned as a dance score for choreographer Wayne McGregor. More minimal and drone-based than their debut album, and for that reason initially less accessible, but ultimately more rewarding. The pieces build very slowly and require patience. When they arrive — and they do arrive — the effect is substantial.
-
----
 
 ## Books
 
-I have written about specific books on other pages of this site — particularly on the [history of mathematics and physics page](/history/history-of-mathematics-physics/) and the [inspiration from art and science page](/art-music/inspiration-from-art-science/). What follows here is a more direct set of recommendations, with less analysis and more direct advocacy.
+I have written about specific books on other pages of this site — particularly on the [history of mathematics and physics page](/omarora/history/history-of-mathematics-physics/) and the [inspiration from art and science page](/omarora/art-music/inspiration-from-art-science/). What follows here is a more direct set of recommendations, with less analysis and more direct advocacy.
 
 ### Mathematics and Physics
 

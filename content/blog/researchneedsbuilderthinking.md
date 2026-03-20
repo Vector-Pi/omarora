@@ -169,7 +169,7 @@ If it does not, no external reward will make the work fulfilling.
 
 I am writing this mostly for my younger self.
 
-To remember that the goal is not to look like a researcher.  
+To remember that the goal is not to look like a researcher (what I initially tried to do).  
 The goal is to become someone who genuinely thinks.
 
 To remember that the process matters more than the metrics.  

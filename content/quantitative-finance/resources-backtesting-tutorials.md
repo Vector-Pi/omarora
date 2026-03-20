@@ -106,6 +106,7 @@ The standard measure of risk-adjusted return. Annualised by multiplying by $\sqr
 ### The Sortino Ratio
 
 Like the Sharpe ratio but uses only downside volatility in the denominator. Appropriate when the return distribution is asymmetric (more relevant for trend-following strategies that cut losses).
+$$\text{Sortino} = \frac{\mathbb{E}[R_p - R_f]}{\sigma_d}$$
 
 ### The Calmar Ratio
 

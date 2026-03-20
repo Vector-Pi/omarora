@@ -9,6 +9,8 @@ This page is a survey, not an advocacy. Every philosophical school described her
 
 The organisation is roughly chronological within the Western tradition, with sections at the end on Eastern philosophy and contemporary analytic philosophy. The divisions between schools are never as clean as a survey makes them appear — philosophers read and argue with each other across apparent boundaries — but the groupings are useful as first approximations.
 
+Note - This page contains the detaills only about the schools of thought, about which I have read and have some understanding. There are many other schools of thought, which I have not read and do not have any understanding of, notably the schools of thought in Indian, Chinese and Islamic philosophy.
+
 ---
 
 ## I — Ancient Greek Philosophy

@@ -4,7 +4,7 @@ date: 2026-02-06
 parent: "Mathematics"
 ---
 
-There are many guides to mathematical research. Most of them are written by people who have forgotten what it felt like to not know how to do it.
+There are many guides to mathematical research. Most of them are written by people who have seemingly forgotten what it felt like to not know how to do it.
 
 This is not that guide.
 
@@ -95,7 +95,7 @@ The practical mechanisms are:
 
 **Computing examples.** Before you can ask a good question, you need to know what the phenomenon looks like. The [OEIS](https://oeis.org/) is invaluable for discrete mathematics — you can compute a sequence and look it up. For open problems more broadly, [erdosproblems.com](https://erdosproblems.com) is an extraordinary resource. Paul Erdős spent his career proposing problems and attaching cash prizes to many of them. The site catalogues hundreds of open problems across combinatorics, number theory, and graph theory, ordered by difficulty and prize amount. Many are genuinely accessible to someone who is not yet a professional mathematician. Browsing it for an hour will do more for your sense of what mathematical research looks like than reading any advice document.
 
-**Reading broadly, not just deeply.** Lee Lady made this point repeatedly in his account of his own work. His most significant results often came from importing an idea from an area that most people in his specialty had never looked at. This is not unusual — it may be the most common mechanism by which new mathematics gets made.
+**Reading broadly, not just deeply.** Lee  made this point repeatedly in his account of his own work. His most significant results often came from importing an idea from an area that most people in his specialty had never looked at. This is not unusual — it may be the most common mechanism by which new mathematics gets made.
 
 ### Doing the Work
 
@@ -113,7 +113,7 @@ The moment you try to write a proof and find yourself stuck, you have located th
 
 Etingof recommends maintaining notes in LaTeX at all times, and this is genuinely valuable advice. Structuring your thoughts formally forces clarity — it exposes what you truly understand and what you are merely assuming.
 
-If you are setting up your workflow, you can refer to [My blog on LaTeX Setup]() for a starting point.
+If you are setting up your workflow, you can refer to [LaTeX FAQs By Evan](https://web.evanchen.cc/faq-latex.html) for a starting point.
 
 Also, a practical note: avoid relying entirely on Overleaf for everything. It is excellent for collaboration, but for serious, long-term work, a local setup is far more effective. There are also alternatives like TeXWolf worth exploring.
 
@@ -189,7 +189,7 @@ Every piece of advice about mathematical research eventually says: find a mentor
 
 A good mentor does not give you problems and then leave you alone. A good mentor — as Etingof describes and as Lee's account of working with Fred Richman illustrates — asks questions. When you have made no progress, a good mentor asks you what you tried and why it did not work. Those questions force you to articulate your thinking, and articulating your thinking is often how you discover what you missed.
 
-If you do not have access to a formal research mentor, the substitutes are: MathOverflow (for specific technical questions), the arXiv (for understanding what people are working on), and — most underrated — email. Mathematicians are more willing than most professionals to correspond with students who have read their work carefully and ask specific, well-formed questions. Cold emailing with a vague "I am interested in your research" goes nowhere. Cold emailing with "I read your 2021 paper on X, and I have a question about the proof of Lemma 3.2" often gets a response.
+If you do not have access to a formal research mentor (just as me in the pure math work), the substitutes are: MathOverflow (for specific technical questions), the arXiv (for understanding what people are working on), and —  speaking from experience — email. Mathematicians are more willing than most professionals to correspond with students who have read their work carefully and ask specific, well-formed questions. Cold emailing with a vague "I am interested in your research" goes nowhere. Cold emailing with "I read your 2021 paper on X, and I have a question about the proof of Lemma 3.2" often gets a response.
 
 ---
 

@@ -182,11 +182,7 @@ menu:
       url: "/art-music/inspiration-from-art-science/"
       parent: "art-music"
       weight: 2
-    - identifier: "art-music-creative-process-tools"
-      name: "Creative Process & Tools"
-      url: "/art-music/creative-process-tools/"
-      parent: "art-music"
-      weight: 3
+
     - identifier: "art-music-recommendations-reviews"
       name: "Recommendations & Reviews"
       url: "/art-music/recommendations-reviews/"

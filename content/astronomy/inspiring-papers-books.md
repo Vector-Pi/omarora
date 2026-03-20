@@ -14,7 +14,7 @@ Note: Although this page is currently placed under the Astronomy section, it pri
 
 As a result, some entries may not be directly related to astronomy. However, each of them had a significant impact on my intellectual development, which is why they have been retained here.
 
-Most of these were originally part of the reading section on my earlier website, and they are preserved here for continuity and a sense of academic “heritage.”
+Most of these were originally part of the reading section on my earlier website, and they are preserved here for continuity.
 
 More structured and topic-specific reading subsections are now available across different sections of the site.
 

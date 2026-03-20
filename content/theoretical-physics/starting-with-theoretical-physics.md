@@ -69,7 +69,7 @@ A gentler alternative to Morin, with more physical motivation and less mathemati
 
 **Classical Mechanics** — Landau and Lifshitz (Course of Theoretical Physics, Vol. 1)
 
-The first volume of the Landau–Lifshitz Course. It opens with the principle of least action and derives Newtonian mechanics from it — the opposite order from Morin. This is breathtaking the first time you see it. The book is short, terse, and every sentence is load-bearing. It is not a first textbook and it is not easy, but it is one of the most beautiful pieces of mathematical physics writing that exists. Read it after Morin or Taylor, not instead of them.
+The first volume of the Landau–Lifshitz Course. It opens with the principle of least action and derives Newtonian mechanics from it — the opposite order from Morin. This is sort-of eye opening the first time you see it. The book is short, terse, and every sentence is load-bearing. It is not a first textbook and it is not easy, but it is one of the most beautiful pieces of mathematical physics writing that exists. Read it after Morin or Taylor, not instead of them.
 
 The Landau–Lifshitz Course (ten volumes) is the systematic treatment of all of theoretical physics at the graduate level. I return to individual volumes repeatedly. The series as a whole — mechanics, classical fields, quantum mechanics, quantum electrodynamics, statistical physics, fluid mechanics, elasticity theory, electrodynamics of continuous media, physical kinetics — is the most coherent curriculum in theoretical physics ever written by a single school.
 
@@ -95,7 +95,7 @@ Special relativity should be learned early, before electrodynamics and well befo
 
 **Spacetime Physics** — Taylor and Wheeler
 
-The most conceptually illuminating introduction to special relativity that exists. Taylor and Wheeler teach you to think in spacetime rather than converting between reference frames — the right approach from the start. The invariant interval as the fundamental object, not the Lorentz transformation, is how relativistic physics is actually done.
+The most conceptually enlightening introduction to special relativity that exists. Taylor and Wheeler teach you to think in spacetime rather than converting between reference frames — the right approach from the start. The invariant interval as the fundamental object, not the Lorentz transformation, is how relativistic physics is actually done.
 
 ---
 
@@ -185,7 +185,7 @@ Tong's undergraduate QM notes, now also a published textbook. Extremely clear an
 
 **What is the best way to think about quantum mechanics?**
 
-The answer depends on what you mean by "think about." The Copenhagen interpretation — shut up and calculate — will take you far technically. But if you want to understand what the theory is actually saying about the world, the measurement problem and the different interpretations (many-worlds, pilot wave, relational QM, QBism) are worth understanding. Not as a distraction from the physics, but as a sign that you are taking the physics seriously. Tim Maudlin's *Philosophy of Physics: Quantum Theory* is the clearest treatment of the foundational issues from a philosophical perspective.
+The answer depends on what you mean by "think about." The Copenhagen interpretation — shut up and calculate — will take you far technically. But if you want to understand what the theory is actually saying about the world, the measurement problem and the different interpretations (many-worlds, pilot wave, relational QM, QBism) are worth understanding. Not as a distraction from the physics, but as a sign that you are taking the physics seriously( Though for me personally I understood this much later while developing QGET ). Tim Maudlin's *Philosophy of Physics: Quantum Theory* is the clearest treatment of the foundational issues from a philosophical perspective.
 
 ---
 
@@ -273,7 +273,7 @@ Free. Cambridge Part III level (masters). This is the best starting point for QF
 
 The standard text. Comprehensive, rigorous, and used in virtually every graduate QFT course in the world. After Tong's notes, Peskin and Schroeder fills in the details — the careful treatment of renormalisation, the full derivation of the Ward identities, non-Abelian gauge theories, the renormalisation group. Parts I and II are the core; Part III covers path integrals and more advanced topics.
 
-Criticisms: the first chapter is famously difficult on a first read. The treatment of renormalisation in the middle of the book (Chapters 10–13) requires significant effort. Come to Peskin with Tong already under your belt.
+Criticisms: the first chapter is famously difficult on a first read. The treatment of renormalisation in the middle of the book (Chapters 10–13) requires significant effort. Come to Peskin with Tong already done.
 
 ---
 
@@ -402,9 +402,10 @@ This is not entirely wasted. Some of the vocabulary sticks, and when the mathema
 
 What I did not regret at any stage was the decision to take the physics seriously enough to learn the mathematics. The pop-science version of any of these subjects — quantum mechanics as spooky action at a distance, general relativity as space being stretchy — is not false exactly, but it does not give you anything to work with. The actual theory, with equations, is harder and more beautiful and more useful.
 
-The path from Feynman's popular books to publishing papers on Yang–Mills theory took roughly five years, done alongside school, olympiad training, and everything else. It is not the fastest path and it is not the path I would design from scratch. But it is a real path, and it leads somewhere.
+The path from Feynman's popular books to publishing papers on Yang–Mills theory took roughly five years, done alongside school and everything else. It is not the fastest path and it is not the path I would design from scratch. But it is a real path, and it leads somewhere.
 
 The work continues.
+
 ---
 
 *Last updated March 2026.*

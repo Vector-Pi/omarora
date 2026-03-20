@@ -20,7 +20,7 @@ Most of the mathematics I had learned for physics — from undergraduate calculu
 
 This is not because those topics lack depth or importance. On the contrary, mathematics is perhaps the most elegant intellectual structure we have:
 - the structural purity of algebra,
-- the depth and mystery of number theory,
+- the depth of number theory,
 - the precision and power of analysis,
 - and the immense practical reach of calculus.
 
@@ -139,6 +139,6 @@ The other asks you to confront questions that may not yet belong to mathematics 
 
 And that difference changes everything.
 
-I should note that I am not a published researcher in pure mathematics, but I have spent several years seriously engaging with mathematical problems. While this work has not yet produced formal outcomes in pure math, my applied and quantitative research has led to tangible results. The perspective I write from comes from this intersection of effort, learning, and practice.
+I should note that I am not a published researcher in pure mathematics, but I have spent several years seriously engaging with mathematical problems. While this work has not yet produced formal outcomes in pure math, but my applied and quantitative research has led to tangible results. The perspective I write from comes from this intersection of effort, learning, and practice.
 
 ---

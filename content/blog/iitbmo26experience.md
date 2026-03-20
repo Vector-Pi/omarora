@@ -5,17 +5,18 @@ tags: ["Experience", "IITBMO", "Mathematics", "Olympiad", "IITB"]
 summary: "Reflections from participating in the IIT Bombay Mathematics Olympiad 2026."
 ---
 
-### **A Sunday Defined by Mathematics**
+## **A Mathematical Sunday**
+
 ---
 
 ### **Arriving at IIT Bombay**
 
 
-There is a particular kind of quiet you only notice on academic campuses early in the morning. It isn't emptiness — it feels more like anticipation.
+There is a particular kind of quiet you only notice on academic campuses early in the morning. It isn't emptiness — it feels more like some sort of anticipation.
 
-That was the atmosphere when I arrived at the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) campus for IITBMO 2026. Walking toward the Lecture Hall Complex, my mind was already drifting towards inequalities, vectors, and the kinds of combinatorial ideas that only appear when a problem demands them.
+That was the atmosphere when I arrived at the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) campus for IITBMO 2026. Walking toward the Lecture Hall Complex, my mind was already going towards inequalities, vectors, and the kinds of combinatorial ideas that only appear when a problem demands them.
 
-The corridors of the building felt familiar in a strange way — as if they had stored years of thought from people who had studied there in the past.
+The corridors of the building felt warm in a strange way — as if they had stored years of thought from people who had studied there in the past.
 
 ---
 

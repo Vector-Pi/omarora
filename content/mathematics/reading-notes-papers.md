@@ -57,7 +57,7 @@ Technically this is analysis and mathematical physics rather than number theory,
 The work that introduced Fourier series. The mathematics is not rigorous by modern standards — Fourier's argument that every function has a Fourier series expansion is simply false in the generality he states it — but the ideas were so productive that they generated a century of subsequent work to make them precise. Worth reading at least the opening chapters.
 
 **Lebesgue, "Intégrale, longueur, aire" (1902)**
-The thesis in which Lebesgue introduced his theory of integration. The Lebesgue integral replaced the Riemann integral with something that behaves well under limits and underlies all of modern analysis and probability theory. The original paper is readable with modern analysis preparation.
+The thesis in which Lebesgue introduced his theory of integration. The Lebesgue integral replaced the Riemann integral with something that behaves well under limits and underlies all of modern analysis and probability theory. The original paper is readable with basic analysis preparation.
 
 ### Papers I Have Read
 
@@ -97,7 +97,7 @@ The two papers in which Perelman proved the Poincaré conjecture (and Thurston's
 The first paper in the series establishing the Atiyah–Singer index theorem, which relates the analytical index of an elliptic operator to topological invariants of the manifold. One of the deepest results of 20th-century mathematics, connecting analysis, topology, and geometry. The later papers in the series develop the K-theory approach. I have read expository treatments and worked through the statement in specific cases.
 
 **Gaitsgory and Raskin, "Proof of the Geometric Langlands Conjecture I–V" (2024)** — [arXiv:2405.03599](https://arxiv.org/abs/2405.03599) through [arXiv:2409.09856](https://arxiv.org/abs/2409.09856)
-In May–September 2024, a team of nine mathematicians including Dennis Gaitsgory and Sam Raskin released five papers totalling over 1,000 pages proving the geometric Langlands conjecture. The conjecture — a central part of the Langlands programme connecting number theory, representation theory, and algebraic geometry — had been open for decades. The proof establishes the existence of a canonical equivalence between two categories associated to a Riemann surface: one encoding automorphic sheaves (related to geometry) and one encoding local systems (related to representation theory). The papers are at the frontier of algebraic geometry and require fluency in $\infty$-categories, D-modules, and the theory of ind-coherent sheaves. I have read the introduction to GLC I carefully and several expository accounts. The ideas involved are extraordinary in scope.
+In May–September 2024, a team of nine mathematicians including Dennis Gaitsgory and Sam Raskin released five papers totalling over 1,000 pages proving the geometric Langlands conjecture. The conjecture — a central part of the Langlands programme connecting number theory, representation theory, and algebraic geometry — had been open for decades. The proof establishes the existence of a canonical equivalence between two categories associated to a Riemann surface: one encoding automorphic sheaves (related to geometry) and one encoding local systems (related to representation theory). The papers are at the frontier of algebraic geometry and require fluency in $\infty$-categories, D-modules, and the theory of ind-coherent sheaves. I have read the introduction to GLC-I carefully and several expository accounts. The ideas involved are extraordinary in scope.
 
 ---
 
@@ -199,7 +199,7 @@ Proved the Furstenberg set conjecture, which is closely related to the Kakeya co
 
 **Terence Tao's blog** — [terrytao.wordpress.com](https://terrytao.wordpress.com). Tao writes expository posts on recent results, open problems, and his own research. The post on the Wang–Zahl Kakeya proof is the best non-technical explanation of that result. The posts on the Green–Tao theorem, the Erdős discrepancy problem, and Sendov's conjecture are all worth reading.
 
-**Quanta Magazine mathematics section** — [quantamagazine.org](https://www.quantamagazine.org/mathematics/). High-quality journalism on current mathematical results, aimed at a mathematically literate audience. The coverage of the Kakeya result and the geometric Langlands proof has been excellent.
+**Quanta Magazine mathematics section** — [quantamagazine.org](https://www.quantamagazine.org/mathematics/). High-quality journalism on current mathematical results. The coverage of the Kakeya result and the geometric Langlands proof has been excellent.
 
 **MathOverflow** — [mathoverflow.net](https://mathoverflow.net). Questions and answers from working mathematicians. The "big-list" questions asking for important open problems or historically significant results are particularly valuable for orientation.
 

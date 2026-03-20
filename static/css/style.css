@@ -699,9 +699,13 @@ li {
     gap: 1.5rem;
   }
 
+  .profile-photo-wrap {
+    align-self: center;
+  }
+
   .profile-photo {
-    width: 96px;
-    height: 96px;
+    width: 120px;
+    height: 160px;
   }
 }
 

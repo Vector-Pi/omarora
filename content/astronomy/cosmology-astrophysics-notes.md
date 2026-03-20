@@ -382,8 +382,6 @@ JWST, launched 25 December 2021 and operating from the Sun-Earth L2 point, is tr
 
 **NASA/IPAC Infrared Science Archive (IRSA)** — [irsa.ipac.caltech.edu](https://irsa.ipac.caltech.edu). Public data from NASA infrared and submillimeter missions including Spitzer, WISE, and Planck.
 
-**arXiv astro-ph.CO** — [arxiv.org/list/astro-ph.CO](https://arxiv.org/list/astro-ph.CO). New cosmology papers, every weekday.
-
 **Astrobites** — [astrobites.org](https://astrobites.org). Graduate students summarising recent astronomy papers for a broader audience. The best way to follow the field without reading every paper.
 
 ---

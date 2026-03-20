@@ -11,6 +11,8 @@ This page is a structured guide to the resources I have found most useful. It co
 
 One note upfront: the resources below assume you want to actually get good at olympiad mathematics, not merely to have read the books. Reading without solving problems is almost worthless in this discipline. Buy a notebook. Work problems by hand. Come back to the solutions only after a genuine attempt.
 
+Another thing to note is that I am not someone with alot of experiences in this field and neither I am perparing for any formal competitions such as the IMO, INMO etc. I am someone who studied it just for the sake of learning and these are the resources which I found the most useful.
+
 ---
 
 ## Where to Start: General Problem-Solving
@@ -41,11 +43,11 @@ The problem difficulty varies considerably, and some of the harder problems are 
 
 **Problem Solving Strategies** — Arthur Engel
 
-Engel's book is not gentle. It is organised by technique — pigeonhole principle, invariants, colouring arguments, generating functions, and many others — and each chapter contains a large number of problems ranging from accessible to extremely hard, all solved with minimal exposition.
+Engel's book is not gentle. It is organised by technique — pigeonhole principle, invariants, colouring arguments and many others — and each chapter contains a large number of problems ranging from accessible to hard, all solved with minimal exposition.
 
 This is a book for someone who already has a foundation and wants to see a large number of ideas in concentrated form. The solved examples are the main attraction. Engel does not hand-hold, but what he shows you is genuinely useful.
 
-If you are preparing for IMO or equivalent competitions, Engel is essential reading — not for the exposition, but for the sheer density of technique it covers.
+If you are preparing for IMO or equivalent competitions, Engel is essential — not for the exposition, but for the sheer density of technique it covers.
 
 ---
 
@@ -79,7 +81,7 @@ This is the book I would recommend first for any serious olympiad number theory 
 
 **Olympiad Number Theory Through Challenging Problems** — Justin Stevens
 
-A shorter, more focused treatment. Stevens moves quickly and the problem difficulty is high throughout. This is not a first resource — come to it after Khurmi or Sato. As a problem set for someone who already knows the theory but wants harder practice, it is excellent.
+A shorter, more focused treatment. Stevens moves quickly and the problem difficulty is high throughout. This is not a first resource — come to it after Khurmi. As a problem set for someone who already knows the theory but wants harder practice, it is excellent.
 
 ---
 
@@ -147,8 +149,6 @@ A more advanced book, focused specifically on the configurations and lemmas that
 
 This is not a first book. Come to it after EGMO. The value is in seeing how professional olympiad problem-solvers decompose hard configurations into known lemmas — a skill that is not taught explicitly elsewhere.
 
-Pohoata's own handouts on projective geometry and inversive geometry, available on his website, are also worth reading alongside this book.
-
 ---
 
 ## Combinatorics
@@ -195,13 +195,13 @@ Chen posts an enormous quantity of useful material here: handouts on essentially
 
 [web.evanchen.cc/otis.html](https://web.evanchen.cc/otis.html)
 
-A proof-based olympiad training programme structured as weekly handouts and problem sets across three difficulty tracks. Chen is an IMO gold medalist and a PhD mathematician — the programme reflects that background. The material is serious and the feedback is genuine.
+A proof-based olympiad training programme structured as handouts and problem sets across three difficulty tracks. Chen is an IMO gold medalist and a PhD mathematician — the programme reflects that background. The material is serious and the feedback is genuine.
 
 I am currently in OTIS. The quality of the problems is high, and the structure forces consistency in a way that self-study alone often does not. Applications are open each year — the programme requires an application demonstrating proof-writing ability. If you are targeting USAMO or equivalent and you can write proofs, apply.
 
 **The SOPHIE Fellowship**
 
-A programme for mathematically talented students, focused on development through problem-solving and mentorship. Worth investigating if you are at the stage where you are looking for structured guidance beyond self-study. Details and applications available through their official channels. Here is the link to apply [https://sophiefellowship.in/](https://sophiefellowship.in/)
+A programme for mathematically talented students, focused on development through problem-solving and mentorship. Worth considering if you are at the stage where you are looking for structured guidance beyond self-study. Details and applications available through their official channels. Here is the link to apply [https://sophiefellowship.in/](https://sophiefellowship.in/)
 
 ---
 
@@ -213,7 +213,7 @@ The quality of the communities you learn in matters. The following are worth fin
 
 **Telegram groups.** Particularly active in the Indian olympiad ecosystem. Groups focused on RMO and INMO preparation are easy to find and tend to have daily problem discussions. Search for groups by competition name. The culture is competitive and the problem exposure is high. Here is a link to one such group [https://t.me/dailymathsproblems](https://t.me/dailymathsproblems)
 
-**Local mathematical circles.** If you have access to one — through a university, through a school programme, through a city-level initiative — use it. The feedback loop from working with more experienced people in person is faster than anything a book or online community can provide. Russia built its olympiad tradition through mathematical circles. There is a reason for that.
+**Local mathematical circles.** If you have access to one — through a university, through a school or a programme similar to what I used to operate — use it. The feedback loop from working with more experienced people in person is faster than anything a book or online community can provide. Russia built its olympiad tradition through mathematical circles. There is a reason for that.
 
 ---
 

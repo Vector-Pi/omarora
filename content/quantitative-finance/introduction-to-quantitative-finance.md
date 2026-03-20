@@ -238,7 +238,7 @@ Articles and self-study guides on quantitative finance, algorithmic trading, and
 **Wilmott Forums** — [wilmott.com](https://wilmott.com)
 The professional forum for quantitative finance. Active discussion of technical problems in derivatives pricing, volatility modelling, and risk management. The level is high.
 
-**QuantLib Python Cookbook** — [quantlib-python-cookbook.readthedocs.io](https://quantlib-python-cookbook.readthedocs.io)
+**QuantLib Python Cookbook** — 
 Practical guide to using QuantLib from Python, with worked examples in bond pricing, yield curve construction, and option pricing.
 
 **Lectures in Quantitative Finance** — various authors on arXiv (q-fin section: [arxiv.org/archive/q-fin](https://arxiv.org/archive/q-fin))

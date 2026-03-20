@@ -5,7 +5,7 @@ parent: "Astronomy"
 ---
 
 
-In March 2020, the schools shut and I had nothing to do. I was in grade 6 and the world had become my home and a screen. I found myself, like many people that year, spending hours on YouTube following one recommendation to the next. At some point I ended up watching a video about black holes — not a particularly good video, as I recall, more spectacle than substance — and then another, and then a documentary about the Voyager probes, and then Carl Sagan's *Cosmos*, which I did not fully understand but could not stop watching. By the time the lockdown lifted I was staying up past midnight trying to learn what a parsec was.
+In March 2020, the schools shut and I had nothing to do. I was in grade 6 and the world had become my home and a screen. I found myself, like many people that year, spending hours on YouTube following one recommendation to the next. At some point I ended up watching a video about black holes — not a particularly good video, as I recall, more spectacle than substance — and then another, and then a documentary about the Voyager probes, and then Carl Sagan's *Cosmos*, which I did not fully understand but could not stop watching. By the time the lockdown lifted I was staying up past midnight trying to complete my observation of the messier catalogue.
 
 That was how it started. Not with a teacher, not with a textbook, not with a telescope. With time and a screen and a curiosity that I had not known was there.
 
@@ -17,11 +17,11 @@ What follows is everything I know about how to actually learn astronomy — not 
 
 ### How Not to Start
 
-Most people start with a big purchase. They see a picture of the Orion Nebula on Instagram, walk into a shop, buy a 70mm department-store refractor with a 300× magnification claim on the box, go outside on a cloudy night, cannot find anything, and conclude that astronomy is not for them.
+Most people start with a 70mm department-store refractor with a 300× magnification claim on the box, go outside on a cloudy night, cannot find anything, and conclude that astronomy is not for them.
 
 Do not do this.
 
-The telescope is not the beginning. Your eyes are the beginning. The sky is the beginning. Before you buy anything or read anything technical, spend ten nights outside looking at the sky with nothing in your hands.
+The telescope is not the beginning. Your eyes are the beginning. The sky is the beginning. Before you buy anything or read anything technical, spend a few nights outside looking at the sky with nothing in your hands.
 
 This sounds obvious. Almost nobody does it. Almost everybody skips straight to equipment or books.
 
@@ -32,7 +32,7 @@ This sounds obvious. Almost nobody does it. Almost everybody skips straight to e
 **Learn the sky naked-eye.** Go outside after dark, give your eyes twenty minutes to adjust, and just look. Learn to find the North Star (Polaris) — not by knowing which star it is, but by noticing that it does not move while everything else rotates around it. Learn one or two constellations by their actual pattern of stars, not by the cartoon overlays. Learn to see the difference between stars (which twinkle) and planets (which generally do not, because they have a disc large enough to average out the atmospheric turbulence).
 
 **Download Stellarium.** [stellarium.org](https://stellarium.org). Free and available on every platform. Point it at the sky and it shows you what you are looking at. Use it to plan what to look for — what planets are visible tonight, when the Moon rises, what is at zenith right now. It is the single most useful tool I have used in observational astronomy.
-used binoculars for the first year before getting a telescope, and I do not regret it.
+used binoculars for a few months before getting a telescope, and I do not regret it.
 
 **Watch these first:**
 - Carl Sagan's *Cosmos: A Personal Voyage* (1980). Thirteen episodes. The definitive popular introduction to astronomy and cosmology and our place in the universe. The episode on the life of stars ("The Lives of the Stars") is where my understanding of stellar evolution began.
@@ -98,7 +98,7 @@ The most recommended beginner's observing guide. Contains detailed star charts, 
 **Turn Left at Orion** — Guy Consolmagno and Dan Davis
 A practical guide to finding 100 deep-sky objects with a small telescope, using the "star-hopping" technique — navigating from bright, easily identified stars to the object you want by following a chain of visible reference points. This is the most practical telescope guide I have used.
 
-**The Messier Catalogue.** Charles Messier compiled his catalogue of 110 nebulae and star clusters in the 18th century specifically so he would not mistake them for comets. It has become the standard checklist for amateur astronomers: the Orion Nebula (M42), the Andromeda Galaxy (M31), the Crab Nebula (M1), the Pleiades (M45). Completing the full Messier list is a rite of passage. A "Messier Marathon" — observing all 110 objects in a single night, done near the spring equinox when they are all visible — is one of the most challenging observational exercises in amateur astronomy.
+**The Messier Catalogue.** Charles Messier compiled his catalogue of 110 nebulae and star clusters in the 18th century specifically so he would not mistake them for comets. It has become the standard checklist for amateur astronomers: the Orion Nebula (M42), the Andromeda Galaxy (M31), the Crab Nebula (M1), the Pleiades (M45). Completing the full Messier list is a rite of passage. A "Messier Marathon" — observing all 110 objects in a single night, done near the spring equinox when they are all visible — is one of the most challenging observational exercises in amateur astronomy(though I myself attempted it but failed miserably).
 
 **Simbad Astronomical Database** — [simbad.u-strasbg.fr](http://simbad.u-strasbg.fr)
 The professional database for stellar and deep-sky object data. Every named and catalogued astronomical object, with coordinates, magnitudes, spectral types, cross-references. Once you move beyond the Messier catalogue, this is where you look things up.
@@ -124,7 +124,7 @@ This is the part that most resources skip. Books and videos tell you about the u
 
 ### Equipment
 
-**Binoculars.** Start here. 7×50 binoculars (7× magnification, 50mm aperture) are the classic choice. They show you the Moon's craters, Jupiter's four Galilean moons (Io, Europa, Ganymede, Callisto — the ones Galileo discovered), the Pleiades as a rich cluster rather than a hazy patch, and the Andromeda Galaxy as a faint smudge. Under dark skies, they reveal the structure of the Milky Way.
+**Binoculars.** Start here. 7×50 binoculars (7× magnification, 50mm aperture) are good choice. They show you the Moon's craters, Jupiter's four Galilean moons (Io, Europa, Ganymede, Callisto — the ones Galileo discovered), the Pleiades as a rich cluster rather than a hazy patch, and the Andromeda Galaxy as a faint smudge. Under dark skies, they reveal the structure of the Milky Way.
 
 **Your first telescope.** A 6-inch (150mm) or 8-inch (200mm) Dobsonian reflector is the standard recommendation and it is correct. A Dobsonian is a Newtonian reflector on a simple altitude-azimuth mount. It is inexpensive relative to its aperture, mechanically simple, and gives you more light-gathering power per rupee/dollar than any other design. My first telescope was a Dobsonian and I still use it. The trade-off is that it requires manual tracking — you move it by hand to follow objects as the Earth rotates.
 
@@ -137,7 +137,7 @@ Avoid:
 
 **Dark skies.** The single most important upgrade you can make to your observing setup is not a better telescope — it is getting away from city lights. Light pollution is the primary limiting factor for most observers. The Bortle scale (1–9) measures sky darkness; most cities are Bortle 8 or 9 (white sky, the Milky Way invisible), and even getting to Bortle 4 or 5 dramatically changes what is visible. Light pollution maps at [lightpollutionmap.info](https://www.lightpollutionmap.info) show you the nearest dark sky sites.
 
-In Jaipur and Delhi, I have driven out to observe from Sariska and Sambhar Lake — both offer dramatically darker skies than the city. The difference is not subtle.
+Though for me personally the challenge was doing that living in Delhi, and it was not really possible to observe anything beyond the Moon and planets; but it became one of the most compelling reasons I learned to drive.
 
 ---
 
@@ -263,13 +263,14 @@ The technical question I am most interested in is whether TESS transit timing va
 
 I want to end with something I have not said explicitly in any of the other pages on this site.
 
-Astronomy was not just the thing that interested me in grade 6. It was the thing that made me a scientist. Not because of the stars themselves — though I still love the stars — but because of what looking seriously at the stars requires: the willingness to follow a question wherever it leads, including into mathematics you do not know, into physics you do not understand, into ways of thinking that are completely unfamiliar.
+Astronomy was not just the thing that interested me in grade 6. It was the thing that set me on the way on which I am still walking. Not because of the stars themselves — though I still love the stars — but because of what looking seriously at the stars requires: the willingness to follow a question wherever it leads, including into mathematics you do not know, into physics you do not understand, into ways of thinking that are completely unfamiliar.
 
 I would not have ended up working on gauge theory and quantum gravity if I had not started with a YouTube video about black holes during a lockdown. The path is not linear and it is not obvious, but it exists, and it runs from that first night of looking at Jupiter through binoculars to the current work on the Yang–Mills mass gap.
 
 Astronomy is where I learned that the universe is not just interesting — it is structured. And that the structure is knowable. That has been the central fact of my intellectual life ever since.
 
 If you are at the beginning of this path, start outside. Tonight if possible. 
+
 ---
 
 *Last updated March 2026.*

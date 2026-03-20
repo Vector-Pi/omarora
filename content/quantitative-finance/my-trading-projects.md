@@ -8,7 +8,8 @@ I want to be direct about the structure of this page before anything else.
 
 Some of what I have built and am building in quantitative trading is proprietary — either because it involves strategies that would lose their edge if described publicly, or because it is connected to commercial work where disclosure is not appropriate. I will not describe those projects in technical detail, and I will not pretend to describe them when I am not.
 
-What I will do is give an honest account of: what the work is, at the level of methods and research questions rather than specific signals; what I have learned from it; and what the current direction is. This is the standard practice at the professional level — nobody who has built something that works is going to post it on a website. The existence of proprietary constraints is itself information about the seriousness of the work.
+What I will do is give an honest account of: what the work is, at the level of methods and research questions rather than specific signals; what I have learned from it; and what the current direction is. This is the standard practice — nobody who has built something that works is going to post it on a website. The existence of proprietary constraints is itself information about the seriousness of the work.
+
 
 ---
 
@@ -110,4 +111,4 @@ The most important things this work has taught me, which I can state without com
 
 ---
 
-*Last updated March 2026. This page is deliberately less detailed than others on this site. The constraint is intentional, not incidental.*
+*Last updated March 2026. This page is deliberately less detailed than others on this site.*

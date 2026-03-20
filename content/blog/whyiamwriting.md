@@ -5,10 +5,10 @@ tags: ["Meta", "Blog", "Research", "Learning", "Personal"]
 summary: "What this blog is for, who it’s meant to help, and what I plan to write here."
 ---
 
-### **Why This Blog Exists**
+### **Why This Blog Exists ?**
 ---
 
-When I first started learning mathematics, physics, and programming seriously, I often found myself searching for answers to questions that didn’t always appear in textbooks.
+When I first started learning mathematics, physics, and programming seriously, I often found myself searching for answers to questions that didn’t always appear in textbooks or lectures.
 
 Questions like:
 
@@ -91,9 +91,9 @@ Occasionally, I will also write about learning itself — what works, what doesn
 
 These posts might cover:
 
-- how I read difficult papers  
-- how I structure study plans  
+- how I read difficult papers    
 - how I think about long-term skill building  
+- and academic writing
 
 Because in the end, learning how to learn is probably the most transferable skill of all.
 

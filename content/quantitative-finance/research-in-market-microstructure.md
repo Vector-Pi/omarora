@@ -9,6 +9,8 @@ This page describes my active research in quantitative finance. It is more detai
 
 The work sits at the intersection of topological data analysis, network theory, and systematic equity research. The central question is whether the geometric and topological structure of equity correlation networks contains information about future stock returns that is not captured by conventional factors. The short answer, based on what I have found so far, appears to be yes — though the extent to which this translates into an exploitable trading signal after costs is the question still being investigated.
 
+A point to note is that I have not been working in quantitative finance for very long, and most of whatever I have done either as apart of my research or any other project, I have used US equities data only.
+
 ---
 
 ## Part I — Background and Motivation
@@ -53,7 +55,7 @@ The **Betti curve** $\beta_k(\epsilon) = $ number of $k$-dimensional homology cl
 
 **Step 5: Topological Fragmentation Index.** The TFI is defined as the total persistence of 1-dimensional cycles ($H_1$) integrated over the filtration:
 
-$$\text{TFI}_t = \int_{\epsilon_\text{min}}^{\epsilon_\text{max}} \beta_1(\epsilon) \, d\epsilon = \sum_{\alpha \in H_1} \text{pers}(\alpha)$$
+$$TFI_t = \int_{\epsilon_{min}}^{\epsilon_{max}} \beta_1(\epsilon) \, d\epsilon = \sum_{\alpha \in H_1} pers(\alpha)$$
 
 High TFI: many persistent 1-cycles, meaning the correlation network has many redundant loops across multiple scales — a characteristic of stressed, highly-correlated markets where every cluster of stocks is densely interconnected. Low TFI: few cycles, tree-like structure, low correlation.
 
@@ -76,7 +78,7 @@ The insight that transforms TFI from a market-level indicator to a cross-section
 
 For each stock $i$ at time $t$, compute the rolling correlation between the stock's return and the change in TFI over the past $K = 20$ days:
 
-$$\text{Sens}_{i,t} = \text{corr}_{K}\left(r_{i,\tau}, \, \Delta\text{TFI}_\tau\right)_{\tau = t-K+1}^{t}$$
+$$Sens_{i,t} = corr_{K}\left(r_{i,\tau}, \, \Delta TFI_\tau\right)_{\tau = t-K+1}^{t}$$
 
 A stock with high positive sensitivity tends to rise when market fragmentation increases — it benefits from, or is robust to, increasing market stress. A stock with negative sensitivity tends to fall when fragmentation increases.
 
@@ -98,7 +100,7 @@ The factor and sector neutrality are essential for isolating the topological sig
 
 **Fama-MacBeth cross-sectional regressions.** At each cross-section date $t$, regress next-period stock returns on lagged TFI sensitivity and control variables:
 
-$$r_{i,t+1} = \alpha_t + \gamma_t \, \text{Sens}_{i,t} + \beta_t^M \text{MktBeta}_{i,t} + \beta_t^S \text{Size}_{i,t} + \beta_t^V \text{Value}_{i,t} + \beta_t^M \text{Mom}_{i,t} + \varepsilon_{i,t+1}$$
+$$r_{i,t+1} = \alpha_t + \gamma_t \, Sens_{i,t} + \beta_t^M MktBeta_{i,t} + \beta_t^S Size_{i,t} + \beta_t^V Value_{i,t} + \beta_t^M Mom_{i,t} + \varepsilon_{i,t+1}$$
 
 The time-series mean of $\gamma_t$ (with Newey-West standard errors) tests whether TFI sensitivity carries a risk premium after controlling for known factors.
 
@@ -110,7 +112,7 @@ The time-series mean of $\gamma_t$ (with Newey-West standard errors) tests wheth
 
 ## Part IV — Connection to the Hyperbolic Geometry of Financial Networks
 
-The most theoretically interesting result in this area is recent. Caputi, Pidnebesna, and Hlinka (2026) showed that the integral Betti signatures of financial (stock market), brain, and climate networks exhibit a hyperbolic character — their topological features lie between Euclidean and hyperbolic geometry of small curvature, distinctly different from random matrices or spherically-structured matrices.
+The most theoretically interesting result in this area is recent. Caputi, Pidnebesna, and Hlinka (2025) showed that the integral Betti signatures of financial (stock market), brain, and climate networks exhibit a hyperbolic character — their topological features lie between Euclidean and hyperbolic geometry of small curvature, distinctly different from random matrices or spherically-structured matrices.
 
 This is a remarkable finding with direct implications for the TFI framework. Hyperbolic geometry is the geometry of negative curvature — the geometry of the Poincaré disc and the hyperbolic plane. A network with hyperbolic geometry has a characteristic hierarchical structure: a small number of highly-connected hub nodes and a large number of peripheral nodes, with distances growing exponentially from the core. This is exactly the structure of equity correlation networks during normal market conditions.
 
@@ -192,9 +194,9 @@ The hyperbolic geometry of financial networks connects directly to the anti-de S
 
 ## Plans
 
-The immediate plan is to complete the out-of-sample validation and write up the results as a paper. The target is the *Journal of Financial Economics*, *Review of Financial Studies*, or *Management Science*. The timeline is approximately six months for the full empirical analysis and another three months for writing and revision.
+The immediate plan is to complete the out-of-sample validation and write up the results as a paper. The timeline is approximately six months for the full empirical analysis and another three months for writing and revision.
 
-The longer-term direction is to develop the hyperbolic geometry connection further — specifically, whether the hyperbolic centrality of a stock in the correlation network is a stable characteristic that predicts its behaviour across multiple market regimes. This is closer to pure financial economics research than to systematic trading, and is the kind of question that could support a more academic-facing paper.
+The longer-term direction is to develop the hyperbolic geometry connection further — specifically, whether the hyperbolic centrality of an equity in the correlation network is a stable characteristic that predicts its behaviour across multiple market regimes. This is closer to pure financial economics research than to systematic trading, and is the kind of question that could support a more academic-facing paper.
 
 ---
 

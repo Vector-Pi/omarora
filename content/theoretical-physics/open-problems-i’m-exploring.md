@@ -26,7 +26,7 @@ The distinction between "problem I am working on" and "problem I am aware of and
 
 **Status:** Central open problem in my research programme. Working on it.
 
-**What the problem is.** My 2025 preprint establishes a gauge-invariant mass for Yang–Mills theory at tree level via the Stueckelberg extension, and shows that the one-loop beta function preserves asymptotic freedom. This is perturbative. The Clay Millennium Prize Problem asks for a non-perturbative result: a rigorous proof that the quantum Yang–Mills theory on $\mathbb{R}^4$ exists (satisfies the Wightman axioms or their Osterwalder–Schrader equivalents) and has a strictly positive mass gap $\Delta > 0$ in the full quantum theory.
+**What the problem is.** My 2026 preprint establishes a gauge-invariant mass for Yang–Mills theory at tree level via the Stueckelberg extension, and shows that the one-loop beta function preserves asymptotic freedom. This is perturbative. The Clay Millennium Prize Problem asks for a non-perturbative result: a rigorous proof that the quantum Yang–Mills theory on $\mathbb{R}^4$ exists (satisfies the Wightman axioms or their Osterwalder–Schrader equivalents) and has a strictly positive mass gap $\Delta > 0$ in the full quantum theory.
 
 The gap between my result and the Prize is precisely the non-perturbative gap. A mass term at tree level is necessary but not sufficient. Non-perturbative effects — instantons, confinement, the strong-coupling dynamics — could in principle wash it out.
 

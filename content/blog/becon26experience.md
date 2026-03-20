@@ -20,9 +20,9 @@ When I first reached campus that Saturday morning, I was mostly curious. I had a
 
 The event, organized by the [Entrepreneurship Development Cell IIT Delhi](https://www.edciitd.com/main), felt less like a showcase and more like an ecosystem compressed into a weekend. It was a rare opportunity to see the intersection of academic research, entrepreneurial spirit, and real-world impact. 
 
-Kicked off with a inspiring speech by **Shri Devesh Shrivastava**, Special Commissioner of Delhi Police. His speech wasn’t a polite welcome; it was a briefing. He talked about hackathons they’d run, real problems they’d solved with entrepreneurs during COVID, and then laid out a list of what they still desperately need: tamper-proof IMEI tech, smarter traffic systems, AI for hotspot analysis, and more. He wasn’t just asking for innovation; he was giving a procurement list. It set the tone immediately: this was about **building for the state, with the state.** The most interesting problems, it turns out, aren’t always in the consumer app store.
+Kicked off with a inspiring speech by **Shri Devesh Shrivastava**, Special Commissioner of Delhi Police. His speech wasn’t a polite welcome; it was a briefing. He talked about hackathons they’d run, real problems they’d solved with entrepreneurs during COVID, and then laid out a list of what they still desperately need: tamper-proof IMEI tech, smarter traffic systems, AI for hotspot analysis, and more. He wasn’t just asking for innovation; he was giving a procurement list. It set the tone immediately: this was about **building for the state, with the state.** The most interesting problems, it turns out, aren’t always in the consumer store.
 
-After that, I dove into the **Startup Clinic**. This was the messy, brilliant heart of it all. Tables filled with prototypes, founders with that tired-but-focused look in their eyes. Yes, there were apps with modern solutions for delivery and wellness, but what stopped me were the ones wrestling with physics and chemistry.
+After that, I went to the **Startup Clinic**. This was the messy, brilliant heart of it all. Tables filled with prototypes, founders with that tired-but-focused look in their eyes. Yes, there were apps with modern solutions for delivery and wellness, but what stopped me were the ones wrestling with physics and chemistry.
 
 I met a team building **Iron-Air batteries**—the kind of tech that could change the energy game if they get it right. Another was deep in **quantum key distribution**. There were **smart textiles** that could do more than just look good, and **antimicrobial walls** for hospitals. These weren't just features; they were fundamental materials science. Chatting with the founders, the passion wasn’t for valuation, but for the problem itself. You could feel the difference.
 
@@ -41,7 +41,7 @@ Sessions featuring **[Sanjeev Bikhchandani](https://www.linkedin.com/in/sanjeev-
 
 The panel with **[Shaily Mehrotra](https://www.linkedin.com/in/shaily-mehrotra-19604966/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BFgCUZCLPSROJQMv2E3dunw%3D%3D)** and **[Pratham Mittal](https://www.linkedin.com/in/prathammittal/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BFgCUZCLPSROJQMv2E3dunw%3D%3D)** emphasized something deceptively simple: clarity of the problem matters more than the elegance of the solution. Whether in startups or theoretical models, precision of framing often determines success.
 
-It all wrapped up with the **Grand Moonshot pitches**. The most memorable was **[Aminuteman Technologies](https://aminutemantechnologies.com/)**, working in a critical defense niche. Seeing them pitch was like watching the summit’s entire thesis come to life: an experienced hard-tech team, solving a real-world hard problem, with clear strategic importance.
+It all wrapped up with the **Grand Moonshot pitches**. Seeing the pitches was like watching the summit’s entire thesis come to life: experienced hard-tech teams, solving real-world hard problems, with clear strategic importance.
 
 ---
 
@@ -55,7 +55,7 @@ Some talks stood out because they widened the scope of discussion.
 
 **[Ashneer Grover](https://www.linkedin.com/in/ashneer/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BFgCUZCLPSROJQMv2E3dunw%3D%3D)** spoke with his usual directness about markets and decision-making under uncertainty. **Nitin Vijay** discussed how education must evolve to support innovation rather than merely certify it.
 
-Air Chief Marshal RKS Bhadauria (Retd.) spoke with a clarity that was almost jarring. He talked about defense needs not as abstract “sectors,” but as specific, urgent gaps. When he mentioned brain drain as a national security risk, you could feel the vibe changing. This wasn’t theory; it was strategy. It made the deep-tech pitches in the clinic suddenly feel not just ambitious, but essential.
+Air Chief Marshal RKS Bhadauria (Retd.) spoke with a clarity that was almost jarring. He talked about defense needs not as abstract “sectors,” but as specific, urgent gaps. When he mentioned brain drain as a national security risk, you could feel the vibe changing. This wasn’t theory; it was strategy. It made the deep-tech pitches suddenly feel not just ambitious, but essential.
 
 ---
 

@@ -5,7 +5,7 @@ parent: "Mathematics"
 ---
 
 
-There is a version of this guide that begins with an apology — *"I am not a professional mathematician"*, or *"this is just my personal opinion."* That version is not useful. So I will skip it.
+There is a version of this guide that begins with an apology — *"I am not a professional mathematician"*, or *"this is just my personal opinion."* That version is not useful. So I will skip it. 
 
 What follows is a map. It is the map I wish someone had handed me when I started. It will not replace any of the books it points to. It will not make you a mathematician. What it will do is tell you what the landscape looks like before you set foot in it, which is worth something.
 
@@ -23,7 +23,7 @@ If you are not there yet, this is where to start:
 
 **Resources for proof-writing fundamentals:**
 
-- **Book of Proof** — Richard Hammack. Free at [bookofproof.com](https://www.people.vcu.edu/~rhammack/BookOfProof/). The most gentle introduction to proof-writing that exists. Read Part I and Part II before touching anything else on this page. It is not glamorous. Do it anyway.
+- **Book of Proof** — Richard Hammack. Free at [richardhammack.github.io](https://richardhammack.github.io/BookOfProof/). The most gentle introduction to proof-writing that exists. Read Part I and Part II before touching anything else on this page. It is not glamorous. Do it anyway.
 
 - **How to Prove It** — Daniel Velleman. More thorough than Hammack, slightly more demanding. If you are comfortable with high-school mathematics and want something with a bit more substance, start here instead. The chapter on mathematical induction is particularly good.
 
@@ -110,7 +110,7 @@ Once the foundations above are solid, the subject branches. What follows is not 
 
 ### 4. Real Analysis
 
-**What it is.** The rigorous treatment of everything you were told to accept in calculus. Limits, continuity, differentiation, integration — all made precise. Then: sequences and series of functions, uniform convergence, and the beginnings of functional analysis.
+**What it is.** The rigorous treatment of everything we are told to accept as calculus in high school. Limits, continuity, differentiation, integration — all made precise. Then: sequences and series of functions, uniform convergence, and the beginnings of functional analysis.
 
 **Why you should care.** Calculus is a tool. Analysis is the understanding of why the tool works. If you want to do anything serious with differential equations, probability, or mathematical physics, you need this.
 
@@ -127,7 +127,7 @@ Once the foundations above are solid, the subject branches. What follows is not 
 
 - **Real Mathematical Analysis** — Charles Pugh. Somewhere between Abbott and Rudin in style. Excellent for a second reading. The visual intuition is better than either of the above.
 
-A criticism worth making: many university analysis courses spend enormous time on ε–δ proofs of results everyone already believes and then rush through uniform convergence and Fourier analysis, which are actually important. If your course does this, supplement it aggressively.
+A criticism worth making: many university analysis courses (especially the ones I have seen on youtube) spend enormous time on ε–δ proofs of results everyone already believes and then rush through uniform convergence and Fourier analysis, which are actually important. If your course does this, supplement it aggressively.
 
 ---
 
@@ -171,7 +171,7 @@ Holomorphic functions, the Cauchy–Riemann equations, contour integration, Cauc
 
 - **Probability: Theory and Examples** — Rick Durrett. Available free online. More modern than Billingsley, with better coverage of stochastic processes. The exercises are excellent.
 
-One thing to note is that the resources I mentioned here are considering that you are studying the subject for eiher exploration or your formal college course but if you are studying for quantative finance, it requires a different approach, and alot of focus on the applied side of the subject. 
+One thing to note is that the resources I mentioned here are considering that you are studying the subject for exploration but if you are studying for quantative finance, it requires a different approach, and alot of focus on the applied side of the subject. 
 
 ---
 
@@ -284,7 +284,7 @@ Use it as a map. Then go read the actual terrain.
 
 ### A Few Resources to Approach Carefully
 
-**Paul's Online Math Notes.** Widely used, clearly written, and a perfectly reasonable supplement for single-variable calculus. The problem is that many people stop there and believe they have done analysis. They have not. Paul's Notes cover computations. Analysis covers why computations are valid. These are different activities.
+**Paul's Online Math Notes.** Widely used, clearly written, and a perfectly reasonable supplement for single-variable calculus. The problem is that many people stop there and believe they have done analysis( atleast what I did initially). They have not. Paul's Notes cover computations. Analysis covers why computations are valid. These are different activities.
 
 **Wikipedia mathematics articles.** Useful for definitions and checking facts once you know a subject. Dangerous as a learning tool because the articles assume familiarity with the precise vocabulary, skip motivations, and sometimes have subtly misleading presentations of subtle points. Use it to remind yourself of something you have already understood, not to learn something for the first time.
 

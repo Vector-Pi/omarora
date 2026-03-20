@@ -8,7 +8,7 @@ summary: "Reflections from my first hackathon experience and how it changed how 
 ### **Before the Hackathon**
 ---
 
-I began exploring engineering projects and academic work around late 8th grade. By 9th grade, I had developed an interest in programming and computer science, but I was still very new to it. I knew some basic C++ and working with Arduino, but I hadn’t yet reached the stage where coding felt natural or intuitive.
+I began exploring engineering projects around late 8th grade. By 9th grade, I had developed an interest in programming and computer science, but I was still very new to it. I knew some basic C++ and working with Arduino, but I hadn’t yet reached the stage where coding felt natural.
 
 Around that time, I was unexpectedly selected as the team leader for my school’s junior team at a high-school hackathon organized by the [Indian Institute of Technology Delhi](https://home.iitd.ac.in/).
 
@@ -81,7 +81,7 @@ Looking back, that hackathon was less about the project itself and more about wh
 
 It was the first time I truly experienced the transition from *thinking about ideas* to *creating them*.
 
-Since then, hackathons have remained one of my favorite forms of extracurricular learning. Even though I haven’t been able to attend many due to other commitments, that first experience shaped how I approach building, experimenting, and learning new technologies.
+Since then, hackathons have remained one of my favorite forms of extracurricular learning. Even though I haven’t been able to attend many in the recent times  due to other commitments, that first experience shaped how I approach building, experimenting, and learning new technologies.
 
 And in many ways, it was the moment I realized that ideas only become meaningful when they are tested in reality. Which since then has been a major principle guiding my work and life in general.
 

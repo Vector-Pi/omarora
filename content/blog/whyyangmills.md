@@ -16,13 +16,13 @@ For me, the Yang–Mills mass gap problem is one of them.
 
 ## Where It Started
 
-My interest in fundamental physics began fairly early, and by the time I reached 8th grade, I had started attempting my first research-style explorations.
+My interest in fundamental physics began fairly early, and by the time I reached 8th grade(though it is important to note that by that time I had already been exposed to high school level physics through my study which I had started just a few months prior), I had started attempting my first research-style explorations.
 
 Like many students initially drawn to physics, I began with black holes. The problem felt natural — it was conceptually rich, widely discussed, and intuitively fascinating. I spent months trying to understand and model aspects of it using the tools I had at that time.
 
 In hindsight, most of those tools were insufficient for the depth of the questions I was trying to address. The approach was limited, and eventually, I had to step away from that line of work. 
 
-Looking back, one of the works that shaped my early perspective was by [Abhas Mitra](https://www.researchgate.net/profile/Abhas-Mitra). Even though I now recognize several limitations and issues in it, I still think it is worth reading for beginners — not for conclusions, but for the habit of engaging deeply and critically with theoretical arguments, especially his work trying to disprove the existance of hawking radiation [here](https://www.researchgate.net/profile/Abhas-Mitra/publication/265601261_WHY_THERE_CANNOT_BE_ANY_Hawking_Radiation%27%27_Even_If_One_Would_Assume_Existence_of_Black_Holes/links/5415c3880cf2bb7347db4210/WHY-THERE-CANNOT-BE-ANY-Hawking-Radiation-Even-If-One-Would-Assume-Existence-of-Black-Holes.pdf).
+Looking back, one of the works that shaped my early perspective was by [Dr. Abhas Mitra](https://www.researchgate.net/profile/Abhas-Mitra). Even though I now recognize several limitations and issues in it, I still think it is worth reading for beginners — not for conclusions, but for the habit of engaging deeply and critically with theoretical arguments, especially his work trying to disprove the existance of hawking radiation [here](https://www.researchgate.net/profile/Abhas-Mitra/publication/265601261_WHY_THERE_CANNOT_BE_ANY_Hawking_Radiation%27%27_Even_If_One_Would_Assume_Existence_of_Black_Holes/links/5415c3880cf2bb7347db4210/WHY-THERE-CANNOT-BE-ANY-Hawking-Radiation-Even-If-One-Would-Assume-Existence-of-Black-Holes.pdf).
 
 But that phase left me with something important:
 

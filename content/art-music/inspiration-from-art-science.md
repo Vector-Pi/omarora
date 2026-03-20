@@ -45,7 +45,7 @@ When I use $e^{ipx/\hbar}$ in quantum mechanics — the plane wave, the eigensta
 
 Killing and Cartan's classification of simple Lie algebras is, for me, the most beautiful result in pure mathematics. The question: what are all the possible simple Lie algebras over the complex numbers? The answer: exactly four infinite families and five exceptional cases. No more, no fewer.
 
-The four infinite families — $\mathfrak{sl}_n$ (traceless matrices), $\mathfrak{so}_n$ (antisymmetric matrices), $\mathfrak{sp}_{2n}$ (symplectic matrices), and the orthogonal algebras in even dimension — are built from classical linear algebra. The five exceptional cases — $G_2$, $F_4$, $E_6$, $E_7$, $E_8$ — have no analogous classical constructions. They were discovered, not invented. They exist because the constraints of the classification force them to exist, and their properties were worked out after their existence was known.
+The four infinite families — $\mathfrak{sl}_n$ (traceless matrices), $\mathfrak{so} _n$ (antisymmetric matrices), $\mathfrak{sp} _{2n}$ (symplectic matrices), and the orthogonal algebras in even dimension — are built from classical linear algebra. The five exceptional cases — $G_2$, $F_4$, $E_6$, $E_7$, $E_8$ — have no analogous classical constructions. They were discovered, not invented. They exist because the constraints of the classification force them to exist, and their properties were worked out after their existence was known.
 
 The exceptional Lie algebras appear in physics in ways that are not fully understood. $E_8 \times E_8$ is the gauge group of one of the five superstring theories. $G_2$ appears in the compactification of M-theory on manifolds with $G_2$ holonomy. Whether these appearances are physically significant or mathematical coincidences is an open question. But the fact that the classification — complete and exact — constrains what is possible in physics makes the result feel less like a theorem and more like a discovery about the structure of reality.
 
@@ -89,7 +89,7 @@ This is not a precise claim. But I find that my aesthetic responses to mathemati
 
 ### Dirac's Equation and the Prediction of Antimatter
 
-I discussed Dirac at length in the [history of mathematics and physics page](/omarora/history/history-of-mathematics-and-physics/). I want to say something here about the aesthetic dimension of the derivation, because it is directly relevant to the art-science question.
+I discussed Dirac at length in the [history of mathematics and physics page](/omarora/history/history-of-mathematics-physics/). I want to say something here about the aesthetic dimension of the derivation, because it is directly relevant to the art-science question.
 
 Dirac derived his equation — the relativistic wave equation for the electron — by demanding that it be first-order in space and time derivatives and that its square equal the Klein-Gordon equation. These are constraints, not assumptions about physical reality. The constraints force the equation into a specific form, and that form turns out to predict: the spin of the electron (as an intrinsic property, not added by hand), the correct magnetic moment, the existence of the positron, and ultimately the entire framework of quantum field theory.
 

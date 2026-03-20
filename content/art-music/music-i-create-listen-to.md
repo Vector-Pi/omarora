@@ -71,7 +71,7 @@ I have been working in Logic Pro and FL Studio on a neo-classical composition fo
 
 ### The Project
 
-The piece is built around a piano theme — simple, slow, harmonically static in the way that Pärt's *tintinnabuli* works are harmonically static, holding a single chord for long enough that you start to hear the internal structure of the chord itself rather than its function in a progression. The theme is in C minor, which is not an accident — C minor has a specific gravity that C major does not have, a weight without darkness.
+The piece is built around a piano theme — simple, slow, harmonically static in the way that Pärt's *tintinnabuli* works are harmonically static, holding a single chord for long enough that you start to hear the internal structure of the chord itself rather than its function in a progression. The theme is in C minor, as it has a specific gravity that C major does not have, a weight without darkness.
 
 The plan is to build the piece in three layers. The piano theme forms the base. A string texture — strings recorded dry and processed through reverb and subtle pitch modulation — forms the middle layer. And a synthesiser drone, sustaining throughout at a very low volume, forms the harmonic foundation that ties the other layers together.
 

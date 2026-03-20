@@ -48,7 +48,7 @@ This tier is not glamorous and most people skip it. Skipping it is a mistake tha
 ### Resources
 
 **Book of Proof** — Richard Hammack
-Free at [bookofproof.com](https://www.people.vcu.edu/~rhammack/BookOfProof/). The most accessible introduction to proof-writing. Read Parts I and II before anything else on this page.
+Free at [bookofproof.com](https://richardhammack.github.io/BookOfProof/Main.pdf). The most accessible introduction to proof-writing. Read Parts I and II before anything else on this page.
 
 **How to Prove It** — Daniel Velleman
 More thorough than Hammack, structured around logic and set theory from the ground up. The chapter on mathematical induction is excellent. If you have time, do this alongside Hammack rather than instead of it.
