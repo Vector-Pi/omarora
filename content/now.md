@@ -44,8 +44,8 @@ Building toward an institutional-grade AI-native investment framework — one wh
 ## Recent
 
 - Released the preprint of *A Gauge-Invariant Stueckelberg Extension of Yang–Mills Theory*.
-- Placed second at the IIT Bombay Mathematics Olympiad 2026 (41st edition). Wrote about it [here](/omarora/blog/iitbmo26experience/).
-- Attended BeCon 2026 at IIT Delhi. Wrote about it [here](/omarora/blog/becon26experience/).
+- Placed second at the IIT Bombay Mathematics Olympiad 2026 (41st edition). Wrote about it [here](/blog/iitbmo26experience/).
+- Attended BeCon 2026 at IIT Delhi. Wrote about it [here](/blog/becon26experience/).
 - Selected for Dr. Evan Chen's OTIS 2025 olympiad training program.
 
 ---

@@ -24,7 +24,7 @@ In olympiad mathematics, a problem exists. Someone has written it. It has a solu
 
 Research mathematics has none of these properties. The problem may not be precisely stated. It may not have a solution. If it does have a solution, you may not be the right person to find it at this moment, or the tools may not yet exist. The timescale is months or years, not hours. And unlike an olympiad problem, research does not reliably give you the psychological reward of a clean answer.
 
-I wrote about this distinction at more length [here](/omarora/blog/diffinresearchandolympiadmath/). The short version is that olympiad mathematics trains you to be extremely good at closing. Research mathematics requires you to become comfortable with a particular kind of open — the open that might stay open for years.
+I wrote about this distinction at more length [here](/blog/diffinresearchandolympiadmath/). The short version is that olympiad mathematics trains you to be extremely good at closing. Research mathematics requires you to become comfortable with a particular kind of open — the open that might stay open for years.
 
 ---
 
