@@ -7,7 +7,7 @@ parent: "Astronomy"
 
 These are notes in the genuine sense — a working document, not a polished account. They are organised by topic and represent a synthesis of what I have read, worked through, and thought about across several years of studying cosmology alongside the theoretical physics. Where I have personal views or where there is genuine scientific controversy, I say so.
 
-The connection between this page and my research is not accidental. The QGET framework — the approach to emergent spacetime from entanglement correlations described in my [research page](/omarora/theoretical-physics/my-research-publications/) — makes predictions about the early universe that should, eventually, be testable against CMB data. Understanding the observational cosmology side of that is part of the work.
+The connection between this page and my research is not accidental. The QGET framework — the approach to emergent spacetime from entanglement correlations described in my [research page](/theoretical-physics/my-research-publications/) — makes predictions about the early universe that should, eventually, be testable against CMB data. Understanding the observational cosmology side of that is part of the work.
 
 The notes are organised as follows: the foundational framework (FRW cosmology, the Friedmann equations, the thermal history), the content of the universe (dark matter, dark energy, the cosmological constant problem), the physics of the early universe (inflation, baryogenesis, nucleosynthesis), structure formation, the observational landscape (CMB, BAO, gravitational waves), stellar and galactic astrophysics, and finally the current state of the field — what DESI is telling us, what the tensions in cosmology mean, and where the field is going.
 

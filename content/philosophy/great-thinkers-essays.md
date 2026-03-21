@@ -1,11 +1,11 @@
 ---
 title: "Great Thinkers & Essays"
-date: 2026-02-06
+date: 2026-02-14
 parent: "Philosophy"
 ---
 
 
-The [schools of thought page](/omarora/philosophy/schools-of-thought-in-philosophy/) covers the philosophical traditions systematically. This page is different. It is a personal account of specific thinkers and specific texts — the ones I have actually read, thought about, argued with, and returned to. The organisation is not by period or school but by what kind of intellectual contribution each thinker made. That is a more honest organising principle than chronology, which makes every thinker equally distant and equally obligatory.
+The [schools of thought page](/philosophy/schools-of-thought/) covers the philosophical traditions systematically. This page is different. It is a personal account of specific thinkers and specific texts — the ones I have actually read, thought about, argued with, and returned to. The organisation is not by period or school but by what kind of intellectual contribution each thinker made. That is a more honest organising principle than chronology, which makes every thinker equally distant and equally obligatory.
 
 The selection is not comprehensive. It is the selection of someone who came to philosophy through physics and mathematics, who reads for genuine engagement rather than cultural credential, and who is equally interested in the argument and the prose that carries it. Several major figures covered in the schools page are not here — not because they are unimportant but because this page is about the experience of reading particular works, not about covering the field.
 

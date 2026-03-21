@@ -6,7 +6,7 @@ parent: "Theoretical Physics"
 
 This page is different from most "open problems" pages. I am not listing problems I find interesting from a distance. These are problems I am in the middle of — problems that are directly connected to my published and ongoing work, that I think about most days, and that I do not currently know how to solve.
 
-The problems are organised into two clusters, corresponding to the two lines of research I described in the [publications page](/omarora/theoretical-physics/my-research-publications/): the Yang–Mills mass gap programme and the QGET framework for emergent spacetime. Within each cluster I have listed both the specific technical tasks I am currently working on and the broader open problems in the field that they connect to.
+The problems are organised into two clusters, corresponding to the two lines of research I described in the [publications page](/theoretical-physics/my-research-publications/): the Yang–Mills mass gap programme and the QGET framework for emergent spacetime. Within each cluster I have listed both the specific technical tasks I am currently working on and the broader open problems in the field that they connect to.
 
 I have also included a third section on problems in the wider field that I am not currently working on but that I find genuinely compelling and that intersect with the mathematics I am building.
 

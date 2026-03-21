@@ -1,11 +1,11 @@
 ---
 title: "Lessons from History"
-date: 2026-02-06
+date: 2026-03-17
 parent: "History"
 ---
 
 
-This page depends on the three history pages that precede it. The [history of mathematics and physics](/omarora/history/history-of-mathematics-physics/), the [financial history page](/omarora/history/financial-history-market-evolution/), and the [schools of philosophy page](/omarora/philosophy/schools-of-thought/) each traces a specific domain in detail. This page asks: when you look across all three, what patterns are consistent enough, and important enough, to be worth naming?
+This page depends on the three history pages that precede it. The [history of mathematics and physics](/history/history-of-mathematics-physics/), the [financial history page](/history/financial-history-market-evolution/), and the [schools of philosophy page](/philosophy/schools-of-thought/) each traces a specific domain in detail. This page asks: when you look across all three, what patterns are consistent enough, and important enough, to be worth naming?
 
 The standard version of this exercise produces aphorisms. "Those who do not learn from history are doomed to repeat it." "Great minds think alike." "Genius is one percent inspiration, ninety-nine percent perspiration." These are not lessons — they are the verbal gestures that signal the appearance of having thought about something without actually doing so.
 

@@ -6,7 +6,7 @@ parent: "Astronomy"
 
 I want to give an honest account of this, including the parts where I did not know what I was doing.
 
-Astronomy was the first thing I pursued seriously and independently. Before the physics, before the mathematics, before any research — there was just the sky and a curiosity about it that felt slightly unreasonable in its intensity. Grade 6, lockdown, Delhi. I have written about how that started in the [beginners guide](/omarora/astronomy/astronomy-for-beginners/). This page is about what I actually did with it.
+Astronomy was the first thing I pursued seriously and independently. Before the physics, before the mathematics, before any research — there was just the sky and a curiosity about it that felt slightly unreasonable in its intensity. Grade 6, lockdown, Delhi. I have written about how that started in the [beginners guide](/astronomy/astronomy-for-beginners/). This page is about what I actually did with it.
 
 The projects fall into three phases, roughly corresponding to the years since I started. The first phase is observational — learning the sky, tracking down objects, building the visual intuition that makes everything else more meaningful. The second phase is where the astronomy began to connect to the physics — understanding what I was seeing, not just finding it. The third phase, which is where most of my current work is, is computational: analysing data from space telescopes, working with Python and astropy, building pipelines for things that interest me.
 
@@ -291,7 +291,7 @@ The next step is to apply the pipeline to a sample of TESS planets with many obs
 
 ### Project 3 — CMB Power Spectrum Analysis with Planck Public Data
 
-**The motivation.** The connection between the QGET framework (from the [research page](/omarora/theoretical-physics/my-research-publications/)) and observational cosmology runs through the CMB. QGET predicts that entanglement structure at the origin of spacetime might leave signatures in the primordial power spectrum — specifically, a modified spectral tilt $n_s$ or non-Gaussianity in the temperature anisotropies.
+**The motivation.** The connection between the QGET framework (from the [research page](/theoretical-physics/my-research-publications/)) and observational cosmology runs through the CMB. QGET predicts that entanglement structure at the origin of spacetime might leave signatures in the primordial power spectrum — specifically, a modified spectral tilt $n_s$ or non-Gaussianity in the temperature anisotropies.
 
 Developing intuition for what the CMB data actually looks like — not just reading about it in textbooks, but handling the maps and extracting the power spectrum — was a prerequisite for thinking seriously about what predictions QGET could make.
 

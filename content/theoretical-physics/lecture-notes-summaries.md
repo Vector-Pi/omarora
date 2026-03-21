@@ -251,9 +251,9 @@ Available through the Stanford course page. This is not strictly theoretical phy
 
 I keep notes in LaTeX at all times. Below is what I maintain.
 
-**Yang–Mills theory.** A running document that summarises the Stueckelberg extension, the BRST algebra, the one-loop calculation, and the connection to the Gribov problem. Currently about 120 pages. This is not a paper draft — it is a working document that includes failed approaches, questions I have not answered, and calculations I am not sure are correct.
+**Yang–Mills theory.** A running document that summarises the Stueckelberg extension, the BRST algebra, the one-loop calculation, and the connection to the Gribov problem. Currently about 140 pages. This is not a paper draft — it is a working document that includes failed approaches, questions I have not answered, and calculations I am not sure are correct.
 
-**QGET.** A separate document on the entanglement framework, the classical limit problem, and the connection to the LQG literature. About 80 pages.
+**QGET.** A separate document on the entanglement framework, the classical limit problem, and the connection to the LQG literature. About 90 pages.
 
 **Differential geometry.** A reference document summarising the definitions and theorems I need most: connections, curvature, fibre bundles, the relationship between the Ehresmann connection and the gauge field. Built from Lee, Nakahara, and Schuller's lectures.
 

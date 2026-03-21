@@ -65,4 +65,4 @@ St. Peter's Public School &ensp;·&ensp; *2014–2018*
 
 *Some ventures take years to become legible. I am comfortable with that.*
 
-[Curriculum Vitae](/omarora/cv.pdf)
+[Curriculum Vitae](/cv.pdf)

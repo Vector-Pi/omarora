@@ -1,6 +1,6 @@
 ---
 title: "Resources & Backtesting Tutorials"
-date: 2026-02-06
+date: 2026-03-08
 parent: "Quantitative Finance"
 ---
 

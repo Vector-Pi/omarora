@@ -29,7 +29,7 @@ The mathematics you need, roughly in order:
 
 You do not need to complete each stage before starting the corresponding physics. In practice you learn the mathematics and the physics together. But the sequence matters, and if you find yourself reading about tensors in a GR textbook before you have ever seen a linear transformation, the confusion is not because tensors are mysterious — it is because the prerequisite is missing.
 
-For detailed resource recommendations at each mathematical stage, see the [Mathematics Prerequisites for QFT and GR](/omarora/theoretical-physics/math-prerequisites-for-qft-gr/) page.
+For detailed resource recommendations at each mathematical stage, see the [Mathematics Prerequisites for QFT and GR](/theoretical-physics/math-prerequisites-for-qft-gr/) page.
 
 ---
 

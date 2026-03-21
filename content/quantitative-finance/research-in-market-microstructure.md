@@ -1,11 +1,11 @@
 ---
 title: "Research in Market Microstructure"
-date: 2026-02-06
+date: 2026-02-24
 parent: "Quantitative Finance"
 ---
 
 
-This page describes my active research in quantitative finance. It is more detailed than the [trading projects page](/omarora/quantitative-finance/trading-projects/) because this is research rather than deployed strategy — the ideas are at a stage where describing them publicly is appropriate, and where engaging with the literature and with potential collaborators is valuable.
+This page describes my active research in quantitative finance. It is more detailed than the [trading projects page](/quantitative-finance/trading-projects/) because this is research rather than deployed strategy — the ideas are at a stage where describing them publicly is appropriate, and where engaging with the literature and with potential collaborators is valuable.
 
 The work sits at the intersection of topological data analysis, network theory, and systematic equity research. The central question is whether the geometric and topological structure of equity correlation networks contains information about future stock returns that is not captured by conventional factors. The short answer, based on what I have found so far, appears to be yes — though the extent to which this translates into an exploitable trading signal after costs is the question still being investigated.
 

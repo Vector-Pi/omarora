@@ -1,6 +1,6 @@
 ---
 title: "My Trading Projects"
-date: 2026-02-06
+date: 2026-02-19
 parent: "Quantitative Finance"
 ---
 

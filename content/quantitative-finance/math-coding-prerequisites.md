@@ -1,10 +1,10 @@
 ---
 title: "Math & Coding Prerequisites"
-date: 2026-02-06
+date: 2026-02-18
 parent: "Quantitative Finance"
 ---
 
-This page is the practical companion to the [introduction to quantitative finance](/omarora/quantitative-finance/introduction-to-quantitative-finance/). That page describes the landscape of the subject. This page answers the question: what do you actually need to know before you can engage seriously with it?
+This page is the practical companion to the [introduction to quantitative finance](/quantitative-finance/introduction-to-quantitative-finance/). That page describes the landscape of the subject. This page answers the question: what do you actually need to know before you can engage seriously with it?
 
 The answer depends on what part of quantitative finance you are targeting. Derivatives pricing requires a specific subset of mathematics — measure theory, stochastic calculus, PDEs — that overlaps heavily with mathematical physics. Systematic trading requires a different subset — statistics, time series, machine learning, optimisation — that overlaps with data science. Both require programming. I will cover both, and be explicit about which subject belongs where.
 

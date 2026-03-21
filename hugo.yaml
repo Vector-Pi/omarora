@@ -1,9 +1,19 @@
-baseURL: 'https://Vector-Pi.github.io/omarora/'
+baseURL: 'https://omarora.in/'
 languageCode: 'en-us'
 title: 'Om Arora'
 
 markup:
   goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']
     renderer:
       unsafe: true # To allow raw HTML if needed
 
@@ -190,5 +200,14 @@ menu:
       weight: 4
 
 params:
-  description: "Personal website of Om Arora - Mathematics, Physics, AI Research."
   author: "Om Arora"
+  # SEO
+  siteDescription: "Personal website of Om Arora — researcher in Yang-Mills gauge theory, topological finance, and quantum gravity."
+  keywords: "Om Arora, theoretical physics, Yang-Mills theory, gauge theory, quantitative finance, topological data analysis, persistent homology, BRST quantisation, quantum gravity, mathematical physics"
+  twitterHandle: "@VectorPi3747"
+  orcid: "0009-0007-4151-7945"
+  googleScholar: "https://scholar.google.com/citations?user=_zc8PVgAAAAJ"
+  github: "https://github.com/Vector-Pi"
+  linkedin: "https://www.linkedin.com/in/omarora-5968a626b"
+  researchgate: "https://www.researchgate.net/profile/Om-Arora"
+

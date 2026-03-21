@@ -1,6 +1,6 @@
 ---
 title: "Recommendations & Reviews"
-date: 2026-02-06
+date: 2026-03-21
 parent: "Art & Music"
 ---
 
@@ -16,7 +16,7 @@ A note on what I mean by "recommend": I mean that I think the work repays seriou
 
 ## Books
 
-I have written about specific books on other pages of this site — particularly on the [history of mathematics and physics page](/omarora/history/history-of-mathematics-physics/) and the [inspiration from art and science page](/omarora/art-music/inspiration-from-art-science/). What follows here is a more direct set of recommendations, with less analysis and more direct advocacy.
+I have written about specific books on other pages of this site — particularly on the [history of mathematics and physics page](/history/history-of-mathematics-physics/) and the [inspiration from art and science page](/art-music/inspiration-from-art-science/). What follows here is a more direct set of recommendations, with less analysis and more direct advocacy.
 
 ### Mathematics and Physics
 

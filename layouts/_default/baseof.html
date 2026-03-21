@@ -1,133 +1,182 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en" }}">
+<html lang="{{ .Site.LanguageCode }}">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-    onload="renderMathInElement(document.body,{delimiters:[
-      {left:'$$',right:'$$',display:true},
-      {left:'$',right:'$',display:false},
-      {left:'\\(',right:'\\)',display:false},
-      {left:'\\[',right:'\\]',display:true}
-    ]});">
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{- $title := cond .IsHome (printf "%s — Researcher in Theoretical Physics & Quantitative Finance" .Site.Title) (printf "%s | %s" .Title .Site.Title) -}}
+    {{- $desc := .Params.description | default .Site.Params.description -}}
+
+    <!-- Primary Meta Tags -->
+    <title>{{ $title }}</title>
+    <meta name="title" content="{{ $title }}">
+    <meta name="description" content="{{ $desc }}">
+    <meta name="author" content="Om Arora">
+    <meta name="keywords" content="{{ if .Params.tags }}{{ delimit .Params.tags ", " }}{{ else }}Om Arora, theoretical physics, Yang-Mills theory, gauge theory, quantitative finance, topological data analysis, persistent homology, BRST quantisation, quantum gravity, mathematical physics{{ end }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="{{ if .IsHome }}profile{{ else }}article{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $desc }}">
+    <meta property="og:image" content="{{ "images/profile.jpg" | absURL }}">
+    <meta property="og:site_name" content="Om Arora">
+    {{ if .IsHome -}}
+    <meta property="profile:first_name" content="Om">
+    <meta property="profile:last_name" content="Arora">
+    {{- end }}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@VectorPi3747">
+    <meta name="twitter:creator" content="@VectorPi3747">
+    <meta name="twitter:url" content="{{ .Permalink }}">
+    <meta name="twitter:title" content="{{ $title }}">
+    <meta name="twitter:description" content="{{ $desc }}">
+    <meta name="twitter:image" content="{{ "images/profile.jpg" | absURL }}">
+
+    <!-- JSON-LD: Person (homepage only) -->
+    {{ if .IsHome -}}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Om Arora",
+      "url": "https://omarora.in",
+      "image": "https://omarora.in/images/profile.jpg",
+      "email": "om@omarora.in",
+      "jobTitle": "Independent Researcher",
+      "description": "Independent researcher in Yang-Mills gauge theory, topological data analysis applied to financial markets, and quantum gravity. Published work addresses the Yang-Mills mass gap problem and spacetime emergence from quantum entanglement.",
+      "knowsAbout": [
+        "Yang-Mills Theory","Gauge Theory","BRST Quantisation",
+        "Quantum Field Theory","General Relativity","Quantum Gravity",
+        "Algebraic Topology","Topological Data Analysis","Persistent Homology",
+        "Stochastic Calculus","Quantitative Finance","Mathematical Physics"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/omarora-5968a626b",
+        "https://orcid.org/0009-0007-4151-7945",
+        "https://www.researchgate.net/profile/Om-Arora",
+        "https://github.com/Vector-Pi",
+        "https://scholar.google.com/citations?user=_zc8PVgAAAAJ",
+        "https://independent.academia.edu/OmArora6",
+        "https://osf.io/vs8tn/",
+        "https://figshare.com/authors/Om_Arora/16020704",
+        "https://x.com/VectorPi3747"
+      ]
+    }
+    </script>
+    {{- end }}
+
+    <!-- JSON-LD: Article (content pages only) -->
+    {{ if and (not .IsHome) (not .IsSection) -}}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": {{ .Title | jsonify }},
+      "description": {{ $desc | jsonify }},
+      "url": "{{ .Permalink }}",
+      "datePublished": "{{ .Date.Format "2006-01-02" }}",
+      "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+      "author": {"@type": "Person","name": "Om Arora","url": "https://omarora.in"},
+      "publisher": {"@type": "Person","name": "Om Arora","url": "https://omarora.in"}
+    }
+    </script>
+    {{- end }}
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ "/favicon.png" | relURL }}">
+    <link rel="apple-touch-icon" href="{{ "/favicon.png" | relURL }}">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ]
+        });"></script>
 </head>
 
 <body>
+    <div class="site-wrapper">
+        <!-- Mobile nav toggle -->
+        <button class="mobile-nav-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="sidebar-overlay"></div>
 
-<button class="mobile-nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-  <span></span><span></span><span></span>
-</button>
-
-<div class="sidebar-overlay" id="sidebarOverlay"></div>
-
-<div class="site-wrapper">
-
-  <aside class="sidebar-column" id="sidebar">
-
-    <div class="sidebar-identity">
-      <a href="{{ "/omarora/" | absURL }}" class="sidebar-site-name">{{ .Site.Title }}</a>
-      <span class="sidebar-tagline">researcher · builder · thinker</span>
-    </div>
-
-    <nav class="sidebar-nav" aria-label="Main navigation">
-      <ul>
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-          {{ if not .HasChildren }}
-            <li>
-              <a href="{{ .URL | absURL }}"
-                 {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}class="active"{{ end }}>
-                {{ .Name }}
-              </a>
-            </li>
-          {{ else }}
-            <li class="menu-group{{ if $currentPage.HasMenuCurrent "main" . }} open{{ end }}">
-              <a href="{{ .URL | absURL }}" class="menu-header">{{ .Name }}</a>
-              <ul class="submenu">
-                {{ range .Children }}
-                  <li>
-                    <a href="{{ .URL | absURL }}"
-                       {{ if $currentPage.IsMenuCurrent "main" . }}class="active"{{ end }}>
-                      {{ .Name }}
-                    </a>
-                  </li>
+        <aside class="sidebar-column">
+            <div class="sidebar-identity">
+                <a href="{{ "/" | relURL }}" class="sidebar-site-name">{{ .Site.Title }}</a>
+                {{ if .Site.Params.description }}
+                <div class="sidebar-tagline">{{ .Site.Params.description }}</div>
                 {{ end }}
-              </ul>
-            </li>
-          {{ end }}
-        {{ end }}
-      </ul>
-    </nav>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <ul>
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                    {{ if .HasChildren }}
+                    <li class="menu-group {{ if $currentPage.HasMenuCurrent "main" . }}open{{ end }}">
+                        <span class="menu-header" onclick="this.parentElement.classList.toggle('open')">{{ .Name }}</span>
+                        <ul class="submenu">
+                            {{ range .Children }}
+                            <li><a href="{{ .URL }}" class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </li>
+                    {{ else }}
+                    <li><a href="{{ .URL }}" class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">{{ .Name }}</a></li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+            </nav>
 
-    <div class="sidebar-block">
-      <h3>Documents</h3>
-      <ul class="quick-links">
-        <li><a href="{{ "/omarora/cv.pdf" | absURL }}">Curriculum Vitae</a></li>
-      </ul>
+            <footer class="sidebar-footer">
+                <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.<br>
+                <a href="https://omarora.in">omarora.in</a></p>
+            </footer>
+        </aside>
+
+        <main class="main-content-column">
+            {{ block "main" . }}{{ end }}
+        </main>
     </div>
 
-    <div class="sidebar-footer">
-      <p>© {{ now.Year }} {{ .Site.Params.author | default .Site.Title }}</p>
-    </div>
+    <!-- Script for mobile nav -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggle = document.querySelector('.mobile-nav-toggle');
+            const sidebar = document.querySelector('.sidebar-column');
+            const overlay = document.querySelector('.sidebar-overlay');
 
-  </aside>
+            if (toggle && sidebar && overlay) {
+                toggle.addEventListener('click', () => {
+                    sidebar.classList.toggle('open');
+                    overlay.classList.toggle('visible');
+                });
 
-  <main class="main-content-column" id="mainContent">
-    {{ block "main" . }}{{ end }}
-  </main>
-
-</div>
-
-<script>
-(function () {
-  var toggle  = document.getElementById('navToggle');
-  var sidebar = document.getElementById('sidebar');
-  var overlay = document.getElementById('sidebarOverlay');
-
-  toggle.addEventListener('click', function () {
-    var isOpen = sidebar.classList.toggle('open');
-    overlay.classList.toggle('visible', isOpen);
-    toggle.setAttribute('aria-expanded', String(isOpen));
-    document.body.style.overflow = isOpen ? 'hidden' : '';
-  });
-
-  overlay.addEventListener('click', function () {
-    sidebar.classList.remove('open');
-    overlay.classList.remove('visible');
-    toggle.setAttribute('aria-expanded', 'false');
-    document.body.style.overflow = '';
-  });
-
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') {
-      sidebar.classList.remove('open');
-      overlay.classList.remove('visible');
-      document.body.style.overflow = '';
-    }
-  });
-
-  document.querySelectorAll('.menu-group').forEach(function (group) {
-    var header = group.querySelector('.menu-header');
-    if (!header) return;
-    header.addEventListener('click', function (e) {
-      e.preventDefault();
-      var wasOpen = group.classList.contains('open');
-      document.querySelectorAll('.menu-group').forEach(function (g) { g.classList.remove('open'); });
-      if (!wasOpen) group.classList.add('open');
-    });
-  });
-})();
-</script>
-
+                overlay.addEventListener('click', () => {
+                    sidebar.classList.remove('open');
+                    overlay.classList.remove('visible');
+                });
+            }
+        });
+    </script>
 </body>
+
 </html>

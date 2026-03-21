@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Quantitative Finance"
-date: 2026-02-06
+date: 2026-02-17
 parent: "Quantitative Finance"
 ---
 

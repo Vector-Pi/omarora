@@ -1,6 +1,6 @@
 ---
 title: "Inspiration from Art & Science"
-date: 2026-02-06
+date: 2026-03-18
 parent: "Art & Music"
 ---
 
@@ -33,7 +33,7 @@ Both proofs have the quality Hardy means. I read them for the first time in scho
 
 ### Euler's Identity and What It Means
 
-$e^{i\pi} + 1 = 0$ is the equation usually cited as the most beautiful in mathematics, and the citation is so common that it has become a cliché. The cliché does not make it wrong.
+$ e^{i\pi} + 1 = 0 $ is the equation usually cited as the most beautiful in mathematics, and the citation is so common that it has become a cliché. The cliché does not make it wrong.
 
 What the identity actually says — via Euler's formula $e^{i\theta} = \cos\theta + i\sin\theta$ — is that the exponential function, the trigonometric functions, and the imaginary unit are not separate objects. They are aspects of a single structure: the unit circle in the complex plane. Multiplication by $e^{i\theta}$ is rotation by angle $\theta$. The exponential function, which in the real line describes growth and decay, describes rotation in the complex plane.
 
@@ -89,7 +89,7 @@ This is not a precise claim. But I find that my aesthetic responses to mathemati
 
 ### Dirac's Equation and the Prediction of Antimatter
 
-I discussed Dirac at length in the [history of mathematics and physics page](/omarora/history/history-of-mathematics-physics/). I want to say something here about the aesthetic dimension of the derivation, because it is directly relevant to the art-science question.
+I discussed Dirac at length in the [history of mathematics and physics page](/history/history-of-mathematics-physics/). I want to say something here about the aesthetic dimension of the derivation, because it is directly relevant to the art-science question.
 
 Dirac derived his equation — the relativistic wave equation for the electron — by demanding that it be first-order in space and time derivatives and that its square equal the Klein-Gordon equation. These are constraints, not assumptions about physical reality. The constraints force the equation into a specific form, and that form turns out to predict: the spin of the electron (as an intrinsic property, not added by hand), the correct magnetic moment, the existence of the positron, and ultimately the entire framework of quantum field theory.
 
