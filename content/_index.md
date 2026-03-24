@@ -7,7 +7,7 @@ description: "Personal website of Om Arora — Mathematics, Physics, Quantitativ
 
 I work at the intersection of theoretical physics, mathematics, and quantitative finance. I am currently in high school.
 
-The common thread is similar structures — the kind that underlies gauge fields, limit order books, and formal proof alike. Fields change. That patience does not.
+The common thread in between is similar structures — the kind that underlies gauge fields, limit order books, and formal proof alike. Fields change. That patience does not.
 
 Outside the work: Dostoevsky and Tolstoy, Bach and Shostakovich, the history of empires, and the satisfaction of an elegant proof.
 

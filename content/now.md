@@ -35,7 +35,7 @@ Building toward an institutional-grade AI-native investment framework — one wh
 ## Reading
 
 *The Brothers Karamazov* — Dostoevsky, again.  
-*Classical Theory of Gauge Fields* — V. Rubakov, for the role of topology in guage theories.  
+*Classical Theory of Gauge Fields* — V. Rubakov, for the applications of topology in guage theories.  
 *Against the Gods: The Remarkable Story of Risk* — Bernstein.  
 *When Genius Failed* — Lowenstein. 
 
