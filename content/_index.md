@@ -22,7 +22,7 @@ An extension of Yang–Mills theory via a group-valued Stueckelberg field. Full 
 MIL-STD-1553B and STANAG 4586 do not speak to each other. Neither do the Tejas Mk.1A and the Rustom-2. I am building the translation layer — open, software-defined, and protocol-agnostic. The architecture reduces N×(N−1) point-to-point complexity to 2N. No dependency on Western proprietary hardware.
 
 **AI for Mathematics Olympiad**
-The goal is formal proof and solutions — verified, symbolic reasoning at IMO level.
+The goal is formal proof generation — verified, symbolic reasoning at IMO level.
 
 **Quantitative Research**
 Stochastic calculus applied to limit order book dynamics. Persistent homology as a lens on market microstructure. The constraint I hold: strategies must be mathematically rigorous before they are applied, even if they turn out to be successful.
@@ -34,7 +34,7 @@ Stochastic calculus applied to limit order book dynamics. Persistent homology as
 **"A Gauge-Invariant Stueckelberg Extension of Yang–Mills Theory" ([here](https://doi.org/10.5281/zenodo.19057338))**
 Complete BRST-quantised action · Full Feynman rules including non-polynomial vertices · One-loop beta function · Asymptotic freedom preserved
 
-**"A Software-Defined Protocol Translation Architecture for Multi-Domain Defence Asset Integration" (Yet to be published)**
+**"A Software-Defined Protocol Translation Architecture for Multi-Domain Defence Asset Integration" (Currently Under Review)**
 Five-component middleware architecture · Six-dimensional protocol gap analysis · Python implementation · Per-field audit logging
 
 **"Quantum Geometric Entanglement: A Unified Model for Emergence of Spacetime in Quantum Gravity" ([here](https://www.researchgate.net/publication/399859360_Quantum_Geometric_Entanglement_A_Unified_Model_for_Emergence_of_Spacetime_in_Quantum_Gravity?_sg%5B0%5D=aV7hA32uRz0xoRL0DjahRz5nbtFpKol1DuhnrvXmzb3uixYd-qElB9sMpxYFIUVmwO5GEYMxc3JJjXQlccsoEtYCzv3qQdCMlTHhSUHc.Bq8vNzxd_tu2KKk_AEsaIyZMNSxuUG0eboOpnMPbuCSWR4xeXBcQoP-Irf1k9Fsspc2iL9doqQFynG5429HJ8g&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19))**
