@@ -1,6 +1,6 @@
 ---
 title: "Lessons from History"
-date: 2026-03-17
+date: 2026-02-24
 parent: "History"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Philosophy for STEM Students"
-date: 2026-02-14
+date: 2026-03-07
 parent: "Philosophy"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Financial History & Market Evolution"
-date: 2026-03-04
+date: 2026-02-20
 parent: "History"
 ---
 

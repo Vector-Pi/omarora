@@ -2,7 +2,7 @@
 title: "Om Arora"
 date: 2026-02-06
 profileImage: "images/profile.jpg"
-description: "Personal website of Om Arora — Mathematics, Physics, Quantitative Finance."
+description: "Om Arora — theoretical physics researcher, published papers on Yang-Mills theory, quantitative finance, and critical systems. High school student exploring research, mathematics, and defence infrastructure."
 ---
 
 I work at the intersection of theoretical physics, mathematics, and quantitative finance. I am currently in high school.

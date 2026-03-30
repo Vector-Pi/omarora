@@ -1,8 +1,9 @@
 ---
 title: "Why Research Needs Builder Thinking"
-date: 2026-02-28
+date: 2026-03-05
 tags: ["Research", "Mindset", "Philosophy", "Execution", "Learning"]
 summary: "A reflection on why meaningful research requires the mindset of a builder, written as advice to my younger self."
+description: "How adopting a builder's mindset transforms research from metric-chasing to genuine exploration. Why execution matters as much as theory in rigorous work."
 ---
 
 ### **A Note Before I Begin**
@@ -178,7 +179,9 @@ To remember that building something meaningful takes time.
 
 And most importantly, to remember that the right problems are not chosen for you.
 
-You recognize them  
+You recognize them
 because they refuse to let you go.
 
 ---
+
+**Related**: I first experienced this distinction between thinking and execution at [my first hackathon](/blog/myfirsthackathon/). That event crystallized how different building something feels compared to only discussing it.

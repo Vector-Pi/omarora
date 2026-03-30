@@ -1,6 +1,6 @@
 ---
 title: "Cosmology & Astrophysics Notes"
-date: 2026-02-06
+date: 2026-02-14
 parent: "Astronomy"
 ---
 

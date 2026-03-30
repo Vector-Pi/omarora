@@ -1,7 +1,8 @@
 ---
 title: "Beginners Guide to Advanced Mathematics"
-date: 2026-02-06
+date: 2026-02-26
 parent: "Mathematics"
+description: "A practical roadmap for entering advanced mathematics. How to transition from high school math to rigorous proof-based thinking and research-level work."
 ---
 
 

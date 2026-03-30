@@ -1,7 +1,8 @@
 ---
 title: "Prerequisites for Mathematical Research"
-date: 2026-02-06
+date: 2026-03-02
 parent: "Mathematics"
+description: "An honest guide to mathematical research — what you actually need to know, the confusion you'll face, and how to navigate pure vs. applied mathematics."
 ---
 
 There are many guides to mathematical research. Most of them are written by people who have seemingly forgotten what it felt like to not know how to do it.

@@ -3,6 +3,7 @@ title: "Why I’m Writing This Blog"
 date: 2026-02-07
 tags: ["Meta", "Blog", "Research", "Learning", "Personal"]
 summary: "What this blog is for, who it’s meant to help, and what I plan to write here."
+description: "A guide for learning research, building projects, and navigating the intersection of mathematics, physics, and engineering. Written for people starting their intellectual journey."
 ---
 
 ### **Why This Blog Exists ?**

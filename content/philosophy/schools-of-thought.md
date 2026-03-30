@@ -1,6 +1,6 @@
 ---
 title: "Schools of Thought"
-date: 2026-02-11
+date: 2026-03-10
 parent: "Philosophy"
 ---
 

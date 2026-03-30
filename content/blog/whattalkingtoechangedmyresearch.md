@@ -1,6 +1,6 @@
 ---
 title: "What Talking to Startup Founders Changed About How I Think About Research"
-date: 2026-02-23
+date: 2026-03-02
 tags: ["Research", "Entrepreneurship", "Execution", "Deep Tech", "Mindset"]
 summary: "How exposure to startup founders reshaped my approach to scientific research, risk, and execution."
 ---

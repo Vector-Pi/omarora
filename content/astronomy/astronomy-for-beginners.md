@@ -1,6 +1,6 @@
 ---
 title: "Astronomy for Beginners"
-date: 2026-02-06
+date: 2026-02-12
 parent: "Astronomy"
 ---
 

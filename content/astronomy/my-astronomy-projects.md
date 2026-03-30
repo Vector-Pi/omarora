@@ -1,6 +1,6 @@
 ---
 title: "My Astronomy Projects"
-date: 2026-02-06
+date: 2026-02-18
 parent: "Astronomy"
 ---
 

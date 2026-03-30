@@ -1,6 +1,6 @@
 ---
 title: "Math & Coding Prerequisites"
-date: 2026-02-18
+date: 2026-03-14
 parent: "Quantitative Finance"
 ---
 

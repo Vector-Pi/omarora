@@ -1,7 +1,8 @@
 ---
 title: "Starting with Theoretical Physics"
-date: 2026-02-06
+date: 2026-03-30
 parent: "Theoretical Physics"
+description: "Complete roadmap to theoretical physics. From classical mechanics through quantum field theory, gauge theory, and general relativity. Structured resources and prerequisites."
 ---
 
 

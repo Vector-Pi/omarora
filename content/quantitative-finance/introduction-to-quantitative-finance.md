@@ -1,7 +1,8 @@
 ---
 title: "Introduction to Quantitative Finance"
-date: 2026-02-17
+date: 2026-03-12
 parent: "Quantitative Finance"
+description: "Quantitative finance from a mathematical physics perspective. Stochastic calculus, Black-Scholes equations, risk-neutral pricing, and financial mathematics."
 ---
 
 

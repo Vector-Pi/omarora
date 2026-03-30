@@ -1,6 +1,6 @@
 ---
 title: "What the Yang–Mills Mass Gap Problem Actually Asks"
-date: 2026-03-09
+date: 2026-03-12
 tags: ["Research", "Physics", "Yang-Mills", "Mass Gap", "Millennium Prize Problems"]
 summary: "An explanation of what the Yang-Mills mass gap problem actually asks."
 ---
@@ -228,3 +228,9 @@ About structure.
 And about the limits of our current understanding.
 
 And that is why it continues to matter.
+
+---
+
+**More on this topic**:
+- [Why I Am Interested in the Yang–Mills Mass Gap Problem](/blog/whyyangmills/)
+- [My Research & Publications](/theoretical-physics/my-research-publications/) — detailed work on mass generation and Stueckelberg extensions

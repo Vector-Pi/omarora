@@ -1,7 +1,8 @@
 ---
 title: "Olympiad Problem-Solving & Resources"
-date: 2026-02-06
+date: 2026-02-28
 parent: "Mathematics"
+description: "Comprehensive guide to olympiad mathematics — algebra, number theory, geometry, combinatorics. Resources for problem-solving, platforms, programs, and communities."
 ---
 
 

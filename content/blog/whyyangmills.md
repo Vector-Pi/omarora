@@ -1,8 +1,9 @@
 ---
 title: "Why I Am Interested in the Yang–Mills Mass Gap Problem"
-date: 2026-03-04
+date: 2026-03-18
 tags: ["Research", "Physics", "Yang-Mills", "Mass Gap", "Millennium Prize Problems"]
 summary: "A reflection on why I am interested in the Yang-Mills mass gap problem."
+description: "Exploring the Yang-Mills mass gap problem — one of the Millennium Prize Problems. Why this problem captivates researchers and its connections to fundamental physics."
 ---
 
 

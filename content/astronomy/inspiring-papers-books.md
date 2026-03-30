@@ -1,6 +1,6 @@
 ---
 title: "Inspiring Papers & Books"
-date: 2026-02-06
+date: 2026-02-16
 parent: "Astronomy"
 ---
 

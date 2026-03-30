@@ -1,6 +1,6 @@
 ---
 title: "My First Hackathon — Where Ideas Turned Into Reality"
-date: 2026-02-18
+date: 2026-02-25
 tags: ["Experience", "Hackathon", "Programming", "Learning", "Technology"]
 summary: "Reflections from my first hackathon experience and how it changed how I think about building things."
 ---
@@ -86,3 +86,5 @@ Since then, hackathons have remained one of my favorite forms of extracurricular
 And in many ways, it was the moment I realized that ideas only become meaningful when they are tested in reality. Which since then has been a major principle guiding my work and life in general.
 
 ---
+
+**Related**: See [Why Research Needs Builder Thinking](/blog/researchneedsbuilderthinking/) for a deeper exploration of how execution and rigorous thinking intersect.

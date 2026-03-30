@@ -1,7 +1,8 @@
 ---
 title: "My Research & Publications"
-date: 2026-02-06
+date: 2026-03-26
 parent: "Theoretical Physics"
+description: "Yang-Mills theory research, mass gap problem, BRST quantisation, and Stueckelberg extensions. Published papers on gauge theory and quantum gravity."
 ---
 
 

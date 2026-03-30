@@ -1,6 +1,6 @@
 ---
 title: "History of Mathematics & Physics"
-date: 2026-02-25
+date: 2026-02-22
 parent: "History"
 ---
 

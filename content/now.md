@@ -1,9 +1,10 @@
 ---
 title: "Now"
-date: 2026-03-18
+date: 2026-03-30
+description: "Current work and focus areas — research, learning, and building systems."
 ---
 
-Updated March 2026
+Updated March 30, 2026
 
 ---
 
@@ -16,7 +17,7 @@ A continuation of two prior papers: the 2023 confinement model and the subsequen
 Developing a graph-theoretic framework for market regime detection using persistent homology applied to limit order book topology. The central question: whether topological invariants of microstructure graphs carry predictive information about regime transitions that conventional time-series methods cannot resolve. Both the mathematics and the strategy layer are being built simultaneously.
 
 **Defence Systems**
-Working on a protocol translation architecture for multi-domain defence asset integration — the engineering problem of making systems that were never designed to communicate do so reliably, in real time, without proprietary dependencies. The longer-term ambition is a software-defined infrastructure layer for sovereign defence capability. Early stage; most of it cannot be discussed yet.
+Working on a protocol translation architecture for multi-domain critical infrastructure integration — the engineering problem of making legacy systems that were never designed to communicate do so reliably, in real time, without proprietary dependencies. The longer-term ambition is a software-defined infrastructure layer for sovereign critical systems capability. The work is currently under review for publication. Most details cannot be discussed yet.
 
 **AI & Finance Infrastructure**
 Building toward an institutional-grade AI-native investment framework — one where the research pipeline, signal generation, and execution layer are designed from the ground up around machine reasoning rather than retrofitted onto legacy infrastructure. The theoretical framework is being laid.

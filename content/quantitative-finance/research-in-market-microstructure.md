@@ -1,7 +1,8 @@
 ---
 title: "Research in Market Microstructure"
-date: 2026-02-24
+date: 2026-03-18
 parent: "Quantitative Finance"
+description: "Topological data analysis applied to equity markets. Using persistent homology and network theory to detect market regimes and microstructure patterns."
 ---
 
 

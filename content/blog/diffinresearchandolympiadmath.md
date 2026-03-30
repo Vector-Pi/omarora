@@ -1,6 +1,6 @@
 ---
 title: "Differences Between Olympiad Math and Research Math"
-date: 2026-02-14
+date: 2026-02-20
 tags: ["Research", "Mathematics", "Olympiad Math", "Learning"]
 summary: "A reflection on the differences between olympiad math and research math, and what each prepares you for."
 ---
