@@ -34,7 +34,7 @@ Stochastic calculus applied to limit order book dynamics. Persistent homology as
 **"A Gauge-Invariant Stueckelberg Extension of Yang–Mills Theory" ([here](https://doi.org/10.5281/zenodo.19057338))**
 Complete BRST-quantised action · Full Feynman rules including non-polynomial vertices · One-loop beta function · Asymptotic freedom preserved
 
-**"A Software-Defined Protocol Translation Architecture for Multi-Domain Defence Asset Integration" (Currently Under Review)**
+**"A Software-Defined Protocol Translation Architecture for Multi-Domain Defence Asset Integration" ([here](https://doi.org/10.5281/zenodo.19363710))**
 Five-component middleware architecture · Six-dimensional protocol gap analysis · Python implementation · Per-field audit logging
 
 **"Quantum Geometric Entanglement: A Unified Model for Emergence of Spacetime in Quantum Gravity" ([here](https://www.researchgate.net/publication/399859360_Quantum_Geometric_Entanglement_A_Unified_Model_for_Emergence_of_Spacetime_in_Quantum_Gravity?_sg%5B0%5D=aV7hA32uRz0xoRL0DjahRz5nbtFpKol1DuhnrvXmzb3uixYd-qElB9sMpxYFIUVmwO5GEYMxc3JJjXQlccsoEtYCzv3qQdCMlTHhSUHc.Bq8vNzxd_tu2KKk_AEsaIyZMNSxuUG0eboOpnMPbuCSWR4xeXBcQoP-Irf1k9Fsspc2iL9doqQFynG5429HJ8g&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19))**
