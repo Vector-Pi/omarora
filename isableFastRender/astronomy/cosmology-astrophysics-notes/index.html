@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/omarora/livereload.js?mindelay=10&amp;v=2&amp;port=62070&amp;path=omarora/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmology &amp; Astrophysics Notes · Om Arora</title>
+  <meta name="description" content="Personal website of Om Arora - Mathematics, Physics, AI Research.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="http://localhost:62070/omarora/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body,{delimiters:[
+      {left:'$$',right:'$$',display:true},
+      {left:'$',right:'$',display:false},
+      {left:'\\(',right:'\\)',display:false},
+      {left:'\\[',right:'\\]',display:true}
+    ]});">
+  </script>
+</head>
+
+<body>
+
+<button class="mobile-nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="site-wrapper">
+
+  <aside class="sidebar-column" id="sidebar">
+
+    <div class="sidebar-identity">
+      <a href="http://localhost:62070/" class="sidebar-site-name">Om Arora</a>
+      <span class="sidebar-tagline">researcher · builder · thinker</span>
+    </div>
+
+    <nav class="sidebar-nav" aria-label="Main navigation">
+      <ul>
+        
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/"
+                 >
+                Home
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/now/"
+                 >
+                Now
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/blog/"
+                 >
+                Blog
+              </a>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/mathematics/" class="menu-header">Mathematics</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/beginners-guide-to-advanced-mathematics/"
+                       >
+                      Beginners Guide to Advanced Mathematics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/prerequisites-for-mathematical-research/"
+                       >
+                      Prerequisites for Mathematical Research
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/olympiad-problem-solving-resources/"
+                       >
+                      Olympiad Problem-Solving &amp; Resources
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/reading-notes-papers/"
+                       >
+                      Reading Notes &amp; Papers
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/theoretical-physics/" class="menu-header">Theoretical Physics</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/starting-with-theoretical-physics/"
+                       >
+                      Starting with Theoretical Physics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/math-prerequisites-for-qft-gr/"
+                       >
+                      Math Prerequisites for QFT &amp; GR
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/my-research-publications/"
+                       >
+                      My Research &amp; Publications
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/open-problems-im-exploring/"
+                       >
+                      Open Problems I’m Exploring
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/lecture-notes-summaries/"
+                       >
+                      Lecture Notes &amp; Summaries
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/astronomy/" class="menu-header">Astronomy</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/astronomy-for-beginners/"
+                       >
+                      Astronomy for Beginners
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/cosmology-astrophysics-notes/"
+                       >
+                      Cosmology &amp; Astrophysics Notes
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/my-astronomy-projects/"
+                       >
+                      My Astronomy Projects
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/inspiring-papers-books/"
+                       >
+                      Inspiring Papers &amp; Books
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/quantitative-finance/" class="menu-header">Quantitative Finance</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/"
+                       >
+                      Introduction to Quantitative Finance
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/math-coding-prerequisites/"
+                       >
+                      Math &amp; Coding Prerequisites
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/my-trading-projects/"
+                       >
+                      My Trading Projects
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/research-in-market-microstructure/"
+                       >
+                      Research in Market Microstructure
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/resources-backtesting-tutorials/"
+                       >
+                      Resources &amp; Backtesting Tutorials
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/philosophy/" class="menu-header">Philosophy</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/schools-of-thought/"
+                       >
+                      Schools of Thought
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/great-thinkers-essays/"
+                       >
+                      Great Thinkers &amp; Essays
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/philosophy-for-stem-students/"
+                       >
+                      Philosophy for STEM Students
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/history/" class="menu-header">History</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/history-of-mathematics-physics/"
+                       >
+                      History of Mathematics &amp; Physics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/financial-history-market-evolution/"
+                       >
+                      Financial History &amp; Market Evolution
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/lessons-from-history/"
+                       >
+                      Lessons from History
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/art-music/" class="menu-header">Art &amp; Music</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/music-i-create-listen-to/"
+                       >
+                      Music I Create &amp; Listen To
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/inspiration-from-art-science/"
+                       >
+                      Inspiration from Art &amp; Science
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/creative-process-tools/"
+                       >
+                      Creative Process &amp; Tools
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/recommendations-reviews/"
+                       >
+                      Recommendations &amp; Reviews
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+
+    <div class="sidebar-block">
+      <h3>Documents</h3>
+      <ul class="quick-links">
+        <li><a href="http://localhost:62070/omarora/files/cv.pdf">Curriculum Vitae</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-footer">
+      <p>© 2026 Om Arora</p>
+    </div>
+
+  </aside>
+
+  <main class="main-content-column" id="mainContent">
+    
+<article class="post">
+  <header>
+    <h1>Cosmology &amp; Astrophysics Notes</h1>
+    <p class="post-meta">
+      6 February 2026
+      
+    </p>
+  </header>
+  <div class="post-content"><p>These are notes in the genuine sense — a working document, not a polished account. They are organised by topic and represent a synthesis of what I have read, worked through, and thought about across several years of studying cosmology alongside the theoretical physics. Where I have personal views or where there is genuine scientific controversy, I say so.</p>
+<p>The connection between this page and my research is not accidental. The QGET framework — the approach to emergent spacetime from entanglement correlations described in my <a href="/omarora/theoretical-physics/my-research-publications/">research page</a> — makes predictions about the early universe that should, eventually, be testable against CMB data. Understanding the observational cosmology side of that is part of the work.</p>
+<p>The notes are organised as follows: the foundational framework (FRW cosmology, the Friedmann equations, the thermal history), the content of the universe (dark matter, dark energy, the cosmological constant problem), the physics of the early universe (inflation, baryogenesis, nucleosynthesis), structure formation, the observational landscape (CMB, BAO, gravitational waves), stellar and galactic astrophysics, and finally the current state of the field — what DESI is telling us, what the tensions in cosmology mean, and where the field is going.</p>
+<hr>
+<h2 id="part-i--the-cosmological-framework">Part I — The Cosmological Framework</h2>
+<h3 id="the-cosmological-principle">The Cosmological Principle</h3>
+<p>Modern cosmology rests on the <em>cosmological principle</em>: on sufficiently large scales, the universe is homogeneous (the same everywhere) and isotropic (the same in all directions). This is not a logical necessity but an empirical observation — the CMB is uniform to one part in $10^5$, and galaxy surveys show homogeneity above scales of about 200 Mpc.</p>
+<p>The cosmological principle constrains the geometry of spacetime to be described by the <strong>Friedmann–Lemaître–Robertson–Walker (FRW) metric</strong>:</p>
+<p>$$ds^2 = -c^2 dt^2 + a(t)^2 \left[\frac{dr^2}{1-kr^2} + r^2 d\Omega^2\right]$$</p>
+<p>where $a(t)$ is the <strong>scale factor</strong> (normalised to $a(t_0) = 1$ today), $k \in {-1, 0, +1}$ is the spatial curvature (open, flat, closed), and $d\Omega^2 = d\theta^2 + \sin^2\theta, d\phi^2$ is the solid angle element.</p>
+<p>The redshift $z$ of a photon emitted at time $t_e$ and observed today is:
+$$1 + z = \frac{a(t_0)}{a(t_e)} = \frac{1}{a(t_e)}$$</p>
+<p>This is the fundamental observable: the redshift tells you the scale factor at the time of emission.</p>
+<hr>
+<h3 id="the-friedmann-equations">The Friedmann Equations</h3>
+<p>Inserting the FRW metric into the Einstein field equations $G_{\mu\nu} = 8\pi G T_{\mu\nu}$ (with cosmological constant $\Lambda$) gives the two Friedmann equations:</p>
+<p>$$\left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3}$$</p>
+<p>$$\frac{\ddot{a}}{a} = -\frac{4\pi G}{3}\left(\rho + \frac{3p}{c^2}\right) + \frac{\Lambda c^2}{3}$$</p>
+<p>The <strong>Hubble parameter</strong> $H(t) = \dot{a}/a$ measures the expansion rate. Today, $H_0 = H(t_0)$. The <strong>density parameter</strong> $\Omega_i = \rho_i / \rho_{\text{crit}}$ for each component $i$, where the critical density $\rho_{\text{crit}} = 3H^2/8\pi G$ is the density that gives flat spatial geometry.</p>
+<p><strong>The equation of state</strong> $w = p/\rho c^2$ determines how each component dilutes as the universe expands:</p>
+<ul>
+<li>Radiation: $w = 1/3$, so $\rho_r \propto a^{-4}$</li>
+<li>Matter (dust): $w = 0$, so $\rho_m \propto a^{-3}$</li>
+<li>Cosmological constant: $w = -1$, so $\rho_\Lambda = \text{const}$</li>
+<li>Dark energy (general): $-1 \leq w \leq 1$ (observationally constrained by DESI and CMB)</li>
+</ul>
+<p>The deceleration parameter $q = -\ddot{a}a/\dot{a}^2 = -1 - \dot{H}/H^2$ is positive (decelerating) in a matter-dominated universe and negative (accelerating) when $\Lambda$ dominates. The observed transition from deceleration to acceleration occurred at $z \approx 0.6$.</p>
+<hr>
+<h3 id="the-thermal-history-of-the-universe">The Thermal History of the Universe</h3>
+<p>The universe emerged from a hot, dense initial state and has been expanding and cooling ever since. The thermal history is a sequence of phase transitions as the temperature falls.</p>
+<p><strong>$t \sim 10^{-43}$ s, $T \sim 10^{32}$ K — the Planck epoch.</strong> Quantum gravitational effects are important. The energy density is Planck-scale. We have no reliable theory of what happened here.</p>
+<p><strong>$t \sim 10^{-36}$ s — Inflation.</strong> A brief period of exponential expansion driven by the potential energy of the inflaton field. Inflation explains: (1) the flatness of the observed universe ($\Omega_\text{total} \approx 1$), (2) the horizon problem (why the CMB is uniform to $10^{-5}$ even in regions that were not causally connected in the standard picture), (3) the absence of magnetic monopoles, and (4) the generation of the primordial density perturbations that seeded structure formation.</p>
+<p><strong>$t \sim 10^{-10}$ s, $T \sim 10^{15}$ K — Electroweak phase transition.</strong> The Higgs field acquires a non-zero vacuum expectation value, spontaneously breaking the $SU(2)_L \times U(1)_Y$ gauge symmetry to $U(1)_{\text{EM}}$. The $W$ and $Z$ bosons acquire mass. Baryogenesis may have occurred here.</p>
+<p><strong>$t \sim 10^{-5}$ s, $T \sim 10^{12}$ K — QCD phase transition.</strong> The quark-gluon plasma condenses into hadrons (protons, neutrons, pions). The strong force confines quarks into colour-neutral bound states. This is the transition that my Yang–Mills research is concerned with, at the level of the underlying mechanism.</p>
+<p><strong>$t \sim 1$–$200$ s, $T \sim 10^9$ K — Big Bang Nucleosynthesis (BBN).</strong> Protons and neutrons combine to form light nuclei: deuterium, helium-3, helium-4, and a small amount of lithium-7. The predicted abundance of $^4$He ($\approx 25%$ by mass) and the deuterium-to-hydrogen ratio are among the most precise predictions of the Big Bang model, confirmed observationally to good precision.</p>
+<p><strong>$t \sim 380{,}000$ years, $T \sim 3{,}000$ K — Recombination.</strong> Electrons combine with nuclei to form neutral atoms. The universe becomes transparent: photons decouple from matter and free-stream to become the <strong>Cosmic Microwave Background</strong> (CMB). The surface of last scattering at $z \approx 1100$.</p>
+<p><strong>$t \sim 100$–$500$ Myr — Cosmic dawn and Epoch of Reionisation.</strong> The first stars and galaxies form (the precise epoch is an active area of research, now being probed by JWST). UV radiation from these first objects reionises the intergalactic medium.</p>
+<p><strong>$t \sim 9$ Gyr, $z \approx 0.6$ — Dark energy domination.</strong> The energy density of the cosmological constant begins to dominate over matter. The expansion transitions from decelerating to accelerating.</p>
+<p><strong>$t = 13.8$ Gyr, $z = 0$ — Today.</strong></p>
+<hr>
+<h2 id="part-ii--the-content-of-the-universe">Part II — The Content of the Universe</h2>
+<h3 id="the-standard-cosmological-model-lambdacdm">The Standard Cosmological Model: $\Lambda$CDM</h3>
+<p>The standard model of cosmology — $\Lambda$CDM — describes the universe with six parameters: the Hubble constant $H_0$, the baryon density $\Omega_b h^2$, the cold dark matter density $\Omega_c h^2$, the optical depth to reionisation $\tau$, the amplitude $A_s$ and spectral index $n_s$ of the primordial power spectrum.</p>
+<p>The current best-fit values from Planck 2018:</p>
+<ul>
+<li>$H_0 = 67.4 \pm 0.5$ km/s/Mpc</li>
+<li>$\Omega_b h^2 = 0.02237 \pm 0.00015$</li>
+<li>$\Omega_c h^2 = 0.1200 \pm 0.0012$</li>
+<li>$n_s = 0.965 \pm 0.004$</li>
+</ul>
+<p>The energy budget of the universe today: $\sim 68%$ dark energy, $\sim 27%$ dark matter, $\sim 5%$ baryonic matter, $\sim 0.01%$ radiation.</p>
+<hr>
+<h3 id="dark-matter">Dark Matter</h3>
+<p><strong>What it is (observationally).</strong> Dark matter is a non-luminous, non-baryonic component of matter that interacts gravitationally and (by hypothesis) through the weak force, but not through electromagnetism or the strong force. The evidence for its existence is overwhelming:</p>
+<ul>
+<li>
+<p><strong>Galaxy rotation curves.</strong> Stars in the outer regions of spiral galaxies orbit at approximately constant velocity rather than falling off as $v \propto r^{-1/2}$ as Newtonian gravity would predict from the visible mass. The mass profile implied is $M(r) \propto r$, extending well beyond the visible disc — a dark matter halo.</p>
+</li>
+<li>
+<p><strong>Galaxy cluster dynamics.</strong> Zwicky (1933) first noted that the velocity dispersion of galaxies in the Coma cluster was far too high to be explained by the visible mass. The mass inferred from dynamics exceeds the visible mass by a factor of several hundred.</p>
+</li>
+<li>
+<p><strong>Gravitational lensing.</strong> The bending of light from background galaxies by galaxy clusters allows a direct mass measurement independent of dynamics. The mass maps from lensing consistently show extended dark matter halos.</p>
+</li>
+<li>
+<p><strong>The Bullet Cluster.</strong> Two galaxy clusters passing through each other. The gas (which interacts and slows down) and the dark matter (which passes through) have separated. The mass concentration, measured by lensing, coincides with the dark matter, not the gas. This is the most direct evidence that dark matter is a separate component, not a modification of gravity.</p>
+</li>
+<li>
+<p><strong>CMB power spectrum.</strong> The characteristic peaks in the CMB power spectrum depend on the ratio of baryonic to dark matter. The observed peak positions and heights are inconsistent with a universe containing only baryonic matter.</p>
+</li>
+</ul>
+<p><strong>What it might be.</strong> The leading candidates are:</p>
+<p><em>WIMPs (Weakly Interacting Massive Particles)</em> — particles with mass $\sim 10$–$10^4$ GeV that interact through the weak force. The &ldquo;WIMP miracle&rdquo;: a particle with weak-scale mass and coupling naturally gives the right relic density ($\Omega_\text{DM} \approx 0.27$) if it was in thermal equilibrium in the early universe. WIMPs are strongly motivated by supersymmetry. However, direct detection experiments (XENON1T, PandaX, LZ) have now excluded large regions of parameter space.</p>
+<p><em>Axions</em> — very light pseudoscalar particles originally proposed to solve the strong CP problem. The QCD axion has a mass $\sim 10^{-5}$–$10^{-3}$ eV. Axion dark matter would behave as a coherent oscillating field rather than a gas of particles. Experiments including ADMX and HAYSTAC are searching for axion conversion to photons in a magnetic field.</p>
+<p><em>Primordial Black Holes (PBHs)</em> — black holes formed in the early universe before BBN. Their abundance is constrained by microlensing surveys (MACHO, EROS, HSC), CMB spectral distortions, and gravitational wave observations. They remain viable as a fraction of dark matter in specific mass windows.</p>
+<p><em>Sterile neutrinos</em> — right-handed neutrinos that mix with active neutrinos. They could be produced in the early universe through oscillations and contribute to the dark matter density.</p>
+<hr>
+<h3 id="dark-energy">Dark Energy</h3>
+<p><strong>What it is (observationally).</strong> Dark energy is the component driving the accelerated expansion of the universe, inferred from:</p>
+<ul>
+<li>Type Ia supernovae (Perlmutter, Schmidt, Riess 1998/1999, Nobel Prize 2011)</li>
+<li>CMB + BAO joint constraints</li>
+<li>The age of the universe (a flat matter-only universe would be younger than the oldest stars)</li>
+</ul>
+<p>In $\Lambda$CDM, dark energy is the cosmological constant $\Lambda$ — a constant energy density of the vacuum. Its equation of state is exactly $w = -1$.</p>
+<p><strong>The cosmological constant problem.</strong> When you compute the vacuum energy expected from quantum field theory — the zero-point energies of all quantum fields — you get a number that is $10^{120}$ times larger than the observed value of $\Lambda$. This is the worst fine-tuning problem in physics: why is the cosmological constant so small?</p>
+<p>This problem is genuinely unsolved. The most discussed approaches are:</p>
+<p><em>Anthropic selection</em> (Weinberg 1987, before the discovery of $\Lambda$): in a theory with a large landscape of vacua (string theory landscape), only vacua with sufficiently small $\Lambda$ allow structure formation and hence observers.</p>
+<p><em>Quintessence</em>: replace $\Lambda$ with a dynamical scalar field $\phi$ with potential $V(\phi)$ that rolls slowly to its minimum. The equation of state $w(z)$ evolves with redshift. This is the class of models now being tested by DESI.</p>
+<p><em>Modified gravity</em>: perhaps dark energy is not a matter component but a modification of gravity at cosmological scales. $f(R)$ gravity, scalar-tensor theories, and Horndeski theories are the main candidates.</p>
+<hr>
+<h3 id="the-desi-results-and-the-fate-of-lambdacdm">The DESI Results and the Fate of $\Lambda$CDM</h3>
+<p>This is the most active observational front in cosmology right now, and the results are genuinely surprising.</p>
+<p><strong>DESI (Dark Energy Spectroscopic Instrument)</strong> is a spectroscopic survey on the Mayall telescope at Kitt Peak, measuring the positions and redshifts of approximately 40 million galaxies and quasars. By measuring the <strong>Baryon Acoustic Oscillation</strong> (BAO) scale — a characteristic separation of $\sim 150$ Mpc imprinted by sound waves in the early universe — as a function of redshift, DESI maps the expansion history of the universe.</p>
+<p><strong>DESI Data Release 1 (2024)</strong> measured BAO across six galaxy and quasar samples spanning $0.1 &lt; z &lt; 4.2$. Combined with CMB and supernova data, the results suggested the dark energy equation of state $w$ is <em>not</em> equal to $-1$ — i.e., that dark energy might be dynamical. The tension with $\Lambda$CDM was at the $\sim 2.5\sigma$ level in the $w_0 w_a$ parameterisation (where $w(z) = w_0 + w_a z/(1+z)$).</p>
+<p><strong>DESI Data Release 2 (March 2026)</strong> extended the dataset to approximately 50 million tracers spanning $0.1 &lt; z &lt; 3.5$, achieving approximately twice the statistical precision of DR1. The evidence for evolving dark energy strengthened: using DESI DR2 BAO combined with CMB (ACT, SPT, Planck) and the Union3 supernova compilation, the preference for $w_0 &gt; -1$ and $w_a &lt; 0$ is now at approximately $3.5\sigma$, with best-fit values $w_0 \approx -0.7$ and $w_a \approx -1.1$.</p>
+<p>This is not yet a 5$\sigma$ detection — the threshold for a &ldquo;discovery&rdquo; in physics — but it is the strongest evidence yet that the cosmological constant is not the correct description of dark energy. Whether this represents genuine new physics or a systematic effect in the data is a subject of active debate (<a href="https://arxiv.org/abs/2504.15222">arXiv:2504.15222</a>, Wang 2025).</p>
+<p><strong>What this means if it holds.</strong> If $w(z)$ is genuinely evolving with redshift, then:</p>
+<ul>
+<li>$\Lambda$CDM is not the final cosmological model</li>
+<li>Dark energy is not the vacuum energy but a dynamical field</li>
+<li>The fate of the universe is different: instead of exponential de Sitter expansion, the future depends on how $w(z)$ evolves</li>
+<li>The coincidence problem (why does $\Omega_\Lambda \approx \Omega_m$ today?) may have a dynamical explanation</li>
+</ul>
+<p><strong>What to watch.</strong> The next DESI data release, the Euclid mission (launched July 2023), the Vera C. Rubin Observatory (first light 2025), and the Nancy Grace Roman Space Telescope. All will provide independent and complementary constraints on $w(z)$.</p>
+<hr>
+<h2 id="part-iii--the-hubble-tension">Part III — The Hubble Tension</h2>
+<p>The <strong>Hubble tension</strong> is the most significant observational anomaly in cosmology. It refers to the disagreement between:</p>
+<ul>
+<li><strong>Early-universe measurements</strong> (CMB + $\Lambda$CDM): $H_0 = 67.4 \pm 0.5$ km/s/Mpc (Planck 2018)</li>
+<li><strong>Late-universe measurements</strong> (distance ladder): $H_0 = 73.0 \pm 1.0$ km/s/Mpc (Riess et al., SH0ES team, Cepheids + Type Ia SNe)</li>
+</ul>
+<p>The discrepancy is approximately $5\sigma$ when the latest calibrations are used. This is too large to be attributed to statistical fluctuation and has been confirmed by independent methods:</p>
+<ul>
+<li>TRGB (tip of the red giant branch): $H_0 = 69.8 \pm 2.1$ km/s/Mpc (Carnegie-Chicago Hubble Program) — between the two</li>
+<li>Gravitational lensing time delays (H0LiCOW): $H_0 = 73.3^{+1.7}_{-1.8}$ km/s/Mpc — consistent with SH0ES</li>
+<li>Gravitational wave standard sirens (LIGO GW170817): $H_0 = 70^{+12}_{-8}$ km/s/Mpc — consistent with both but too uncertain to discriminate</li>
+<li>Megamaser Cosmology Project: $H_0 = 73.9 \pm 3.0$ km/s/Mpc</li>
+</ul>
+<p>The pattern is clear: direct local measurements consistently give $H_0 \approx 73$, while inferences based on the CMB and the early universe consistently give $H_0 \approx 67$.</p>
+<p><strong>Proposed explanations</strong> fall into three categories:</p>
+<p><em>Systematic errors in the distance ladder.</em> The Cepheid calibration might be wrong due to metallicity effects, crowding in dense stellar regions, or period-luminosity relation systematics. The JWST has been used to recalibrate the Cepheid distances (Riess et al. 2023), and the tension persisted after this recalibration.</p>
+<p><em>New physics before recombination</em> that reduces the sound horizon: early dark energy (a scalar field that contributes to the energy budget near matter-radiation equality, reducing the comoving sound horizon and thus shifting $H_0$ upward); extra relativistic species ($N_{\text{eff}} &gt; 3$); and modified neutrino physics.</p>
+<p><em>New physics after recombination</em> that modifies the late-time expansion history: interacting dark matter-dark energy, decaying dark matter, modified gravity. These generally make the $S_8$ tension worse.</p>
+<p>No satisfying explanation has been found. The Hubble tension is the most important unsolved problem in observational cosmology.</p>
+<p><strong>The $S_8$ tension.</strong> A related (and possibly connected) tension: the amplitude of matter fluctuations $S_8 = \sigma_8 \sqrt{\Omega_m/0.3}$, where $\sigma_8$ is the rms matter fluctuation in spheres of radius 8 Mpc/h, is measured to be lower in weak lensing surveys (KiDS, DES) than predicted by Planck + $\Lambda$CDM. The significance is $2$–$3\sigma$.</p>
+<hr>
+<h2 id="part-iv--inflation">Part IV — Inflation</h2>
+<p>Inflation was proposed by Alan Guth (1981) and developed by Linde, Starobinsky, and Albrecht–Steinhardt to solve the flatness, horizon, and monopole problems of standard Big Bang cosmology.</p>
+<h3 id="the-mechanism">The Mechanism</h3>
+<p>Inflation is a period of quasi-exponential expansion driven by the potential energy $V(\phi)$ of a slowly rolling scalar field (the inflaton) $\phi$. The <strong>slow-roll conditions</strong> require:
+$$\epsilon = \frac{M_\text{Pl}^2}{2}\left(\frac{V&rsquo;}{V}\right)^2 \ll 1, \qquad \eta = M_\text{Pl}^2 \frac{V&rsquo;&rsquo;}{V} \ll 1$$</p>
+<p>Inflation ends when $\epsilon \to 1$. During inflation, quantum fluctuations of the inflaton field are stretched to superhorizon scales and become classical density perturbations — the seeds of all structure in the universe.</p>
+<h3 id="primordial-power-spectra">Primordial Power Spectra</h3>
+<p>The scalar perturbations generated during inflation have a nearly scale-invariant power spectrum:
+$$P_s(k) = A_s \left(\frac{k}{k_*}\right)^{n_s - 1}$$</p>
+<p>where $n_s &lt; 1$ (red tilt) for most inflationary models. The Planck 2018 measurement gives $n_s = 0.965 \pm 0.004$, consistent with single-field slow-roll inflation.</p>
+<p>Inflation also generates a background of primordial gravitational waves (tensor perturbations) with amplitude parameterised by the tensor-to-scalar ratio $r$. The current upper limit from Planck + BICEP/Keck is $r &lt; 0.036$. CMB-S4 and LiteBIRD aim to reach $\sigma(r) \sim 10^{-3}$.</p>
+<h3 id="recent-developments">Recent Developments</h3>
+<p>The combination of CMB data from Planck, ACT, and SPT with DESI DR2 BAO data has placed new constraints on inflation models. The Starobinsky $R^2$ inflation model — which predicts $n_s \approx 0.965$ and $r \approx 10^{-3}$ — remains the best-fitting model by most metrics, though it is now in mild tension with the DESI-shifted value of $n_s$ (<a href="https://arxiv.org/abs/2512.10613">arXiv:2512.10613</a>). The results from the South Pole Telescope (SPT-3G) and the Atacama Cosmology Telescope (ACT DR6) have provided independent CMB measurements with their own $n_s$ constraints, and combining all CMB data gives $n_s = 0.9682 \pm 0.0032$.</p>
+<hr>
+<h2 id="part-v--the-cosmic-microwave-background">Part V — The Cosmic Microwave Background</h2>
+<p>The CMB is the thermal radiation left over from recombination, observed today at $T = 2.725$ K, redshifted by a factor of $(1+z_*) \approx 1100$. It is the most precisely measured cosmological observable.</p>
+<h3 id="temperature-anisotropies">Temperature Anisotropies</h3>
+<p>The small temperature fluctuations $\delta T/T \sim 10^{-5}$ are decomposed in spherical harmonics:
+$$\frac{\delta T}{T}(\hat{n}) = \sum_{\ell m} a_{\ell m} Y_{\ell m}(\hat{n})$$</p>
+<p>The angular power spectrum $C_\ell = \langle |a_{\ell m}|^2 \rangle$ encodes all the cosmological information. The characteristic peaks in $C_\ell$:</p>
+<ul>
+<li><strong>First acoustic peak</strong> ($\ell \approx 220$, angular scale $\approx 1°$): the mode that completed exactly half an oscillation by recombination. The position encodes the angular diameter distance to the last scattering surface, and with BAO data, constrains $H_0$.</li>
+<li><strong>Second peak</strong> ($\ell \approx 540$): the mode that completed a full oscillation. The ratio of the second to first peak constrains the baryon density $\Omega_b h^2$.</li>
+<li><strong>Third and higher peaks</strong>: constrains the dark matter density $\Omega_c h^2$.</li>
+</ul>
+<h3 id="cmb-polarisation">CMB Polarisation</h3>
+<p>The CMB is partially polarised due to Thomson scattering near the last scattering surface. The polarisation is decomposed into E-modes and B-modes. E-modes are generated by scalar (density) perturbations and have been detected. B-modes are generated by tensor perturbations (primordial gravitational waves from inflation) and have not yet been detected at a significant level — their detection would confirm inflation and measure $r$.</p>
+<h3 id="resources-on-the-cmb">Resources on the CMB</h3>
+<ul>
+<li><strong>Planck Collaboration papers</strong> — <a href="https://www.cosmos.esa.int/web/planck/publications">cosmos.esa.int/web/planck</a>. The 2018 data release papers are the definitive reference.</li>
+<li><strong>Wayne Hu&rsquo;s CMB tutorial</strong> — <a href="http://background.uchicago.edu">background.uchicago.edu</a>. The best online introduction to the physics of the CMB power spectrum.</li>
+<li><strong>Dodelson, <em>Modern Cosmology</em></strong> — the most complete textbook treatment of the CMB.</li>
+</ul>
+<hr>
+<h2 id="part-vi--structure-formation">Part VI — Structure Formation</h2>
+<p>How do the small primordial perturbations ($\delta\rho/\rho \sim 10^{-5}$) grow into the galaxies and large-scale structure we observe today?</p>
+<h3 id="linear-perturbation-theory">Linear Perturbation Theory</h3>
+<p>In the linear regime ($\delta\rho/\rho \ll 1$), density perturbations grow according to:
+$$\ddot{\delta} + 2H\dot{\delta} = 4\pi G \bar{\rho}\delta$$</p>
+<p>The solutions depend on the expansion history. In a matter-dominated universe: $\delta \propto a \propto t^{2/3}$ (growing mode) and $\delta \propto t^{-1}$ (decaying mode). The Hubble friction term $2H\dot{\delta}$ suppresses growth in a $\Lambda$-dominated universe — this is why structure formation has been slowing down since dark energy domination.</p>
+<h3 id="the-matter-power-spectrum">The Matter Power Spectrum</h3>
+<p>The <strong>matter power spectrum</strong> $P(k) = |\delta_k|^2$ describes the amplitude of density fluctuations as a function of scale $k$. It is related to the primordial power spectrum through the <strong>transfer function</strong> $T(k)$, which encodes the effects of radiation pressure, Silk damping, and matter-radiation equality.</p>
+<p>The shape of $P(k)$ encodes:</p>
+<ul>
+<li>The primordial spectral index $n_s$</li>
+<li>The horizon scale at matter-radiation equality (suppression of small-scale modes during radiation domination)</li>
+<li>The baryon-to-dark matter ratio (BAO wiggles)</li>
+<li>The neutrino mass (damping of small-scale structure due to free-streaming)</li>
+</ul>
+<p>Large-scale structure surveys (DESI, Euclid, SDSS) measure $P(k)$ and compare to theoretical predictions to constrain cosmological parameters.</p>
+<h3 id="the-cosmic-web">The Cosmic Web</h3>
+<p>Dark matter halos form through gravitational collapse of overdense regions. The large-scale structure of the universe — the <strong>cosmic web</strong> — consists of filaments, sheets (walls), voids, and nodes (clusters). This structure was predicted by N-body simulations (Millennium Simulation, IllustrisTNG) and observed in galaxy redshift surveys.</p>
+<p><strong>Baryon Acoustic Oscillations.</strong> The same acoustic oscillations that produce the CMB peaks leave an imprint in the matter distribution: a preferred clustering scale of $\sim 150$ Mpc comoving. This scale — the <strong>BAO scale</strong> — serves as a standard ruler, allowing measurement of the angular diameter distance and Hubble parameter as a function of redshift. This is what DESI is measuring.</p>
+<hr>
+<h2 id="part-vii--stellar-astrophysics">Part VII — Stellar Astrophysics</h2>
+<h3 id="stellar-structure">Stellar Structure</h3>
+<p>A star in hydrostatic equilibrium balances gravity against pressure. The equations of stellar structure:</p>
+<p>$$\frac{dP}{dr} = -\frac{G M(r) \rho}{r^2} \qquad \text{(hydrostatic equilibrium)}$$</p>
+<p>$$\frac{dM}{dr} = 4\pi r^2 \rho \qquad \text{(mass continuity)}$$</p>
+<p>$$\frac{dL}{dr} = 4\pi r^2 \rho \epsilon \qquad \text{(energy generation)}$$</p>
+<p>$$\frac{dT}{dr} = -\frac{3\kappa \rho L}{64\pi \sigma r^2 T^3} \qquad \text{(radiative transport)}$$</p>
+<p>where $\epsilon$ is the energy generation rate per unit mass, $\kappa$ is the opacity, and $\sigma$ is the Stefan–Boltzmann constant.</p>
+<h3 id="nuclear-burning-stages">Nuclear Burning Stages</h3>
+<p>The energy source of a main-sequence star is hydrogen burning:</p>
+<p><strong>pp chain</strong> (dominant in low-mass stars like the Sun):
+$$4p \to {^4\text{He}} + 2e^+ + 2\nu_e + 26.7 \text{ MeV}$$</p>
+<p><strong>CNO cycle</strong> (dominant in high-mass stars, $M &gt; 1.5 M_\odot$): carbon, nitrogen, and oxygen act as catalysts for the same net reaction. The CNO cycle has a steeper temperature dependence ($\propto T^{20}$ versus $\propto T^4$ for the pp chain), making massive stars far more luminous.</p>
+<p>After hydrogen exhaustion on the main sequence, the helium core contracts and hydrogen burning continues in a shell — the star becomes a red giant. Helium burning (triple-alpha process: $3{^4\text{He}} \to {^{12}\text{C}} + 7.4 \text{ MeV}$) begins when the core temperature reaches $\sim 10^8$ K.</p>
+<h3 id="stellar-evolution-and-endpoints">Stellar Evolution and Endpoints</h3>
+<p><strong>Low-mass stars</strong> ($M &lt; 8 M_\odot$): After helium burning, the core becomes a <strong>white dwarf</strong> (supported by electron degeneracy pressure). The outer layers are expelled as a planetary nebula.</p>
+<p><strong>High-mass stars</strong> ($M &gt; 8 M_\odot$): Burning continues through carbon, neon, oxygen, and silicon burning until an iron core forms. Iron is the most tightly bound nucleus — no further energy can be extracted by fusion. The iron core collapses in $\sim 0.1$ seconds to form a <strong>neutron star</strong> (supported by neutron degeneracy pressure and nuclear forces) and the outer layers are expelled in a <strong>core-collapse supernova</strong> (Type II/Ib/Ic).</p>
+<p><strong>White dwarf $\to$ Type Ia supernova</strong>: if a white dwarf in a binary system accretes enough mass to exceed the Chandrasekhar limit ($M_{\text{Ch}} \approx 1.44 M_\odot$), it undergoes thermonuclear runaway. Type Ia supernovae are standard candles (they have nearly uniform peak luminosity after correction) — they were used to discover the accelerating expansion of the universe.</p>
+<p><strong>Neutron stars and pulsars</strong>: neutron stars can be observed as pulsars — rotating neutron stars emitting beams of radio waves that sweep across the Earth. The Hulse–Taylor binary pulsar provided the first indirect evidence for gravitational wave emission (Nobel Prize 1993).</p>
+<p><strong>Black holes</strong>: if the collapsing core mass exceeds $\sim 3 M_\odot$, no force can halt the collapse and a black hole forms.</p>
+<hr>
+<h2 id="part-viii--gravitational-wave-astronomy">Part VIII — Gravitational Wave Astronomy</h2>
+<p>The detection of gravitational waves by LIGO on 14 September 2015 (GW150914 — the merger of two black holes of $\sim 36$ and $\sim 29 M_\odot$) opened a new observational window on the universe.</p>
+<h3 id="sources">Sources</h3>
+<p><strong>Binary black hole mergers (BBH)</strong>: the most commonly detected source. LIGO-Virgo-KAGRA has detected $\sim 90$ confirmed events as of O3 (the third observing run). The masses range from stellar ($\sim 5$–$60 M_\odot$) through intermediate mass.</p>
+<p><strong>Binary neutron star mergers (BNS)</strong>: GW170817 was the first detected BNS merger and was also observed electromagnetically in all wavelength bands (the first multi-messenger gravitational wave event). The simultaneous observation of the gravitational wave and gamma-ray burst showed that gravitational waves travel at the speed of light to within $\sim 10^{-15}$.</p>
+<p><strong>Continuous gravitational waves</strong>: not yet detected. Sources include rapidly rotating neutron stars with asymmetric mass distributions.</p>
+<p><strong>Stochastic gravitational wave background</strong>: a recent discovery. The pulsar timing array (PTA) experiments — NANOGrav, PPTA, EPTA — announced in 2023 the detection of a stochastic gravitational wave background with $f \sim 1$–$100$ nHz using millisecond pulsars as a galactic-scale gravitational wave detector. The source is likely supermassive black hole binaries.</p>
+<h3 id="gravitational-wave-cosmology">Gravitational Wave Cosmology</h3>
+<p>GW standard sirens offer an independent measurement of $H_0$ without using the distance ladder. The gravitational wave signal encodes the luminosity distance; if the host galaxy is identified and its redshift measured, $H_0$ can be inferred. GW170817 gave $H_0 = 70^{+12}_{-8}$ km/s/Mpc. With many future events (LIGO O5, Einstein Telescope, LISA), gravitational wave cosmology will become competitive with CMB and BAO measurements.</p>
+<hr>
+<h2 id="part-ix--the-james-webb-space-telescope">Part IX — The James Webb Space Telescope</h2>
+<p>JWST, launched 25 December 2021 and operating from the Sun-Earth L2 point, is transforming observational cosmology and astrophysics. Some key results relevant to these notes:</p>
+<p><strong>Early galaxy formation.</strong> JWST has detected galaxies at $z &gt; 10$ (less than 500 Myr after the Big Bang) that are far more massive and structured than standard $\Lambda$CDM simulations predicted. Several galaxies at $z \sim 12$–$16$ have been confirmed spectroscopically. Whether this represents a problem for $\Lambda$CDM or a failure of the baryonic physics models used in simulations is actively debated.</p>
+<p><strong>First quasars.</strong> JWST has discovered quasars at $z &gt; 10$, hosting supermassive black holes of $\sim 10^7$–$10^8 M_\odot$. How black holes this massive formed within the first 500 Myr after the Big Bang is a significant theoretical challenge.</p>
+<p><strong>Exoplanet atmospheres.</strong> The transmission spectroscopy of exoplanet atmospheres by JWST — detecting molecular absorption features in the starlight filtered through the atmosphere — is producing the most detailed characterisations of exoplanet compositions to date.</p>
+<hr>
+<h2 id="resources">Resources</h2>
+<h3 id="textbooks-a-calibrated-guide">Textbooks: A Calibrated Guide</h3>
+<p><strong>For first contact:</strong></p>
+<ul>
+<li><strong>Introduction to Cosmology</strong> — Barbara Ryden. The most accessible quantitative introduction. Requires calculus but not GR. The equations are developed carefully from first principles. Perfect for a first serious encounter with the subject.</li>
+<li><strong>The First Three Minutes</strong> — Steven Weinberg. The thermal history, explained by the man who helped write it. Short, readable, and still accurate in its broad picture.</li>
+</ul>
+<p><strong>Undergraduate level:</strong></p>
+<ul>
+<li><strong>Cosmological Physics</strong> — John Peacock. All of physics relevant to cosmology — which, as Peacock notes, is all of physics. Demanding but genuinely comprehensive. The treatment of large-scale structure and CMB physics is particularly good.</li>
+<li><strong>Introduction to Modern Astrophysics</strong> — Carroll and Ostlie. The encyclopaedia of astrophysics. Stars, galaxies, cosmology, and everything in between, at undergraduate level. A reference that every astrophysicist has on their shelf.</li>
+</ul>
+<p><strong>Graduate level:</strong></p>
+<ul>
+<li><strong>Modern Cosmology</strong> — Scott Dodelson. The standard graduate cosmology text. Particularly strong on perturbation theory, the CMB, and the connections between observations and theory.</li>
+<li><strong>Cosmology</strong> — Steven Weinberg. Weinberg&rsquo;s systematic treatment at graduate level. More mathematical than Dodelson, with more emphasis on the field theory foundations.</li>
+<li><strong>Physical Foundations of Cosmology</strong> — Viatcheslav Mukhanov. Mukhanov developed inflationary perturbation theory; his book reflects this. The treatment of inflation and quantum fluctuations is the best available.</li>
+<li><strong>The Early Universe</strong> — Kolb and Turner. The classic treatment of early-universe cosmology — baryogenesis, dark matter production, phase transitions. Somewhat dated in places but still the most complete treatment of thermal relics and freeze-out.</li>
+<li><strong>Principles of Physical Cosmology</strong> — P.J.E. Peebles. A comprehensive treatment by one of the founding figures of modern cosmology. The writing is dense; the content is authoritative.</li>
+</ul>
+<h3 id="online-resources">Online Resources</h3>
+<p><strong>Wayne Hu&rsquo;s CMB pages</strong> — <a href="http://background.uchicago.edu">background.uchicago.edu</a>. The best online introduction to CMB physics. The animations showing acoustic oscillations are conceptually invaluable.</p>
+<p><strong>Sean Carroll&rsquo;s Cosmology lecture notes</strong> — free at his website. Companion to <em>Spacetime and Geometry</em>, with more explicit cosmological applications.</p>
+<p><strong>David Tong&rsquo;s Cosmology notes</strong> — <a href="http://www.damtp.cam.ac.uk/user/tong/cosmo.html">damtp.cam.ac.uk/user/tong/cosmo.html</a>. The Cambridge Part III treatment. Covers the FRW metric, inflation, and CMB power spectrum carefully.</p>
+<p><strong>Planck public data</strong> — <a href="https://pla.esac.esa.int">pla.esac.esa.int</a>. All Planck data products, including maps and power spectra, are public.</p>
+<p><strong>DESI public data</strong> — <a href="https://data.desi.lbl.gov">data.desi.lbl.gov</a>. The DR1 and DR2 catalogues are public and available for analysis.</p>
+<p><strong>NASA/IPAC Infrared Science Archive (IRSA)</strong> — <a href="https://irsa.ipac.caltech.edu">irsa.ipac.caltech.edu</a>. Public data from NASA infrared and submillimeter missions including Spitzer, WISE, and Planck.</p>
+<p><strong>arXiv astro-ph.CO</strong> — <a href="https://arxiv.org/list/astro-ph.CO">arxiv.org/list/astro-ph.CO</a>. New cosmology papers, every weekday.</p>
+<p><strong>Astrobites</strong> — <a href="https://astrobites.org">astrobites.org</a>. Graduate students summarising recent astronomy papers for a broader audience. The best way to follow the field without reading every paper.</p>
+<hr>
+<h2 id="a-personal-note">A Personal Note</h2>
+<p>The subjects in these notes — the FRW metric, the thermal history, inflation — look, written down, like a list of established facts. They are not. Almost every paragraph contains an active research problem: the nature of dark matter, the equation of state of dark energy, the mechanism of inflation, the origin of the baryon asymmetry, the Hubble tension. The universe described by $\Lambda$CDM fits the data with extraordinary precision, and the $\Lambda$CDM parameters are known to percent-level precision. And yet the underlying physics of almost every component — what dark matter is, what dark energy is, why the cosmological constant has its observed value — is not understood.</p>
+<p>The DESI DR2 results, released last year, are the clearest sign yet that $\Lambda$CDM may not be the final answer. Whether the evolving dark energy signal survives further scrutiny, and what it means if it does, is the most interesting question in observational cosmology right now.</p>
+<p>The universe started it all, for me. A YouTube video about black holes in grade 6 during a lockdown. The fact that it is still surprising — that data is still coming in that challenges the models — is one of the things that keeps it compelling.</p>
+<hr>
+<p><em>Last updated March 2026.</em></p>
+</div>
+</article>
+
+  </main>
+
+</div>
+
+<script>
+(function () {
+  var toggle  = document.getElementById('navToggle');
+  var sidebar = document.getElementById('sidebar');
+  var overlay = document.getElementById('sidebarOverlay');
+
+  toggle.addEventListener('click', function () {
+    var isOpen = sidebar.classList.toggle('open');
+    overlay.classList.toggle('visible', isOpen);
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  overlay.addEventListener('click', function () {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('visible');
+    toggle.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      sidebar.classList.remove('open');
+      overlay.classList.remove('visible');
+      document.body.style.overflow = '';
+    }
+  });
+
+  document.querySelectorAll('.menu-group').forEach(function (group) {
+    var header = group.querySelector('.menu-header');
+    if (!header) return;
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var wasOpen = group.classList.contains('open');
+      document.querySelectorAll('.menu-group').forEach(function (g) { g.classList.remove('open'); });
+      if (!wasOpen) group.classList.add('open');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="profile-section">
+    <div class="bio">
+        <h2>About Me</h2>
+        {{ .Content }}
+    </div>
+</div>
+
+<div class="recent-updates">
+    <h3>Recent Posts</h3>
+    <ul>
+        {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+        <li>
+            <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

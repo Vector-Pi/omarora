@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entrepreneurship on Om Arora</title>
+    <link>http://localhost:62070/omarora/tags/entrepreneurship/</link>
+    <description>Recent content in Entrepreneurship on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/tags/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Talking to Startup Founders Changed About How I Think About Research</title>
+      <link>http://localhost:62070/omarora/blog/whattalkingtoechangedmyresearch/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/whattalkingtoechangedmyresearch/</guid>
+      <description>How exposure to startup founders reshaped my approach to scientific research, risk, and execution.</description>
+    </item>
+    <item>
+      <title>BeCon 2026 — Notes from a Weekend That Stayed With Me</title>
+      <link>http://localhost:62070/omarora/blog/becon26experience/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/blog/becon26experience/</guid>
+      <description>Reflections written two weeks after attending BeCon 2026 at IIT Delhi.</description>
+    </item>
+  </channel>
+</rss>

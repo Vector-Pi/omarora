@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block build artefacts if accidentally committed
+Disallow: /public/
+Disallow: /isableFastRender/
+
+Sitemap: https://omarora.in/sitemap.xml

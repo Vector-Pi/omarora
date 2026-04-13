@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/omarora/livereload.js?mindelay=10&amp;v=2&amp;port=62070&amp;path=omarora/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to Quantitative Finance · Om Arora</title>
+  <meta name="description" content="Personal website of Om Arora - Mathematics, Physics, AI Research.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="http://localhost:62070/omarora/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body,{delimiters:[
+      {left:'$$',right:'$$',display:true},
+      {left:'$',right:'$',display:false},
+      {left:'\\(',right:'\\)',display:false},
+      {left:'\\[',right:'\\]',display:true}
+    ]});">
+  </script>
+</head>
+
+<body>
+
+<button class="mobile-nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="site-wrapper">
+
+  <aside class="sidebar-column" id="sidebar">
+
+    <div class="sidebar-identity">
+      <a href="http://localhost:62070/" class="sidebar-site-name">Om Arora</a>
+      <span class="sidebar-tagline">researcher · builder · thinker</span>
+    </div>
+
+    <nav class="sidebar-nav" aria-label="Main navigation">
+      <ul>
+        
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/"
+                 >
+                Home
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/now/"
+                 >
+                Now
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/blog/"
+                 >
+                Blog
+              </a>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/mathematics/" class="menu-header">Mathematics</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/beginners-guide-to-advanced-mathematics/"
+                       >
+                      Beginners Guide to Advanced Mathematics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/prerequisites-for-mathematical-research/"
+                       >
+                      Prerequisites for Mathematical Research
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/olympiad-problem-solving-resources/"
+                       >
+                      Olympiad Problem-Solving &amp; Resources
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/reading-notes-papers/"
+                       >
+                      Reading Notes &amp; Papers
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/theoretical-physics/" class="menu-header">Theoretical Physics</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/starting-with-theoretical-physics/"
+                       >
+                      Starting with Theoretical Physics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/math-prerequisites-for-qft-gr/"
+                       >
+                      Math Prerequisites for QFT &amp; GR
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/my-research-publications/"
+                       >
+                      My Research &amp; Publications
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/open-problems-im-exploring/"
+                       >
+                      Open Problems I’m Exploring
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/lecture-notes-summaries/"
+                       >
+                      Lecture Notes &amp; Summaries
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/astronomy/" class="menu-header">Astronomy</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/astronomy-for-beginners/"
+                       >
+                      Astronomy for Beginners
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/cosmology-astrophysics-notes/"
+                       >
+                      Cosmology &amp; Astrophysics Notes
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/my-astronomy-projects/"
+                       >
+                      My Astronomy Projects
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/inspiring-papers-books/"
+                       >
+                      Inspiring Papers &amp; Books
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/quantitative-finance/" class="menu-header">Quantitative Finance</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/"
+                       >
+                      Introduction to Quantitative Finance
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/math-coding-prerequisites/"
+                       >
+                      Math &amp; Coding Prerequisites
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/my-trading-projects/"
+                       >
+                      My Trading Projects
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/research-in-market-microstructure/"
+                       >
+                      Research in Market Microstructure
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/resources-backtesting-tutorials/"
+                       >
+                      Resources &amp; Backtesting Tutorials
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/philosophy/" class="menu-header">Philosophy</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/schools-of-thought/"
+                       >
+                      Schools of Thought
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/great-thinkers-essays/"
+                       >
+                      Great Thinkers &amp; Essays
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/philosophy-for-stem-students/"
+                       >
+                      Philosophy for STEM Students
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/history/" class="menu-header">History</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/history-of-mathematics-physics/"
+                       >
+                      History of Mathematics &amp; Physics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/financial-history-market-evolution/"
+                       >
+                      Financial History &amp; Market Evolution
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/lessons-from-history/"
+                       >
+                      Lessons from History
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/art-music/" class="menu-header">Art &amp; Music</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/music-i-create-listen-to/"
+                       >
+                      Music I Create &amp; Listen To
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/inspiration-from-art-science/"
+                       >
+                      Inspiration from Art &amp; Science
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/creative-process-tools/"
+                       >
+                      Creative Process &amp; Tools
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/recommendations-reviews/"
+                       >
+                      Recommendations &amp; Reviews
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+
+    <div class="sidebar-block">
+      <h3>Documents</h3>
+      <ul class="quick-links">
+        <li><a href="http://localhost:62070/omarora/files/cv.pdf">Curriculum Vitae</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-footer">
+      <p>© 2026 Om Arora</p>
+    </div>
+
+  </aside>
+
+  <main class="main-content-column" id="mainContent">
+    
+<article class="post">
+  <header>
+    <h1>Introduction to Quantitative Finance</h1>
+    <p class="post-meta">
+      6 February 2026
+      
+    </p>
+  </header>
+  <div class="post-content"><p>I came to quantitative finance the way a physicist might: through the mathematics. The connection became obvious once I understood what the subject actually is. Quantitative finance is, at its core, the application of probability theory, stochastic calculus, and partial differential equations to the problem of pricing financial instruments and managing the risks they generate. The Black-Scholes equation is a parabolic PDE. The risk-neutral pricing measure is a Girsanov transformation. The Feynman-Kac theorem connects stochastic differential equations to PDEs in exactly the way the path integral connects quantum mechanics to classical mechanics.</p>
+<p>The mathematics I had been studying for theoretical physics — measure theory, PDEs, stochastic processes, functional analysis — turned out to be exactly the mathematics of quantitative finance, applied to a different set of questions. That was the entry point.</p>
+<p>This page is an account of how I have approached the subject: the structure of the field, the mathematical prerequisites, the resources I have found useful, and where my current interest lies. It is written from the perspective of someone coming from physics and mathematics, not from economics or trading.</p>
+<hr>
+<h2 id="what-quantitative-finance-actually-is">What Quantitative Finance Actually Is</h2>
+<p>The term is used loosely in the industry to cover several related but distinct activities. It is worth being precise about the distinctions, because the mathematics and the skills required are quite different.</p>
+<p><strong>Derivatives pricing and financial engineering.</strong> Building mathematical models for the fair value of financial derivatives — options, futures, swaps, and more exotic instruments. The fundamental problem is: given the current state of the market, what is the correct price for a contract that pays off in some state-contingent way in the future? The tools are risk-neutral pricing, stochastic calculus, and PDEs. Black-Scholes is the prototype; volatility surface modelling, interest rate models, and credit models are the main areas of active work.</p>
+<p><strong>Statistical arbitrage and systematic trading.</strong> Identifying and exploiting predictable patterns in financial time series using statistical and machine learning methods. The fundamental problem is: given historical data on asset prices and other signals, can you identify a strategy that generates risk-adjusted returns above the market? The tools are time series analysis, linear algebra, signal processing, machine learning, and execution algorithms.</p>
+<p><strong>Risk management.</strong> Measuring and controlling the risk exposures of a portfolio or an institution. The fundamental problem is: given a complex portfolio of financial instruments, what is its exposure to various risk factors, and how do you hedge or limit that exposure? The tools are scenario analysis, Value at Risk (VaR) and Expected Shortfall, copulas, and Monte Carlo simulation.</p>
+<p><strong>Portfolio management and asset allocation.</strong> Determining the optimal allocation of capital across assets to achieve a given objective (maximise return for a given level of risk, or minimise tracking error against a benchmark). The tools are mean-variance optimisation (Markowitz), the Capital Asset Pricing Model (CAPM), factor models, and more modern approaches including machine learning.</p>
+<p>My interest is primarily in derivatives pricing and in systematic trading — the former because the mathematics is beautiful and connects directly to the physics I already know, the latter because the empirical structure of financial markets is a genuinely interesting complex system.</p>
+<hr>
+<h2 id="the-mathematical-prerequisites">The Mathematical Prerequisites</h2>
+<p>Coming from theoretical physics, I had most of the mathematics already. But the specific tools needed for quantitative finance are worth naming precisely, because they are a specific subset of the broader mathematical infrastructure.</p>
+<h3 id="probability-theory">Probability Theory</h3>
+<p>Not just elementary probability — measure-theoretic probability. You need to understand what a probability space $(\Omega, \mathcal{F}, \mathbb{P})$ is, what a random variable is as a measurable function, what expectation is as a Lebesgue integral, and what conditional expectation $\mathbb{E}[X | \mathcal{F}_t]$ means. Conditional expectation with respect to a $\sigma$-algebra is the central operation of mathematical finance — the price of a derivative at time $t$ is the conditional expectation of its discounted payoff, under the risk-neutral measure, given the information available at $t$.</p>
+<p><strong>Resources:</strong></p>
+<ul>
+<li><em>Probability and Measure</em> — Patrick Billingsley. The standard rigorous treatment. Demanding but complete.</li>
+<li><em>A First Look at Rigorous Probability Theory</em> — Jeffrey Rosenthal. Gentler than Billingsley; good starting point.</li>
+<li><em>Probability: Theory and Examples</em> — Rick Durrett. Free online. The graduate standard in the US.</li>
+</ul>
+<h3 id="stochastic-calculus">Stochastic Calculus</h3>
+<p>The mathematics of integration with respect to Brownian motion. The key objects are:</p>
+<ul>
+<li>Brownian motion $W_t$ and its properties (continuous paths, independent increments, Gaussian distributions)</li>
+<li>The Itô integral $\int_0^T f(t) dW_t$ and why ordinary Riemann integration does not work (quadratic variation is non-zero)</li>
+<li>Itô&rsquo;s lemma: the stochastic chain rule $df(W_t) = f&rsquo;(W_t)dW_t + \frac{1}{2}f&rsquo;&rsquo;(W_t)dt$</li>
+<li>Stochastic differential equations: $dX_t = \mu(X_t, t)dt + \sigma(X_t, t)dW_t$</li>
+<li>Girsanov&rsquo;s theorem: change of measure, risk-neutral pricing</li>
+<li>The Feynman-Kac formula: connecting SDEs to PDEs</li>
+</ul>
+<p><strong>Why this matters for finance.</strong> The price of a stock (in the simplest model) follows the SDE $dS_t = \mu S_t dt + \sigma S_t dW_t$ — geometric Brownian motion. The Black-Scholes equation for the price $V(S, t)$ of an option follows from applying Itô&rsquo;s lemma to $V(S_t, t)$ and eliminating the stochastic term by hedging. The resulting PDE is:</p>
+<p>$$\frac{\partial V}{\partial t} + rS\frac{\partial V}{\partial S} + \frac{1}{2}\sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} - rV = 0$$</p>
+<p>This is a parabolic PDE — structurally identical to the heat equation, which is one of the basic equations of mathematical physics. The connection is not a coincidence: by the Feynman-Kac theorem, the solution to any parabolic PDE of this form can be written as an expectation of the terminal condition under a related stochastic process.</p>
+<p><strong>Resources:</strong></p>
+<p><em>Stochastic Calculus for Finance I: The Binomial Asset Pricing Model</em> — Steven Shreve
+The discrete-time treatment. The binomial model for option pricing introduces risk-neutral pricing, the no-arbitrage condition, and the martingale approach in a setting where the mathematics is elementary. Do this first.</p>
+<p><em>Stochastic Calculus for Finance II: Continuous-Time Models</em> — Steven Shreve
+The continuous-time treatment. The standard rigorous introduction to Itô calculus for finance. Chapters 1–2 develop the necessary measure theory; Chapters 3–5 develop Brownian motion, the Itô integral, and Itô&rsquo;s lemma. The second half covers the Black-Scholes model, American options, and interest rate models. This is the book that develops the subject properly.</p>
+<p><em>Introduction to Stochastic Calculus with Applications</em> — Fima Klebaner
+More accessible than Shreve, with more worked examples. A good first read before Shreve II.</p>
+<p><em>Brownian Motion and Stochastic Calculus</em> — Karatzas and Shreve
+The rigorous graduate-level treatment. Demanding; for those who want the full mathematical foundations.</p>
+<p><em>Stochastic Differential Equations: An Introduction with Applications</em> — Bernt Øksendal
+The standard SDE textbook. Well-written and more applied than Karatzas-Shreve.</p>
+<h3 id="partial-differential-equations">Partial Differential Equations</h3>
+<p>The Black-Scholes equation is a PDE. More generally, derivative pricing problems often reduce to solving boundary value problems for parabolic or elliptic PDEs. The methods needed include:</p>
+<ul>
+<li>Separation of variables and Fourier transform methods (for explicit solutions in simple cases)</li>
+<li>Green&rsquo;s functions and the fundamental solution (the Black-Scholes formula is the Green&rsquo;s function of the Black-Scholes PDE)</li>
+<li>Finite difference methods (for numerical solution when closed forms are unavailable)</li>
+<li>The connection between PDEs and stochastic processes (Feynman-Kac)</li>
+</ul>
+<p><strong>Resources:</strong></p>
+<ul>
+<li>Tong&rsquo;s PDE notes (Cambridge Part II) — free, covers what is needed for the physics-to-finance transition</li>
+<li>Evans, <em>Partial Differential Equations</em> — the rigorous graduate treatment</li>
+<li>Wilmott, <em>Paul Wilmott on Quantitative Finance</em> — PDE methods in finance, specifically</li>
+</ul>
+<h3 id="linear-algebra-and-numerical-methods">Linear Algebra and Numerical Methods</h3>
+<p>Portfolio optimisation is a quadratic programming problem in the space of asset weights. The covariance matrix of asset returns is the central object. Numerical linear algebra — eigendecomposition, the Cholesky factorisation, numerical stability — becomes important when the dimension is large (hundreds or thousands of assets).</p>
+<p>Numerical methods for PDEs (finite differences, finite elements) and for stochastic processes (Monte Carlo simulation) are the main computational tools of quantitative finance.</p>
+<h3 id="statistics-and-time-series-analysis">Statistics and Time Series Analysis</h3>
+<p>For systematic trading, the relevant mathematics is:</p>
+<ul>
+<li>Linear regression and its properties (OLS, GLS, the Gauss-Markov theorem)</li>
+<li>Time series models: AR, MA, ARMA, ARIMA, GARCH</li>
+<li>Cointegration and pairs trading</li>
+<li>Factor models for asset returns</li>
+<li>Machine learning methods: regularisation (Lasso, Ridge), random forests, neural networks</li>
+</ul>
+<hr>
+<h2 id="the-subject-itself">The Subject Itself</h2>
+<h3 id="derivatives-and-option-pricing">Derivatives and Option Pricing</h3>
+<p>A <strong>derivative</strong> is a financial instrument whose value depends on (is derived from) the value of some underlying asset — a stock price, an interest rate, a commodity price, a credit spread. Options are the most important class of derivatives.</p>
+<p>A <strong>European call option</strong> gives the holder the right (but not the obligation) to buy the underlying asset at price $K$ (the strike) at time $T$ (the expiry). The payoff is $\max(S_T - K, 0)$. What is this worth today?</p>
+<p>The Black-Scholes answer assumes that the stock price follows geometric Brownian motion:
+$$dS_t = \mu S_t dt + \sigma S_t dW_t$$
+Under this assumption, the price of the European call is:
+$$C = S_0 N(d_1) - K e^{-rT} N(d_2)$$
+where
+$$d_1 = \frac{\ln(S_0/K) + (r + \sigma^2/2)T}{\sigma\sqrt{T}}, \qquad d_2 = d_1 - \sigma\sqrt{T}$$
+and $N(\cdot)$ is the standard normal CDF. This is the Black-Scholes formula.</p>
+<p>The derivation — through the delta-hedging argument, the Itô calculus, and the PDE — is one of the most elegant applications of mathematics to a practical problem I have encountered. The key insight is that the $\mu$ (the drift of the stock) does not appear in the formula: the option price depends only on the volatility $\sigma$, the current stock price, the strike, the time to expiry, and the risk-free rate. This is risk-neutral pricing.</p>
+<p><strong>What Black-Scholes gets wrong.</strong> The model assumes constant volatility. In practice, implied volatility varies with strike and expiry — the <strong>volatility surface</strong> or <strong>volatility smile</strong>. Understanding and modelling this smile is the central problem of modern options pricing. The main approaches are:</p>
+<ul>
+<li><strong>Local volatility models</strong> (Dupire, 1994): $\sigma = \sigma(S, t)$, a deterministic function of price and time</li>
+<li><strong>Stochastic volatility models</strong> (Heston, 1993; SABR): $\sigma$ itself follows an SDE</li>
+<li><strong>Jump-diffusion models</strong> (Merton, 1976): add Poisson jump processes to the stock price dynamics</li>
+<li><strong>Rough volatility models</strong> (Gatheral, Rosenbaum, Jaisson, 2018): fractional Brownian motion with Hurst exponent $H &lt; 1/2$, motivated by empirical evidence that volatility is rougher than standard Brownian motion predicts</li>
+</ul>
+<h3 id="interest-rate-models">Interest Rate Models</h3>
+<p>Interest rates are not constant — they vary over time and across maturities (the yield curve). Modelling the yield curve is essential for pricing bonds, interest rate swaps, caps, floors, and swaptions.</p>
+<p>The main frameworks:</p>
+<ul>
+<li><strong>Short rate models</strong>: model the instantaneous risk-free rate $r_t$ as an SDE. Vasicek (1977): $dr_t = \kappa(\theta - r_t)dt + \sigma dW_t$ (mean-reverting, Gaussian). Cox-Ingersoll-Ross (1985): $dr_t = \kappa(\theta - r_t)dt + \sigma\sqrt{r_t}dW_t$ (mean-reverting, non-negative).</li>
+<li><strong>HJM framework</strong> (Heath-Jarrow-Morton, 1992): model the entire forward rate curve $f(t, T)$ directly. No-arbitrage imposes a drift condition (the HJM drift restriction) on the SDE for $f$.</li>
+<li><strong>LIBOR Market Model</strong> (Brace-Gatarek-Musiela, 1997): model the discrete forward rates (LIBOR rates) directly; better suited to calibration to cap/floor prices.</li>
+</ul>
+<h3 id="portfolio-theory">Portfolio Theory</h3>
+<p><strong>Markowitz mean-variance optimisation.</strong> Given $N$ assets with expected returns $\mu$ and covariance matrix $\Sigma$, find the portfolio weights $w$ that minimise variance for a given expected return:
+$$\min_w ; w^T \Sigma w \quad \text{s.t.} \quad w^T \mu = \bar{\mu}, \quad \mathbf{1}^T w = 1$$
+The solution traces out the <strong>efficient frontier</strong> in (risk, return) space. In practice, the covariance matrix is estimated from historical data and the optimisation is sensitive to estimation error — a serious practical problem.</p>
+<p><strong>Factor models.</strong> The <strong>Capital Asset Pricing Model</strong> (CAPM) asserts that the expected return of an asset is linear in its beta (sensitivity to the market):
+$$\mathbb{E}[R_i] = r_f + \beta_i(\mathbb{E}[R_m] - r_f)$$
+The Fama-French three-factor model adds size and value factors. Modern factor models have hundreds of factors.</p>
+<p><strong>The Arbitrage Pricing Theory</strong> (Ross, 1976) and its modern implementations as linear factor models are the theoretical foundation of systematic equity strategies.</p>
+<h3 id="systematic-trading-and-market-microstructure">Systematic Trading and Market Microstructure</h3>
+<p>The most mathematically active area of quantitative finance for someone with a physics background. Systematic trading means constructing trading strategies that are fully specified by mathematical rules — no discretionary decisions. The main approaches:</p>
+<p><strong>Statistical arbitrage</strong> — exploiting statistical relationships between securities that should hold in equilibrium but deviate temporarily. Pairs trading (two cointegrated stocks) is the simplest example; modern stat arb strategies involve hundreds or thousands of assets and sophisticated machine learning models.</p>
+<p><strong>Trend following (momentum)</strong> — buying assets that have been rising, selling assets that have been falling. The empirical finding that momentum is persistent across a wide range of asset classes (equities, bonds, commodities, currencies) is one of the most robustly documented anomalies in finance.</p>
+<p><strong>Mean reversion</strong> — the opposite: betting that recent moves will reverse. Works at short horizons (minutes to hours, due to market microstructure effects like the bid-ask bounce) and at long horizons (value strategies).</p>
+<p><strong>Market microstructure</strong> — the study of the mechanics of how prices are formed: order books, bid-ask spreads, price impact, adverse selection, optimal execution. The mathematics involves queuing theory, stochastic optimal control, and point processes. The Almgren-Chriss model for optimal execution is a classic application of optimal control to finance.</p>
+<hr>
+<h2 id="resources-organised-by-topic">Resources, Organised by Topic</h2>
+<h3 id="entry-points">Entry Points</h3>
+<p><strong>Options, Futures, and Other Derivatives</strong> — John Hull
+The standard first book. Covers derivatives, pricing models, and risk management at an accessible level without heavy mathematics. No stochastic calculus — Hull&rsquo;s treatment is largely intuitive and algebraic. Read this first to get the vocabulary and the financial context. Every quant has read this.</p>
+<p><strong>Paul Wilmott Introduces Quantitative Finance</strong> — Paul Wilmott
+A gentler version of Wilmott&rsquo;s three-volume treatise. More mathematical than Hull, but more intuitive than Shreve. Covers Black-Scholes, volatility, numerical methods, and a wide range of derivative products. Good as a bridge between Hull and the serious mathematical treatments.</p>
+<p><strong>The Concepts and Practice of Mathematical Finance</strong> — Mark Joshi
+The book I found most useful as a transition from physics/mathematics into finance. Joshi is a former mathematical physicist turned quant, and the book is written from that perspective — it takes the mathematics seriously and connects the theory to how models are actually used and calibrated in practice. The chapter on model risk is particularly good.</p>
+<p><strong>Financial Calculus: An Introduction to Derivative Pricing</strong> — Martin Baxter and Andrew Rennie
+Short (240 pages), rigorous, and beautifully written. The most elegant introduction to the mathematics of derivative pricing that I have found. Develops the martingale approach to pricing from first principles, treats the continuous-time limit carefully, and covers Black-Scholes, interest rates, and the change-of-numeraire technique. Read this alongside or after Shreve I.</p>
+<h3 id="stochastic-calculus-1">Stochastic Calculus</h3>
+<p><em>Already covered in the prerequisites section.</em> The progression is: Shreve I (discrete) → Baxter-Rennie or Klebaner (continuous, accessible) → Shreve II (continuous, rigorous) → Karatzas-Shreve or Øksendal (advanced).</p>
+<h3 id="derivatives-pricing-and-volatility">Derivatives Pricing and Volatility</h3>
+<p><strong>Paul Wilmott on Quantitative Finance</strong> (3 volumes) — Paul Wilmott
+The encyclopaedia of quantitative finance. Covers every significant derivative product, pricing model, and numerical method. Very broad and reasonably deep. The treatment of exotic options and the chapters on volatility modelling are the best single-volume treatments of those topics.</p>
+<p><strong>The Volatility Surface</strong> — Jim Gatheral
+The definitive treatment of stochastic volatility modelling and the volatility surface. Covers local volatility, Heston, SABR, and the connection between these models and the empirical behaviour of implied volatility. Assumes knowledge of stochastic calculus.</p>
+<p><strong>Interest Rate Models — Theory and Practice</strong> — Brigo and Mercurio
+The comprehensive treatment of interest rate derivatives and term structure modelling. Covers short rate models, HJM, the LIBOR market model, and credit risk. Dense but authoritative.</p>
+<h3 id="systematic-trading-and-quantitative-strategies">Systematic Trading and Quantitative Strategies</h3>
+<p><strong>Quantitative Trading</strong> — Ernest Chan
+An accessible introduction to systematic trading strategies. Chan explains backtesting, the dangers of overfitting, Sharpe ratio, and the construction of simple mean-reversion and momentum strategies. Practical and honest. The sections on the Kelly criterion and position sizing are particularly useful.</p>
+<p><strong>Algorithmic Trading</strong> — Ernest Chan
+The sequel. More advanced strategies, more detailed treatment of market microstructure and execution, and case studies of specific systems. The treatment of cointegration and pairs trading is clear and practical.</p>
+<p><strong>Active Portfolio Management</strong> — Grinold and Kahn
+The foundational text on quantitative equity portfolio management. Introduces the information ratio, the fundamental law of active management (IR ≈ IC × √BR, where IC is information coefficient and BR is breadth), and the alpha model framework. More technical than Chan but more directly relevant to institutional quantitative equity investing.</p>
+<p><strong>Inside the Black Box</strong> — Rishi Narang
+Not a technical text — a clear-eyed overview of how quantitative hedge funds actually work, what the different strategies are, how risk management operates, and what distinguishes successful from unsuccessful firms. Essential context.</p>
+<p><strong>Advances in Financial Machine Learning</strong> — Marcos López de Prado
+A sophisticated treatment of machine learning methods specifically designed for financial time series. López de Prado identifies the standard pitfalls of applying ML to finance (data snooping, leakage, non-stationarity) and proposes methods to avoid them. The chapter on feature engineering for financial signals is the best treatment of that problem I have found.</p>
+<h3 id="interview-preparation">Interview Preparation</h3>
+<p><strong>A Practical Guide to Quantitative Finance Interviews</strong> — Xinfeng Zhou
+The standard interview preparation book. Covers probability, statistics, linear algebra, stochastic processes, and derivatives pricing at the level required for quantitative trading and research interviews at hedge funds, investment banks, and prop trading firms.</p>
+<p><strong>Heard on the Street</strong> — Timothy Crack
+A classic collection of quantitative interview questions. Less systematic than Zhou but covers a wider range of puzzles and probability problems. The questions on market microstructure and options are useful.</p>
+<p><strong>Quant Job Interview Questions and Answers</strong> — Mark Joshi
+More technically demanding than Zhou. Covers the mathematics of derivatives pricing in detail and includes real interview questions from firms. Good for those targeting derivatives pricing roles.</p>
+<hr>
+<h2 id="online-resources">Online Resources</h2>
+<p><strong>QuantLib</strong> — <a href="https://www.quantlib.org">quantlib.org</a>
+Open-source library for quantitative finance. Implements most standard pricing models, yield curve construction, Monte Carlo simulation, and much else. Available in C++, Python, and other languages. Working through QuantLib&rsquo;s implementation of specific models is one of the best ways to understand how the mathematics is actually computed.</p>
+<p><strong>QuantStart</strong> — <a href="https://www.quantstart.com">quantstart.com</a>
+Articles and self-study guides on quantitative finance, algorithmic trading, and the associated mathematics and programming. The self-study plan for becoming a quantitative analyst is well-structured.</p>
+<p><strong>Wilmott Forums</strong> — <a href="https://wilmott.com">wilmott.com</a>
+The professional forum for quantitative finance. Active discussion of technical problems in derivatives pricing, volatility modelling, and risk management. The level is high.</p>
+<p><strong>QuantLib Python Cookbook</strong> — <a href="https://quantlib-python-cookbook.readthedocs.io">quantlib-python-cookbook.readthedocs.io</a>
+Practical guide to using QuantLib from Python, with worked examples in bond pricing, yield curve construction, and option pricing.</p>
+<p><strong>Lectures in Quantitative Finance</strong> — various authors on arXiv (q-fin section: <a href="https://arxiv.org/archive/q-fin">arxiv.org/archive/q-fin</a>)
+Research papers in quantitative finance. The q-fin.MF (mathematical finance) and q-fin.PR (pricing) sections are most relevant for derivatives; q-fin.ST (statistical finance) and q-fin.PM (portfolio management) for systematic trading.</p>
+<hr>
+<h2 id="how-this-connects-to-my-other-work">How This Connects to My Other Work</h2>
+<p>The connection to theoretical physics is not superficial. Several specific areas of overlap are worth naming.</p>
+<p><strong>Stochastic processes and field theory.</strong> The path integral formulation of quantum mechanics is the continuous-time limit of a random walk. The Black-Scholes PDE is the heat equation. The pricing measure change (Girsanov&rsquo;s theorem) is formally analogous to the Faddeev-Popov procedure in gauge theory: both involve a change of measure that introduces a Jacobian. The functional methods of quantum field theory — the generating functional, perturbation theory, Feynman diagrams — have been applied directly to financial problems (the statistical mechanics of markets approach, developed by Bouchaud, Potters, and collaborators).</p>
+<p><strong>Renormalisation group and complex systems.</strong> Financial markets are complex systems exhibiting scale-free behaviour, power-law tails in return distributions, and non-trivial correlations across time scales. The empirical observation that price fluctuations are heavy-tailed (not Gaussian) is inconsistent with the Black-Scholes assumption and has been studied using the same tools as critical phenomena in statistical mechanics: scaling laws, universality, the renormalisation group.</p>
+<p><strong>The connection to my research.</strong> My active interest in quantitative finance is specifically in the systematic trading direction — building data-driven strategies that exploit predictable structure in financial time series. The mathematical connection to the time series analysis I do in the astronomy projects (Lomb-Scargle periodograms, feature extraction from variable star light curves) is direct: in both cases you are looking for predictable signal in noisy data, and the question is whether the signal is statistically significant or an artefact of multiple testing.</p>
+<p>The physics perspective on financial markets — treating them as complex systems governed by emergent statistical regularities rather than as mechanisms for aggregating rational expectations — is the perspective I find most compelling and most scientifically honest.</p>
+<hr>
+<h2 id="where-i-am">Where I Am</h2>
+<p>I am actively reading in this area. The current focus is on the systematic trading direction — understanding the mathematical foundations of factor models and the statistical methods for building and validating quantitative strategies. The Shreve volumes are the active technical reading; Joshi&rsquo;s book has been the most useful practical bridge; López de Prado&rsquo;s treatment of ML in finance is the most relevant to the data analysis skills I already have from the astronomy projects.</p>
+<p>The honest summary is that I am at an intermediate level: the mathematics is familiar from the physics background, the financial applications are being learned. The subject is large and the learning curve is genuinely steep, not because the mathematics is harder than what I already know but because the vocabulary, the conventions, and the specific institutional structure of financial markets require dedicated study.</p>
+<p>The goal is to build the depth needed for quantitative research in systematic trading — not just to understand the existing methods but to contribute to them.</p>
+<hr>
+<p><em>Last updated March 2026.</em></p>
+</div>
+</article>
+
+  </main>
+
+</div>
+
+<script>
+(function () {
+  var toggle  = document.getElementById('navToggle');
+  var sidebar = document.getElementById('sidebar');
+  var overlay = document.getElementById('sidebarOverlay');
+
+  toggle.addEventListener('click', function () {
+    var isOpen = sidebar.classList.toggle('open');
+    overlay.classList.toggle('visible', isOpen);
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  overlay.addEventListener('click', function () {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('visible');
+    toggle.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      sidebar.classList.remove('open');
+      overlay.classList.remove('visible');
+      document.body.style.overflow = '';
+    }
+  });
+
+  document.querySelectorAll('.menu-group').forEach(function (group) {
+    var header = group.querySelector('.menu-header');
+    if (!header) return;
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var wasOpen = group.classList.contains('open');
+      document.querySelectorAll('.menu-group').forEach(function (g) { g.classList.remove('open'); });
+      if (!wasOpen) group.classList.add('open');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

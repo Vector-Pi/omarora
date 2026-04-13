@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Philosophy on Om Arora</title>
+    <link>http://localhost:62070/omarora/philosophy/</link>
+    <description>Recent content in Philosophy on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Great Thinkers &amp; Essays</title>
+      <link>http://localhost:62070/omarora/philosophy/great-thinkers-essays/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/philosophy/great-thinkers-essays/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://localhost:62070/omarora/philosophy/schools-of-thought-in-philosophy/&#34;&gt;schools of thought page&lt;/a&gt; covers the philosophical traditions systematically. This page is different. It is a personal account of specific thinkers and specific texts — the ones I have actually read, thought about, argued with, and returned to. The organisation is not by period or school but by what kind of intellectual contribution each thinker made. That is a more honest organising principle than chronology, which makes every thinker equally distant and equally obligatory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Personal Philosophy Notes</title>
+      <link>http://localhost:62070/omarora/philosophy/personal-philosophy-notes/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/philosophy/personal-philosophy-notes/</guid>
+      <description>&lt;h1 id=&#34;personal-philosophy-notes&#34;&gt;Personal Philosophy Notes&lt;/h1&gt;&#xA;&lt;p&gt;Content for Personal Philosophy Notes goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Philosophy for STEM Students</title>
+      <link>http://localhost:62070/omarora/philosophy/philosophy-for-stem-students/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/philosophy/philosophy-for-stem-students/</guid>
+      <description>&lt;p&gt;I want to start with something honest: I did not come to philosophy through a course, and I would not have come to it at all through the courses I encountered. The philosophy available to physics and mathematics students at most institutions is a history-of-ideas survey — you learn that Descartes said X and Hume said Y, you write an essay about whether they agreed, and you leave knowing more about the history of philosophy and no more about how to think. That is not what I mean when I say philosophy matters for scientists and mathematicians.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Schools of Thought</title>
+      <link>http://localhost:62070/omarora/philosophy/schools-of-thought/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/philosophy/schools-of-thought/</guid>
+      <description>&lt;p&gt;This page is a survey, not an advocacy. Every philosophical school described here has produced serious thinkers working on genuine problems, and every one of them faces genuine objections. The goal is to present each school&amp;rsquo;s strongest version of its central claims, identify the problems it is responding to, and note where the objections bite hardest — without pretending that any one school has settled the questions it addresses.&lt;/p&gt;&#xA;&lt;p&gt;The organisation is roughly chronological within the Western tradition, with sections at the end on Eastern philosophy and contemporary analytic philosophy. The divisions between schools are never as clean as a survey makes them appear — philosophers read and argue with each other across apparent boundaries — but the groupings are useful as first approximations.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

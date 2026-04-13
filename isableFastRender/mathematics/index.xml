@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathematics on Om Arora</title>
+    <link>http://localhost:62070/omarora/mathematics/</link>
+    <description>Recent content in Mathematics on Om Arora</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62070/omarora/mathematics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beginners Guide to Advanced Mathematics</title>
+      <link>http://localhost:62070/omarora/mathematics/beginners-guide-to-advanced-mathematics/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/mathematics/beginners-guide-to-advanced-mathematics/</guid>
+      <description>&lt;p&gt;There is a version of this guide that begins with an apology — &lt;em&gt;&amp;ldquo;I am not a professional mathematician&amp;rdquo;&lt;/em&gt;, or &lt;em&gt;&amp;ldquo;this is just my personal opinion.&amp;rdquo;&lt;/em&gt; That version is not useful. So I will skip it.&lt;/p&gt;&#xA;&lt;p&gt;What follows is a map. It is the map I wish someone had handed me when I started. It will not replace any of the books it points to. It will not make you a mathematician. What it will do is tell you what the landscape looks like before you set foot in it, which is worth something.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Math Projects</title>
+      <link>http://localhost:62070/omarora/mathematics/my-math-projects/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/mathematics/my-math-projects/</guid>
+      <description>&lt;h1 id=&#34;my-math-projects&#34;&gt;My Math Projects&lt;/h1&gt;&#xA;&lt;p&gt;Content for My Math Projects goes here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Olympiad Problem-Solving &amp; Resources</title>
+      <link>http://localhost:62070/omarora/mathematics/olympiad-problem-solving-resources/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/mathematics/olympiad-problem-solving-resources/</guid>
+      <description>&lt;p&gt;Olympiad mathematics is a particular discipline. It is not the same as school mathematics, and it is not the same as research mathematics. It sits between them — more creative than the former, more constrained than the latter. The problems are finite and solvable, but they require genuine ingenuity, not computation.&lt;/p&gt;&#xA;&lt;p&gt;This page is a structured guide to the resources I have found most useful. It covers all four major olympiad areas — algebra, number theory, geometry, and combinatorics — along with general problem-solving, online platforms, structured programmes, and communities. I have tried to be honest about what each resource is good for and what it is not.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prerequisites for Mathematical Research</title>
+      <link>http://localhost:62070/omarora/mathematics/prerequisites-for-mathematical-research/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/mathematics/prerequisites-for-mathematical-research/</guid>
+      <description>&lt;p&gt;There are many guides to mathematical research. Most of them are written by people who have forgotten what it felt like to not know how to do it.&lt;/p&gt;&#xA;&lt;p&gt;This is not that guide.&lt;/p&gt;&#xA;&lt;p&gt;What follows is honest. It is about what research actually looks like from the inside — the confusion, the wrong turns, the months where nothing moves. It covers both applied and pure mathematics, because they are genuinely different activities. And it does not pretend that there is a recipe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reading Notes &amp; Papers</title>
+      <link>http://localhost:62070/omarora/mathematics/reading-notes-papers/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62070/omarora/mathematics/reading-notes-papers/</guid>
+      <description>&lt;p&gt;This page is a working log. It is not a curated list of the greatest papers in mathematics — that would be a different project, and a longer one. It is a record of what I have actually read, what I found important, what confused me, and what I intend to return to.&lt;/p&gt;&#xA;&lt;p&gt;The papers are organised by area. Within each area I have tried to distinguish between foundational papers worth reading for background, significant papers from the last decade, and very recent results from the last year or two that I went through recently. Where I have notes or reactions they are included. Where a paper is beyond what I can currently assess technically, I say so.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

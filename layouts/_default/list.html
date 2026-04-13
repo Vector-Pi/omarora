@@ -1,0 +1,19 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{ if .Content }}<p class="page-intro">{{ .Content | plainify | truncate 200 }}</p>{{ end }}
+</header>
+<div class="blog-grid">
+  {{ range .Pages }}
+  <article class="blog-card">
+    <div class="card-meta">
+      <span class="card-date">{{ .Date.Format "Jan 02, 2006" }}</span>
+      {{ if .Params.tags }}<span class="card-tags">{{ range first 1 .Params.tags }}#{{ . }}{{ end }}</span>{{ end }}
+    </div>
+    <h2 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ if .Summary }}<p class="card-summary">{{ .Summary | truncate 160 }}</p>{{ end }}
+    <a href="{{ .RelPermalink }}" class="read-more">Read →</a>
+  </article>
+  {{ end }}
+</div>
+{{ end }}

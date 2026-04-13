@@ -1,0 +1,40 @@
+{{ define "main" }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Content }}
+    <div class="page-intro">
+        {{ .Content }}
+    </div>
+    {{ end }}
+</header>
+
+<div class="handouts-container">
+    {{ range .Params.handouts_list }}
+    <div class="handout-section">
+        <h2 class="handout-topic">{{ .topic }}</h2>
+        <div class="handout-grid">
+            {{ range .items }}
+            <a href="{{ .file }}" class="handout-card box-contrast-glass" target="_blank">
+                <div class="handout-icon">
+                    <!-- PDF Icon SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <path d="M10 13H8"></path>
+                        <path d="M16 13h-2.5"></path>
+                        <path d="M12 11.5h.5a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 0-1 1v1"></path>
+                    </svg>
+                </div>
+                <div class="handout-info">
+                    <h3 class="handout-title">{{ .title }}</h3>
+                    <p class="handout-desc">{{ .description }}</p>
+                    <span class="download-btn">Download PDF →</span>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

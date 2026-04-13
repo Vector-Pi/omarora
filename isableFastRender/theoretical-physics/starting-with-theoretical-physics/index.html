@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/omarora/livereload.js?mindelay=10&amp;v=2&amp;port=62070&amp;path=omarora/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starting with Theoretical Physics · Om Arora</title>
+  <meta name="description" content="Personal website of Om Arora - Mathematics, Physics, AI Research.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="http://localhost:62070/omarora/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body,{delimiters:[
+      {left:'$$',right:'$$',display:true},
+      {left:'$',right:'$',display:false},
+      {left:'\\(',right:'\\)',display:false},
+      {left:'\\[',right:'\\]',display:true}
+    ]});">
+  </script>
+</head>
+
+<body>
+
+<button class="mobile-nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="site-wrapper">
+
+  <aside class="sidebar-column" id="sidebar">
+
+    <div class="sidebar-identity">
+      <a href="http://localhost:62070/" class="sidebar-site-name">Om Arora</a>
+      <span class="sidebar-tagline">researcher · builder · thinker</span>
+    </div>
+
+    <nav class="sidebar-nav" aria-label="Main navigation">
+      <ul>
+        
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/"
+                 >
+                Home
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/now/"
+                 >
+                Now
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:62070/omarora/blog/"
+                 >
+                Blog
+              </a>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/mathematics/" class="menu-header">Mathematics</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/beginners-guide-to-advanced-mathematics/"
+                       >
+                      Beginners Guide to Advanced Mathematics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/prerequisites-for-mathematical-research/"
+                       >
+                      Prerequisites for Mathematical Research
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/olympiad-problem-solving-resources/"
+                       >
+                      Olympiad Problem-Solving &amp; Resources
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/mathematics/reading-notes-papers/"
+                       >
+                      Reading Notes &amp; Papers
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/theoretical-physics/" class="menu-header">Theoretical Physics</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/starting-with-theoretical-physics/"
+                       >
+                      Starting with Theoretical Physics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/math-prerequisites-for-qft-gr/"
+                       >
+                      Math Prerequisites for QFT &amp; GR
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/my-research-publications/"
+                       >
+                      My Research &amp; Publications
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/open-problems-im-exploring/"
+                       >
+                      Open Problems I’m Exploring
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/theoretical-physics/lecture-notes-summaries/"
+                       >
+                      Lecture Notes &amp; Summaries
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/astronomy/" class="menu-header">Astronomy</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/astronomy-for-beginners/"
+                       >
+                      Astronomy for Beginners
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/cosmology-astrophysics-notes/"
+                       >
+                      Cosmology &amp; Astrophysics Notes
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/my-astronomy-projects/"
+                       >
+                      My Astronomy Projects
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/astronomy/inspiring-papers-books/"
+                       >
+                      Inspiring Papers &amp; Books
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/quantitative-finance/" class="menu-header">Quantitative Finance</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/introduction-to-quantitative-finance/"
+                       >
+                      Introduction to Quantitative Finance
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/math-coding-prerequisites/"
+                       >
+                      Math &amp; Coding Prerequisites
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/my-trading-projects/"
+                       >
+                      My Trading Projects
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/research-in-market-microstructure/"
+                       >
+                      Research in Market Microstructure
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/quantitative-finance/resources-backtesting-tutorials/"
+                       >
+                      Resources &amp; Backtesting Tutorials
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/philosophy/" class="menu-header">Philosophy</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/schools-of-thought/"
+                       >
+                      Schools of Thought
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/great-thinkers-essays/"
+                       >
+                      Great Thinkers &amp; Essays
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/philosophy/philosophy-for-stem-students/"
+                       >
+                      Philosophy for STEM Students
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/history/" class="menu-header">History</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/history-of-mathematics-physics/"
+                       >
+                      History of Mathematics &amp; Physics
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/financial-history-market-evolution/"
+                       >
+                      Financial History &amp; Market Evolution
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/history/lessons-from-history/"
+                       >
+                      Lessons from History
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="menu-group">
+              <a href="http://localhost:62070/omarora/art-music/" class="menu-header">Art &amp; Music</a>
+              <ul class="submenu">
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/music-i-create-listen-to/"
+                       >
+                      Music I Create &amp; Listen To
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/inspiration-from-art-science/"
+                       >
+                      Inspiration from Art &amp; Science
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/creative-process-tools/"
+                       >
+                      Creative Process &amp; Tools
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:62070/omarora/art-music/recommendations-reviews/"
+                       >
+                      Recommendations &amp; Reviews
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </nav>
+
+    <div class="sidebar-block">
+      <h3>Documents</h3>
+      <ul class="quick-links">
+        <li><a href="http://localhost:62070/omarora/files/cv.pdf">Curriculum Vitae</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-footer">
+      <p>© 2026 Om Arora</p>
+    </div>
+
+  </aside>
+
+  <main class="main-content-column" id="mainContent">
+    
+<article class="post">
+  <header>
+    <h1>Starting with Theoretical Physics</h1>
+    <p class="post-meta">
+      6 February 2026
+      
+    </p>
+  </header>
+  <div class="post-content"><p>I started learning theoretical physics in seventh grade. Not the pop-science version — not <em>A Brief History of Time</em> and YouTube videos about black holes, though those came first and are not nothing — but the actual subject, with equations. I did not know what I was doing at the time, and I made many of the mistakes that most people make. I read things before I had the mathematics for them. I spent months on topics that were less essential than I thought. I also stumbled onto resources that genuinely changed what I understood.</p>
+<p>What follows is the map I wish someone had given me at the start. It is complete — from absolute beginnings through classical mechanics, electrodynamics, quantum mechanics, statistical mechanics, special and general relativity, quantum field theory, and gauge theory — because anything less complete would have been the kind of guide that feels useful but leaves you stranded. I have tried to be specific about what each resource is good for, what its weaknesses are, and what the mathematical prerequisites actually are before you open it.</p>
+<p>The path I describe is not the only path. But it is a coherent one, and I can vouch for most of it.</p>
+<hr>
+<h2 id="before-physics-the-mathematical-foundation">Before Physics: The Mathematical Foundation</h2>
+<p>Theoretical physics is applied mathematics. Not in the sense that you need all of mathematics before you can start — you do not — but in the sense that every stage of physics corresponds to a stage of mathematics, and trying to do physics without the relevant mathematics is like trying to read a book in a language you do not speak. You can get a rough impression. You cannot actually read it.</p>
+<p>The mathematics you need, roughly in order:</p>
+<p><strong>Stage 1 (before classical mechanics):</strong> Calculus — single and multivariable. Limits, derivatives, integrals, partial derivatives, multiple integrals. Vector algebra: dot products, cross products, the geometric intuition. Basic differential equations.</p>
+<p><strong>Stage 2 (alongside classical mechanics and electrodynamics):</strong> Linear algebra — matrices, eigenvalues, linear transformations. Vector calculus — gradient, divergence, curl, the integral theorems (Green&rsquo;s, Stokes&rsquo;, divergence). Ordinary differential equations at a more systematic level.</p>
+<p><strong>Stage 3 (before quantum mechanics):</strong> Linear algebra more deeply — abstract vector spaces, inner products, Hermitian operators. Complex analysis — contour integration, the residue theorem. Partial differential equations — the wave equation, the heat equation, separation of variables.</p>
+<p><strong>Stage 4 (before QFT and GR):</strong> Differential geometry — manifolds, tensors, covariant derivatives, curvature. Group theory and Lie algebras. Fourier analysis. Functional analysis basics.</p>
+<p>You do not need to complete each stage before starting the corresponding physics. In practice you learn the mathematics and the physics together. But the sequence matters, and if you find yourself reading about tensors in a GR textbook before you have ever seen a linear transformation, the confusion is not because tensors are mysterious — it is because the prerequisite is missing.</p>
+<p>For detailed resource recommendations at each mathematical stage, see the <a href="/omarora/theoretical-physics/math-prerequisites-for-qft-gr/">Mathematics Prerequisites for QFT and GR</a> page.</p>
+<hr>
+<h2 id="stage-0--first-contact">Stage 0 — First Contact</h2>
+<p>Every physicist has a moment where the subject becomes real. For me, at twelve or thirteen, it was finding Feynman. Not the lectures — those came later. The popular books: <em>Surely You&rsquo;re Joking</em>, and then <em>What Do You Care What Other People Think</em>, and then <em>The Character of Physical Law</em>, which is the one that matters at this stage.</p>
+<p><strong>The Character of Physical Law</strong> — Richard Feynman. A series of lectures, not a textbook. Feynman talks about what physical laws are, what they feel like from the inside, why conservation laws are beautiful, what quantum mechanics does to your picture of reality. No equations you cannot follow. More important than any specific fact it conveys is the disposition it models: the combination of rigorous honesty and genuine delight in the subject.</p>
+<p><strong>The Feynman Lectures on Physics, Vol. I</strong> — Feynman, Leighton, Sands. This is the bridge between first contact and real study. Volume I covers classical mechanics, waves, and thermodynamics at a level that assumes some calculus. The exposition is unlike any other physics text — Feynman does not tell you facts, he shows you how a physicist thinks about things. Read it early, read it again later. It will mean different things each time.</p>
+<p><strong>Six Easy Pieces / Six Not-So-Easy Pieces</strong> — distilled excerpts from the Lectures. If you are genuinely at the beginning, Six Easy Pieces gives you access to Feynman&rsquo;s way of thinking before committing to the full volumes.</p>
+<hr>
+<h2 id="stage-1--classical-mechanics">Stage 1 — Classical Mechanics</h2>
+<p>Classical mechanics is the first real subject. It is where you learn to think about physics mathematically — where $F = ma$ becomes the Euler-Lagrange equations, where the trajectory of a particle becomes a path that extremises an action. This transition is where theoretical physics begins.</p>
+<p>There is a natural progression here: Newtonian mechanics first, then Lagrangian and Hamiltonian mechanics. Do not skip the first to get to the second — the Lagrangian formulation only makes sense as a generalisation of something you already understand concretely.</p>
+<hr>
+<p><strong>An Introduction to Classical Mechanics</strong> — David Morin</p>
+<p>The best undergraduate classical mechanics textbook for a self-learner. Morin is clear, comprehensive, and the problems are outstanding. He covers Newtonian mechanics thoroughly before moving to Lagrangians and Hamiltonians, and the treatment of constraints and the calculus of variations is cleaner than most alternatives. The examples are chosen well and there are hints for most problems.</p>
+<p>This is where I spent serious time early on. If you work through Morin properly — not reading, but actually solving problems — you will have a genuine understanding of classical mechanics, not just familiarity with its equations.</p>
+<hr>
+<p><strong>Classical Mechanics</strong> — John Taylor</p>
+<p>A gentler alternative to Morin, with more physical motivation and less mathematical density. The treatment of the Lagrangian formalism is excellent for a first encounter. If Morin feels too compressed at the start, Taylor is the right entry point.</p>
+<hr>
+<p><strong>Classical Mechanics</strong> — Landau and Lifshitz (Course of Theoretical Physics, Vol. 1)</p>
+<p>The first volume of the Landau–Lifshitz Course. It opens with the principle of least action and derives Newtonian mechanics from it — the opposite order from Morin. This is breathtaking the first time you see it. The book is short, terse, and every sentence is load-bearing. It is not a first textbook and it is not easy, but it is one of the most beautiful pieces of mathematical physics writing that exists. Read it after Morin or Taylor, not instead of them.</p>
+<p>The Landau–Lifshitz Course (ten volumes) is the systematic treatment of all of theoretical physics at the graduate level. I return to individual volumes repeatedly. The series as a whole — mechanics, classical fields, quantum mechanics, quantum electrodynamics, statistical physics, fluid mechanics, elasticity theory, electrodynamics of continuous media, physical kinetics — is the most coherent curriculum in theoretical physics ever written by a single school.</p>
+<hr>
+<p><strong>The Theoretical Minimum: Classical Mechanics</strong> — Leonard Susskind and George Hrabovsky</p>
+<p>Susskind&rsquo;s book is aimed at adults who once knew calculus and have forgotten it. If that is not your situation, Morin is better. But Susskind is exceptional at explaining the <em>structure</em> of classical mechanics — why we use generalised coordinates, what symplectic structure means, why Hamiltonian mechanics is the right framework for the transition to quantum mechanics. The accompanying video lectures at <a href="https://theoreticalminimum.com">theoreticalminimum.com</a> are free and excellent.</p>
+<hr>
+<p><strong>David Tong&rsquo;s Classical Dynamics lecture notes</strong> — <a href="http://www.damtp.cam.ac.uk/user/tong/teaching.html">damtp.cam.ac.uk/user/tong/teaching.html</a></p>
+<p>Free, clearly written, used for Part IA of the Cambridge Mathematical Tripos. Covers Newtonian and Lagrangian mechanics concisely. An excellent supplement.</p>
+<hr>
+<h2 id="stage-2--special-relativity">Stage 2 — Special Relativity</h2>
+<p>Special relativity should be learned early, before electrodynamics and well before general relativity. The sooner you are comfortable thinking in four-vectors and Lorentz transformations, the more natural electrodynamics and QFT will feel.</p>
+<hr>
+<p><strong>Spacetime Physics</strong> — Taylor and Wheeler</p>
+<p>The most conceptually illuminating introduction to special relativity that exists. Taylor and Wheeler teach you to think in spacetime rather than converting between reference frames — the right approach from the start. The invariant interval as the fundamental object, not the Lorentz transformation, is how relativistic physics is actually done.</p>
+<hr>
+<p><strong>Special Relativity</strong> — A. P. French</p>
+<p>A thorough undergraduate treatment, more mathematical than Taylor–Wheeler. Covers the kinematic effects, relativistic dynamics, and four-vector formalism systematically. The treatment of four-momentum and energy-momentum invariance is particularly good.</p>
+<hr>
+<p><strong>Dynamics and Relativity</strong> — David Tong (lecture notes)</p>
+<p>Free Cambridge notes covering special relativity alongside Newtonian mechanics. Clean, precise, and ideal if you want a compact rigorous treatment before moving to electrodynamics.</p>
+<hr>
+<h2 id="stage-3--electrodynamics">Stage 3 — Electrodynamics</h2>
+<p>Electrodynamics is where classical field theory begins. You encounter your first field equations, your first gauge symmetry, your first nontrivial relations between geometry and physics. Understanding Maxwell&rsquo;s equations deeply — not just being able to use them, but understanding what gauge invariance means, why the vector potential is fundamental, what radiation is — is essential preparation for everything that follows.</p>
+<hr>
+<p><strong>Introduction to Electrodynamics</strong> — David Griffiths</p>
+<p>The standard. Griffiths is exceptionally clear, the problems are carefully chosen, and the treatment covers everything from Coulomb&rsquo;s law through radiation and relativistic electrodynamics. The chapter on electromagnetic waves and the final chapter on electrodynamics and relativity are the best in the book. Every problem is worth attempting.</p>
+<p>A mild criticism: Griffiths presents gauge invariance late and somewhat superficially. For the purposes of learning QFT and gauge theory later, you will want to supplement with Tong&rsquo;s electromagnetism notes, which treat gauge invariance as the central structural fact from the beginning.</p>
+<hr>
+<p><strong>Electricity and Magnetism</strong> — Purcell and Morin</p>
+<p>Purcell derives magnetism from electrostatics and special relativity — the correct physical picture — rather than treating them as separate phenomena unified later. This approach gives a much deeper understanding of what magnetism is. The level is slightly below Griffiths but the conceptual clarity is higher. Use it as a companion, especially for the relativity chapters.</p>
+<hr>
+<p><strong>Electrodynamics</strong> — David Tong (lecture notes) — <a href="http://www.damtp.cam.ac.uk/user/tong/em.html">damtp.cam.ac.uk/user/tong/em.html</a></p>
+<p>The best free treatment of electrodynamics available. Tong&rsquo;s notes cover the same material as Griffiths but with more mathematical precision and a cleaner treatment of gauge invariance, radiation, and the relativistic formulation. Read these alongside or after Griffiths.</p>
+<hr>
+<p><strong>Classical Electrodynamics</strong> — Jackson</p>
+<p>The graduate reference. Dense, comprehensive, and used in every serious graduate program in physics. Do not begin here. Come to Jackson when you need it — as a reference for specific calculations or for topics (multipole expansion, waveguides, radiation reaction) that go beyond Griffiths. The problems are legendarily difficult.</p>
+<hr>
+<h2 id="stage-4--quantum-mechanics">Stage 4 — Quantum Mechanics</h2>
+<p>Quantum mechanics is the first genuinely conceptually difficult subject. Not technically difficult — the calculations in an introductory course are often straightforward — but conceptually difficult in the sense that it requires you to abandon the assumptions about how the world works that every prior theory has reinforced. The wavefunction, measurement, uncertainty, spin — these are genuinely strange, and anyone who tells you they are not strange has probably stopped thinking about them.</p>
+<p>Learn quantum mechanics in two passes. The first pass (Griffiths) builds the formalism and the intuition. The second pass (Shankar or Sakurai) rebuilds it with more mathematical rigour and deeper structural insight.</p>
+<hr>
+<p><strong>Introduction to Quantum Mechanics</strong> — David Griffiths</p>
+<p>The standard first textbook. Griffiths starts from the Schrödinger equation, works through the standard model systems (particle in a box, harmonic oscillator, hydrogen atom), and develops the formalism around specific problems. The writing is clear and the examples are well-chosen.</p>
+<p>Criticisms worth naming: Griffiths de-emphasises the Dirac formalism and the abstract Hilbert space perspective that you will need later. The treatment of spin is good but the connection to representation theory is absent. These are deliberate pedagogical choices — they make the first encounter gentler. But be aware that the formalism you learn in Griffiths is not quite the formalism you will use in serious quantum mechanics.</p>
+<hr>
+<p><strong>Principles of Quantum Mechanics</strong> — R. Shankar</p>
+<p>The better second text, or a strong alternative to Griffiths for someone with a solid linear algebra background. Shankar starts from the mathematics — Hilbert spaces, operators, eigenvalue problems — and then builds the physics on top. The treatment is more abstract but ultimately cleaner. The chapters on the harmonic oscillator (using ladder operators systematically), on symmetry and angular momentum, and on path integrals are particularly good.</p>
+<hr>
+<p><strong>Modern Quantum Mechanics</strong> — J. J. Sakurai and Napolitano</p>
+<p>The standard graduate text. Sakurai assumes you already know quantum mechanics at the Griffiths level and builds from there — the bra-ket formalism from the start, more emphasis on symmetry and angular momentum, a treatment of approximation methods that is more complete than Griffiths. The problems are harder. Essential reading before QFT.</p>
+<hr>
+<p><strong>The Theoretical Minimum: Quantum Mechanics</strong> — Susskind and Friedman</p>
+<p>Susskind&rsquo;s approach to quantum mechanics is unusual: he starts from spin-1/2 systems and builds the formalism from there, rather than from the Schrödinger equation. This is actually closer to how modern physicists think about quantum mechanics. Less comprehensive than Griffiths but structurally cleaner. Good as a companion, especially for understanding the connection between quantum mechanics and classical mechanics.</p>
+<hr>
+<p><strong>Quantum Mechanics</strong> — David Tong (lecture notes) — <a href="http://www.damtp.cam.ac.uk/user/tong/quantum.html">damtp.cam.ac.uk/user/tong/quantum.html</a></p>
+<p>Tong&rsquo;s undergraduate QM notes, now also a published textbook. Extremely clear and well-structured. A reliable companion to Griffiths or Shankar.</p>
+<hr>
+<p><strong>What is the best way to think about quantum mechanics?</strong></p>
+<p>The answer depends on what you mean by &ldquo;think about.&rdquo; The Copenhagen interpretation — shut up and calculate — will take you far technically. But if you want to understand what the theory is actually saying about the world, the measurement problem and the different interpretations (many-worlds, pilot wave, relational QM, QBism) are worth understanding. Not as a distraction from the physics, but as a sign that you are taking the physics seriously. Tim Maudlin&rsquo;s <em>Philosophy of Physics: Quantum Theory</em> is the clearest treatment of the foundational issues from a philosophical perspective.</p>
+<hr>
+<h2 id="stage-5--statistical-mechanics-and-thermodynamics">Stage 5 — Statistical Mechanics and Thermodynamics</h2>
+<p>Statistical mechanics is the theory that explains how macroscopic properties (temperature, entropy, pressure) emerge from microscopic dynamics. It is where quantum mechanics meets thermodynamics, and it is the framework for condensed matter physics, cosmology, and quantum field theory at finite temperature.</p>
+<hr>
+<p><strong>An Introduction to Thermal Physics</strong> — Daniel Schroeder</p>
+<p>The most accessible entry point. Schroeder builds thermodynamics and statistical mechanics simultaneously, with excellent physical intuition throughout. The treatment of entropy and the second law is the clearest I have encountered at this level. Good for a first pass before the more demanding texts.</p>
+<hr>
+<p><strong>Statistical Mechanics</strong> — Pathria and Beale</p>
+<p>The standard graduate reference. Comprehensive and rigorous, covering classical and quantum statistical mechanics, ensemble theory, phase transitions, and the renormalisation group at an introductory level. Dense but reliable.</p>
+<hr>
+<p><strong>Statistical Physics</strong> — Landau and Lifshitz (Course of Theoretical Physics, Vol. 5)</p>
+<p>Landau&rsquo;s treatment is the most elegant. It derives thermodynamics from statistical mechanics systematically and the treatment of phase transitions is exceptional. Like all L&amp;L volumes: terse, demanding, and worth the effort.</p>
+<hr>
+<p><strong>Statistical Field Theory</strong> — David Tong (lecture notes) — <a href="http://www.damtp.cam.ac.uk/user/tong/sft.html">damtp.cam.ac.uk/user/tong/sft.html</a></p>
+<p>The graduate-level treatment connecting statistical mechanics to quantum field theory via the path integral and the renormalisation group. Essential reading before QFT at a serious level.</p>
+<hr>
+<h2 id="stage-6--general-relativity">Stage 6 — General Relativity</h2>
+<p>General relativity is the theory of gravity as the geometry of spacetime. It requires differential geometry — the theory of curved manifolds — as its mathematical framework. The conceptual content is among the most beautiful in all of physics: mass curves spacetime, and curved spacetime tells mass how to move.</p>
+<hr>
+<p><strong>Gravity: An Introduction to Einstein&rsquo;s General Relativity</strong> — James Hartle</p>
+<p>The most accessible introduction. Hartle uses a &ldquo;physics first&rdquo; approach — he develops the physical consequences of GR (black holes, gravitational waves, cosmology) before the full mathematical apparatus. This builds intuition before formalism, which is the right order for most people.</p>
+<hr>
+<p><strong>Spacetime and Geometry</strong> — Sean Carroll</p>
+<p>The standard modern graduate introduction. Carroll develops the differential geometry from scratch and builds GR on top of it carefully. The writing is clear and the treatment is complete. The chapters on black hole spacetimes and cosmology are particularly good. Carroll also has free lecture notes available at his website.</p>
+<hr>
+<p><strong>Gravitation</strong> — Misner, Thorne, and Wheeler (MTW)</p>
+<p>The encyclopaedia. 1,279 pages. Everything in GR, treated in extraordinary depth. The &ldquo;track 1&rdquo; vs &ldquo;track 2&rdquo; structure allows you to read the essential content without the full technical depth. A reference that you will return to for years. The treatment of gravitational waves and the post-Newtonian approximation is the most complete outside the research literature.</p>
+<hr>
+<p><strong>General Relativity</strong> — Wald</p>
+<p>The mathematically rigorous treatment. Wald develops GR from the perspective of differential geometry and global methods. The treatment of singularity theorems, black hole thermodynamics, and the structure of spacetime is the best available. Demanding but essential if you intend to work in mathematical GR.</p>
+<hr>
+<p><strong>General Relativity</strong> — Landau and Lifshitz (Course of Theoretical Physics, Vol. 2)</p>
+<p>The L&amp;L treatment of classical field theory and GR together. Approaches GR as a classical field theory, which is exactly right for the transition to QFT. The action formulation of GR is derived early. Like all L&amp;L: terse and beautiful.</p>
+<hr>
+<h2 id="stage-7--quantum-field-theory">Stage 7 — Quantum Field Theory</h2>
+<p>Quantum field theory is the framework that unifies quantum mechanics and special relativity. It is the language of the Standard Model, of condensed matter physics at low temperatures, of cosmological perturbation theory, and of every serious attempt at quantum gravity. Everything before this point has been preparation for it.</p>
+<p>The conceptual leap from quantum mechanics to QFT is significant. In quantum mechanics, you quantise particles — you promote positions and momenta to operators. In QFT, you quantise fields — you promote field configurations to operators. This means infinitely many degrees of freedom, and the infinities that result require renormalisation to manage.</p>
+<hr>
+<p><strong>Quantum Field Theory</strong> — David Tong (lecture notes) — <a href="http://www.damtp.cam.ac.uk/user/tong/qft.html">damtp.cam.ac.uk/user/tong/qft.html</a></p>
+<p>Free. Cambridge Part III level (masters). This is the best starting point for QFT. Tong follows the first five chapters of Peskin and Schroeder but with significantly more explanation and motivation at every step. The treatment of canonical quantisation, the Dirac field, and the Feynman rules for QED is exactly right for a first encounter. The accompanying video lectures, recorded at the Perimeter Institute, are available on the same page. Watch them alongside the notes.</p>
+<hr>
+<p><strong>An Introduction to Quantum Field Theory</strong> — Peskin and Schroeder</p>
+<p>The standard text. Comprehensive, rigorous, and used in virtually every graduate QFT course in the world. After Tong&rsquo;s notes, Peskin and Schroeder fills in the details — the careful treatment of renormalisation, the full derivation of the Ward identities, non-Abelian gauge theories, the renormalisation group. Parts I and II are the core; Part III covers path integrals and more advanced topics.</p>
+<p>Criticisms: the first chapter is famously difficult on a first read. The treatment of renormalisation in the middle of the book (Chapters 10–13) requires significant effort. Come to Peskin with Tong already under your belt.</p>
+<hr>
+<p><strong>The Quantum Theory of Fields</strong> — Weinberg (three volumes)</p>
+<p>Weinberg&rsquo;s QFT is the mathematician&rsquo;s version — derived from first principles with more rigour and less physics intuition than Peskin. Volume I builds QFT from the requirement that quantum mechanics be consistent with special relativity; Volume II covers the Standard Model; Volume III covers supersymmetry. Essential for anyone who wants to understand what QFT actually is, not just how to calculate with it.</p>
+<hr>
+<p><strong>Quantum Field Theory in a Nutshell</strong> — Anthony Zee</p>
+<p>The physicist&rsquo;s version. Zee covers an extraordinary range of topics — path integrals, renormalisation, gauge theories, gravity as a gauge theory, condensed matter applications, string theory glimpses — with physical intuition and minimal formalism. Not a reference and not a course: a book that makes you want to understand QFT and gives you a sense of its reach.</p>
+<hr>
+<p><strong>Sidney Coleman&rsquo;s Quantum Field Theory lectures</strong> — Harvard, 1970s–1980s</p>
+<p>Coleman was the greatest QFT pedagogue of his generation. The lecture notes (transcribed by Brian Hill, available freely online) cover the first semester of QFT in extraordinary depth, with Coleman&rsquo;s characteristic combination of precision, humour, and conceptual honesty. The treatment of the harmonic oscillator in QFT and the discussion of why renormalisation is not a trick are particularly good. The notes have recently been extended into a published textbook.</p>
+<hr>
+<p><strong>Gauge Theory</strong> — David Tong (lecture notes) — <a href="http://www.damtp.cam.ac.uk/user/tong/gaugetheory.html">damtp.cam.ac.uk/user/tong/gaugetheory.html</a></p>
+<p>~400 pages. Covers non-Abelian gauge theories in four dimensions — Yang–Mills theory, the beta function, instantons, confinement, Wilson lines, the Higgs mechanism, and &rsquo;t Hooft lines. This is the mathematical structure of the Standard Model. Essential reading for anyone working on gauge theory. Directly relevant to my own research.</p>
+<hr>
+<h2 id="stage-8--advanced-topics">Stage 8 — Advanced Topics</h2>
+<p>Once you have solid foundations in QFT and GR, the advanced topics branch. The right choice depends on your interests. I note below what I have engaged with most directly.</p>
+<hr>
+<h3 id="brst-quantisation-and-gauge-theory">BRST Quantisation and Gauge Theory</h3>
+<p><strong>BRST quantisation</strong> is the modern framework for quantising gauge theories while maintaining manifest covariance. It introduces ghost fields (the Faddeev–Popov ghosts) and the BRST operator, a nilpotent fermionic symmetry that encodes gauge invariance at the quantum level. This is the framework underlying the quantisation of Yang–Mills theory, string theory, and gravity.</p>
+<p>The foundational papers are Becchi–Rouet–Stora (1976) and Tyutin (1975). The modern treatment is in:</p>
+<ul>
+<li><strong>Quantum Field Theory</strong> — Weinberg, Chapter 15 (quantisation of non-Abelian gauge theories)</li>
+<li><strong>Quantization of Gauge Systems</strong> — Henneaux and Teitelboim. The complete treatment of constrained Hamiltonian systems and BRST quantisation. Demanding but thorough.</li>
+<li>Tong&rsquo;s gauge theory notes, Chapter 2.</li>
+</ul>
+<p>This is the framework I used in my paper on the Stueckelberg extension of Yang–Mills theory.</p>
+<hr>
+<h3 id="the-mass-gap-problem">The Mass Gap Problem</h3>
+<p>The Yang–Mills existence and mass gap problem is one of the Clay Millennium Prize Problems. The problem is to prove that Yang–Mills theory on $\mathbb{R}^4$ exists as a quantum field theory and has a positive mass gap — i.e., the lowest energy state above the vacuum has strictly positive energy.</p>
+<p>The problem statement is in the Clay Mathematics Institute volume <em>The Millennium Prize Problems</em>. The physics background requires QFT, non-perturbative methods, and lattice gauge theory. My own research has approached a piece of this problem — the mass generation mechanism — through the Stueckelberg extension.</p>
+<p>Essential reading:</p>
+<ul>
+<li>Jaffe and Witten, &ldquo;Quantum Yang–Mills Theory&rdquo; (the Clay problem statement)</li>
+<li>Tong&rsquo;s gauge theory notes on confinement and the Wilson criterion</li>
+<li>Kogut and Susskind, &ldquo;Hamiltonian formulation of Wilson&rsquo;s lattice gauge theories&rdquo; (1975)</li>
+</ul>
+<hr>
+<h3 id="quantum-gravity-and-string-theory">Quantum Gravity and String Theory</h3>
+<p><strong>General Relativity and Quantum Mechanics are incompatible.</strong> This is the central unsolved problem of theoretical physics. GR is a classical field theory that treats spacetime as a smooth manifold. Quantum mechanics requires that all fields be quantised, including the metric. When you try to quantise gravity perturbatively (treating it as a spin-2 field on flat spacetime), you get a non-renormalisable theory — the ultraviolet divergences cannot be removed by a finite number of counterterms.</p>
+<p>The two main approaches to a theory of quantum gravity are string theory and loop quantum gravity. I currently find the mathematical structure of string theory more compelling; LQG has a more direct connection to the geometry of GR.</p>
+<p>For string theory:</p>
+<ul>
+<li><strong>A First Course in String Theory</strong> — Zwiebach. The undergraduate introduction. More accessible than anything else and does not require QFT.</li>
+<li><strong>String Theory</strong> — Polchinski (two volumes). The graduate reference. D-branes, compactification, and the full framework.</li>
+<li><strong>String Theory</strong> — David Tong (lecture notes) — <a href="http://www.damtp.cam.ac.uk/user/tong/string.html">damtp.cam.ac.uk/user/tong/string.html</a>. The best free treatment.</li>
+</ul>
+<hr>
+<h2 id="online-lectures-and-courses">Online Lectures and Courses</h2>
+<p><strong>Leonard Susskind&rsquo;s Theoretical Minimum</strong> — <a href="https://theoreticalminimum.com">theoreticalminimum.com</a></p>
+<p>Free video courses covering classical mechanics, quantum mechanics, special relativity, statistical mechanics, cosmology, classical field theory, quantum entanglement, and more. Susskind&rsquo;s courses are explicitly aimed at people who want genuine theoretical understanding rather than pop-science. The clarity of his lectures on the relationship between classical and quantum mechanics is exceptional.</p>
+<p><strong>David Tong&rsquo;s full lecture notes</strong> — <a href="http://www.damtp.cam.ac.uk/user/tong/teaching.html">damtp.cam.ac.uk/user/tong/teaching.html</a></p>
+<p>Free notes covering the full Cambridge theoretical physics curriculum: vector calculus, classical dynamics, electromagnetism, quantum mechanics, statistical mechanics, quantum field theory, gauge theory, statistical field theory, string theory, solid state physics, and more. This is the closest thing to a free complete theoretical physics curriculum that exists.</p>
+<p><strong>Perimeter Institute Recorded Seminar Archive (PIRSA)</strong> — <a href="https://pirsa.org">pirsa.org</a></p>
+<p>A permanent, searchable archive of thousands of seminars, courses, and lectures from the Perimeter Institute for Theoretical Physics. Includes full graduate courses on QFT, GR, quantum gravity, string theory, condensed matter, and foundations of quantum mechanics. The PSI (Perimeter Scholars International) courses are the best free graduate-level physics lectures available. Free, citable, and searchable by topic.</p>
+<p><strong>Perimeter Institute PSI Online</strong> — <a href="https://perimeterinstitute.ca/online-courses">perimeterinstitute.ca/online-courses</a></p>
+<p>Free online learning modules at graduate level, with lecture notes, problem sets, and recorded video. Covers QFT (canonical and path integral), statistical field theory, classical mechanics and symplectic geometry, and more.</p>
+<p><strong>MIT OpenCourseWare Physics</strong> — <a href="https://ocw.mit.edu/courses/physics/">ocw.mit.edu/courses/physics/</a></p>
+<p>Free course materials — lecture notes, problem sets, exams — from MIT physics courses at all levels. The 8.04 (Quantum Physics I), 8.05 (Quantum Physics II), 8.033 (Relativity), and 8.323 (Relativistic Quantum Field Theory) course pages are particularly useful.</p>
+<hr>
+<h2 id="the-landaulifshitz-course">The Landau–Lifshitz Course</h2>
+<p>The Course of Theoretical Physics by Landau and Lifshitz deserves its own section. It is ten volumes covering the entirety of theoretical physics at a graduate level, written by the Soviet school in the mid-20th century. Every volume is short, terse, and contains almost no wasted words.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Volume</th>
+          <th>Topic</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Mechanics</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Classical Theory of Fields</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Quantum Mechanics</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Quantum Electrodynamics (Berestetskii, Lifshitz, Pitaevskii)</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Statistical Physics, Part 1</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>Fluid Mechanics</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>Theory of Elasticity</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>Electrodynamics of Continuous Media</td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>Statistical Physics, Part 2</td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>Physical Kinetics</td>
+      </tr>
+  </tbody>
+</table>
+<p>Volume 2 (<em>Classical Theory of Fields</em>) is the one I return to most. It covers special relativity, electrodynamics as a field theory, and general relativity from a unified action-principle perspective. The derivation of the stress-energy tensor from the action, the treatment of the electromagnetic field tensor, and the introduction to GR are the best treatments of these topics at this level of conciseness.</p>
+<p>Volume 3 (<em>Quantum Mechanics</em>) is the most demanding but contains things no other QM textbook does — the treatment of the quasi-classical approximation, the angular momentum theory, and the systematic use of symmetry throughout are exceptional.</p>
+<hr>
+<h2 id="an-honest-account-of-the-path">An Honest Account of the Path</h2>
+<p>I started learning this in grade 7. The truth of that beginning is that I understood almost nothing of what I was reading for the first year. I read about quantum mechanics without having calculus; I read about special relativity without knowing what a four-vector was. I accumulated a vocabulary before I understood what the words meant.</p>
+<p>This is not entirely wasted. Some of the vocabulary sticks, and when the mathematics arrives, the words have something to attach to. But it is slower than the alternative, which is to learn the mathematics first and the physics simultaneously. If I were starting again, I would spend the first year doing nothing but calculus and linear algebra, and I would read Morin&rsquo;s classical mechanics alongside.</p>
+<p>What I did not regret at any stage was the decision to take the physics seriously enough to learn the mathematics. The pop-science version of any of these subjects — quantum mechanics as spooky action at a distance, general relativity as space being stretchy — is not false exactly, but it does not give you anything to work with. The actual theory, with equations, is harder and more beautiful and more useful.</p>
+<p>The path from Feynman&rsquo;s popular books to publishing papers on Yang–Mills theory took roughly five years, done alongside school, olympiad training, and everything else. It is not the fastest path and it is not the path I would design from scratch. But it is a real path, and it leads somewhere.</p>
+<h2 id="the-work-continues">The work continues.</h2>
+<p><em>Last updated March 2026.</em></p>
+</div>
+</article>
+
+  </main>
+
+</div>
+
+<script>
+(function () {
+  var toggle  = document.getElementById('navToggle');
+  var sidebar = document.getElementById('sidebar');
+  var overlay = document.getElementById('sidebarOverlay');
+
+  toggle.addEventListener('click', function () {
+    var isOpen = sidebar.classList.toggle('open');
+    overlay.classList.toggle('visible', isOpen);
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  overlay.addEventListener('click', function () {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('visible');
+    toggle.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      sidebar.classList.remove('open');
+      overlay.classList.remove('visible');
+      document.body.style.overflow = '';
+    }
+  });
+
+  document.querySelectorAll('.menu-group').forEach(function (group) {
+    var header = group.querySelector('.menu-header');
+    if (!header) return;
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var wasOpen = group.classList.contains('open');
+      document.querySelectorAll('.menu-group').forEach(function (g) { g.classList.remove('open'); });
+      if (!wasOpen) group.classList.add('open');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
