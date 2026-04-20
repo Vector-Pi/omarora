@@ -44,6 +44,7 @@ Building toward an institutional-grade AI-native investment framework — one wh
 
 ## Recent
 
+- Attended *YC Startup School* Banglore
 - Released the review paper on *Econophysics*.
 - Released the preprint and code of *A Software-Defined Protocol Translation Architecture for Multi-Domain Defence Asset Integration*.
 - Released the preprint of *A Gauge-Invariant Stueckelberg Extension of Yang–Mills Theory*.
